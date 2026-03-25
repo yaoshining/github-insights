@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub 热门项目日报 · 2026-03-25</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #e4e4e4;
+            line-height: 1.7;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #48dbfb;
+            text-decoration: none;
+            margin-bottom: 30px;
+            font-size: 0.95em;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        header {
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .date-badge {
+            display: inline-block;
+            background: linear-gradient(90deg, #ff6b6b, #feca57);
+            color: #1a1a2e;
+            padding: 6px 18px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        
+        .meta {
+            color: #888;
+            font-size: 0.95em;
+        }
+        
+        .summary {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 40px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .summary h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .summary p {
+            color: #c0c0c0;
+        }
+        
+        .section {
+            margin-bottom: 45px;
+        }
+        
+        .section h2 {
+            font-size: 1.6em;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .section-themes { color: #feca57; }
+        .section-hot { color: #ff6b6b; }
+        .section-star { color: #48dbfb; }
+        
+        .topic-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: transform 0.3s;
+        }
+        
+        .topic-card:hover {
+            transform: translateX(5px);
+        }
+        
+        .topic-card h3 {
+            color: #fff;
+            margin-bottom: 12px;
+            font-size: 1.15em;
+        }
+        
+        .topic-card p {
+            color: #a0a0a0;
+            font-size: 0.95em;
+        }
+        
+        .repo-tag {
+            display: inline-block;
+            background: rgba(102, 126, 234, 0.3);
+            color: #a0a0ff;
+            padding: 3px 10px;
+            border-radius: 6px;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.85em;
+            margin-top: 10px;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.2), rgba(118, 75, 162, 0.2));
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 40px;
+            border: 1px solid rgba(102, 126, 234, 0.3);
+        }
+        
+        .highlight-box h2 {
+            color: #ff9ff3;
+            margin-bottom: 20px;
+        }
+        
+        .highlight-box .stars {
+            font-size: 2em;
+            font-weight: 700;
+            background: linear-gradient(90deg, #ff9ff3, #feca57);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+        }
+        
+        .highlight-box p {
+            color: #c0c0c0;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #666;
+        }
+        
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8em; }
+            .container { padding: 20px 15px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../../../../index.html" class="back-link">← 返回首页</a>
+        
+        <header>
+            <span class="date-badge">2026年3月25日 · 周三</span>
+            <h1>GitHub 热门项目日报</h1>
+            <p class="meta">📊 本期主题：AI Agent 周 · 框架成熟 · 浏览器自动化崛起</p>
+        </header>
+        
+        <div class="summary">
+            <h2>📌 今日速览</h2>
+            <p>
+                今天的 GitHub Trending 被 <strong>AI Agent 和上下文工程仓库</strong> 主导，Python 依然是主流语言。
+                AI 基础设施工具（爬虫、RAG、向量数据库）也获得大量关注。
+                TypeScript 今日收获 25,519 stars，由 1,397 位开发者贡献。
+            </p>
+        </div>
+        
+        <section class="section">
+            <h2 class="section-themes">🔥 本周三大主题</h2>
+            
+            <div class="topic-card">
+                <h3>1. Agent Harness 框架走向成熟</h3>
+                <p>本周多个 Agent 开发框架爆火，开发者工具链基础设施成为竞争新高地。</p>
+                <span class="repo-tag">obra/superpowers +38K stars/月</span>
+                <span class="repo-tag">garrytan/gstack 首周 23K stars</span>
+            </div>
+            
+            <div class="topic-card">
+                <h3>2. 浏览器自动化基础设施崛起</h3>
+                <p>自动化浏览器控制成为 Agent 能力的核心技术，各家纷纷布局。</p>
+                <span class="repo-tag">lightpanda (Zig 无头浏览器)</span>
+                <span class="repo-tag">alibaba 相关项目</span>
+            </div>
+            
+            <div class="topic-card">
+                <h3>3. BitNet 登上 HN 热搜</h3>
+                <p>新型神经网络架构引发社区热议，斩获 370 点热度。</p>
+                <span class="repo-tag">BitNet HN 热搜 370 pts</span>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2 class="section-hot">🚀 今日热点新项目</h2>
+            
+            <div class="topic-card">
+                <h3>🦄 Hermes Agent (NousResearch)</h3>
+                <p>2026年3月25日刚发布！主打"用户共生成长"的智能 Agent 框架，能够随用户使用不断进化和适应。</p>
+                <span class="repo-tag"> NousResearch/Hermes Agent</span>
+                <span class="repo-tag">🆕 今日发布</span>
+            </div>
+            
+            <div class="topic-card">
+                <h3>🦌 Deer-Flow (ByteDance)</h3>
+                <p>2026年3月24日发布。字节跳动开源的超级 Agent 架构，面向研究、编码、创意任务，支持复杂长时间项目执行。</p>
+                <span class="repo-tag"> ByteDance/Deer-Flow</span>
+                <span class="repo-tag">🔥 昨日发布</span>
+            </div>
+        </section>
+        
+        <div class="highlight-box">
+            <h2>⭐ 2026年最大黑马</h2>
+            <div class="stars">OpenClaw</div>
+            <p>
+                被评为"2026年崛起之星"，是 GitHub 历史上增长最快的开源项目之一。
+                <strong>60天内从 9K stars 暴涨到 188K stars</strong>。
+                本项目正是基于 OpenClaw 运行。
+            </p>
+        </div>
+        
+        <section class="section">
+            <h2 class="section-star">📈 Trending 数据</h2>
+            <div class="topic-card">
+                <h3>GitHub Trending 语言榜</h3>
+                <p>TypeScript 今日表现：<strong>25,519 stars</strong>、2,779 forks，由 1,397 位开发者贡献构建。</p>
+            </div>
+        </section>
+        
+        <div class="footer">
+            <p>📊 GitHub Insights 日报系列</p>
+            <p style="margin-top: 10px;">
+                由 <a href="https://github.com/yaoshining">@yaoshining</a> · 
+                基于 <a href="https://github.com/openclaw/openclaw">OpenClaw</a> 自动生成
+            </p>
+            <p style="margin-top: 10px;">
+                <a href="https://github.com/yaoshining/github-insights">📂 查看所有报告</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

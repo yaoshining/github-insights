@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Insights 📊 - 热门项目日报</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #e4e4e4;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        h1 {
+            font-size: 3.5em;
+            background: linear-gradient(90deg, #ff6b6b, #feca57, #48dbfb, #ff9ff3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+        }
+        
+        .subtitle {
+            font-size: 1.3em;
+            color: #a0a0a0;
+        }
+        
+        .latest-report {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 50px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        .latest-report h2 {
+            color: #feca57;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .latest-report .date {
+            background: #ff6b6b;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8em;
+        }
+        
+        .latest-report .preview {
+            font-size: 1.1em;
+            color: #c0c0c0;
+        }
+        
+        .latest-report .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .latest-report .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        .archives h2 {
+            color: #48dbfb;
+            margin-bottom: 25px;
+            font-size: 1.8em;
+        }
+        
+        .report-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        
+        .report-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: transform 0.3s, background 0.3s;
+        }
+        
+        .report-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .report-card h3 {
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        
+        .report-card .meta {
+            color: #888;
+            font-size: 0.9em;
+        }
+        
+        .report-card a {
+            color: #48dbfb;
+            text-decoration: none;
+            display: block;
+            margin-top: 15px;
+        }
+        
+        .report-card a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #666;
+        }
+        
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 GitHub Insights</h1>
+            <p class="subtitle">每日追踪 GitHub 热门项目 · AI 开源动态 · 技术趋势</p>
+        </header>
+        
+        <section class="latest-report">
+            <h2>
+                <span class="date">最新报告</span>
+                2026年3月25日
+            </h2>
+            <p class="preview">
+                本周热点：Agent Harness 框架成熟（obra/superpowers +38K stars）、浏览器自动化基础设施崛起（Lightpanda 无头浏览器）、BitNet 登顶 HN 热搜 370 分。OpenClaw 连续爆火，60天从 9K 涨到 188K stars...
+            </p>
+            <a href="reports/2026/03/2026-03-25.html" class="btn">阅读全文 →</a>
+        </section>
+        
+        <section class="archives">
+            <h2>📁 历史报告</h2>
+            <div class="report-grid">
+                <div class="report-card">
+                    <h3>2026-03-25</h3>
+                    <p class="meta">周三 · AI Agent 周</p>
+                    <a href="reports/2026/03/2026-03-25.html">阅读全文 →</a>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p>Made with ❤️ by <a href="https://github.com/yaoshining">@yaoshining</a></p>
+            <p style="margin-top: 10px;">项目地址: <a href="https://github.com/yaoshining/github-insights">github-insights</a></p>
+        </footer>
+    </div>
+</body>
+</html>
