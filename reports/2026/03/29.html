@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub 热点报告 - 2026年3月29日</title>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --bg-tertiary: #21262d;
+            --text-primary: #e6edf3;
+            --text-secondary: #8b949e;
+            --accent: #58a6ff;
+            --accent-green: #3fb950;
+            --border: #30363d;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+        header {
+            text-align: center;
+            padding: 3rem 0;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 2rem;
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .subtitle { color: var(--text-secondary); font-size: 1.1rem; }
+        .lang-stats {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .lang-stat {
+            background: var(--bg-secondary);
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+        .lang-stat span { color: var(--accent); font-weight: bold; }
+        .repo-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: border-color 0.2s;
+        }
+        .repo-card:hover { border-color: var(--accent); }
+        .repo-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 0.75rem;
+        }
+        .rank {
+            background: var(--bg-tertiary);
+            color: var(--accent);
+            font-weight: bold;
+            width: 2rem;
+            height: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+        .rank.top { background: linear-gradient(135deg, #ffd700, #ff8c00); color: #000; }
+        .repo-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .repo-name:hover { text-decoration: underline; }
+        .lang-tag {
+            margin-left: auto;
+            background: var(--bg-tertiary);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+        .repo-desc { color: var(--text-secondary); margin: 0.75rem 0; font-size: 0.95rem; }
+        .repo-stats {
+            display: flex;
+            gap: 1.5rem;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        .stat { display: flex; align-items: center; gap: 0.3rem; }
+        .stat svg { width: 16px; height: 16px; }
+        .section-title {
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--accent);
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid var(--border);
+            color: var(--text-secondary);
+        }
+        @media (max-width: 600px) {
+            .container { padding: 1rem; }
+            h1 { font-size: 1.8rem; }
+            .lang-stats { gap: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📈 GitHub 热点报告</h1>
+            <p class="subtitle">2026年3月29日 · 星期日</p>
+            <div class="lang-stats">
+                <div class="lang-stat">🔥 今日热门项目</div>
+                <div class="lang-stat">🕐 自动更新于 02:00 UTC</div>
+            </div>
+        </header>
+
+        <h2 class="section-title">🚀 热门项目 TOP 20</h2>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank top">1</div>
+                <a href="https://github.com/openclaw/openclaw" class="repo-name">openclaw/openclaw</a>
+                <span class="lang-tag">TypeScript</span>
+            </div>
+            <p class="repo-desc">Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 339,499</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank top">2</div>
+                <a href="https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools" class="repo-name">x1xhlol/system-prompts-and-models-of-ai-tools</a>
+                <span class="lang-tag">Unknown</span>
+            </div>
+            <p class="repo-desc">FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI...</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 133,558</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank top">3</div>
+                <a href="https://github.com/anomalyco/opencode" class="repo-name">anomalyco/opencode</a>
+                <span class="lang-tag">TypeScript</span>
+            </div>
+            <p class="repo-desc">The open source coding agent.</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 131,970</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank ">4</div>
+                <a href="https://github.com/obra/superpowers" class="repo-name">obra/superpowers</a>
+                <span class="lang-tag">Shell</span>
+            </div>
+            <p class="repo-desc">An agentic skills framework & software development methodology</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 120,851</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank ">5</div>
+                <a href="https://github.com/affaan-m/everything-claude-code" class="repo-name">affaan-m/everything-claude-code</a>
+                <span class="lang-tag">JavaScript</span>
+            </div>
+            <p class="repo-desc">The agent harness performance optimization system. Skills, instincts...</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 114,799</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank ">6</div>
+                <a href="https://github.com/anthropics/skills" class="repo-name">anthropics/skills</a>
+                <span class="lang-tag">Python</span>
+            </div>
+            <p class="repo-desc">Public repository for Agent Skills</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 105,130</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank ">7</div>
+                <a href="https://github.com/google-gemini/gemini-cli" class="repo-name">google-gemini/gemini-cli</a>
+                <span class="lang-tag">TypeScript</span>
+            </div>
+            <p class="repo-desc">An open-source AI agent that brings the power of Gemini directly into your terminal.</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 99,368</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank ">8</div>
+                <a href="https://github.com/deepseek-ai/DeepSeek-R1" class="repo-name">deepseek-ai/DeepSeek-R1</a>
+                <span class="lang-tag">Unknown</span>
+            </div>
+            <p class="repo-desc">DeepSeek R1 Series: Reproducing DeepSeek-R1 training</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 91,987</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank ">9</div>
+                <a href="https://github.com/anthropics/claude-code" class="repo-name">anthropics/claude-code</a>
+                <span class="lang-tag">Shell</span>
+            </div>
+            <p class="repo-desc">Claude Code is an agentic coding tool that lives in your terminal</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 83,927</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank ">10</div>
+                <a href="https://github.com/github/spec-kit" class="repo-name">github/spec-kit</a>
+                <span class="lang-tag">Python</span>
+            </div>
+            <p class="repo-desc">Toolkit to help you get started with Spec-Driven Development</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 83,193</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank ">11</div>
+                <a href="https://github.com/openai/codex" class="repo-name">openai/codex</a>
+                <span class="lang-tag">Rust</span>
+            </div>
+            <p class="repo-desc">Lightweight coding agent that runs in your terminal</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 68,160</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank ">12</div>
+                <a href="https://github.com/msitarzewski/agency-agents" class="repo-name">msitarzewski/agency-agents</a>
+                <span class="lang-tag">Shell</span>
+            </div>
+            <p class="repo-desc">A complete AI agency at your fingertips</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 64,938</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank ">13</div>
+                <a href="https://github.com/karpathy/autoresearch" class="repo-name">karpathy/autoresearch</a>
+                <span class="lang-tag">Python</span>
+            </div>
+            <p class="repo-desc">AI agents running research on single-GPU nanochat training automatically</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 59,639</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank ">14</div>
+                <a href="https://github.com/FoundationAgents/OpenManus" class="repo-name">FoundationAgents/OpenManus</a>
+                <span class="lang-tag">Python</span>
+            </div>
+            <p class="repo-desc">No fortress, purely open ground. OpenManus is Coming.</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 55,528</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank ">15</div>
+                <a href="https://github.com/garrytan/gstack" class="repo-name">garrytan/gstack</a>
+                <span class="lang-tag">TypeScript</span>
+            </div>
+            <p class="repo-desc">Use Garry Tan's exact Claude Code setup: 15 opinionated tools</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 54,158</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank ">16</div>
+                <a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill" class="repo-name">nextlevelbuilder/ui-ux-pro-max-skill</a>
+                <span class="lang-tag">Python</span>
+            </div>
+            <p class="repo-desc">An AI SKILL that provide design intelligence for building professional UI/UX</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 53,566</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank ">17</div>
+                <a href="https://github.com/Zie619/n8n-workflows" class="repo-name">Zie619/n8n-workflows</a>
+                <span class="lang-tag">Python</span>
+            </div>
+            <p class="repo-desc">All of the workflows of n8n i could find</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 53,314</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank ">18</div>
+                <a href="https://github.com/bytedance/deer-flow" class="repo-name">bytedance/deer-flow</a>
+                <span class="lang-tag">Python</span>
+            </div>
+            <p class="repo-desc">An open-source long-horizon SuperAgent harness that researches, codes</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 51,319</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank ">19</div>
+                <a href="https://github.com/upstash/context7" class="repo-name">upstash/context7</a>
+                <span class="lang-tag">TypeScript</span>
+            </div>
+            <p class="repo-desc">Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 50,924</div>
+            </div>
+        </div>
+        <div class="repo-card">
+            <div class="repo-header">
+                <div class="rank ">20</div>
+                <a href="https://github.com/karpathy/nanochat" class="repo-name">karpathy/nanochat</a>
+                <span class="lang-tag">Python</span>
+            </div>
+            <p class="repo-desc">The best ChatGPT that $100 can buy.</p>
+            <div class="repo-stats">
+                <div class="stat">⭐ 50,563</div>
+            </div>
+        </div>
+
+        <h2 class="section-title">💡 趋势洞察</h2>
+        <div class="repo-card">
+            <p class="repo-desc">
+                <strong>AI Agent 热潮持续</strong>：Claude Code、OpenCode、OpenClaw 等 AI 编程助手依然占据主导地位。<br>
+                <strong> Skills 生态崛起</strong>： Anthropics Skills、awesome-claude-skills、awesome-openclaw-skills 等技能市场蓬勃发展。<br>
+                <strong>中文项目亮眼</strong>：DeepSeek-R1、n8n-workflows、MiroFish 等中文开发者项目表现强劲。
+            </p>
+        </div>
+
+        <footer>
+            <p>📊 GitHub Insights · Generated by OpenClaw Agent</p>
+            <p style="margin-top: 0.5rem; font-size: 0.85rem;">
+                <a href="https://yaoshining.github.io/github-insights/" style="color: var(--accent);">返回首页</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
