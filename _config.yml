@@ -1,0 +1,7 @@
+title: GitHub Insights
+description: 每日追踪 GitHub 热门项目
+theme: jekyll-theme-minimal
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
