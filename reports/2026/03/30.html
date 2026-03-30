@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Insights 📊 - 2026-03-30 热门项目日报</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1c2128 100%);
+            min-height: 100vh;
+            color: #e6edf3;
+            line-height: 1.6;
+            padding: 2rem;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        .header {
+            text-align: center;
+            padding: 2.5rem 0 2rem;
+            border-bottom: 1px solid #30363d;
+            margin-bottom: 2.5rem;
+        }
+        .header h1 { font-size: 2rem; color: #58a6ff; margin-bottom: 0.5rem; }
+        .header .date { color: #8b949e; font-size: 1rem; }
+        .header .stats { margin-top: 1rem; display: flex; justify-content: center; gap: 2rem; }
+        .header .stat { text-align: center; }
+        .header .stat-value { font-size: 1.5rem; font-weight: 700; color: #58a6ff; }
+        .header .stat-label { font-size: 0.8rem; color: #8b949e; text-transform: uppercase; }
+        .repo-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+        }
+        .repo-card:hover {
+            transform: translateY(-2px);
+            border-color: #58a6ff;
+            box-shadow: 0 8px 30px rgba(88, 166, 255, 0.1);
+        }
+        .rank {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #30363d;
+            min-width: 2.5rem;
+            text-align: center;
+            line-height: 1;
+            padding-top: 0.2rem;
+        }
+        .rank.top3 { color: #f0883e; }
+        .repo-body { flex: 1; }
+        .repo-name {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #58a6ff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.4rem;
+        }
+        .repo-name:hover { text-decoration: underline; }
+        .repo-meta {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.6rem;
+            font-size: 0.85rem;
+            color: #8b949e;
+        }
+        .repo-meta .lang { color: #7ee787; }
+        .repo-meta .stars { color: #f0883e; }
+        .repo-desc { color: #c9d1d9; font-size: 0.95rem; }
+        .lang-badge {
+            display: inline-block;
+            padding: 0.15rem 0.6rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            background: rgba(126, 231, 135, 0.1);
+            color: #7ee787;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #30363d;
+            color: #8b949e;
+            font-size: 0.85rem;
+        }
+        .footer a { color: #58a6ff; text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+        @media (max-width: 600px) {
+            .repo-card { flex-direction: column; gap: 0.8rem; }
+            .rank { font-size: 1.4rem; }
+            .header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+    <h1>📊 GitHub Insights</h1>
+    <div class="date">2026 年 3 月 30 日 · 热门项目日报</div>
+    <div class="stats">
+        <div class="stat">
+            <div class="stat-value">15</div>
+            <div class="stat-label">上榜项目</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value">TypeScript</div>
+            <div class="stat-label">主导语言</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value">AI / LLM</div>
+            <div class="stat-label">核心主题</div>
+        </div>
+    </div>
+</div>
+
+<div class="repo-list">
+
+<div class="repo-card">
+    <div class="rank top3">🥇</div>
+    <div class="repo-body">
+        <a class="repo-name" href="https://github.com/openclaw/openclaw" target="_blank">openclaw/openclaw</a>
+        <div class="repo-meta">
+            <span class="lang-badge">TypeScript</span>
+            <span>⭐ 340,578</span>
+            <span>🕐 今日活跃</span>
+        </div>
+        <div class="repo-desc">Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞</div>
+    </div>
+</div>
+
+<div class="repo-card">
+    <div class="rank top3">🥈</div>
+    <div class="repo-body">
+        <a class="repo-name" href="https://github.com/tensorflow/tensorflow" target="_blank">tensorflow/tensorflow</a>
+        <div class="repo-meta">
+            <span class="lang-badge">C++</span>
+            <span>⭐ 194,381</span>
+            <span>🕐 今日活跃</span>
+        </div>
+        <div class="repo-desc">An Open Source Machine Learning Framework for Everyone</div>
+    </div>
+</div>
+
+<div class="repo-card">
+    <div class="rank top3">🥉</div>
+    <div class="repo-body">
+        <a class="repo-name" href="https://github.com/microsoft/vscode" target="_blank">microsoft/vscode</a>
+        <div class="repo-meta">
+            <span class="lang-badge">TypeScript</span>
+            <span>⭐ 183,167</span>
+            <span>🕐 今日活跃</span>
+        </div>
+        <div class="repo-desc">Visual Studio Code</div>
+    </div>
+</div>
+
+<div class="repo-card">
+    <div class="rank">4</div>
+    <div class="repo-body">
+        <a class="repo-name" href="https://github.com/n8n-io/n8n" target="_blank">n8n-io/n8n</a>
+        <div class="repo-meta">
+            <span class="lang-badge">TypeScript</span>
+            <span>⭐ 181,631</span>
+            <span>🕐 今日活跃</span>
+        </div>
+        <div class="repo-desc">Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.</div>
+    </div>
+</div>
+
+<div class="repo-card">
+    <div class="rank">5</div>
+    <div class="repo-body">
+        <a class="repo-name" href="https://github.com/langflow-ai/langflow" target="_blank">langflow-ai/langflow</a>
+        <div class="repo-meta">
+            <span class="lang-badge">Python</span>
+            <span>⭐ 146,386</span>
+            <span>🕐 今日活跃</span>
+        </div>
+        <div class="repo-desc">Langflow is a powerful tool for building and deploying AI-powered agents and workflows.</div>
+    </div>
+</div>
+
+<div class="repo-card">
+    <div class="rank">6</div>
+    <div class="repo-body">
+        <a class="repo-name" href="https://github.com/vercel/next.js" target="_blank">vercel/next.js</a>
+        <div class="repo-meta">
+            <span class="lang-badge">JavaScript</span>
+            <span>⭐ 138,523</span>
+            <span>🕐 今日活跃</span>
+        </div>
+        <div class="repo-desc">The React Framework</div>
+    </div>
+</div>
+
+<div class="repo-card">
+    <div class="rank">7</div>
+    <div class="repo-body">
+        <a class="repo-name" href="https://github.com/langgenius/dify" target="_blank">langgenius/dify</a>
+        <div class="repo-meta">
+            <span class="lang-badge">TypeScript</span>
+            <span>⭐ 134,923</span>
+            <span>🕐 今日活跃</span>
+        </div>
+        <div class="repo-desc">Production-ready platform for agentic workflow development.</div>
+    </div>
+</div>
+
+<div class="repo-card">
+    <div class="rank">8</div>
+    <div class="repo-body">
+        <a class="repo-name" href="https://github.com/anomalyco/opencode" target="_blank">anomalyco/opencode</a>
+        <div class="repo-meta">
+            <span class="lang-badge">TypeScript</span>
+            <span>⭐ 132,417</span>
+            <span>🕐 今日活跃</span>
+        </div>
+        <div class="repo-desc">The open source coding agent.</div>
+    </div>
+</div>
+
+<div class="repo-card">
+    <div class="rank">9</div>
+    <div class="repo-body">
+        <a class="repo-name" href="https://github.com/langchain-ai/langchain" target="_blank">langchain-ai/langchain</a>
+        <div class="repo-meta">
+            <span class="lang-badge">Python</span>
+            <span>⭐ 131,523</span>
+            <span>🕐 今日活跃</span>
+        </div>
+        <div class="repo-desc">The agent engineering platform</div>
+    </div>
+</div>
+
+<div class="repo-card">
+    <div class="rank">10</div>
+    <div class="repo-body">
+        <a class="repo-name" href="https://github.com/open-webui/open-webui" target="_blank">open-webui/open-webui</a>
+        <div class="repo-meta">
+            <span class="lang-badge">Python</span>
+            <span>⭐ 129,208</span>
+            <span>🕐 今日活跃</span>
+        </div>
+        <div class="repo-desc">User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</div>
+    </div>
+</div>
+
+<div class="repo-card">
+    <div class="rank">11</div>
+    <div class="repo-body">
+        <a class="repo-name" href="https://github.com/krahets/hello-algo" target="_blank">krahets/hello-algo</a>
+        <div class="repo-meta">
+            <span class="lang-badge">Java</span>
+            <span>⭐ 124,242</span>
+            <span>🕐 今日活跃</span>
+        </div>
+        <div class="repo-desc">《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现</div>
+    </div>
+</div>
+
+<div class="repo-card">
+    <div class="rank">12</div>
+    <div class="repo-body">
+        <a class="repo-name" href="https://github.com/affaan-m/everything-claude-code" target="_blank">affaan-m/everything-claude-code</a>
+        <div class="repo-meta">
+            <span class="lang-badge">JavaScript</span>
+            <span>⭐ 116,655</span>
+            <span>🕐 今日活跃</span>
+        </div>
+        <div class="repo-desc">The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</div>
+    </div>
+</div>
+
+<div class="repo-card">
+    <div class="rank">13</div>
+    <div class="repo-body">
+        <a class="repo-name" href="https://github.com/iptv-org/iptv" target="_blank">iptv-org/iptv</a>
+        <div class="repo-meta">
+            <span class="lang-badge">TypeScript</span>
+            <span>⭐ 113,992</span>
+            <span>🕐 今日活跃</span>
+        </div>
+        <div class="repo-desc">Collection of publicly available IPTV channels from all over the world</div>
+    </div>
+</div>
+
+<div class="repo-card">
+    <div class="rank">14</div>
+    <div class="repo-body">
+        <a class="repo-name" href="https://github.com/rust-lang/rust" target="_blank">rust-lang/rust</a>
+        <div class="repo-meta">
+            <span class="lang-badge">Rust</span>
+            <span>⭐ 111,572</span>
+            <span>🕐 今日活跃</span>
+        </div>
+        <div class="repo-desc">Empowering everyone to build reliable and efficient software.</div>
+    </div>
+</div>
+
+<div class="repo-card">
+    <div class="rank">15</div>
+    <div class="repo-body">
+        <a class="repo-name" href="https://github.com/microsoft/TypeScript" target="_blank">microsoft/TypeScript</a>
+        <div class="repo-meta">
+            <span class="lang-badge">TypeScript</span>
+            <span>⭐ 108,350</span>
+            <span>🕐 今日活跃</span>
+        </div>
+        <div class="repo-desc">TypeScript is a superset of JavaScript that compiles to clean JavaScript output.</div>
+    </div>
+</div>
+
+</div>
+
+<div class="footer">
+    <p>由 <a href="https://yaoshining.github.io/github-insights" target="_blank">GitHub Insights</a> 自动生成 · 数据来源 <a href="https://github.com" target="_blank">GitHub</a></p>
+    <p style="margin-top:0.5rem;color:#484f58;">Generated on 2026-03-30</p>
+</div>
+
+</div>
+</body>
+</html>
