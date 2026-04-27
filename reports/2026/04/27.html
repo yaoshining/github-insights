@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Trending 日报 - 2026-04-27</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0d1117; color: #e6edf3; min-height: 100vh; padding: 20px; }
+        .container { max-width: 1000px; margin: 0 auto; }
+        .header { text-align: center; padding: 30px 0; border-bottom: 1px solid #21262d; margin-bottom: 30px; }
+        .header h1 { font-size: 28px; color: #58a6ff; margin-bottom: 10px; }
+        .header p { color: #8b949e; font-size: 14px; }
+        .date-badge { display: inline-block; background: #238636; color: #fff; padding: 5px 15px; border-radius: 20px; font-size: 14px; margin-bottom: 15px; }
+        .repo-card { background: #161b22; border: 1px solid #21262d; border-radius: 8px; padding: 20px; margin-bottom: 15px; transition: border-color 0.2s; }
+        .repo-card:hover { border-color: #58a6ff; }
+        .repo-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+        .rank { font-size: 24px; font-weight: bold; color: #58a6ff; min-width: 40px; }
+        .repo-name { font-size: 18px; font-weight: 600; }
+        .repo-name a { color: #58a6ff; text-decoration: none; }
+        .repo-name a:hover { text-decoration: underline; }
+        .lang-badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 12px; margin-left: 10px; }
+        .lang-C { background: #555; }
+        .lang-Python { background: #3572A5; }
+        .lang-TypeScript { background: #2b7489; }
+        .lang-Go { background: #00ADD8; }
+        .lang-Shell { background: #89e051; color: #111; }
+        .lang-Markdown { background: #083fa1; }
+        .lang-HTML { background: #e34c26; }
+        .desc { color: #8b949e; font-size: 14px; line-height: 1.6; margin-bottom: 15px; }
+        .stats { display: flex; gap: 20px; flex-wrap: wrap; }
+        .stat { display: flex; align-items: center; gap: 6px; }
+        .stat-label { color: #8b949e; font-size: 13px; }
+        .stat-value { color: #e6edf3; font-weight: 600; font-size: 14px; }
+        .stat.today .stat-value { color: #3fb950; }
+        .footer { text-align: center; padding: 30px 0; color: #8b949e; font-size: 13px; border-top: 1px solid #21262d; margin-top: 40px; }
+        .top3 .rank { font-size: 32px; }
+        .hot { background: linear-gradient(135deg, #ff6b6b, #ffa500); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="date-badge">2026-04-27</div>
+            <h1>📈 GitHub Trending 日报</h1>
+            <p>今日 GitHub 热门项目 Top 10 排行榜</p>
+        </div>
+
+        <div class="repo-card top3">
+            <div class="repo-header">
+                <span class="rank hot">🥇 1</span>
+                <span class="repo-name"><a href="https://github.com/mattpocock/skills" target="_blank">mattpocock/skills</a></span>
+                <span class="lang-badge lang-Shell">Shell</span>
+            </div>
+            <p class="desc">Agent Skills for real engineers. Straight from my .claude directory.</p>
+            <div class="stats">
+                <div class="stat today"><span class="stat-label">今日新增</span><span class="stat-value">▲ 2,519</span></div>
+                <div class="stat"><span class="stat-label">总 star</span><span class="stat-value">24,049</span></div>
+            </div>
+        </div>
+
+        <div class="repo-card top3">
+            <div class="repo-header">
+                <span class="rank hot">🥈 2</span>
+                <span class="repo-name"><a href="https://github.com/Z4nzu/hackingtool" target="_blank">Z4nzu/hackingtool</a></span>
+                <span class="lang-badge lang-Python">Python</span>
+            </div>
+            <p class="desc">ALL IN ONE Hacking Tool For Hackers</p>
+            <div class="stats">
+                <div class="stat today"><span class="stat-label">今日新增</span><span class="stat-value">▲ 1,720</span></div>
+                <div class="stat"><span class="stat-label">总 star</span><span class="stat-value">65,595</span></div>
+            </div>
+        </div>
+
+        <div class="repo-card top3">
+            <div class="repo-header">
+                <span class="rank hot">🥉 3</span>
+                <span class="repo-name"><a href="https://github.com/Alishahryar1/free-claude-code" target="_blank">Alishahryar1/free-claude-code</a></span>
+                <span class="lang-badge lang-Python">Python</span>
+            </div>
+            <p class="desc">Use claude-code for free in the terminal, VSCode extension or via discord like openclaw</p>
+            <div class="stats">
+                <div class="stat today"><span class="stat-label">今日新增</span><span class="stat-value">▲ 1,701</span></div>
+                <div class="stat"><span class="stat-label">总 star</span><span class="stat-value">13,795</span></div>
+            </div>
+        </div>
+
+        <div class="repo-card">
+            <div class="repo-header">
+                <span class="rank">4</span>
+                <span class="repo-name"><a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank">codecrafters-io/build-your-own-x</a></span>
+                <span class="lang-badge lang-Markdown">Markdown</span>
+            </div>
+            <p class="desc">Master programming by recreating your favorite technologies from scratch.</p>
+            <div class="stats">
+                <div class="stat today"><span class="stat-label">今日新增</span><span class="stat-value">▲ 1,075</span></div>
+                <div class="stat"><span class="stat-label">总 star</span><span class="stat-value">496,850</span></div>
+            </div>
+        </div>
+
+        <div class="repo-card">
+            <div class="repo-header">
+                <span class="rank">5</span>
+                <span class="repo-name"><a href="https://github.com/abhigyanpatwari/GitNexus" target="_blank">abhigyanpatwari/GitNexus</a></span>
+                <span class="lang-badge lang-TypeScript">TypeScript</span>
+            </div>
+            <p class="desc">GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser.</p>
+            <div class="stats">
+                <div class="stat today"><span class="stat-label">今日新增</span><span class="stat-value">▲ 700</span></div>
+                <div class="stat"><span class="stat-label">总 star</span><span class="stat-value">30,238</span></div>
+            </div>
+        </div>
+
+        <div class="repo-card">
+            <div class="repo-header">
+                <span class="rank">6</span>
+                <span class="repo-name"><a href="https://github.com/openclaw/openclaw" target="_blank">openclaw/openclaw</a></span>
+                <span class="lang-badge lang-TypeScript">TypeScript</span>
+            </div>
+            <p class="desc">Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞</p>
+            <div class="stats">
+                <div class="stat today"><span class="stat-label">今日新增</span><span class="stat-value">▲ 627</span></div>
+                <div class="stat"><span class="stat-label">总 star</span><span class="stat-value">364,678</span></div>
+            </div>
+        </div>
+
+        <div class="repo-card">
+            <div class="repo-header">
+                <span class="rank">7</span>
+                <span class="repo-name"><a href="https://github.com/ComposioHQ/awesome-codex-skills" target="_blank">ComposioHQ/awesome-codex-skills</a></span>
+                <span class="lang-badge lang-Python">Python</span>
+            </div>
+            <p class="desc">A curated list of practical Codex skills for automating workflows across the Codex CLI and API.</p>
+            <div class="stats">
+                <div class="stat today"><span class="stat-label">今日新增</span><span class="stat-value">▲ 517</span></div>
+                <div class="stat"><span class="stat-label">总 star</span><span class="stat-value">2,042</span></div>
+            </div>
+        </div>
+
+        <div class="repo-card">
+            <div class="repo-header">
+                <span class="rank">8</span>
+                <span class="repo-name"><a href="https://github.com/PostHog/posthog" target="_blank">PostHog/posthog</a></span>
+                <span class="lang-badge lang-Python">Python</span>
+            </div>
+            <p class="desc">🦔 PostHog is an all-in-one developer platform for building successful products.</p>
+            <div class="stats">
+                <div class="stat today"><span class="stat-label">今日新增</span><span class="stat-value">▲ 337</span></div>
+                <div class="stat"><span class="stat-label">总 star</span><span class="stat-value">33,866</span></div>
+            </div>
+        </div>
+
+        <div class="repo-card">
+            <div class="repo-header">
+                <span class="rank">9</span>
+                <span class="repo-name"><a href="https://github.com/gastownhall/beads" target="_blank">gastownhall/beads</a></span>
+                <span class="lang-badge lang-Go">Go</span>
+            </div>
+            <p class="desc">Beads - A memory upgrade for your coding agent</p>
+            <div class="stats">
+                <div class="stat today"><span class="stat-label">今日新增</span><span class="stat-value">▲ 152</span></div>
+                <div class="stat"><span class="stat-label">总 star</span><span class="stat-value">21,710</span></div>
+            </div>
+        </div>
+
+        <div class="repo-card">
+            <div class="repo-header">
+                <span class="rank">10</span>
+                <span class="repo-name"><a href="https://github.com/trycua/cua" target="_blank">trycua/cua</a></span>
+                <span class="lang-badge lang-HTML">HTML</span>
+            </div>
+            <p class="desc">Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents.</p>
+            <div class="stats">
+                <div class="stat today"><span class="stat-label">今日新增</span><span class="stat-value">▲ 182</span></div>
+                <div class="stat"><span class="stat-label">总 star</span><span class="stat-value">14,423</span></div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Generated by GitHub Insights Bot | 数据来源: GitHub Trending</p>
+        </div>
+    </div>
+</body>
+</html>
