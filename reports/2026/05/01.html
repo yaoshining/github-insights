@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Trending 日报 - 2026-05-01</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: #0d1117; color: #e6edf3; min-height: 100vh; padding: 20px; }
+    .container { max-width: 900px; margin: 0 auto; }
+    .header { text-align: center; padding: 30px 0; border-bottom: 1px solid #21262d; margin-bottom: 30px; }
+    .header h1 { font-size: 28px; font-weight: 600; color: #58a6ff; margin-bottom: 8px; }
+    .header p { color: #8b949e; font-size: 14px; }
+    .date-badge { display: inline-block; background: #1f6feb; color: #fff; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 12px; }
+    .rank-card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px 20px; margin-bottom: 12px; display: flex; align-items: flex-start; gap: 16px; transition: border-color 0.2s; }
+    .rank-card:hover { border-color: #58a6ff; }
+    .rank { font-size: 24px; font-weight: 700; color: #8b949e; min-width: 40px; text-align: center; }
+    .rank-top3 { color: #ffd700; }
+    .repo-info { flex: 1; }
+    .repo-name { font-size: 18px; font-weight: 600; color: #58a6ff; text-decoration: none; margin-bottom: 6px; display: block; }
+    .repo-name:hover { color: #79c0ff; }
+    .repo-desc { color: #8b949e; font-size: 14px; line-height: 1.5; margin-bottom: 8px; }
+    .repo-meta { display: flex; gap: 16px; flex-wrap: wrap; }
+    .meta-tag { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; padding: 2px 8px; border-radius: 16px; }
+    .meta-star { background: rgba(255,215,0,0.15); color: #ffd700; }
+    .meta-lang { background: rgba(88,166,255,0.15); color: #58a6ff; }
+    .footer { text-align: center; padding: 30px 0; color: #8b949e; font-size: 12px; border-top: 1px solid #21262d; margin-top: 30px; }
+    @media (max-width: 600px) { .rank-card { flex-direction: column; gap: 8px; } .repo-meta { gap: 8px; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="date-badge">📅 2026-05-01</div>
+      <h1>📈 GitHub Trending 日报</h1>
+      <p>每日更新 · Top 10 热门项目</p>
+    </div>
+
+    <div class="rank-list">
+
+      <div class="rank-card">
+        <div class="rank rank-top3">🥇</div>
+        <div class="repo-info">
+          <a class="repo-name" href="https://github.com/public-apis/public-apis" target="_blank">public-apis / public-apis</a>
+          <p class="repo-desc">A collective list of free APIs</p>
+          <div class="repo-meta">
+            <span class="meta-tag meta-star">⭐ 429,560</span>
+            <span class="meta-tag meta-lang">🐍 Python</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="rank-card">
+        <div class="rank rank-top3">🥈</div>
+        <div class="repo-info">
+          <a class="repo-name" href="https://github.com/obra/superpowers" target="_blank">obra / superpowers</a>
+          <p class="repo-desc">An agentic skills framework & software development methodology that works.</p>
+          <div class="repo-meta">
+            <span class="meta-tag meta-star">⭐ 174,634</span>
+            <span class="meta-tag meta-lang">🐚 Shell</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="rank-card">
+        <div class="rank rank-top3">🥉</div>
+        <div class="repo-info">
+          <a class="repo-name" href="https://github.com/ghostty-org/ghostty" target="_blank">ghostty-org / ghostty</a>
+          <p class="repo-desc">👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.</p>
+          <div class="repo-meta">
+            <span class="meta-tag meta-star">⭐ 52,889</span>
+            <span class="meta-tag meta-lang">⚡ Zig</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="rank-card">
+        <div class="rank">4</div>
+        <div class="repo-info">
+          <a class="repo-name" href="https://github.com/mattpocock/skills" target="_blank">mattpocock / skills</a>
+          <p class="repo-desc">Skills for Real Engineers. Straight from my .claude directory.</p>
+          <div class="repo-meta">
+            <span class="meta-tag meta-star">⭐ 49,619</span>
+            <span class="meta-tag meta-lang">🐚 Shell</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="rank-card">
+        <div class="rank">5</div>
+        <div class="repo-info">
+          <a class="repo-name" href="https://github.com/warpdotdev/warp" target="_blank">warpdotdev / warp</a>
+          <p class="repo-desc">Warp is an agentic development environment, born out of the terminal.</p>
+          <div class="repo-meta">
+            <span class="meta-tag meta-star">⭐ 49,330</span>
+            <span class="meta-tag meta-lang">🦀 Rust</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="rank-card">
+        <div class="rank">6</div>
+        <div class="repo-info">
+          <a class="repo-name" href="https://github.com/TauricResearch/TradingAgents" target="_blank">TauricResearch / TradingAgents</a>
+          <p class="repo-desc">TradingAgents: Multi-Agents LLM Financial Trading Framework</p>
+          <div class="repo-meta">
+            <span class="meta-tag meta-star">⭐ 57,828</span>
+            <span class="meta-tag meta-lang">🐍 Python</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="rank-card">
+        <div class="rank">7</div>
+        <div class="repo-info">
+          <a class="repo-name" href="https://github.com/ForrestKnight/open-source-cs" target="_blank">ForrestKnight / open-source-cs</a>
+          <p class="repo-desc">Video discussing this curriculum</p>
+          <div class="repo-meta">
+            <span class="meta-tag meta-star">⭐ 22,387</span>
+            <span class="meta-tag meta-lang">📹 视频课程</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="rank-card">
+        <div class="rank">8</div>
+        <div class="repo-info">
+          <a class="repo-name" href="https://github.com/soxoj/maigret" target="_blank">soxoj / maigret</a>
+          <p class="repo-desc">🕵️♂️ Collect a dossier on a person by username from 3000+ sites</p>
+          <div class="repo-meta">
+            <span class="meta-tag meta-star">⭐ 20,863</span>
+            <span class="meta-tag meta-lang">🐍 Python</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="rank-card">
+        <div class="rank">9</div>
+        <div class="repo-info">
+          <a class="repo-name" href="https://github.com/iamgio/quarkdown" target="_blank">iamgio / quarkdown</a>
+          <p class="repo-desc">🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases.</p>
+          <div class="repo-meta">
+            <span class="meta-tag meta-star">⭐ 13,095</span>
+            <span class="meta-tag meta-lang">🎯 Kotlin</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="rank-card">
+        <div class="rank">10</div>
+        <div class="repo-info">
+          <a class="repo-name" href="https://github.com/browserbase/skills" target="_blank">browserbase / skills</a>
+          <p class="repo-desc">Claude Agent SDK with a web browsing tool</p>
+          <div class="repo-meta">
+            <span class="meta-tag meta-star">⭐ 853</span>
+            <span class="meta-tag meta-lang">🟨 JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <p>Generated by OpenClaw · MediaWriter Agent</p>
+      <p>GitHub Trending · 2026-05-01</p>
+    </div>
+  </div>
+</body>
+</html>
