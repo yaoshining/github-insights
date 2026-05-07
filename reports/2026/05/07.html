@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub Trending 日报 - 2026-05-07</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0d1117; color: #e6edf3; min-height: 100vh; padding: 40px 20px; }
+  .container { max-width: 900px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 40px; }
+  .header h1 { font-size: 2.2em; color: #58a6ff; margin-bottom: 8px; }
+  .header .date { color: #8b949e; font-size: 1.1em; }
+  .rank-list { display: flex; flex-direction: column; gap: 16px; }
+  .repo-card { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 20px 24px; display: flex; align-items: flex-start; gap: 20px; transition: border-color 0.2s; }
+  .repo-card:hover { border-color: #58a6ff; }
+  .rank { font-size: 1.8em; font-weight: 700; color: #30363d; min-width: 40px; line-height: 1; }
+  .rank-top3 { color: #f0883e; }
+  .repo-info { flex: 1; min-width: 0; }
+  .repo-name { font-size: 1.15em; font-weight: 600; color: #58a6ff; margin-bottom: 6px; }
+  .repo-name a { text-decoration: none; color: #58a6ff; }
+  .repo-name a:hover { text-decoration: underline; }
+  .repo-desc { color: #8b949e; font-size: 0.9em; line-height: 1.5; margin-bottom: 10px; }
+  .repo-meta { display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.85em; }
+  .meta-item { display: flex; align-items: center; gap: 4px; color: #8b949e; }
+  .lang-dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+  .lang-python { background: #3572A5; }
+  .lang-rust { background: #dea584; }
+  .lang-typescript { background: #3178c6; }
+  .lang-cpp { background: #f34b7d; }
+  .lang-ruby { background: #701516; }
+  .lang-shell { background: #89e051; }
+  .stars { color: #e3b341; }
+  .footer { text-align: center; margin-top: 40px; color: #484f58; font-size: 0.85em; }
+  .tag { display: inline-block; background: #388bfd26; color: #58a6ff; border-radius: 20px; padding: 2px 10px; font-size: 0.8em; margin-right: 6px; }
+  @media (max-width: 600px) {
+    .repo-card { flex-direction: column; gap: 12px; }
+    .rank { font-size: 1.4em; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>📈 GitHub Trending 日报</h1>
+    <p class="date">2026-05-07 · 今日 Top 10 热门项目</p>
+  </div>
+  <div class="rank-list">
+    <div class="repo-card">
+      <div class="rank rank-top3">#1</div>
+      <div class="repo-info">
+        <div class="repo-name"><a href="https://github.com/ruvnet/ruflo" target="_blank">ruvnet/ruflo</a></div>
+        <div class="repo-desc">🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems.</div>
+        <div class="repo-meta">
+          <span class="meta-item"><span class="lang-dot lang-typescript"></span> TypeScript</span>
+          <span class="meta-item stars">⭐ 45,311</span>
+          <span class="tag">Agent</span><span class="tag">Claude</span><span class="tag">AI</span>
+        </div>
+      </div>
+    </div>
+    <div class="repo-card">
+      <div class="rank rank-top3">#2</div>
+      <div class="repo-info">
+        <div class="repo-name"><a href="https://github.com/LadybirdBrowser/ladybird" target="_blank">LadybirdBrowser/ladybird</a></div>
+        <div class="repo-desc">Truly independent web browser</div>
+        <div class="repo-meta">
+          <span class="meta-item"><span class="lang-dot lang-cpp"></span> C++</span>
+          <span class="meta-item stars">⭐ 62,996</span>
+          <span class="tag">Browser</span><span class="tag">Open Source</span>
+        </div>
+      </div>
+    </div>
+    <div class="repo-card">
+      <div class="rank rank-top3">#3</div>
+      <div class="repo-info">
+        <div class="repo-name"><a href="https://github.com/addyosmani/agent-skills" target="_blank">addyosmani/agent-skills</a></div>
+        <div class="repo-desc">Production-grade engineering skills for AI coding agents.</div>
+        <div class="repo-meta">
+          <span class="meta-item"><span class="lang-dot lang-shell"></span> Shell</span>
+          <span class="meta-item stars">⭐ 30,677</span>
+          <span class="tag">AI Coding</span><span class="tag">Developer Tools</span>
+        </div>
+      </div>
+    </div>
+    <div class="repo-card">
+      <div class="rank">#4</div>
+      <div class="repo-info">
+        <div class="repo-name"><a href="https://github.com/virattt/dexter" target="_blank">virattt/dexter</a></div>
+        <div class="repo-desc">An autonomous agent for deep financial research</div>
+        <div class="repo-meta">
+          <span class="meta-item"><span class="lang-dot lang-typescript"></span> TypeScript</span>
+          <span class="meta-item stars">⭐ 24,383</span>
+          <span class="tag">Finance</span><span class="tag">AI Agent</span><span class="tag">Research</span>
+        </div>
+      </div>
+    </div>
+    <div class="repo-card">
+      <div class="rank">#5</div>
+      <div class="repo-info">
+        <div class="repo-name"><a href="https://github.com/Hmbown/DeepSeek-TUI" target="_blank">Hmbown/DeepSeek-TUI</a></div>
+        <div class="repo-desc">Coding agent for DeepSeek models that runs in your terminal</div>
+        <div class="repo-meta">
+          <span class="meta-item"><span class="lang-dot lang-rust"></span> Rust</span>
+          <span class="meta-item stars">⭐ 14,326</span>
+          <span class="tag">DeepSeek</span><span class="tag">CLI</span><span class="tag">Coding Agent</span>
+        </div>
+      </div>
+    </div>
+    <div class="repo-card">
+      <div class="rank">#6</div>
+      <div class="repo-info">
+        <div class="repo-name"><a href="https://github.com/docusealco/docuseal" target="_blank">docusealco/docuseal</a></div>
+        <div class="repo-desc">Open source DocuSign alternative. Create, fill, and sign digital documents 🗾</div>
+        <div class="repo-meta">
+          <span class="meta-item"><span class="lang-dot lang-ruby"></span> Ruby</span>
+          <span class="meta-item stars">⭐ 14,928</span>
+          <span class="tag">DocuSign Alternative</span><span class="tag">E-Signature</span>
+        </div>
+      </div>
+    </div>
+    <div class="repo-card">
+      <div class="rank">#7</div>
+      <div class="repo-info">
+        <div class="repo-name"><a href="https://github.com/anthropics/financial-services" target="_blank">anthropics/financial-services</a></div>
+        <div class="repo-desc">Anthropic's financial services templates and resources</div>
+        <div class="repo-meta">
+          <span class="meta-item"><span class="lang-dot lang-python"></span> Python</span>
+          <span class="meta-item stars">⭐ 9,202</span>
+          <span class="tag">Anthropic</span><span class="tag">Finance</span>
+        </div>
+      </div>
+    </div>
+    <div class="repo-card">
+      <div class="rank">#8</div>
+      <div class="repo-info">
+        <div class="repo-name"><a href="https://github.com/InsForge/InsForge" target="_blank">InsForge/InsForge</a></div>
+        <div class="repo-desc">InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway. Built for coding agents.</div>
+        <div class="repo-meta">
+          <span class="meta-item"><span class="lang-dot lang-typescript"></span> TypeScript</span>
+          <span class="meta-item stars">⭐ 8,479</span>
+          <span class="tag">Backend</span><span class="tag">Postgres</span><span class="tag">AI Gateway</span>
+        </div>
+      </div>
+    </div>
+    <div class="repo-card">
+      <div class="rank">#9</div>
+      <div class="repo-info">
+        <div class="repo-name"><a href="https://github.com/PriorLabs/TabPFN" target="_blank">PriorLabs/TabPFN</a></div>
+        <div class="repo-desc">⚡ TabPFN: Foundation Model for Tabular Data ⚡</div>
+        <div class="repo-meta">
+          <span class="meta-item"><span class="lang-dot lang-python"></span> Python</span>
+          <span class="meta-item stars">⭐ 6,594</span>
+          <span class="tag">Tabular Data</span><span class="tag">ML</span><span class="tag">Foundation Model</span>
+        </div>
+      </div>
+    </div>
+    <div class="repo-card">
+      <div class="rank">#10</div>
+      <div class="repo-info">
+        <div class="repo-name"><a href="https://github.com/LearningCircuit/local-deep-research" target="_blank">LearningCircuit/local-deep-research</a></div>
+        <div class="repo-desc">~95% on SimpleQA with Qwen3.6-27B on a 3090. Supports all local and cloud LLMs. 10+ search engines. Everything Local & Encrypted.</div>
+        <div class="repo-meta">
+          <span class="meta-item"><span class="lang-dot lang-python"></span> Python</span>
+          <span class="meta-item stars">⭐ 5,685</span>
+          <span class="tag">Local LLM</span><span class="tag">Deep Research</span><span class="tag">Privacy</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Generated by MediaWriter Agent · 2026-05-07</p>
+    <p><a href="https://yaoshining.github.io/github-insights/" style="color:#58a6ff">github-insights</a></p>
+  </div>
+</div>
+</body>
+</html>
