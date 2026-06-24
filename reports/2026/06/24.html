@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub 热点日报 '$(date +%Y-%m-%d)'</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0d1117; color: #e6edf3; padding: 20px; }
+  .container { max-width: 900px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 30px; padding: 20px; background: linear-gradient(135deg, #161b22, #238636); border-radius: 12px; }
+  .header h1 { font-size: 1.8em; margin-bottom: 5px; }
+  .header p { color: #8b949e; font-size: 0.9em; }
+  .card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; margin-bottom: 12px; transition: border-color 0.2s; }
+  .card:hover { border-color: #58a6ff; }
+  .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
+  .rank { font-size: 1.4em; font-weight: 700; color: #58a6ff; width: 35px; }
+  .repo-name { font-size: 1.1em; font-weight: 600; color: #58a6ff; text-decoration: none; }
+  .repo-name:hover { text-decoration: underline; }
+  .stars { color: #f0c14b; font-weight: 600; white-space: nowrap; }
+  .lang { background: #388bfd26; color: #79c0ff; padding: 2px 8px; border-radius: 12px; font-size: 0.8em; margin-left: 8px; }
+  .desc { color: #8b949e; font-size: 0.9em; margin: 8px 0; line-height: 1.5; }
+  .footer { text-align: center; margin-top: 30px; color: #8b949e; font-size: 0.85em; }
+  .footer a { color: #58a6ff; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>📈 GitHub 热点日报</h1>
+    <p>2026-06-24 | 近2日新晋高星项目 Top 10</p>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="rank">🥇</span>
+      <div style="flex:1">
+        <a class="repo-name" href="https://github.com/bozhouDev/codex-orange-book">bozhouDev/codex-orange-book</a>
+        <span class="lang">HTML</span>
+      </div>
+      <span class="stars">⭐ 552</span>
+    </div>
+    <p class="desc">Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）</p>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="rank">🥈</span>
+      <div style="flex:1">
+        <a class="repo-name" href="https://github.com/goehou/tabbit-toy">goehou/tabbit-toy</a>
+        <span class="lang">JavaScript</span>
+      </div>
+      <span class="stars">⭐ 202</span>
+    </div>
+    <p class="desc">基于tabbit的研究包，可转化为OAI格式，支持会员认证和一键提取cookie的浏览器拓展，方便快速本地使用Claude、GPT等模型</p>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="rank">🥉</span>
+      <div style="flex:1">
+        <a class="repo-name" href="https://github.com/egorpavlov0/Flash-USDT-Sender">egorpavlov0/Flash-USDT-Sender</a>
+        <span class="lang">Python</span>
+      </div>
+      <span class="stars">⭐ 105</span>
+    </div>
+    <p class="desc">Multi-network flash transaction tool for USDT, BTC, ETH — 支持ERC-20/TRC-20/BEP-20，可配置 gas 设置</p>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="rank">4</span>
+      <div style="flex:1">
+        <a class="repo-name" href="https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance">nova452/ComfyUI-ConditioningKrea2Rebalance</a>
+        <span class="lang">Python</span>
+      </div>
+      <span class="stars">⭐ 104</span>
+    </div>
+    <p class="desc">Krea 2 的条件优化器，提供类 IP-Adapter 功能，可绕过安全过滤器，对图像生成模型有质量增强效果</p>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="rank">5</span>
+      <div style="flex:1">
+        <a class="repo-name" href="https://github.com/MaxBelov9/Crypto-Recovery">MaxBelov9/Crypto-Recovery</a>
+        <span class="lang">Python</span>
+      </div>
+      <span class="stars">⭐ 98</span>
+    </div>
+    <p class="desc">加密货币钱包取证套件，支持40+钱包类型，涵盖种子恢复、多链地址推导、CSV/JSON导出</p>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="rank">6</span>
+      <div style="flex:1">
+        <a class="repo-name" href="https://github.com/Simpl3x3/ESEILANE">Simpl3x3/ESEILANE</a>
+        <span class="lang">Ruby</span>
+      </div>
+      <span class="stars">⭐ 92</span>
+    </div>
+    <p class="desc">面向 AI/LLM 和 GraphRAG 的高性能知识图谱引擎，为下一代智能应用打造</p>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="rank">7</span>
+      <div style="flex:1">
+        <a class="repo-name" href="https://github.com/HaNAnOvIl/Seed-Generator">HaNAnOvIl/Seed-Generator</a>
+        <span class="lang">Python</span>
+      </div>
+      <span class="stars">⭐ 91</span>
+    </div>
+    <p class="desc">专业 BIP-39 助记词 & HD 钱包工具包，支持 12-24 词助记词、多链（BTCP/ETH/SOL/LTC/DOGE/ADA等）</p>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="rank">8</span>
+      <div style="flex:1">
+        <a class="repo-name" href="https://github.com/Valorant-AI/valorant-ai-aimbot-undetected">Valorant-AI/valorant-ai-aimbot-undetected</a>
+        <span class="lang">C++</span>
+      </div>
+      <span class="stars">⭐ 88</span>
+    </div>
+    <p class="desc">Valorant AI 自瞄工具，神经网络精准瞄准，绕过 Vanguard 反作弊内核驱动架构设计</p>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="rank">9</span>
+      <div style="flex:1">
+        <a class="repo-name" href="https://github.com/ObsidianOwl123/AgentLens">ObsidianOwl123/AgentLens</a>
+        <span class="lang">Python</span>
+      </div>
+      <span class="stars">⭐ 80</span>
+    </div>
+    <p class="desc">轻量级 AI 上下文压缩器，为 LLM Agent 提供高效的上下文压缩能力</p>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="rank">10</span>
+      <div style="flex:1">
+        <a class="repo-name" href="https://github.com/Reyzowter/Hello-Agents">Reyzowter/Hello-Agents</a>
+        <span class="lang">Python</span>
+      </div>
+      <span class="stars">⭐ 66</span>
+    </div>
+    <p class="desc">从零构建 AI Agent 系统 — 从基础到生产级多 Agent 应用的实战教程</p>
+  </div>
+  <div class="footer">
+    <p>Generated by OpenClaw MediaWriter · <a href="https://yaoshining.github.io/github-insights/reports/2026/06/24.html">在线阅读</a></p>
+  </div>
+</div>
+</body>
+</html>
