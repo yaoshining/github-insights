@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub 热点日报 - 2026-06-30</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0d1117; color: #e6edf3; min-height: 100vh; padding: 40px 20px; }
+    .container { max-width: 900px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header h1 { font-size: 2em; margin-bottom: 8px; background: linear-gradient(135deg, #58a6ff, #f78166); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .header p { color: #8b949e; font-size: 0.95em; }
+    .subtitle { font-size: 0.85em; color: #8b949e; margin-top: 8px; }
+    .rank-card { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 24px; margin-bottom: 16px; transition: border-color 0.2s; }
+    .rank-card:hover { border-color: #58a6ff; }
+    .rank-header { display: flex; align-items: center; gap: 16px; margin-bottom: 12px; }
+    .rank-num { font-size: 1.8em; font-weight: 700; color: #58a6ff; min-width: 48px; }
+    .rank-info { flex: 1; }
+    .repo-name { font-size: 1.15em; font-weight: 600; color: #58a6ff; text-decoration: none; }
+    .repo-name:hover { text-decoration: underline; }
+    .repo-meta { display: flex; gap: 16px; margin-top: 6px; flex-wrap: wrap; }
+    .meta-item { font-size: 0.85em; color: #8b949e; display: flex; align-items: center; gap: 4px; }
+    .meta-item .lang-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+    .lang-javascript { background: #f1e05a; }
+    .lang-python { background: #3572A5; }
+    .lang-typescript { background: #3178c6; }
+    .lang-html { background: #e34c26; }
+    .lang-perl { background: #39457E; }
+    .lang-null { background: #8b949e; }
+    .stars { color: #f0883e; font-weight: 600; }
+    .desc { color: #8b949e; font-size: 0.95em; line-height: 1.6; margin-top: 10px; }
+    .rank-card:nth-child(1) .rank-num { color: #ffd700; }
+    .rank-card:nth-child(2) .rank-num { color: #c0c0c0; }
+    .rank-card:nth-child(3) .rank-num { color: #cd7f32; }
+    .footer { text-align: center; margin-top: 40px; color: #8b949e; font-size: 0.85em; }
+    .footer a { color: #58a6ff; text-decoration: none; }
+    .rank-1 { border-color: rgba(255,215,0,0.3); }
+    .rank-2 { border-color: rgba(192,192,192,0.3); }
+    .rank-3 { border-color: rgba(205,127,50,0.3); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>📈 GitHub 热点日报</h1>
+      <p>2026年6月30日 · 每周二发布</p>
+      <p class="subtitle">数据来源：GitHub API · 筛选近30天创建 & Stars>20 的高潜力项目</p>
+    </div>
+
+    <!-- 1 -->
+    <div class="rank-card rank-1">
+      <div class="rank-header">
+        <div class="rank-num">🥇</div>
+        <div class="rank-info">
+          <a class="repo-name" href="https://github.com/DietrichGebert/ponytail" target="_blank">DietrichGebert/ponytail</a>
+          <div class="repo-meta">
+            <span class="meta-item"><span class="stars">⭐ 67,371</span></span>
+            <span class="meta-item"><span class="lang-dot lang-javascript"></span> JavaScript</span>
+          </div>
+        </div>
+      </div>
+      <p class="desc">Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</p>
+    </div>
+
+    <!-- 2 -->
+    <div class="rank-card rank-2">
+      <div class="rank-header">
+        <div class="rank-num">🥈</div>
+        <div class="rank-info">
+          <a class="repo-name" href="https://github.com/baidu/Unlimited-OCR" target="_blank">baidu/Unlimited-OCR</a>
+          <div class="repo-meta">
+            <span class="meta-item"><span class="stars">⭐ 12,069</span></span>
+            <span class="meta-item"><span class="lang-dot lang-python"></span> Python</span>
+          </div>
+        </div>
+      </div>
+      <p class="desc">Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing. 百度开源的无限制OCR工具，支持长文本一次性解析。</p>
+    </div>
+
+    <!-- 3 -->
+    <div class="rank-card rank-3">
+      <div class="rank-header">
+        <div class="rank-num">🥉</div>
+        <div class="rank-info">
+          <a class="repo-name" href="https://github.com/XiaomiMiMo/MiMo-Code" target="_blank">XiaomiMiMo/MiMo-Code</a>
+          <div class="repo-meta">
+            <span class="meta-item"><span class="stars">⭐ 11,070</span></span>
+            <span class="meta-item"><span class="lang-dot lang-typescript"></span> TypeScript</span>
+          </div>
+        </div>
+      </div>
+      <p class="desc">MiMo Code: Where Models and Agents Co-Evolve. 小米开源的多模态代码模型，让模型与智能体共同进化。</p>
+    </div>
+
+    <!-- 4 -->
+    <div class="rank-card">
+      <div class="rank-header">
+        <div class="rank-num">4</div>
+        <div class="rank-info">
+          <a class="repo-name" href="https://github.com/unicity-astrid/book" target="_blank">unicity-astrid/book</a>
+          <div class="repo-meta">
+            <span class="meta-item"><span class="stars">⭐ 7,543</span></span>
+            <span class="meta-item"><span class="lang-dot lang-perl"></span> Perl</span>
+          </div>
+        </div>
+      </div>
+      <p class="desc">The canonical reference for Astrid OS: kernel, capsules, host ABI, the bus, and the security model. Astrid 操作系统的权威参考文档。</p>
+    </div>
+
+    <!-- 5 -->
+    <div class="rank-card">
+      <div class="rank-header">
+        <div class="rank-num">5</div>
+        <div class="rank-info">
+          <a class="repo-name" href="https://github.com/unicity-astrid/handbook" target="_blank">unicity-astrid/handbook</a>
+          <div class="repo-meta">
+            <span class="meta-item"><span class="stars">⭐ 7,491</span></span>
+            <span class="meta-item"><span class="lang-dot lang-null"></span> —</span>
+          </div>
+        </div>
+      </div>
+      <p class="desc">How to work on Astrid: the polyrepo, the kernel-is-dumb law, the RFC trigger, contribution tiers, and the release process. Astrid 开发协作手册。</p>
+    </div>
+
+    <!-- 6 -->
+    <div class="rank-card">
+      <div class="rank-header">
+        <div class="rank-num">6</div>
+        <div class="rank-info">
+          <a class="repo-name" href="https://github.com/shadcn/improve" target="_blank">shadcn/improve</a>
+          <div class="repo-meta">
+            <span class="meta-item"><span class="stars">⭐ 6,429</span></span>
+            <span class="meta-item"><span class="lang-dot lang-null"></span> —</span>
+          </div>
+        </div>
+      </div>
+      <p class="desc">Use your most capable model to audit your codebase and write plans for cheaper models to execute. shadcn 推出的代码审查 AI 工具。</p>
+    </div>
+
+    <!-- 7 -->
+    <div class="rank-card">
+      <div class="rank-header">
+        <div class="rank-num">7</div>
+        <div class="rank-info">
+          <a class="repo-name" href="https://github.com/omnigent-ai/omnigent" target="_blank">omnigent-ai/omnigent</a>
+          <div class="repo-meta">
+            <span class="meta-item"><span class="stars">⭐ 5,485</span></span>
+            <span class="meta-item"><span class="lang-dot lang-python"></span> Python</span>
+          </div>
+        </div>
+      </div>
+      <p class="desc">Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting.</p>
+    </div>
+
+    <!-- 8 -->
+    <div class="rank-card">
+      <div class="rank-header">
+        <div class="rank-num">8</div>
+        <div class="rank-info">
+          <a class="repo-name" href="https://github.com/XxHuberrr/Mineradio" target="_blank">XxHuberrr/Mineradio</a>
+          <div class="repo-meta">
+            <span class="meta-item"><span class="stars">⭐ 5,211</span></span>
+            <span class="meta-item"><span class="lang-dot lang-html"></span> HTML</span>
+          </div>
+        </div>
+      </div>
+      <p class="desc">一款以电影镜头、粒子视觉和歌词舞台为核心的沉浸式音乐播放器。视觉效果惊艳，支持歌词同步。</p>
+    </div>
+
+    <!-- 9 -->
+    <div class="rank-card">
+      <div class="rank-header">
+        <div class="rank-num">9</div>
+        <div class="rank-info">
+          <a class="repo-name" href="https://github.com/diffusionstudio/lottie" target="_blank">diffusionstudio/lottie</a>
+          <div class="repo-meta">
+            <span class="meta-item"><span class="stars">⭐ 4,119</span></span>
+            <span class="meta-item"><span class="lang-dot lang-typescript"></span> TypeScript</span>
+          </div>
+        </div>
+      </div>
+      <p class="desc">Generate production-ready Lottie animations with Claude Code or Codex. AI 生成 Lottie 动画的利器。</p>
+    </div>
+
+    <!-- 10 -->
+    <div class="rank-card">
+      <div class="rank-header">
+        <div class="rank-num">10</div>
+        <div class="rank-info">
+          <a class="repo-name" href="https://github.com/cobusgreyling/loop-engineering" target="_blank">cobusgreyling/loop-engineering</a>
+          <div class="repo-meta">
+            <span class="meta-item"><span class="stars">⭐ 4,084</span></span>
+            <span class="meta-item"><span class="lang-dot lang-javascript"></span> JavaScript</span>
+          </div>
+        </div>
+      </div>
+      <p class="desc">Practical patterns, starters & CLI tools for loop engineering with AI coding agents. AI 编码智能体的循环工程实用模式与工具。</p>
+    </div>
+
+    <div class="footer">
+      <p>📅 报告生成时间：2026-06-30 10:00 CST</p>
+      <p>🔗 <a href="https://yaoshining.github.io/github-insights/reports/2026/06/30.html">在线查看完整报告</a></p>
+    </div>
+  </div>
+</body>
+</html>
