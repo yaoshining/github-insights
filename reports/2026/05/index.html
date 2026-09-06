@@ -1,75 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2026年5月报告索引</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #1a1a2e, #16213e);
-            min-height: 100vh;
-            color: #e4e4e4;
-            padding: 40px 20px;
-        }
-        .container { max-width: 800px; margin: 0 auto; }
-        h1 { color: #fff; margin-bottom: 30px; }
-        .back { color: #48dbfb; text-decoration: none; display: inline-block; margin-bottom: 20px; }
-        .report-list { list-style: none; }
-        .report-list li { 
-            background: rgba(255,255,255,0.05); 
-            padding: 20px; 
-            margin-bottom: 15px; 
-            border-radius: 12px;
-            border: 1px solid rgba(255,255,255,0.08);
-        }
-        .report-list a { color: #48dbfb; text-decoration: none; font-size: 1.1em; }
-        .report-list a:hover { text-decoration: underline; }
-        .report-list .date { color: #888; font-size: 0.9em; margin-left: 10px; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="每日追踪 GitHub 热门项目、AI 开源动态与技术趋势">
+<title>2026 年 5 月报告索引</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{color-scheme:dark}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);min-height:100vh;color:#e4e4e4;line-height:1.75}
+.container{max-width:1000px;margin:auto;padding:40px 24px}header{margin:24px 0 40px}h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.25;margin:12px 0 20px;background:linear-gradient(90deg,#ff6b6b,#feca57,#48dbfb,#ff9ff3);background-clip:text;-webkit-background-clip:text;color:transparent}h2{font-size:1.5rem;margin:0 0 18px;color:#feca57}h3{font-size:1.12rem;margin:0 0 8px}a{color:#7dd3fc;text-underline-offset:4px;overflow-wrap:anywhere}a:hover{color:#bceaff}a:focus-visible{outline:2px solid #feca57;outline-offset:5px}.subtitle,.muted{color:#b5c2d2}.eyebrow{font-size:.85rem;letter-spacing:.08em;color:#fbbf87}.card,.latest-report{background:rgba(10,19,37,.58);border:1px solid rgba(255,255,255,.15);border-radius:16px;padding:24px;min-width:0}.latest-report{padding:32px;margin-bottom:36px}.card p+p{margin-top:12px}.report-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:16px}.reports{display:grid;gap:20px}.meta{display:flex;gap:8px 18px;flex-wrap:wrap;margin:12px 0;color:#b5c2d2;font-size:.88rem}.stars{color:#fbbf87}.tag{display:inline-block;font-size:.82rem;color:#8fd5ff;background:#19446d;padding:2px 10px;border-radius:20px}.btn{display:inline-block;margin-top:20px;padding:10px 24px;border-radius:24px;background:linear-gradient(90deg,#667eea,#764ba2);color:white;text-decoration:none;font-weight:600}nav{display:flex;gap:12px 24px;flex-wrap:wrap;margin-bottom:28px}.section{margin:36px 0}.archive-list{list-style:none;display:grid;gap:12px}.archive-list>li{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:16px 20px}.archive-list a{font-weight:600}details{margin-top:10px;font-size:.85rem;color:#b5c2d2}details a{display:block;margin:8px 0}.reason{color:#c8d4e3}.source{font-size:.85rem;margin-top:16px}footer{margin-top:44px;padding-top:24px;border-top:1px solid rgba(255,255,255,.16);color:#b5c2d2;font-size:.85rem}footer p+p{margin-top:8px}time{font-variant-numeric:tabular-nums}p,li,h1,h2,h3{overflow-wrap:anywhere}.note{border-left:3px solid #fbbf87;padding-left:16px;margin-top:16px}.skip{position:absolute;left:12px;top:-100px}.skip:focus{top:12px;background:#16213e;padding:10px;z-index:2}
+@media(max-width:480px){.container{padding:24px 16px}.card,.latest-report{padding:20px}header{margin:16px 0 28px}h2{font-size:1.25rem}nav{font-size:.9rem}.meta{gap:6px 12px}}
+</style>
 </head>
-<body>
-    <div class="container">
-        <a href="../../../index.html" class="back">← 返回首页</a>
-        <h1>📁 2026年5月报告</h1>
-        <ul class="report-list">
-            <li>
-                <a href="2026-05-12.html">2026-05-12<span class="date">周二</span></a>
-                <p style="color:#888;margin-top:8px;">GitHub API网络异常，报告基于静态参考数据生成</p>
-            </li>
-            <li>
-                <a href="2026-05-11.html">2026-05-11<span class="date">周一</span></a>
-                <p style="color:#888;margin-top:8px;">3DCellForge冲高 · MCP协议持续火爆 · 视频生成新秀</p>
-            </li>
-            <li>
-                <a href="2026-05-10.html">2026-05-10<span class="date">周日</span></a>
-                <p style="color:#888;margin-top:8px;">浏览器自动化 · 数据库diff · 国产LLM推理框架</p>
-            </li>
-            <li>
-                <a href="2026-05-09.html">2026-05-09<span class="date">周五</span></a>
-                <p style="color:#888;margin-top:8px;">分布式SQLite · AI编程工具 · 数据可视化新库</p>
-            </li>
-            <li>
-                <a href="2026-05-07.html">2026-05-07<span class="date">周四</span></a>
-                <p style="color:#888;margin-top:8px;">Rust重写工具链 · AI代码生成 · 前端工程化</p>
-            </li>
-            <li>
-                <a href="2026-05-05.html">2026-05-05<span class="date">周二</span></a>
-                <p style="color:#888;margin-top:8px;">MCP协议爆发月 · 国产AI工具崛起</p>
-            </li>
-            <li>
-                <a href="2026-05-04.html">2026-05-04<span class="date">周一</span></a>
-                <p style="color:#888;margin-top:8px;">视频生成 · 前端框架 · AI开发平台</p>
-            </li>
-            <li>
-                <a href="2026-05-02.html">2026-05-02<span class="date">周六</span></a>
-                <p style="color:#888;margin-top:8px;">AI Agent框架 · 数据库工具 · 开源LLM</p>
-            </li>
-            <li>
-                <a href="2026-05-01.html">2026-05-01<span class="date">周五</span></a>
-                <p style="color:#888;margin-top:8px;">AI编程助手 · 开发者工具 · 开源AI平台</p>
-            </li>
-        </ul>
-    </div>
-</body>
+<body><a class="skip" href="#main">跳至正文</a><main id="main" class="container">
+<nav aria-label="归档导航"><a href="../../../index.html">← 返回首页</a><a href="../index.html">2026 年归档</a></nav><header><p class="eyebrow">月度归档</p><h1>2026 年 5 月</h1><p class="subtitle">27 期日报 · 最新在前</p></header><ul class="archive-list"><li><a href="30.html"><time datetime="2026-05-30">2026-05-30</time> · 阅读日报 →</a></li><li><a href="29.html"><time datetime="2026-05-29">2026-05-29</time> · 阅读日报 →</a></li><li><a href="28.html"><time datetime="2026-05-28">2026-05-28</time> · 阅读日报 →</a></li><li><a href="27.html"><time datetime="2026-05-27">2026-05-27</time> · 阅读日报 →</a></li><li><a href="26.html"><time datetime="2026-05-26">2026-05-26</time> · 阅读日报 →</a></li><li><a href="25.html"><time datetime="2026-05-25">2026-05-25</time> · 阅读日报 →</a></li><li><a href="24.html"><time datetime="2026-05-24">2026-05-24</time> · 阅读日报 →</a></li><li><a href="23.html"><time datetime="2026-05-23">2026-05-23</time> · 阅读日报 →</a></li><li><a href="22.html"><time datetime="2026-05-22">2026-05-22</time> · 阅读日报 →</a></li><li><a href="21.html"><time datetime="2026-05-21">2026-05-21</time> · 阅读日报 →</a></li><li><a href="20.html"><time datetime="2026-05-20">2026-05-20</time> · 阅读日报 →</a></li><li><a href="19.html"><time datetime="2026-05-19">2026-05-19</time> · 阅读日报 →</a></li><li><a href="18.html"><time datetime="2026-05-18">2026-05-18</time> · 阅读日报 →</a></li><li><a href="17.html"><time datetime="2026-05-17">2026-05-17</time> · 阅读日报 →</a></li><li><a href="16.html"><time datetime="2026-05-16">2026-05-16</time> · 阅读日报 →</a></li><li><a href="15.html"><time datetime="2026-05-15">2026-05-15</time> · 阅读日报 →</a></li><li><a href="14.html"><time datetime="2026-05-14">2026-05-14</time> · 阅读日报 →</a></li><li><a href="13.html"><time datetime="2026-05-13">2026-05-13</time> · 阅读日报 →</a></li><li><a href="12.html"><time datetime="2026-05-12">2026-05-12</time> · 阅读日报 →</a></li><li><a href="11.html"><time datetime="2026-05-11">2026-05-11</time> · 阅读日报 →</a></li><li><a href="10.html"><time datetime="2026-05-10">2026-05-10</time> · 阅读日报 →</a></li><li><a href="09.html"><time datetime="2026-05-09">2026-05-09</time> · 阅读日报 →</a></li><li><a href="07.html"><time datetime="2026-05-07">2026-05-07</time> · 阅读日报 →</a></li><li><a href="05.html"><time datetime="2026-05-05">2026-05-05</time> · 阅读日报 →</a></li><li><a href="04.html"><time datetime="2026-05-04">2026-05-04</time> · 阅读日报 →</a></li><li><a href="02.html"><time datetime="2026-05-02">2026-05-02</time> · 阅读日报 →</a></li><li><a href="01.html"><time datetime="2026-05-01">2026-05-01</time> · 阅读日报 →</a></li></ul>
+<footer><p>GitHub Insights · 每日追踪开源动态</p><p><a href="https://github.com/yaoshining/github-insights">项目仓库</a> · Made with ❤️ by <a href="https://github.com/yaoshining">@yaoshining</a></p></footer>
+</main></body>
 </html>

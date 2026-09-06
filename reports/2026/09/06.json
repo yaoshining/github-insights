@@ -1,0 +1,282 @@
+{
+  "date": "2026-09-06",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-06T09:02:28.321669+08:00",
+  "verified_at": "2026-09-06T09:03:27.441628+08:00",
+  "items": [
+    {
+      "repo": "mattpocock/skills",
+      "rank": 1,
+      "stars": 252651,
+      "daily": 2692,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "mattpocock/skills",
+        "description": "Skills for Real Engineers. Straight from my .agents directory.",
+        "language": "Shell",
+        "stargazers_count": 252651,
+        "pushed_at": "2026-09-04T08:45:43Z",
+        "archived": false,
+        "html_url": "https://github.com/mattpocock/skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mattpocock/skills/readme",
+      "category": "工程工作流",
+      "summary_zh": "把需求澄清、共享术语、测试驱动开发等工程实践拆成小型、可组合的工作流程，供编程助手按需使用。",
+      "editorial_reason_zh": "适合希望保留开发节奏控制权的团队：可以从一个具体环节开始改进，再按项目习惯调整。"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "rank": 2,
+      "stars": 249906,
+      "daily": 1314,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "affaan-m/ECC",
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "stargazers_count": 249909,
+        "pushed_at": "2026-09-05T21:47:27Z",
+        "archived": false,
+        "html_url": "https://github.com/affaan-m/ECC",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/affaan-m/ECC/readme",
+      "category": "Agent 工具体系",
+      "summary_zh": "围绕编程助手组织技能、命令、记忆和钩子，面向多种开发工具提供可复用的工作配置。",
+      "editorial_reason_zh": "适合已经使用 AI 编程、希望统一团队执行方式的开发者。可关注其对研究、验证和上下文管理的组织方式。"
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "rank": 3,
+      "stars": 127954,
+      "daily": 2845,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "DietrichGebert/ponytail",
+        "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+        "language": "JavaScript",
+        "stargazers_count": 127954,
+        "pushed_at": "2026-09-04T12:35:29Z",
+        "archived": false,
+        "html_url": "https://github.com/DietrichGebert/ponytail",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/DietrichGebert/ponytail/readme",
+      "category": "简化代码",
+      "summary_zh": "引导编程助手优先复用现有能力、减少不必要的代码和依赖；README 用原生日期输入框替代额外组件说明其思路。",
+      "editorial_reason_zh": "本期所选项目中日增星标最多。对减少过度设计有参考价值，但项目公布的效率数字属于作者测试，不代表所有项目的效果。"
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "rank": 4,
+      "stars": 242016,
+      "daily": 575,
+      "language": "Python",
+      "metadata": {
+        "full_name": "NousResearch/hermes-agent",
+        "description": "The agent that grows with you",
+        "language": "Python",
+        "stargazers_count": 242016,
+        "pushed_at": "2026-09-06T00:00:21Z",
+        "archived": false,
+        "html_url": "https://github.com/NousResearch/hermes-agent",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/NousResearch/hermes-agent/readme",
+      "category": "长期任务助手",
+      "summary_zh": "Nous Research 的助手框架，结合会话检索、记忆、经验复用、工具调用和定时执行，支持终端及消息平台入口。",
+      "editorial_reason_zh": "适合研究跨会话的持续任务与知识积累。重点可看记忆如何更新，以及定时任务怎样交付结果。"
+    },
+    {
+      "repo": "fmtlib/fmt",
+      "rank": 5,
+      "stars": 25571,
+      "daily": 134,
+      "language": "C++",
+      "metadata": {
+        "full_name": "fmtlib/fmt",
+        "description": "A modern formatting library",
+        "language": "C++",
+        "stargazers_count": 25571,
+        "pushed_at": "2026-09-05T22:40:31Z",
+        "archived": false,
+        "html_url": "https://github.com/fmtlib/fmt",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/fmtlib/fmt/readme",
+      "category": "C++ 基础库",
+      "summary_zh": "现代 C++ 文本格式化库，提供类型安全的格式化接口，支持自定义类型、Unicode 和可选的仅头文件用法。",
+      "editorial_reason_zh": "为 C++ 项目的日志与文本输出提供成熟选择。其上榜也提醒我们，开发基础设施仍值得在 AI 热点之外持续跟踪。"
+    },
+    {
+      "repo": "anthropics/skills",
+      "rank": 6,
+      "stars": 174568,
+      "daily": 475,
+      "language": "Python",
+      "metadata": {
+        "full_name": "anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "language": "Python",
+        "stargazers_count": 174568,
+        "pushed_at": "2026-09-03T16:37:14Z",
+        "archived": false,
+        "html_url": "https://github.com/anthropics/skills",
+        "license": null,
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/anthropics/skills/readme",
+      "category": "工作流程示例",
+      "summary_zh": "Anthropic 提供的任务技能示例集合，以指令、脚本与资源组织设计、技术和办公类工作流程。",
+      "editorial_reason_zh": "适合参考任务拆解与目录组织。仓库包含不同许可：许多示例为 Apache 2.0，部分文档技能仅开放源码，复用时应查看对应目录许可。"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "rank": 7,
+      "stars": 31692,
+      "daily": 855,
+      "language": "HTML",
+      "metadata": {
+        "full_name": "cathrynlavery/diagram-design",
+        "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "stargazers_count": 31695,
+        "pushed_at": "2026-09-03T02:53:29Z",
+        "archived": false,
+        "html_url": "https://github.com/cathrynlavery/diagram-design",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cathrynlavery/diagram-design/readme",
+      "category": "技术可视化",
+      "summary_zh": "将技术说明和系统关系制作成 HTML 与 SVG 图示，提供不同图表类型及明暗风格；默认输出为静态页面。",
+      "editorial_reason_zh": "适合需要把架构和流程说明嵌入文档的团队。可直接阅读生成结果的网页源码，便于后续维护和调整。"
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "rank": 8,
+      "stars": 204680,
+      "daily": 725,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "anomalyco/opencode",
+        "description": "The open source coding agent.",
+        "language": "TypeScript",
+        "stargazers_count": 204680,
+        "pushed_at": "2026-09-06T00:21:38Z",
+        "archived": false,
+        "html_url": "https://github.com/anomalyco/opencode",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "dev"
+      },
+      "readme_url": "https://api.github.com/repos/anomalyco/opencode/readme",
+      "category": "AI 编程助手",
+      "summary_zh": "开源 AI 编程助手，提供终端界面及桌面应用，并区分执行开发工作的 build 模式与偏分析的 plan 模式。",
+      "editorial_reason_zh": "适合观察开放式编程工具的交互与工作流设计，也可作为团队评估 AI 编程环境时的候选项目。"
+    },
+    {
+      "repo": "humanlayer/skills",
+      "rank": 10,
+      "stars": 2707,
+      "daily": 442,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "humanlayer/skills",
+        "description": null,
+        "language": "TypeScript",
+        "stargazers_count": 2709,
+        "pushed_at": "2026-08-13T15:05:30Z",
+        "archived": false,
+        "html_url": "https://github.com/humanlayer/skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/humanlayer/skills/readme",
+      "category": "开发流程改进",
+      "summary_zh": "HumanLayer 的任务技能集合，涵盖指令文件改写、React 属性类型收窄、迭代式开发循环及简明可视化说明。",
+      "editorial_reason_zh": "规模较小但问题定位具体，适合从单个流程改进切入；本期记录其 Trending 展示数据，未把星标增长解释为实际采用率。"
+    },
+    {
+      "repo": "magnitudedev/magnitude",
+      "rank": 14,
+      "stars": 3210,
+      "daily": 674,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "magnitudedev/magnitude",
+        "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+        "language": "TypeScript",
+        "stargazers_count": 3210,
+        "pushed_at": "2026-09-05T21:51:37Z",
+        "archived": false,
+        "html_url": "https://github.com/magnitudedev/magnitude",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/magnitudedev/magnitude/readme",
+      "category": "本地模型推理",
+      "summary_zh": "本地推理服务，根据硬件情况推荐与运行模型，并连接已有的编程助手；支持模型按需加载与空闲卸载。",
+      "editorial_reason_zh": "适合探索本地模型与现有开发工具的衔接。实际可运行模型和速度依赖设备，应结合自身硬件验证。"
+    }
+  ]
+}
