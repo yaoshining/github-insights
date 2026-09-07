@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-07",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-07T09:03:00.204392+08:00",
+  "verified_at": "2026-09-07T09:03:34.711500+08:00",
+  "items": [
+    {
+      "repo": "affaan-m/ECC",
+      "rank": 1,
+      "stars": 251336,
+      "daily": 1485,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "affaan-m/ECC",
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "stargazers_count": 251339,
+        "pushed_at": "2026-09-05T21:47:27Z",
+        "archived": false,
+        "html_url": "https://github.com/affaan-m/ECC",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/affaan-m/ECC/readme",
+      "category": "AI 开发流程",
+      "summary_zh": "为编程助手组织任务技能、命令、记忆和钩子，支持多种开发工具，覆盖研究、实现与验证等工作环节。",
+      "editorial_reason_zh": "今天采集时位于 Trending 第 1，昨日快照为第 2。适合研究如何把分散的助手配置整理成可复用的开发流程；排名变化本身不代表质量提升。"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "rank": 2,
+      "stars": 254569,
+      "daily": 2207,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "mattpocock/skills",
+        "description": "Skills for Real Engineers. Straight from my .agents directory.",
+        "language": "Shell",
+        "stargazers_count": 254570,
+        "pushed_at": "2026-09-04T08:45:43Z",
+        "archived": false,
+        "html_url": "https://github.com/mattpocock/skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mattpocock/skills/readme",
+      "category": "工程实践",
+      "summary_zh": "以小型、可组合的任务指令组织需求澄清、共享术语与测试驱动开发等实践，允许使用者按项目修改和组合。",
+      "editorial_reason_zh": "本期入选项目中页面显示的今日新增星标最多，为 2,207。适合选择一个具体工程环节试用，观察它能否改善需求理解和验证反馈。"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "rank": 3,
+      "stars": 32371,
+      "daily": 620,
+      "language": "HTML",
+      "metadata": {
+        "full_name": "cathrynlavery/diagram-design",
+        "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "stargazers_count": 32373,
+        "pushed_at": "2026-09-06T21:40:44Z",
+        "archived": false,
+        "html_url": "https://github.com/cathrynlavery/diagram-design",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cathrynlavery/diagram-design/readme",
+      "category": "技术图示",
+      "summary_zh": "将系统关系和技术说明制作成可直接浏览的 HTML 与 SVG 图示，提供多种布局及明暗样式，默认采用静态输出。",
+      "editorial_reason_zh": "在两次采集快照中从第 7 移至第 3。对于架构说明、流程文档和演示材料，可关注其如何把图形布局与所表达的关系分开组织。"
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "rank": 6,
+      "stars": 205266,
+      "daily": 551,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "anomalyco/opencode",
+        "description": "The open source coding agent.",
+        "language": "TypeScript",
+        "stargazers_count": 205267,
+        "pushed_at": "2026-09-07T01:03:21Z",
+        "archived": false,
+        "html_url": "https://github.com/anomalyco/opencode",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "dev"
+      },
+      "readme_url": "https://api.github.com/repos/anomalyco/opencode/readme",
+      "category": "AI 编程助手",
+      "summary_zh": "提供终端界面和桌面应用的开源编程助手，内置用于开发执行的 build 模式，以及用于分析和探索的 plan 模式。",
+      "editorial_reason_zh": "适合把同一项真实开发任务放入不同工作模式比较，观察代码探索、执行控制和修改审查是否符合团队习惯。"
+    },
+    {
+      "repo": "blader/humanizer",
+      "rank": 7,
+      "stars": 44248,
+      "daily": 748,
+      "language": "Python",
+      "metadata": {
+        "full_name": "blader/humanizer",
+        "description": "Agent skill that removes signs of AI-generated writing from text",
+        "language": "Python",
+        "stargazers_count": 44249,
+        "pushed_at": "2026-09-06T20:26:10Z",
+        "archived": false,
+        "html_url": "https://github.com/blader/humanizer",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/blader/humanizer/readme",
+      "category": "文字编辑",
+      "summary_zh": "通过任务指令识别模板化措辞、空泛强调与机械句式，并据此改写文字；可结合写作样本调整语气。",
+      "editorial_reason_zh": "可用于编辑项目介绍和技术文档。其 README 强调保留事实与来源，适合把它作为文字审校步骤，改写后仍需核对原意。"
+    },
+    {
+      "repo": "llvm/llvm-project",
+      "rank": 8,
+      "stars": 40212,
+      "daily": 23,
+      "language": "LLVM",
+      "metadata": {
+        "full_name": "llvm/llvm-project",
+        "description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
+        "language": "LLVM",
+        "stargazers_count": 40212,
+        "pushed_at": "2026-09-06T22:42:11Z",
+        "archived": false,
+        "html_url": "https://github.com/llvm/llvm-project",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/llvm/llvm-project/readme",
+      "category": "编译工具链",
+      "summary_zh": "LLVM 汇集编译器、优化器和运行时相关技术，包含中间表示处理工具，以及 Clang、libc++ 和 LLD 等组件。",
+      "editorial_reason_zh": "为本期补充编译基础设施视角。页面显示今日新增 23 星却位于第 8，说明榜单位置不能当作今日新增星标的降序排名。语言字段沿用 GitHub 显示的 LLVM 标签。"
+    },
+    {
+      "repo": "magnitudedev/magnitude",
+      "rank": 11,
+      "stars": 3672,
+      "daily": 604,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "magnitudedev/magnitude",
+        "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+        "language": "TypeScript",
+        "stargazers_count": 3674,
+        "pushed_at": "2026-09-06T23:28:31Z",
+        "archived": false,
+        "html_url": "https://github.com/magnitudedev/magnitude",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/magnitudedev/magnitude/readme",
+      "category": "本地推理",
+      "summary_zh": "根据设备芯片、内存等条件推荐并运行本地模型，再连接已有编程助手；支持按需加载模型与空闲卸载。",
+      "editorial_reason_zh": "适合希望保留现有开发界面、尝试本地推理的人。可先检查设备能容纳的模型和实际响应速度，再判断是否适合日常任务。"
+    },
+    {
+      "repo": "aipoch/open-science",
+      "rank": 14,
+      "stars": 3857,
+      "daily": 146,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "aipoch/open-science",
+        "description": "Open Science by AIPOCH is an open-source, local-first, model-agnostic AI research workbench for macOS, Windows, and Linux, with scientific agents, Python/R notebooks, data connectors, and reproducible provenance.",
+        "language": "TypeScript",
+        "stargazers_count": 3857,
+        "pushed_at": "2026-09-07T01:00:43Z",
+        "archived": false,
+        "html_url": "https://github.com/aipoch/open-science",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/aipoch/open-science/readme",
+      "category": "科研工作台",
+      "summary_zh": "AIPOCH 的本地优先 AI 科研工作台，将科学数据连接、Python/R 执行、研究助手和可追溯的报告、表格及图形组织在同一项目中。",
+      "editorial_reason_zh": "适合观察 AI 如何参与可复现的数据分析。重点是检查从源材料、代码执行到输出结果的记录是否足够完整；本期未复核项目展示的基准成绩。"
+    },
+    {
+      "repo": "OpenWhispr/openwhispr",
+      "rank": 15,
+      "stars": 7370,
+      "daily": 121,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "OpenWhispr/openwhispr",
+        "description": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
+        "language": "JavaScript",
+        "stargazers_count": 7370,
+        "pushed_at": "2026-09-05T00:12:21Z",
+        "archived": false,
+        "html_url": "https://github.com/OpenWhispr/openwhispr",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/OpenWhispr/openwhispr/readme",
+      "category": "语音输入",
+      "summary_zh": "跨平台桌面语音转文字工具，可通过快捷键将口述内容输入当前应用，支持本地 Whisper、Parakeet 以及云端处理选项，也包含会议转录与笔记功能。",
+      "editorial_reason_zh": "适合频繁口述草稿或记录会议的人。选择本地模式或云端模式会影响处理位置，评估时可分别检查识别准确度、延迟和设备负载。"
+    },
+    {
+      "repo": "humanlayer/skills",
+      "rank": 16,
+      "stars": 3141,
+      "daily": 451,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "humanlayer/skills",
+        "description": null,
+        "language": "TypeScript",
+        "stargazers_count": 3141,
+        "pushed_at": "2026-08-13T15:05:30Z",
+        "archived": false,
+        "html_url": "https://github.com/humanlayer/skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/humanlayer/skills/readme",
+      "category": "开发流程改进",
+      "summary_zh": "HumanLayer 的任务技能集合，覆盖项目指令改写、React 属性类型收窄、迭代式开发循环及简明图示说明。",
+      "editorial_reason_zh": "关注点在于把宽泛的开发需求拆成可执行的小步骤。例如类型收窄以真实代码路径为依据，适合用于减少组件接口中缺乏实际用途的状态。"
+    }
+  ]
+}
