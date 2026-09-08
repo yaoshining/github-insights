@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-08",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-08T09:01:22.893546+08:00",
+  "verified_at": "2026-09-08T09:01:52.955908+08:00",
+  "items": [
+    {
+      "repo": "heygen-com/hyperframes",
+      "rank": 1,
+      "stars": 45946,
+      "daily": 474,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "heygen-com/hyperframes",
+        "description": "Write HTML. Render video. Built for agents.",
+        "language": "TypeScript",
+        "stargazers_count": 45947,
+        "pushed_at": "2026-09-08T01:01:45Z",
+        "archived": false,
+        "html_url": "https://github.com/heygen-com/hyperframes",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/heygen-com/hyperframes/readme",
+      "category": "HTML 视频生成",
+      "summary_zh": "把 HTML、CSS、媒体素材和可定位时间的动画渲染成 MP4 视频，提供本地命令行及供编程助手使用的创作流程。",
+      "editorial_reason_zh": "适合已有网页技术积累的内容团队：可以把画面结构保留为可维护的代码，再预览并渲染。今日采集时位于 Trending 第 1。"
+    },
+    {
+      "repo": "microsoft/markitdown",
+      "rank": 2,
+      "stars": 180238,
+      "daily": 886,
+      "language": "Python",
+      "metadata": {
+        "full_name": "microsoft/markitdown",
+        "description": "Python tool for converting files and office documents to Markdown.",
+        "language": "Python",
+        "stargazers_count": 180240,
+        "pushed_at": "2026-09-07T04:58:15Z",
+        "archived": false,
+        "html_url": "https://github.com/microsoft/markitdown",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/microsoft/markitdown/readme",
+      "category": "文档转换",
+      "summary_zh": "将 PDF、Office 文档、HTML 等文件转换为 Markdown，尽量保留标题、列表、表格和链接，面向文本分析及模型输入流程。",
+      "editorial_reason_zh": "适合整理知识库源材料和批量处理文档。README 明确说明它偏向内容与结构提取，若需要还原原始版式，应另行验证转换结果。"
+    },
+    {
+      "repo": "mksglu/context-mode",
+      "rank": 3,
+      "stars": 20834,
+      "daily": 96,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "mksglu/context-mode",
+        "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+        "language": "TypeScript",
+        "stargazers_count": 20835,
+        "pushed_at": "2026-09-07T12:06:52Z",
+        "archived": false,
+        "html_url": "https://github.com/mksglu/context-mode",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mksglu/context-mode/readme",
+      "category": "上下文管理 · 源码可见",
+      "summary_zh": "通过 MCP 工具在隔离执行环境中处理原始输出，按需检索相关片段，并使用 SQLite 记录会话事件以辅助任务延续。",
+      "editorial_reason_zh": "适合研究长日志、大批工具输出怎样占用上下文。项目使用 Elastic License 2.0，属于源码可见项目；README 的压缩率是项目方示例，本期未进行独立性能测试。"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "rank": 6,
+      "stars": 252849,
+      "daily": 1897,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "affaan-m/ECC",
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "stargazers_count": 252851,
+        "pushed_at": "2026-09-07T22:36:32Z",
+        "archived": false,
+        "html_url": "https://github.com/affaan-m/ECC",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/affaan-m/ECC/readme",
+      "category": "AI 开发流程",
+      "summary_zh": "为编程助手组织任务技能、命令、钩子与记忆，使研究、实现、验证等步骤能够在多个工具中复用。",
+      "editorial_reason_zh": "本期入选项目中页面显示的今日新增最高，为 1,897 星。适合从已有开发流程中的一个具体问题切入，检验配置能否减少重复工作。"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "rank": 7,
+      "stars": 48133,
+      "daily": 580,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "coreyhaines31/marketingskills",
+        "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+        "language": "JavaScript",
+        "stargazers_count": 48134,
+        "pushed_at": "2026-09-05T04:48:10Z",
+        "archived": false,
+        "html_url": "https://github.com/coreyhaines31/marketingskills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/coreyhaines31/marketingskills/readme",
+      "category": "营销工作流程",
+      "summary_zh": "面向技术营销人员与产品创始人的任务技能集合，覆盖文案、搜索优化、转化分析及增长工作，并共享产品、受众和定位背景。",
+      "editorial_reason_zh": "可参考它如何将产品背景传递给多个专业任务。适合辅助准备文案和分析框架，实际效果仍需用自身业务数据验证。"
+    },
+    {
+      "repo": "BraveOPotato/FckSignups",
+      "rank": 9,
+      "stars": 3823,
+      "daily": 501,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "BraveOPotato/FckSignups",
+        "description": "A list of tools that are open-source, in-browser, and require no-signups!",
+        "language": "TypeScript",
+        "stargazers_count": 3823,
+        "pushed_at": "2026-09-07T22:29:44Z",
+        "archived": false,
+        "html_url": "https://github.com/BraveOPotato/FckSignups",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/BraveOPotato/FckSignups/readme",
+      "category": "免注册工具目录",
+      "summary_zh": "README 将项目称为 NoSignups，收录可在浏览器使用、无需创建账户的工具，按设计、开发、数据、媒体等类别组织。",
+      "editorial_reason_zh": "适合查找临时处理任务的小工具，也可参考其目录数据结构。目录代码与收录工具各自采用相应许可，具体工具的行为需单独核对。"
+    },
+    {
+      "repo": "bytedance/deer-flow",
+      "rank": 10,
+      "stars": 81855,
+      "daily": 195,
+      "language": "Python",
+      "metadata": {
+        "full_name": "bytedance/deer-flow",
+        "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+        "language": "Python",
+        "stargazers_count": 81855,
+        "pushed_at": "2026-09-07T10:43:01Z",
+        "archived": false,
+        "html_url": "https://github.com/bytedance/deer-flow",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/bytedance/deer-flow/readme",
+      "category": "长任务助手框架",
+      "summary_zh": "围绕研究、编程与内容创作组织助手执行环境，结合子任务分工、记忆、工具和沙盒来处理较长的任务流程。",
+      "editorial_reason_zh": "适合研究多步骤工作怎样从资料收集推进到文件产出。可重点观察中间结果、执行记录与恢复机制，而非只看最终回答。"
+    },
+    {
+      "repo": "lightpanda-io/browser",
+      "rank": 12,
+      "stars": 34853,
+      "daily": 58,
+      "language": "Zig",
+      "metadata": {
+        "full_name": "lightpanda-io/browser",
+        "description": "Lightpanda: the headless browser designed for AI and automation",
+        "language": "Zig",
+        "stargazers_count": 34853,
+        "pushed_at": "2026-09-07T23:20:36Z",
+        "archived": false,
+        "html_url": "https://github.com/lightpanda-io/browser",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/lightpanda-io/browser/readme",
+      "category": "浏览器自动化",
+      "summary_zh": "以 Zig 编写、面向 AI 与自动化的无头浏览器，提供网页获取和 CDP 服务，可接入自动化客户端。",
+      "editorial_reason_zh": "适合评估网页数据处理的资源开销。应使用自己的目标页面检查兼容性与结果完整性；项目公布的速度和内存对比不等同于本期实测。"
+    },
+    {
+      "repo": "pascalorg/editor",
+      "rank": 13,
+      "stars": 22333,
+      "daily": 168,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "pascalorg/editor",
+        "description": "Create and share 3D architectural projects.",
+        "language": "TypeScript",
+        "stargazers_count": 22333,
+        "pushed_at": "2026-09-07T20:40:59Z",
+        "archived": false,
+        "html_url": "https://github.com/pascalorg/editor",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pascalorg/editor/readme",
+      "category": "3D 建筑编辑",
+      "summary_zh": "基于 React Three Fiber 与 WebGPU 的建筑编辑器，将场景状态、渲染、编辑工具和内置节点拆为可复用包，也提供本地编辑器及 MCP 接口。",
+      "editorial_reason_zh": "适合网页 3D 和空间编辑工具开发者，尤其可参考只读查看器与交互编辑器的职责划分，以及场景数据如何持久化。"
+    },
+    {
+      "repo": "ruvnet/ruflo",
+      "rank": 14,
+      "stars": 71395,
+      "daily": 394,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "ruvnet/ruflo",
+        "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+        "language": "TypeScript",
+        "stargazers_count": 71395,
+        "pushed_at": "2026-09-08T00:11:17Z",
+        "archived": false,
+        "html_url": "https://github.com/ruvnet/ruflo",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/ruvnet/ruflo/readme",
+      "category": "多助手协作",
+      "summary_zh": "在编程助手周围增加任务协调、共享记忆和执行控制，面向需要多个角色协作的自动化工作流程。",
+      "editorial_reason_zh": "可与 DeerFlow 对照观察任务分工和状态共享的设计。评估时应关注各步骤能否追踪和验证，先用边界清楚的小任务检查协作是否有收益。"
+    }
+  ]
+}
