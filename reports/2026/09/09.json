@@ -1,0 +1,282 @@
+{
+  "date": "2026-09-09",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-09T09:02:34.458295+08:00",
+  "verified_at": "2026-09-09T09:03:07.536230+08:00",
+  "items": [
+    {
+      "repo": "ayghri/i-have-adhd",
+      "rank": 1,
+      "stars": 30474,
+      "daily": 656,
+      "language": "Python",
+      "metadata": {
+        "full_name": "ayghri/i-have-adhd",
+        "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+        "language": "Python",
+        "stargazers_count": 30476,
+        "pushed_at": "2026-09-08T17:08:54Z",
+        "archived": false,
+        "html_url": "https://github.com/ayghri/i-have-adhd",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/ayghri/i-have-adhd/readme",
+      "category": "助手输出与阅读体验",
+      "summary_zh": "面向 AI 助手的输出规范，将行动项提前，用编号步骤、状态回顾和明确的下一步减少回答中的岔题与信息负担。项目定位于更易阅读的沟通方式，不是医疗工具。",
+      "editorial_reason_zh": "当回答很长却难以开始行动时，调整输出结构本身就值得尝试；效果仍取决于任务与个人偏好。"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "rank": 2,
+      "stars": 34818,
+      "daily": 710,
+      "language": "HTML",
+      "metadata": {
+        "full_name": "cathrynlavery/diagram-design",
+        "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "stargazers_count": 34819,
+        "pushed_at": "2026-09-08T19:45:13Z",
+        "archived": false,
+        "html_url": "https://github.com/cathrynlavery/diagram-design",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cathrynlavery/diagram-design/readme",
+      "category": "HTML 与 SVG 图解",
+      "summary_zh": "将架构、流程和关系等内容组织成独立的 HTML 与 SVG 图解，区分语义模式和布局选择，默认静态呈现，也支持按需加入动效。",
+      "editorial_reason_zh": "适合把技术说明制作成可在浏览器阅读的图解；先确认关系表达准确，再选择布局，比堆叠装饰更有帮助。"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "rank": 4,
+      "stars": 254303,
+      "daily": 1427,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "affaan-m/ECC",
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "stargazers_count": 254304,
+        "pushed_at": "2026-09-09T00:36:37Z",
+        "archived": false,
+        "html_url": "https://github.com/affaan-m/ECC",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/affaan-m/ECC/readme",
+      "category": "AI 工程流程",
+      "summary_zh": "为编程助手提供可复用的任务技能、记忆、钩子和研究验证流程，面向多种助手运行环境组织工程配置。",
+      "editorial_reason_zh": "可作为团队梳理助手工作规范的参考，尤其是把检索、实现与验证串起来；采用时应筛选适合现有项目的部分。"
+    },
+    {
+      "repo": "heygen-com/hyperframes",
+      "rank": 5,
+      "stars": 47762,
+      "daily": 2627,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "heygen-com/hyperframes",
+        "description": "Write HTML. Render video. Built for agents.",
+        "language": "TypeScript",
+        "stargazers_count": 47762,
+        "pushed_at": "2026-09-08T23:55:50Z",
+        "archived": false,
+        "html_url": "https://github.com/heygen-com/hyperframes",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/heygen-com/hyperframes/readme",
+      "category": "代码驱动视频",
+      "summary_zh": "通过 HTML、CSS、媒体素材和可定位时间的动画构建视频，提供本地 CLI 与助手技能流程，将浏览器中的画面渲染为 MP4。",
+      "editorial_reason_zh": "本期精选中今日新增星标最多，为 +2,627；值得关注的是网页技术如何复用于视频制作，实际导出质量仍需用自己的素材验证。"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "rank": 6,
+      "stars": 48819,
+      "daily": 666,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "coreyhaines31/marketingskills",
+        "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+        "language": "JavaScript",
+        "stargazers_count": 48820,
+        "pushed_at": "2026-09-05T04:48:10Z",
+        "archived": false,
+        "html_url": "https://github.com/coreyhaines31/marketingskills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/coreyhaines31/marketingskills/readme",
+      "category": "营销任务技能",
+      "summary_zh": "面向技术营销人员和创始人的助手技能集合，覆盖转化优化、文案、SEO、分析与增长，并让各项任务共享产品、受众和定位背景。",
+      "editorial_reason_zh": "共享背景有助于减少不同营销任务之间的重复说明；文案和优化建议应结合真实业务数据评估。"
+    },
+    {
+      "repo": "obra/superpowers",
+      "rank": 7,
+      "stars": 283362,
+      "daily": 452,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "obra/superpowers",
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell",
+        "stargazers_count": 283362,
+        "pushed_at": "2026-09-08T21:39:23Z",
+        "archived": false,
+        "html_url": "https://github.com/obra/superpowers",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/obra/superpowers/readme",
+      "category": "软件开发方法",
+      "summary_zh": "以可组合技能组织软件开发：从需求澄清与设计开始，再形成实施计划，通过测试驱动、任务执行和审查推进交付。",
+      "editorial_reason_zh": "适合参考如何把模糊需求拆成可验证的步骤；项目的价值在流程约束，使用时仍需保留必要的工程判断。"
+    },
+    {
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "rank": 8,
+      "stars": 211457,
+      "daily": 333,
+      "language": "未标注",
+      "metadata": {
+        "full_name": "multica-ai/andrej-karpathy-skills",
+        "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+        "language": null,
+        "stargazers_count": 211457,
+        "pushed_at": "2026-04-20T10:05:04Z",
+        "archived": false,
+        "html_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+        "license": null,
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/multica-ai/andrej-karpathy-skills/readme",
+      "category": "编程助手指令",
+      "summary_zh": "社区维护的 Karpathy 理念启发式 CLAUDE.md，强调编码前思考、保持简单、聚焦必要改动以及以目标和验证为导向。它并非 Karpathy 官方项目；本次 GitHub API 未识别许可证，复用前需查看仓库许可说明。",
+      "editorial_reason_zh": "与大型技能集合相比，这份简短规则文件便于理解和评估，适合思考哪些约束真正有助于减少无关改动。"
+    },
+    {
+      "repo": "microsoft/markitdown",
+      "rank": 9,
+      "stars": 181687,
+      "daily": 2047,
+      "language": "Python",
+      "metadata": {
+        "full_name": "microsoft/markitdown",
+        "description": "Python tool for converting files and office documents to Markdown.",
+        "language": "Python",
+        "stargazers_count": 181687,
+        "pushed_at": "2026-09-07T04:58:15Z",
+        "archived": false,
+        "html_url": "https://github.com/microsoft/markitdown",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/microsoft/markitdown/readme",
+      "category": "文档转 Markdown",
+      "summary_zh": "将 PDF、Office、HTML 等文件转换为 Markdown，尽量保留标题、列表、表格和链接等文本结构，用于内容分析与大模型输入。它不以还原原始视觉排版为目标。",
+      "editorial_reason_zh": "今日新增 +2,047，文档输入处理仍受关注；选型时应检查自己的文件类型，以及表格和复杂版面的转换结果。"
+    },
+    {
+      "repo": "browser-use/browser-use",
+      "rank": 12,
+      "stars": 113507,
+      "daily": 228,
+      "language": "Python",
+      "metadata": {
+        "full_name": "browser-use/browser-use",
+        "description": "Agents that use the browser.",
+        "language": "Python",
+        "stargazers_count": 113507,
+        "pushed_at": "2026-09-07T19:55:36Z",
+        "archived": false,
+        "html_url": "https://github.com/browser-use/browser-use",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/browser-use/browser-use/readme",
+      "category": "浏览器自动化",
+      "summary_zh": "让 AI 助手操作浏览器，执行页面浏览、点击、表单输入和信息提取等任务；提供 Python 库，并另有托管云服务。",
+      "editorial_reason_zh": "适合探索重复网页操作的自动化，尤其是需要跨页面完成的任务；应通过实际步骤和最终结果评估可靠性。"
+    },
+    {
+      "repo": "viarotel-org/escrcpy",
+      "rank": 15,
+      "stars": 11399,
+      "daily": 178,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "viarotel-org/escrcpy",
+        "description": "📱 Display and control your Android device graphically with scrcpy.",
+        "language": "JavaScript",
+        "stargazers_count": 11399,
+        "pushed_at": "2026-09-01T10:35:45Z",
+        "archived": false,
+        "html_url": "https://github.com/viarotel-org/escrcpy",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/viarotel-org/escrcpy/readme",
+      "category": "Android 投屏与控制",
+      "summary_zh": "基于 scrcpy 的图形化 Android 投屏与控制工具，提供多设备管理、无线 ADB、按键映射等功能。README 提示部分高级能力来自付费的 EscrcpyX 扩展。",
+      "editorial_reason_zh": "为本期补充设备工具视角，可用于应用演示、设备操作与测试辅助；评估时要区分核心能力和扩展能力。"
+    }
+  ]
+}
