@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-10",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-10T09:18:02.141294+08:00",
+  "verified_at": "2026-09-10T09:20:40.172974+08:00",
+  "items": [
+    {
+      "repo": "ayghri/i-have-adhd",
+      "rank": 1,
+      "stars": 34665,
+      "daily": 4650,
+      "language": "Python",
+      "metadata": {
+        "full_name": "ayghri/i-have-adhd",
+        "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+        "language": "Python",
+        "stargazers_count": 34666,
+        "pushed_at": "2026-09-10T00:47:20Z",
+        "archived": false,
+        "html_url": "https://github.com/ayghri/i-have-adhd",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/ayghri/i-have-adhd/readme",
+      "category": "助手输出规范",
+      "summary_zh": "为编程助手提供输出规则：先给行动项、多步骤使用编号、减少岔题，并明确当前状态与下一步。项目聚焦回答的可读性与执行顺序。",
+      "editorial_reason_zh": "今日新增 +4,650，为本期精选最高。它提醒我们，助手协作体验也取决于答案如何组织，而不只是生成了多少内容。"
+    },
+    {
+      "repo": "Tencent/teamai-cli",
+      "rank": 2,
+      "stars": 2991,
+      "daily": 556,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "Tencent/teamai-cli",
+        "description": "Make Every Team AI Native",
+        "language": "TypeScript",
+        "stargazers_count": 2991,
+        "pushed_at": "2026-09-09T14:12:35Z",
+        "archived": false,
+        "html_url": "https://github.com/Tencent/teamai-cli",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Tencent/teamai-cli/readme",
+      "category": "团队协作配置",
+      "summary_zh": "通过共享 Git 仓库管理和分发团队的技能、规则、MCP 配置与知识，让不同编程助手使用一致的团队资源；团队知识与改进功能仍标为 beta。",
+      "editorial_reason_zh": "适合关注多人、多种助手之间的规范同步。基于 Git 的发布与拉取流程便于审查配置变化，采用前可先验证团队实际使用的助手适配情况。"
+    },
+    {
+      "repo": "obra/superpowers",
+      "rank": 3,
+      "stars": 284035,
+      "daily": 688,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "obra/superpowers",
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell",
+        "stargazers_count": 284035,
+        "pushed_at": "2026-09-08T21:39:23Z",
+        "archived": false,
+        "html_url": "https://github.com/obra/superpowers",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/obra/superpowers/readme",
+      "category": "软件开发流程",
+      "summary_zh": "以可组合技能串联需求澄清、设计、实施计划、测试驱动开发与审查，将编程助手的任务组织成可验证的工程步骤。",
+      "editorial_reason_zh": "在团队统一规则之外，它提供了单项开发任务如何推进的参考；可以据此检查项目是否具备明确需求、完成标准和验证环节。"
+    },
+    {
+      "repo": "pascalorg/editor",
+      "rank": 4,
+      "stars": 22933,
+      "daily": 107,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "pascalorg/editor",
+        "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
+        "language": "TypeScript",
+        "stargazers_count": 22933,
+        "pushed_at": "2026-09-10T00:54:24Z",
+        "archived": false,
+        "html_url": "https://github.com/pascalorg/editor",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pascalorg/editor/readme",
+      "category": "三维建筑编辑",
+      "summary_zh": "基于 React Three Fiber 与 WebGPU 的本地优先三维建筑编辑器，提供浏览器界面、本地 CLI 和 MCP 接口，支持人和 AI 助手围绕同一建筑场景工作。",
+      "editorial_reason_zh": "为本期补充空间设计方向。图形界面与程序接口共享场景，有助于探索可视化编辑与自动化操作的衔接；README 提醒部分新能力需使用预览版本。"
+    },
+    {
+      "repo": "earthtojake/text-to-cad",
+      "rank": 5,
+      "stars": 15036,
+      "daily": 124,
+      "language": "Python",
+      "metadata": {
+        "full_name": "earthtojake/text-to-cad",
+        "description": "A library of agent skills for CAD, CAE and CAM",
+        "language": "Python",
+        "stargazers_count": 15036,
+        "pushed_at": "2026-09-09T21:41:16Z",
+        "archived": false,
+        "html_url": "https://github.com/earthtojake/text-to-cad",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/earthtojake/text-to-cad/readme",
+      "category": "CAD 与机器人建模",
+      "summary_zh": "面向 CAD、CAE 和 CAM 的助手技能库，覆盖几何模型生成与检查、现成零件查找、切片及机器人描述文件；CAD 工作流以 STEP 为主要输出，并提供其他导出格式。",
+      "editorial_reason_zh": "值得关注的是从自然语言请求到可检查文件的完整流程。适合用具体零件验证尺寸、几何结构和导出结果，而不只看演示画面。"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "rank": 6,
+      "stars": 36613,
+      "daily": 2249,
+      "language": "HTML",
+      "metadata": {
+        "full_name": "cathrynlavery/diagram-design",
+        "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "stargazers_count": 36613,
+        "pushed_at": "2026-09-10T00:32:25Z",
+        "archived": false,
+        "html_url": "https://github.com/cathrynlavery/diagram-design",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cathrynlavery/diagram-design/readme",
+      "category": "HTML 与 SVG 图解",
+      "summary_zh": "生成可独立打开的 HTML 与 SVG 图解，覆盖架构、流程、关系等表达方式，将系统语义与布局选择分开；静态输出为默认方式，也可选用动效。",
+      "editorial_reason_zh": "今日新增 +2,249。它与三维建模项目共同呈现了本期的视觉表达主题，但服务于说明信息而非实体几何设计。"
+    },
+    {
+      "repo": "freestylefly/awesome-gpt-image-2",
+      "rank": 10,
+      "stars": 30065,
+      "daily": 705,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "freestylefly/awesome-gpt-image-2",
+        "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+        "language": "JavaScript",
+        "stargazers_count": 30065,
+        "pushed_at": "2026-09-09T08:31:41Z",
+        "archived": false,
+        "html_url": "https://github.com/freestylefly/awesome-gpt-image-2",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/freestylefly/awesome-gpt-image-2/readme",
+      "category": "图片提示词模板",
+      "summary_zh": "社区维护的图片生成案例与提示词模板库，将主体、光线、材质和布局等要素组织成可组合结构，并提供案例画廊与助手技能入口。",
+      "editorial_reason_zh": "适合从案例中提取可复用的表达方式。模板结构可以参考，具体生成效果仍取决于模型、参数与输入素材；仓库案例不等同于独立性能评测。"
+    },
+    {
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "rank": 11,
+      "stars": 53703,
+      "daily": 343,
+      "language": "Python",
+      "metadata": {
+        "full_name": "rohitg00/ai-engineering-from-scratch",
+        "description": "Learn it. Build it. Ship it for others.",
+        "language": "Python",
+        "stargazers_count": 53703,
+        "pushed_at": "2026-09-07T11:42:35Z",
+        "archived": false,
+        "html_url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/rohitg00/ai-engineering-from-scratch/readme",
+      "category": "AI 工程学习",
+      "summary_zh": "从数学、机器学习基础延伸到大模型应用、工具协议和智能体工程的实践课程，提供代码与实验，并按学习目标组织入口，包含简体中文介绍。",
+      "editorial_reason_zh": "为工具榜单补充基础学习视角。读者可以选择一个明确的实现目标，通过运行代码和保留实验产物检验理解，而不必一次读完整套课程。"
+    },
+    {
+      "repo": "vastsa/PI-Desktop",
+      "rank": 12,
+      "stars": 1669,
+      "daily": 417,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "vastsa/PI-Desktop",
+        "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+        "language": "TypeScript",
+        "stargazers_count": 1669,
+        "pushed_at": "2026-09-10T00:40:39Z",
+        "archived": false,
+        "html_url": "https://github.com/vastsa/PI-Desktop",
+        "license": {
+          "key": "lgpl-3.0",
+          "name": "GNU Lesser General Public License v3.0",
+          "spdx_id": "LGPL-3.0",
+          "url": "https://api.github.com/licenses/lgpl-3.0",
+          "node_id": "MDc6TGljZW5zZTEy"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/vastsa/PI-Desktop/readme",
+      "category": "本地编程助手桌面",
+      "summary_zh": "基于 Electron、Rust 主机核心和 pi 助手运行层的桌面工作区，集中管理本地项目、会话、模型、代码审查与插件。当前仍处于 Early Preview。",
+      "editorial_reason_zh": "可观察独立桌面工作区如何整合长会话和代码审查。本地优先指工作区数据的存储方式，使用远端模型时请求仍会发送至所配置的服务。"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "rank": 13,
+      "stars": 255186,
+      "daily": 1133,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "affaan-m/ECC",
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "stargazers_count": 255187,
+        "pushed_at": "2026-09-09T19:00:49Z",
+        "archived": false,
+        "html_url": "https://github.com/affaan-m/ECC",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/affaan-m/ECC/readme",
+      "category": "工程技能与配置",
+      "summary_zh": "面向多种编程助手环境组织技能、记忆、钩子与研究验证流程，提供可复用的工程配置和工作方法。",
+      "editorial_reason_zh": "与 TeamAI 和 Superpowers 一起看，可以分别考察团队资源同步、任务推进方法以及具体技能配置；选择时应围绕项目需要，避免重复规则相互干扰。"
+    }
+  ]
+}
