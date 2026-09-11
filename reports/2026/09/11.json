@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-11",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-11T09:14:59.990125+08:00",
+  "verified_at": "2026-09-11T09:15:31.278626+08:00",
+  "items": [
+    {
+      "repo": "ayghri/i-have-adhd",
+      "rank": 1,
+      "stars": 38339,
+      "daily": 3882,
+      "language": "Python",
+      "metadata": {
+        "full_name": "ayghri/i-have-adhd",
+        "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+        "language": "Python",
+        "stargazers_count": 38339,
+        "pushed_at": "2026-09-10T15:48:41Z",
+        "archived": false,
+        "html_url": "https://github.com/ayghri/i-have-adhd",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/ayghri/i-have-adhd/readme",
+      "category": "助手输出规范",
+      "summary_zh": "通过可复用指令调整编程助手的表达方式：先呈现行动项、为多步骤编号、减少岔题，并说明当前状态与下一步。项目定位于输出可读性。",
+      "editorial_reason_zh": "本次快照今日新增 +3,882，为本期精选最高。值得参考的是如何让答案更容易执行，实际是否有帮助仍取决于个人偏好与任务。"
+    },
+    {
+      "repo": "obra/superpowers",
+      "rank": 3,
+      "stars": 284707,
+      "daily": 732,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "obra/superpowers",
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell",
+        "stargazers_count": 284707,
+        "pushed_at": "2026-09-10T16:13:16Z",
+        "archived": false,
+        "html_url": "https://github.com/obra/superpowers",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/obra/superpowers/readme",
+      "category": "软件开发方法",
+      "summary_zh": "围绕需求澄清、设计、实施计划、测试驱动开发和审查组织助手工作，以可组合技能推进完整的软件开发过程。",
+      "editorial_reason_zh": "适合用来检查团队工作流是否具备明确的需求和验证环节。连续上榜体现当前关注度，不能据此替代对具体工程效果的评估。"
+    },
+    {
+      "repo": "Tencent/teamai-cli",
+      "rank": 5,
+      "stars": 3797,
+      "daily": 841,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "Tencent/teamai-cli",
+        "description": "Make Every Team AI Native",
+        "language": "TypeScript",
+        "stargazers_count": 3797,
+        "pushed_at": "2026-09-10T09:35:29Z",
+        "archived": false,
+        "html_url": "https://github.com/Tencent/teamai-cli",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Tencent/teamai-cli/readme",
+      "category": "团队资源同步",
+      "summary_zh": "通过共享 Git 仓库管理并分发团队的技能、规则、MCP 配置和知识，面向多种编程助手提供同步流程；团队知识和改进模块仍标为 beta。",
+      "editorial_reason_zh": "多人使用不同助手时，一致的项目背景和规则比各自维护配置更容易协作；可先从少量共享资源验证同步与审查流程。"
+    },
+    {
+      "repo": "AlexsJones/llmfit",
+      "rank": 6,
+      "stars": 35738,
+      "daily": 258,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "AlexsJones/llmfit",
+        "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+        "language": "Rust",
+        "stargazers_count": 35739,
+        "pushed_at": "2026-09-10T13:47:15Z",
+        "archived": false,
+        "html_url": "https://github.com/AlexsJones/llmfit",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/AlexsJones/llmfit/readme",
+      "category": "本地模型适配",
+      "summary_zh": "检测 CPU、内存、GPU 和显存等硬件信息，根据模型规模、上下文和量化格式估算适配情况，提供终端界面、命令行及本机基准测试入口。",
+      "editorial_reason_zh": "适合在下载大模型前缩小候选范围。性能估算与实际测量应分开看，最终仍需在自己的机器和任务上验证速度及内存占用。"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "rank": 8,
+      "stars": 37761,
+      "daily": 1294,
+      "language": "HTML",
+      "metadata": {
+        "full_name": "cathrynlavery/diagram-design",
+        "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "stargazers_count": 37761,
+        "pushed_at": "2026-09-10T22:33:54Z",
+        "archived": false,
+        "html_url": "https://github.com/cathrynlavery/diagram-design",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cathrynlavery/diagram-design/readme",
+      "category": "HTML 与 SVG 图解",
+      "summary_zh": "将架构、流程与关系组织为独立 HTML 和 SVG 图解，区分语义模式与布局选择，默认静态呈现，也支持按需使用动效和重绘已有图源。",
+      "editorial_reason_zh": "今日新增 +1,294。可参考其信息层级与布局规范，把复杂说明变成便于阅读的图解；重点仍是节点和连接是否准确。"
+    },
+    {
+      "repo": "armory3d/armorpaint",
+      "rank": 10,
+      "stars": 4422,
+      "daily": 72,
+      "language": "C",
+      "metadata": {
+        "full_name": "armory3d/armorpaint",
+        "description": "Graphics Creation Tools",
+        "language": "C",
+        "stargazers_count": 4422,
+        "pushed_at": "2026-09-09T19:25:19Z",
+        "archived": false,
+        "html_url": "https://github.com/armory3d/armorpaint",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/armory3d/armorpaint/readme",
+      "category": "三维材质绘制",
+      "summary_zh": "用于三维 PBR 材质纹理绘制的图形创作软件。仓库提供源码和各平台构建说明；README 明确说明开发版本可能不稳定，官方发行的二进制包为付费版本。",
+      "editorial_reason_zh": "为本期补充实际创作工具视角。适合关注三维资产制作的人评估材质绘制工作流，并按自身需要选择源码构建或发行版本。"
+    },
+    {
+      "repo": "JustVugg/colibri",
+      "rank": 12,
+      "stars": 27467,
+      "daily": 98,
+      "language": "C",
+      "metadata": {
+        "full_name": "JustVugg/colibri",
+        "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+        "language": "C",
+        "stargazers_count": 27467,
+        "pushed_at": "2026-09-10T13:06:32Z",
+        "archived": false,
+        "html_url": "https://github.com/JustVugg/colibri",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/JustVugg/colibri/readme",
+      "category": "MoE 本地推理",
+      "summary_zh": "以 C 实现的混合专家模型推理引擎，将显存、内存和存储作为分层资源，按需从磁盘读取专家权重，并提供聊天、服务和网页入口。",
+      "editorial_reason_zh": "与 llmfit 形成从硬件适配到推理实现的观察视角。磁盘读取可改变内存需求与速度之间的取舍，项目也强调不保证统一速度，应看端到端实测。"
+    },
+    {
+      "repo": "THU-MAIC/OpenMAIC",
+      "rank": 13,
+      "stars": 35323,
+      "daily": 837,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "THU-MAIC/OpenMAIC",
+        "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+        "language": "TypeScript",
+        "stargazers_count": 35324,
+        "pushed_at": "2026-09-11T00:48:36Z",
+        "archived": false,
+        "html_url": "https://github.com/THU-MAIC/OpenMAIC",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/THU-MAIC/OpenMAIC/readme",
+      "category": "交互课堂生成",
+      "summary_zh": "把主题或文档组织成带幻灯片、测验、交互模拟和项目式学习活动的课堂；提供 AI 教师与同学互动，以及规划、构建和修订课程的助手工作区。",
+      "editorial_reason_zh": "值得关注的是课程生成后的修改与互动环节。可用一个明确的教学目标检查讲解、练习与评价是否一致，生成内容仍需审核。"
+    },
+    {
+      "repo": "nashsu/llm_wiki",
+      "rank": 14,
+      "stars": 18118,
+      "daily": 142,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "nashsu/llm_wiki",
+        "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+        "language": "TypeScript",
+        "stargazers_count": 18118,
+        "pushed_at": "2026-08-25T06:42:02Z",
+        "archived": false,
+        "html_url": "https://github.com/nashsu/llm_wiki",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/nashsu/llm_wiki/readme",
+      "category": "文档知识库",
+      "summary_zh": "跨平台桌面应用，将导入文档逐步组织为带交叉链接的持久 Wiki，提供来源追溯、知识图谱、可选语义搜索及增量更新。",
+      "editorial_reason_zh": "适合持续积累资料的场景。与一次性摘要相比，可维护的页面和原始来源连接更便于后续核对，但自动建立的关联仍需要人工判断。"
+    },
+    {
+      "repo": "vastsa/PI-Desktop",
+      "rank": 16,
+      "stars": 2304,
+      "daily": 624,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "vastsa/PI-Desktop",
+        "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+        "language": "TypeScript",
+        "stargazers_count": 2305,
+        "pushed_at": "2026-09-11T00:41:29Z",
+        "archived": false,
+        "html_url": "https://github.com/vastsa/PI-Desktop",
+        "license": {
+          "key": "lgpl-3.0",
+          "name": "GNU Lesser General Public License v3.0",
+          "spdx_id": "LGPL-3.0",
+          "url": "https://api.github.com/licenses/lgpl-3.0",
+          "node_id": "MDc6TGljZW5zZTEy"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/vastsa/PI-Desktop/readme",
+      "category": "编程助手桌面",
+      "summary_zh": "本地优先的编程助手工作区，整合项目、长会话、模型配置、代码审查与插件，使用 Electron 界面和 Rust 主机核心；目前仍处于 Early Preview。",
+      "editorial_reason_zh": "适合观察独立桌面应用如何承载完整开发过程。评估重点是会话延续、结果审查及插件接口；使用远端模型时，相关请求仍会发送到所配置的服务。"
+    }
+  ]
+}
