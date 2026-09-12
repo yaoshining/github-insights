@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-12",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-12T09:01:06.610485+08:00",
+  "verified_at": "2026-09-12T09:01:36.840548+08:00",
+  "items": [
+    {
+      "repo": "ayghri/i-have-adhd",
+      "rank": 1,
+      "stars": 41839,
+      "daily": 3463,
+      "language": "Python",
+      "metadata": {
+        "full_name": "ayghri/i-have-adhd",
+        "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+        "language": "Python",
+        "stargazers_count": 41840,
+        "pushed_at": "2026-09-10T15:48:41Z",
+        "archived": false,
+        "html_url": "https://github.com/ayghri/i-have-adhd",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/ayghri/i-have-adhd/readme",
+      "category": "助手输出规范",
+      "summary_zh": "为编程助手提供简洁的表达规则，强调行动项在前、多步骤编号、减少岔题，以及明确当前状态和下一步，帮助读者更快找到需要执行的内容。",
+      "editorial_reason_zh": "今日新增 +3,463，为本期精选最高。它提供了调整回答结构的轻量思路，适合根据自己的阅读习惯评估，而不以回答长度判断帮助大小。"
+    },
+    {
+      "repo": "melgarafael/DeskcommCRM",
+      "rank": 4,
+      "stars": 1348,
+      "daily": 152,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "melgarafael/DeskcommCRM",
+        "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+        "language": "TypeScript",
+        "stargazers_count": 1348,
+        "pushed_at": "2026-09-12T00:07:53Z",
+        "archived": false,
+        "html_url": "https://github.com/melgarafael/DeskcommCRM",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/melgarafael/DeskcommCRM/readme",
+      "category": "自托管客户管理",
+      "summary_zh": "面向聊天销售场景的自托管 CRM，将 AI 助手、客户管理和 WhatsApp 接入结合，提供服务器安装及更新流程，使用 Supabase 等组件管理业务数据。",
+      "editorial_reason_zh": "为本期补充业务应用视角。可从一次客户咨询到后续跟进的流程评估其适用性；部署仍需服务器、数据库、模型服务及消息渠道配置。"
+    },
+    {
+      "repo": "vastsa/PI-Desktop",
+      "rank": 5,
+      "stars": 2778,
+      "daily": 552,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "vastsa/PI-Desktop",
+        "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+        "language": "TypeScript",
+        "stargazers_count": 2778,
+        "pushed_at": "2026-09-11T21:06:11Z",
+        "archived": false,
+        "html_url": "https://github.com/vastsa/PI-Desktop",
+        "license": {
+          "key": "lgpl-3.0",
+          "name": "GNU Lesser General Public License v3.0",
+          "spdx_id": "LGPL-3.0",
+          "url": "https://api.github.com/licenses/lgpl-3.0",
+          "node_id": "MDc6TGljZW5zZTEy"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/vastsa/PI-Desktop/readme",
+      "category": "编程助手桌面",
+      "summary_zh": "本地优先的编程助手工作区，集中管理项目、会话、模型、代码审查和插件，使用 Electron 界面与 Rust 主机核心；当前仍处于 Early Preview。",
+      "editorial_reason_zh": "持续工作需要能回看改动、命令输出和会话状态。该项目值得从这些实际操作评估，预览阶段的接口和行为仍可能变化。"
+    },
+    {
+      "repo": "armory3d/armorpaint",
+      "rank": 6,
+      "stars": 4721,
+      "daily": 350,
+      "language": "C",
+      "metadata": {
+        "full_name": "armory3d/armorpaint",
+        "description": "Graphics Creation Tools",
+        "language": "C",
+        "stargazers_count": 4721,
+        "pushed_at": "2026-09-11T20:46:26Z",
+        "archived": false,
+        "html_url": "https://github.com/armory3d/armorpaint",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/armory3d/armorpaint/readme",
+      "category": "三维材质绘制",
+      "summary_zh": "用于三维 PBR 材质纹理绘制的图形创作软件，仓库提供源码与构建说明。README 提示开发版本可能不稳定，官方发行的二进制包为付费版本。",
+      "editorial_reason_zh": "与本期的建筑编辑器一起补充图形工具方向。关注点是材质制作流程和目标平台适配，使用者可按需要选择源码构建或发行版本。"
+    },
+    {
+      "repo": "nashsu/llm_wiki",
+      "rank": 8,
+      "stars": 18740,
+      "daily": 647,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "nashsu/llm_wiki",
+        "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+        "language": "TypeScript",
+        "stargazers_count": 18740,
+        "pushed_at": "2026-08-25T06:42:02Z",
+        "archived": false,
+        "html_url": "https://github.com/nashsu/llm_wiki",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/nashsu/llm_wiki/readme",
+      "category": "文档知识库",
+      "summary_zh": "将导入的文档逐步整理为带交叉链接的持久 Wiki，提供来源追溯、增量处理、知识图谱和可选语义搜索，支持跨平台桌面使用。",
+      "editorial_reason_zh": "适合已有资料需要持续整理的场景。相较单次摘要，可维护的页面更便于后续查阅；自动生成的关联与结论应能回到原始来源核对。"
+    },
+    {
+      "repo": "obra/superpowers",
+      "rank": 9,
+      "stars": 285380,
+      "daily": 729,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "obra/superpowers",
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell",
+        "stargazers_count": 285381,
+        "pushed_at": "2026-09-12T00:16:38Z",
+        "archived": false,
+        "html_url": "https://github.com/obra/superpowers",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/obra/superpowers/readme",
+      "category": "软件开发方法",
+      "summary_zh": "以可组合技能组织需求澄清、设计、实施计划、测试驱动开发和审查，为编程助手提供连续的软件开发流程。",
+      "editorial_reason_zh": "它与 Spec Kit 都强调先形成明确约束再推进实现，可分别考察任务执行流程与规范维护方式，按项目需要采用。"
+    },
+    {
+      "repo": "jordan-gibbs/hyperresearch",
+      "rank": 13,
+      "stars": 2615,
+      "daily": 153,
+      "language": "Python",
+      "metadata": {
+        "full_name": "jordan-gibbs/hyperresearch",
+        "description": "Agent-driven research knowledge base. Agents collect, search, and synthesize web research into a persistent, searchable wiki.",
+        "language": "Python",
+        "stargazers_count": 2616,
+        "pushed_at": "2026-09-11T21:15:16Z",
+        "archived": false,
+        "html_url": "https://github.com/jordan-gibbs/hyperresearch",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/jordan-gibbs/hyperresearch/readme",
+      "category": "研究资料与引用",
+      "summary_zh": "将编程助手连接到分阶段研究流程，覆盖问题拆解、资料收集、综合写作、批评审查和引用检查，并把读取的来源保存到可搜索的持久资料库。",
+      "editorial_reason_zh": "值得关注的是来源复用与逐句引用核对。README 中的榜单领先说法来自内部试验且注明第三方验证待完成，本期不将其视为独立性能结论。"
+    },
+    {
+      "repo": "alphaXiv/OpenResearch",
+      "rank": 14,
+      "stars": 1277,
+      "daily": 120,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "alphaXiv/OpenResearch",
+        "description": "Run parallel research agents with any model",
+        "language": "Rust",
+        "stargazers_count": 1278,
+        "pushed_at": "2026-09-11T23:52:27Z",
+        "archived": false,
+        "html_url": "https://github.com/alphaXiv/OpenResearch",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/alphaXiv/OpenResearch/readme",
+      "category": "研究与实验工作区",
+      "summary_zh": "本地优先的研究助手工作区，为不同研究方向组织独立会话和 Git 工作树，并将实验版本、运行日志、代码差异与产物关联，可使用本地或远程计算资源。",
+      "editorial_reason_zh": "适合观察文献阅读如何衔接假设、代码实验和结果记录。实验之间的来源关系与可复现记录，是评估这类工作区的重要依据。"
+    },
+    {
+      "repo": "github/spec-kit",
+      "rank": 15,
+      "stars": 135770,
+      "daily": 1015,
+      "language": "Python",
+      "metadata": {
+        "full_name": "github/spec-kit",
+        "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+        "language": "Python",
+        "stargazers_count": 135770,
+        "pushed_at": "2026-09-12T00:43:43Z",
+        "archived": false,
+        "html_url": "https://github.com/github/spec-kit",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/github/spec-kit/readme",
+      "category": "规范驱动开发",
+      "summary_zh": "GitHub 维护的规范驱动开发工具包，通过项目原则、需求规范、计划、任务拆解、实现和一致性检查组织工作，提供 CLI 以及可扩展的助手集成。",
+      "editorial_reason_zh": "今日新增 +1,015。它把需求和验收依据保留为持续使用的工程材料，适合检查实现是否仍符合最初目标，而不只确认代码能运行。"
+    },
+    {
+      "repo": "pascalorg/editor",
+      "rank": 16,
+      "stars": 23602,
+      "daily": 106,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "pascalorg/editor",
+        "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
+        "language": "TypeScript",
+        "stargazers_count": 23602,
+        "pushed_at": "2026-09-12T00:44:09Z",
+        "archived": false,
+        "html_url": "https://github.com/pascalorg/editor",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pascalorg/editor/readme",
+      "category": "三维建筑编辑",
+      "summary_zh": "本地优先的三维建筑编辑器，基于 React Three Fiber 与 WebGPU，提供浏览器界面、本地 CLI 和 MCP 接口，供人工编辑与助手操作共同使用。",
+      "editorial_reason_zh": "可关注可视化场景与程序操作如何衔接。README 提示同一本地服务共享活动场景，多客户端独立工作时需要区分实例。"
+    }
+  ]
+}
