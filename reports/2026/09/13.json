@@ -1,0 +1,260 @@
+{
+  "date": "2026-09-13",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-13T09:24:49.062383+08:00",
+  "verified_at": "2026-09-13T09:25:22.794149+08:00",
+  "items": [
+    {
+      "repo": "bilawalsidhu/gods-eye-view",
+      "rank": 1,
+      "stars": 29954,
+      "daily": 2265,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "bilawalsidhu/gods-eye-view",
+        "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+        "language": "JavaScript",
+        "stargazers_count": 29955,
+        "pushed_at": "2026-09-13T00:44:45Z",
+        "archived": false,
+        "html_url": "https://github.com/bilawalsidhu/gods-eye-view",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/bilawalsidhu/gods-eye-view/readme",
+      "category": "公共地理数据可视化",
+      "summary_zh": "把公开及第三方地理数据叠加到可交互的三维地球，展示卫星轨道、地震等图层，并支持语音控制与场景浏览。部分图层为估算或模拟，不能把所有画面视为实时实测。",
+      "editorial_reason_zh": "今日新增 +2,265，为本期精选最高。适合研究多来源数据的可视化组织方式；源码采用 MIT，第三方数据和素材另有条款，项目定位为探索与学习工具。"
+    },
+    {
+      "repo": "melgarafael/DeskcommCRM",
+      "rank": 2,
+      "stars": 1818,
+      "daily": 504,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "melgarafael/DeskcommCRM",
+        "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+        "language": "TypeScript",
+        "stargazers_count": 1818,
+        "pushed_at": "2026-09-12T19:40:07Z",
+        "archived": false,
+        "html_url": "https://github.com/melgarafael/DeskcommCRM",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/melgarafael/DeskcommCRM/readme",
+      "category": "自托管客户管理",
+      "summary_zh": "面向聊天销售的自托管 CRM，将客户管理、AI 助手和 WhatsApp 接入结合，提供服务器安装与更新流程，使用 Supabase 等组件管理业务数据。",
+      "editorial_reason_zh": "可观察业务系统如何把对话与后续客户跟进衔接起来。实际部署仍需配置服务器、数据库、模型服务和消息渠道，应从具体业务流程评估。"
+    },
+    {
+      "repo": "nab138/iloader",
+      "rank": 4,
+      "stars": 3085,
+      "daily": 209,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "nab138/iloader",
+        "description": "User friendly sideloader",
+        "language": "TypeScript",
+        "stargazers_count": 3085,
+        "pushed_at": "2026-09-10T20:49:24Z",
+        "archived": false,
+        "html_url": "https://github.com/nab138/iloader",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/nab138/iloader/readme",
+      "category": "设备应用安装",
+      "summary_zh": "面向苹果移动设备的桌面侧载工具，提供 IPA 导入、SideStore 安装、配对文件管理及开发证书查看等图形化操作。",
+      "editorial_reason_zh": "它将多个设备安装步骤集中到一个界面，适合有自有应用测试或设备管理需求的人了解；实际使用依赖设备连接、账号及平台签名条件。"
+    },
+    {
+      "repo": "Sonarr/Sonarr",
+      "rank": 7,
+      "stars": 15928,
+      "daily": 227,
+      "language": "C#",
+      "metadata": {
+        "full_name": "Sonarr/Sonarr",
+        "description": "Smart PVR for newsgroup and bittorrent users.",
+        "language": "C#",
+        "stargazers_count": 15929,
+        "pushed_at": "2026-09-12T05:06:23Z",
+        "archived": false,
+        "html_url": "https://github.com/Sonarr/Sonarr",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "default_branch": "v5-develop"
+      },
+      "readme_url": "https://api.github.com/repos/Sonarr/Sonarr/readme",
+      "category": "媒体文件管理",
+      "summary_zh": "面向 Usenet 和 BitTorrent 使用场景的剧集管理工具，可监测 RSS 更新，协调下载客户端，整理、重命名文件，并按配置管理清晰度升级。",
+      "editorial_reason_zh": "为本期补充成熟自动化工具视角。值得参考的是更新监测、失败处理和媒体库同步如何组成连续流程，软件本身并不提供内容授权。"
+    },
+    {
+      "repo": "yuliskov/SmartTube",
+      "rank": 9,
+      "stars": 33218,
+      "daily": 136,
+      "language": "Java",
+      "metadata": {
+        "full_name": "yuliskov/SmartTube",
+        "description": "Browse media content with your own rules on Android TV",
+        "language": "Java",
+        "stargazers_count": 33218,
+        "pushed_at": "2026-09-13T00:11:44Z",
+        "archived": false,
+        "html_url": "https://github.com/yuliskov/SmartTube",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/yuliskov/SmartTube/readme",
+      "category": "电视媒体客户端",
+      "summary_zh": "面向 Android TV 和电视盒子的媒体客户端，提供电视界面、播放速度调整和自定义按钮等功能。README 同时披露开发环境曾遭恶意软件感染、部分构建可能受影响的安全事件。",
+      "editorial_reason_zh": "可关注大屏交互与设备适配，但使用前应先阅读仓库当前安全公告。维护者称已重建环境并扫描新构建，本期未独立验证安装包安全性。"
+    },
+    {
+      "repo": "Shubhamsaboo/awesome-llm-apps",
+      "rank": 10,
+      "stars": 137637,
+      "daily": 230,
+      "language": "Python",
+      "metadata": {
+        "full_name": "Shubhamsaboo/awesome-llm-apps",
+        "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+        "language": "Python",
+        "stargazers_count": 137637,
+        "pushed_at": "2026-09-12T03:45:58Z",
+        "archived": false,
+        "html_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Shubhamsaboo/awesome-llm-apps/readme",
+      "category": "AI 应用示例",
+      "summary_zh": "汇集智能体、助手技能和检索增强生成应用的代码示例，覆盖不同模型与任务，并提供分目录的运行说明和教程入口。",
+      "editorial_reason_zh": "适合从一个明确的小任务入手研究应用结构，比较工具调用、检索和界面如何组合。示例代码可复用，模型服务及外部依赖仍需自行配置。"
+    },
+    {
+      "repo": "armory3d/armorpaint",
+      "rank": 12,
+      "stars": 4915,
+      "daily": 237,
+      "language": "C",
+      "metadata": {
+        "full_name": "armory3d/armorpaint",
+        "description": "Graphics Creation Tools",
+        "language": "C",
+        "stargazers_count": 4915,
+        "pushed_at": "2026-09-12T22:21:46Z",
+        "archived": false,
+        "html_url": "https://github.com/armory3d/armorpaint",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/armory3d/armorpaint/readme",
+      "category": "三维材质绘制",
+      "summary_zh": "用于三维 PBR 材质纹理绘制的图形创作软件，仓库提供源码及各平台构建说明；开发版本可能不稳定，官方发行二进制包为付费版本。",
+      "editorial_reason_zh": "它与音乐生成项目一起补充内容创作方向。选型时可围绕材质制作流程与平台支持评估，并区分源码构建和官方发行版本。"
+    },
+    {
+      "repo": "multimodal-art-projection/YuE",
+      "rank": 14,
+      "stars": 7303,
+      "daily": 210,
+      "language": "Python",
+      "metadata": {
+        "full_name": "multimodal-art-projection/YuE",
+        "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+        "language": "Python",
+        "stargazers_count": 7303,
+        "pushed_at": "2026-09-11T17:37:59Z",
+        "archived": false,
+        "html_url": "https://github.com/multimodal-art-projection/YuE",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/multimodal-art-projection/YuE/readme",
+      "category": "音乐生成与编辑",
+      "summary_zh": "当前主分支为 YuE2：根据歌词和风格先形成可编辑的旋律与和弦计划，再生成含人声及伴奏的歌曲。README 说明代码采用 Apache 2.0，模型权重另用 CC BY-NC 4.0。",
+      "editorial_reason_zh": "显式的乐谱计划为音乐修改提供了可检查的中间结果。快速开始要求支持 BF16、显存 24 GB 的 NVIDIA GPU；使用范围须区分代码与权重许可，本期未复测音质指标。"
+    },
+    {
+      "repo": "max-sixty/worktrunk",
+      "rank": 15,
+      "stars": 7242,
+      "daily": 54,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "max-sixty/worktrunk",
+        "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+        "language": "Rust",
+        "stargazers_count": 7242,
+        "pushed_at": "2026-09-12T23:57:35Z",
+        "archived": false,
+        "html_url": "https://github.com/max-sixty/worktrunk",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/max-sixty/worktrunk/readme",
+      "category": "Git 工作树管理",
+      "summary_zh": "为并行开发流程简化 Git worktree 管理，围绕创建、切换、状态查看和清理工作目录提供命令，并支持通过钩子组织本地流程。",
+      "editorial_reason_zh": "多个任务需要独立检出目录时，它可以减少工作树路径和命令管理的重复劳动；目录隔离仍需配合代码审查与合并验证。"
+    }
+  ]
+}
