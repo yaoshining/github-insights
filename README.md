@@ -44,6 +44,14 @@ open index.html
 # 推送到 GitHub 后自动部署到 GitHub Pages
 ```
 
+## 日报分享长图
+
+当日日报点击「生成分享长图」，可预览并保存 PNG；支持文件分享的浏览器会显示「分享图片」。手机也可长按预览图保存，再转发至社交软件。图片保留完整日报，包含 GitHub Insights 网站标题和指向当期日报的二维码。图片在浏览器本机生成，不上传至服务器。
+
+新增日报复用 `scripts/update_indexes.py` 的 `page()`，正文保留 `id="selection"` 项目精选区和 `header time[datetime]` 日期。模板自动引入 `assets/report-share.css` 与 `assets/report-share.js`，后续日报沿用相同功能。现有历史页面保持原内容。
+
+绘图依赖按需加载仓库内的 html2canvas 1.4.1 与 qrcode-generator 1.4.4（MIT），无需第三方 CDN。授权声明位于 `assets/vendor/`。
+
 ## 订阅
 
 关注本项目获取每日 GitHub 热门项目推送。

@@ -16,6 +16,10 @@ html{color-scheme:dark}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe 
 '''
 
 def page(title, body, description='每日追踪 GitHub 热门项目、AI 开源动态与技术趋势'):
+    # Standard daily reports opt into the shared export UI; archive pages stay light.
+    share_assets = '''<link rel="stylesheet" href="../../../assets/report-share.css">
+<script defer src="../../../assets/report-share.js"></script>
+''' if 'id="selection"' in body else ''
     return f'''<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -24,7 +28,7 @@ def page(title, body, description='每日追踪 GitHub 热门项目、AI 开源�
 <meta name="description" content="{escape(description, quote=True)}">
 <title>{escape(title)}</title>
 <style>{CSS}</style>
-</head>
+{share_assets}</head>
 <body><a class="skip" href="#main">跳至正文</a><main id="main" class="container">
 {body}
 <footer><p>GitHub Insights · 每日追踪开源动态</p><p><a href="https://github.com/yaoshining/github-insights">项目仓库</a> · Made with ❤️ by <a href="https://github.com/yaoshining">@yaoshining</a></p></footer>
