@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-14",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-14T09:04:58.642872+08:00",
+  "verified_at": "2026-09-14T09:05:29.465295+08:00",
+  "items": [
+    {
+      "repo": "JustVugg/colibri",
+      "rank": 1,
+      "stars": 29836,
+      "daily": 868,
+      "language": "C",
+      "metadata": {
+        "full_name": "JustVugg/colibri",
+        "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+        "language": "C",
+        "stargazers_count": 29836,
+        "pushed_at": "2026-09-14T00:59:24Z",
+        "archived": false,
+        "html_url": "https://github.com/JustVugg/colibri",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/JustVugg/colibri/readme",
+      "category": "本地模型推理",
+      "summary_zh": "以 C 实现的 MoE 推理引擎，将磁盘、内存与显存组织为分层存储，按需载入专家权重，并提供聊天、服务与网页界面。",
+      "editorial_reason_zh": "适合关注大模型内存占用和存储调度的开发者研究。README 明确不承诺统一速度，实际体验取决于模型、磁盘带宽和硬件配置。"
+    },
+    {
+      "repo": "ever-co/ever-gauzy",
+      "rank": 2,
+      "stars": 5083,
+      "daily": 191,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "ever-co/ever-gauzy",
+        "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+        "language": "TypeScript",
+        "stargazers_count": 5083,
+        "pushed_at": "2026-09-14T01:01:08Z",
+        "archived": false,
+        "html_url": "https://github.com/ever-co/ever-gauzy",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "develop"
+      },
+      "readme_url": "https://api.github.com/repos/ever-co/ever-gauzy/readme",
+      "category": "业务管理平台",
+      "summary_zh": "整合客户、人力、项目、工时和财务流程的业务管理平台，提供多组织、角色权限、报表及 Headless API。",
+      "editorial_reason_zh": "可作为团队内部业务系统的架构参考，观察不同管理模块如何共享数据和权限模型。部署前宜从所需模块入手评估，而非一次启用全部功能。"
+    },
+    {
+      "repo": "bilawalsidhu/gods-eye-view",
+      "rank": 3,
+      "stars": 31907,
+      "daily": 2680,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "bilawalsidhu/gods-eye-view",
+        "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+        "language": "JavaScript",
+        "stargazers_count": 31908,
+        "pushed_at": "2026-09-14T00:53:55Z",
+        "archived": false,
+        "html_url": "https://github.com/bilawalsidhu/gods-eye-view",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/bilawalsidhu/gods-eye-view/readme",
+      "category": "三维地理可视化",
+      "summary_zh": "在浏览器三维地球中组织公开航班、船舶、卫星、地震和摄像头等来源，提供目标跟踪、语音控制及场景分享。交通等部分图层包含模拟或估计。",
+      "editorial_reason_zh": "适合研究多来源地理数据的可视化与交互设计。图层分别模块化，有助于观察数据接入、场景状态与视角分享的组织方式。"
+    },
+    {
+      "repo": "tech-leads-club/agent-skills",
+      "rank": 4,
+      "stars": 5656,
+      "daily": 265,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "tech-leads-club/agent-skills",
+        "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+        "language": "TypeScript",
+        "stargazers_count": 5656,
+        "pushed_at": "2026-09-12T15:29:58Z",
+        "archived": false,
+        "html_url": "https://github.com/tech-leads-club/agent-skills",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/tech-leads-club/agent-skills/readme",
+      "category": "编程助手技能",
+      "summary_zh": "为多种 AI 编程助手整理可安装的技能、模板和参考资料，并提供 CLI 与 MCP 接口。README 介绍了静态扫描、内容哈希和锁文件等管理措施。",
+      "editorial_reason_zh": "关注点在于把提示说明变成可追踪的工作流资产，便于团队复用。仓库声明的扫描机制不等同于对每项技能行为的独立安全保证。"
+    },
+    {
+      "repo": "calesthio/OpenMontage",
+      "rank": 6,
+      "stars": 58437,
+      "daily": 380,
+      "language": "Python",
+      "metadata": {
+        "full_name": "calesthio/OpenMontage",
+        "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+        "language": "Python",
+        "stargazers_count": 58437,
+        "pushed_at": "2026-09-06T05:02:34Z",
+        "archived": false,
+        "html_url": "https://github.com/calesthio/OpenMontage",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/calesthio/OpenMontage/readme",
+      "category": "视频制作工作流",
+      "summary_zh": "将调研、脚本、素材生成、剪辑和最终合成组织为编程助手可执行的视频制作流程，也支持从参考视频分析节奏与场景，再规划新作品。",
+      "editorial_reason_zh": "适合了解视频制作中不同工具与中间产物如何衔接。具体流程可能调用外部模型或素材服务，复现时应结合所选提供商和素材条件评估。"
+    },
+    {
+      "repo": "multimodal-art-projection/YuE",
+      "rank": 9,
+      "stars": 7749,
+      "daily": 487,
+      "language": "Python",
+      "metadata": {
+        "full_name": "multimodal-art-projection/YuE",
+        "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+        "language": "Python",
+        "stargazers_count": 7749,
+        "pushed_at": "2026-09-11T17:37:59Z",
+        "archived": false,
+        "html_url": "https://github.com/multimodal-art-projection/YuE",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/multimodal-art-projection/YuE/readme",
+      "category": "音乐生成与编辑",
+      "summary_zh": "当前主分支介绍 YuE2：先生成可读写的旋律与和弦计划，再合成人声和伴奏；支持基于乐谱调整风格、改编及助手参与的音乐编辑。",
+      "editorial_reason_zh": "可编辑的中间乐谱让生成过程更容易检查和迭代。README 的快速开始要求支持 BF16 的 NVIDIA GPU 和 24 GB 显存，适合先核对设备条件再体验。"
+    },
+    {
+      "repo": "alphaXiv/OpenResearch",
+      "rank": 11,
+      "stars": 2067,
+      "daily": 289,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "alphaXiv/OpenResearch",
+        "description": "Run parallel research agents with any model",
+        "language": "Rust",
+        "stargazers_count": 2068,
+        "pushed_at": "2026-09-13T23:47:40Z",
+        "archived": false,
+        "html_url": "https://github.com/alphaXiv/OpenResearch",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/alphaXiv/OpenResearch/readme",
+      "category": "研究与实验管理",
+      "summary_zh": "本地优先的研究助手工作区，将文献、假设、实验和产物关联起来；不同研究方向可使用独立会话和 Git worktree，并保留实验来源与运行记录。",
+      "editorial_reason_zh": "适合观察怎样把研究过程组织成可追溯的实验树，比较不同方案的代码、日志与结果。工具记录证据的能力有价值，但研究结论仍需独立核验。"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "rank": 12,
+      "stars": 26845,
+      "daily": 2632,
+      "language": "Python",
+      "metadata": {
+        "full_name": "debpalash/VoiceStudio",
+        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "language": "Python",
+        "stargazers_count": 26846,
+        "pushed_at": "2026-09-11T05:50:20Z",
+        "archived": false,
+        "html_url": "https://github.com/debpalash/VoiceStudio",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/debpalash/VoiceStudio/readme",
+      "category": "本地语音创作",
+      "summary_zh": "在本机组织声音克隆与设计、视频配音、听写、转录和有声书制作，集成多种语音生成与识别引擎，并提供本地音频 API。",
+      "editorial_reason_zh": "适合希望统一管理多种音频工作流的创作者。README 标注项目仍在活跃测试阶段，桌面端正在重写；语言覆盖与效果取决于具体引擎。"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "rank": 14,
+      "stars": 23521,
+      "daily": 443,
+      "language": "Go",
+      "metadata": {
+        "full_name": "alibaba/open-code-review",
+        "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "language": "Go",
+        "stargazers_count": 23521,
+        "pushed_at": "2026-09-12T14:26:04Z",
+        "archived": false,
+        "html_url": "https://github.com/alibaba/open-code-review",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/alibaba/open-code-review/readme",
+      "category": "代码审查工具",
+      "summary_zh": "读取 Git diff，结合确定性处理流程和可调用工具的模型助手，检索上下文并生成定位到代码行的审查意见；也支持对完整文件进行扫描。",
+      "editorial_reason_zh": "可用于研究专门的审查流程如何约束输入、检索和输出。适合结合已有测试与人工审查评估误报和漏报，本文不将项目自报基准当作实测结果。"
+    },
+    {
+      "repo": "huggingface/transformers",
+      "rank": 19,
+      "stars": 165523,
+      "daily": 152,
+      "language": "Python",
+      "metadata": {
+        "full_name": "huggingface/transformers",
+        "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+        "language": "Python",
+        "stargazers_count": 165523,
+        "pushed_at": "2026-09-13T19:07:39Z",
+        "archived": false,
+        "html_url": "https://github.com/huggingface/transformers",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/huggingface/transformers/readme",
+      "category": "模型开发基础库",
+      "summary_zh": "面向文本、视觉、音频与多模态模型的模型定义框架，服务于推理和训练，并与多种训练工具、推理引擎及模型仓库衔接。",
+      "editorial_reason_zh": "作为本期应用与推理工具背后的基础设施补充，适合追踪模型接口和生态兼容性。使用具体模型时仍需核对其配置、依赖与模型授权。"
+    }
+  ]
+}
