@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-15",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-15T09:05:27.490377+08:00",
+  "verified_at": "2026-09-15T09:05:58.822450+08:00",
+  "items": [
+    {
+      "repo": "JustVugg/colibri",
+      "rank": 1,
+      "stars": 32086,
+      "daily": 2173,
+      "language": "C",
+      "metadata": {
+        "full_name": "JustVugg/colibri",
+        "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+        "language": "C",
+        "stargazers_count": 32087,
+        "pushed_at": "2026-09-14T21:35:36Z",
+        "archived": false,
+        "html_url": "https://github.com/JustVugg/colibri",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/JustVugg/colibri/readme",
+      "category": "本地模型推理",
+      "summary_zh": "以 C 实现 MoE 模型推理，将显存、内存与磁盘视为不同存储层，按需要调度专家权重，并提供聊天、服务与网页界面。",
+      "editorial_reason_zh": "值得关注的是权重放置、预取和计算重叠的系统设计，适合研究大模型在有限内存设备上的运行方式。实际速度受模型与硬件影响，不能由参数规模直接推断。"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "rank": 2,
+      "stars": 25736,
+      "daily": 1571,
+      "language": "Go",
+      "metadata": {
+        "full_name": "alibaba/open-code-review",
+        "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "language": "Go",
+        "stargazers_count": 25739,
+        "pushed_at": "2026-09-14T12:41:06Z",
+        "archived": false,
+        "html_url": "https://github.com/alibaba/open-code-review",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/alibaba/open-code-review/readme",
+      "category": "代码审查",
+      "summary_zh": "面向 Git diff 和完整文件的模型辅助审查工具，结合固定处理流程、规则匹配与上下文检索，输出定位到代码行的结构化意见。",
+      "editorial_reason_zh": "把文件选择、分组和评论定位交给明确的工程流程，为团队建立可复查的审查环节提供参考。项目公布的基准可作为研究起点，本文未复现实测。"
+    },
+    {
+      "repo": "multimodal-art-projection/YuE",
+      "rank": 3,
+      "stars": 8337,
+      "daily": 559,
+      "language": "Python",
+      "metadata": {
+        "full_name": "multimodal-art-projection/YuE",
+        "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+        "language": "Python",
+        "stargazers_count": 8338,
+        "pushed_at": "2026-09-14T10:31:07Z",
+        "archived": false,
+        "html_url": "https://github.com/multimodal-art-projection/YuE",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/multimodal-art-projection/YuE/readme",
+      "category": "音乐生成",
+      "summary_zh": "当前主分支为 YuE2：从歌词和风格提示生成旋律、和弦计划，再输出人声与伴奏；也可输入或修改乐谱，进行改编与多轮编辑。",
+      "editorial_reason_zh": "适合观察音乐生成如何保留可编辑的中间结果，让人和助手能够围绕乐谱逐步调整作品，而不是只能反复重试整段音频。"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "rank": 4,
+      "stars": 29205,
+      "daily": 2776,
+      "language": "Python",
+      "metadata": {
+        "full_name": "debpalash/VoiceStudio",
+        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "language": "Python",
+        "stargazers_count": 29205,
+        "pushed_at": "2026-09-14T18:25:11Z",
+        "archived": false,
+        "html_url": "https://github.com/debpalash/VoiceStudio",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/debpalash/VoiceStudio/readme",
+      "category": "本地语音工作台",
+      "summary_zh": "将语音生成、声音设计、视频配音、听写、转录与有声书制作放在同一工作台，集成多种 TTS 和 ASR 引擎及本地音频接口。",
+      "editorial_reason_zh": "适合比较语音模型与完整创作工作流之间的衔接。项目仍处于活跃测试阶段，README 提示桌面端正在重写，语言覆盖与效果随引擎而异。"
+    },
+    {
+      "repo": "rlaope/oh-my-hermes",
+      "rank": 8,
+      "stars": 2041,
+      "daily": 77,
+      "language": "Python",
+      "metadata": {
+        "full_name": "rlaope/oh-my-hermes",
+        "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
+        "language": "Python",
+        "stargazers_count": 2041,
+        "pushed_at": "2026-09-14T23:57:19Z",
+        "archived": false,
+        "html_url": "https://github.com/rlaope/oh-my-hermes",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/rlaope/oh-my-hermes/readme",
+      "category": "助手工作流",
+      "summary_zh": "为 Hermes Agent 增加规划、研究、创作、编程交接、运维和项目记忆等工作流，保留 Hermes 的交互入口，并组织原生技能的调用路径。",
+      "editorial_reason_zh": "关注点是如何将任务分类、模型选择与结果证据连接起来，便于追踪长期任务中的实际进展；它是 Hermes 的扩展层，需要结合已有环境使用。"
+    },
+    {
+      "repo": "localsend/localsend",
+      "rank": 9,
+      "stars": 91324,
+      "daily": 251,
+      "language": "Dart",
+      "metadata": {
+        "full_name": "localsend/localsend",
+        "description": "An open-source cross-platform alternative to AirDrop",
+        "language": "Dart",
+        "stargazers_count": 91324,
+        "pushed_at": "2026-09-14T13:10:57Z",
+        "archived": false,
+        "html_url": "https://github.com/localsend/localsend",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/localsend/localsend/readme",
+      "category": "跨设备文件传输",
+      "summary_zh": "通过局域网在附近设备之间传输文件和消息，覆盖 Windows、macOS、Linux、Android 与 iOS 等平台，无需依赖互联网或第三方中转服务器。",
+      "editorial_reason_zh": "面向手机与电脑混合使用的常见需求，适合了解设备发现、传输确认与跨平台界面的设计。局域网传输也为本期本地工具提供了实用的配套环节。"
+    },
+    {
+      "repo": "dani-garcia/vaultwarden",
+      "rank": 10,
+      "stars": 67526,
+      "daily": 115,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "dani-garcia/vaultwarden",
+        "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+        "language": "Rust",
+        "stargazers_count": 67526,
+        "pushed_at": "2026-09-13T14:43:47Z",
+        "archived": false,
+        "html_url": "https://github.com/dani-garcia/vaultwarden",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/dani-garcia/vaultwarden/readme",
+      "category": "自托管密码管理",
+      "summary_zh": "以 Rust 实现的非官方 Bitwarden 兼容服务端，面向自托管部署，提供个人密码库、组织共享、附件与多种双重验证等功能。",
+      "editorial_reason_zh": "适合了解兼容已有客户端生态的服务端设计。README 明确它是独立项目，网页密码库需要 HTTPS 安全上下文；部署与维护应按项目自身文档进行。"
+    },
+    {
+      "repo": "OpenBMB/VoxCPM",
+      "rank": 14,
+      "stars": 37366,
+      "daily": 216,
+      "language": "Python",
+      "metadata": {
+        "full_name": "OpenBMB/VoxCPM",
+        "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+        "language": "Python",
+        "stargazers_count": 37366,
+        "pushed_at": "2026-09-02T12:12:35Z",
+        "archived": false,
+        "html_url": "https://github.com/OpenBMB/VoxCPM",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/OpenBMB/VoxCPM/readme",
+      "category": "语音生成模型",
+      "summary_zh": "采用不依赖离散语音分词的生成方式，直接建模连续语音表示。README 介绍 VoxCPM2 的多语言合成、文字描述声音设计和参考音频声音克隆。",
+      "editorial_reason_zh": "与语音工作台搭配阅读，可以区分底层模型能力与上层产品流程。对表达、音色和风格的控制方式值得研究，具体效果需要结合语言与输入样本试听。"
+    },
+    {
+      "repo": "Crosstalk-Solutions/project-nomad",
+      "rank": 17,
+      "stars": 36908,
+      "daily": 40,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "Crosstalk-Solutions/project-nomad",
+        "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+        "language": "TypeScript",
+        "stargazers_count": 36908,
+        "pushed_at": "2026-09-13T19:33:25Z",
+        "archived": false,
+        "html_url": "https://github.com/Crosstalk-Solutions/project-nomad",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Crosstalk-Solutions/project-nomad/readme",
+      "category": "离线知识服务",
+      "summary_zh": "通过浏览器管理容器化的知识与教育工具，整合离线百科、电子书、课程、地图、笔记，以及可选的本地模型聊天和文档检索。",
+      "editorial_reason_zh": "适合搭建可在断网时访问的家庭或教育资料服务。离线使用依赖事先下载所需内容，项目的价值在于把内容管理与不同工具的入口组织到一起。"
+    },
+    {
+      "repo": "peetzweg/opendisplay",
+      "rank": 19,
+      "stars": 3572,
+      "daily": 229,
+      "language": "Swift",
+      "metadata": {
+        "full_name": "peetzweg/opendisplay",
+        "description": "Free, open-source Sidecar/Duet alternative — use your iPhone or iPad as a true second monitor for your Mac over USB or WiFi. Low latency H.264, Retina HiDPI, touch input.",
+        "language": "Swift",
+        "stargazers_count": 3572,
+        "pushed_at": "2026-09-06T16:50:54Z",
+        "archived": false,
+        "html_url": "https://github.com/peetzweg/opendisplay",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/peetzweg/opendisplay/readme",
+      "category": "扩展显示工具",
+      "summary_zh": "把闲置 iPhone、iPad 或 Mac 用作 Mac 的扩展显示器，支持有线或无线连接，提供 H.264 视频传输、HiDPI 显示与触摸输入等能力。",
+      "editorial_reason_zh": "适合研究虚拟显示、视频编码、传输与输入回传之间的完整链路，也为闲置设备提供复用思路。本文未测量设备上的延迟或画质。"
+    }
+  ]
+}
