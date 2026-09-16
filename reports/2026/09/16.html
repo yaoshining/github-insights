@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="让工具与工作过程更易管理：精选 Open Code Review、BrewUI、Atlas 等 10 个上榜项目，同时关注本地推理、研究助手与自托管聊天。">
+<title>GitHub 热点日报 2026-09-16</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{color-scheme:dark}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);min-height:100vh;color:#e4e4e4;line-height:1.75}
+.container{max-width:1000px;margin:auto;padding:40px 24px}header{margin:24px 0 40px}h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.25;margin:12px 0 20px;background:linear-gradient(90deg,#ff6b6b,#feca57,#48dbfb,#ff9ff3);background-clip:text;-webkit-background-clip:text;color:transparent}h2{font-size:1.5rem;margin:0 0 18px;color:#feca57}h3{font-size:1.12rem;margin:0 0 8px}a{color:#7dd3fc;text-underline-offset:4px;overflow-wrap:anywhere}a:hover{color:#bceaff}a:focus-visible{outline:2px solid #feca57;outline-offset:5px}.subtitle,.muted{color:#b5c2d2}.eyebrow{font-size:.85rem;letter-spacing:.08em;color:#fbbf87}.card,.latest-report{background:rgba(10,19,37,.58);border:1px solid rgba(255,255,255,.15);border-radius:16px;padding:24px;min-width:0}.latest-report{padding:32px;margin-bottom:36px}.card p+p{margin-top:12px}.report-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:16px}.reports{display:grid;gap:20px}.meta{display:flex;gap:8px 18px;flex-wrap:wrap;margin:12px 0;color:#b5c2d2;font-size:.88rem}.stars{color:#fbbf87}.tag{display:inline-block;font-size:.82rem;color:#8fd5ff;background:#19446d;padding:2px 10px;border-radius:20px}.btn{display:inline-block;margin-top:20px;padding:10px 24px;border-radius:24px;background:linear-gradient(90deg,#667eea,#764ba2);color:white;text-decoration:none;font-weight:600}nav{display:flex;gap:12px 24px;flex-wrap:wrap;margin-bottom:28px}.section{margin:36px 0}.archive-list{list-style:none;display:grid;gap:12px}.archive-list>li{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:16px 20px}.archive-list a{font-weight:600}details{margin-top:10px;font-size:.85rem;color:#b5c2d2}details a{display:block;margin:8px 0}.reason{color:#c8d4e3}.source{font-size:.85rem;margin-top:16px}footer{margin-top:44px;padding-top:24px;border-top:1px solid rgba(255,255,255,.16);color:#b5c2d2;font-size:.85rem}footer p+p{margin-top:8px}time{font-variant-numeric:tabular-nums}p,li,h1,h2,h3{overflow-wrap:anywhere}.note{border-left:3px solid #fbbf87;padding-left:16px;margin-top:16px}.skip{position:absolute;left:12px;top:-100px}.skip:focus{top:12px;background:#16213e;padding:10px;z-index:2}
+@media(max-width:480px){.container{padding:24px 16px}.card,.latest-report{padding:20px}header{margin:16px 0 28px}h2{font-size:1.25rem}nav{font-size:.9rem}.meta{gap:6px 12px}}
+</style>
+<link rel="stylesheet" href="../../../assets/report-share.css">
+<script defer src="../../../assets/report-share.js"></script>
+</head>
+<body><a class="skip" href="#main">跳至正文</a><main id="main" class="container">
+<nav aria-label="日报导航"><a href="../../../index.html">← 返回首页</a><a href="index.html">本月归档</a><a href="../index.html">年度归档</a></nav>
+<header><p class="eyebrow">GITHUB INSIGHTS / DAILY</p><h1>GitHub 热点日报</h1><p class="subtitle"><time datetime="2026-09-16">2026-09-16</time> · 周三 · 10 个上榜项目精选</p></header>
+<section class="latest-report" aria-labelledby="overview"><h2 id="overview">今日观察</h2><p>让工具与工作过程更易管理：精选 Open Code Review、BrewUI、Atlas 等 10 个上榜项目，同时关注本地推理、研究助手与自托管聊天。</p><p class="note">本期观察：Open Code Review 组织变更审查，OpenResearch 保留实验来源，Atlas 连接提交与助手会话，BrewUI 则把软件包操作呈现在图形界面中。它们从不同环节帮助用户看清工具做了什么、结果来自哪里；这是对本期样本的编辑解读，并非长期趋势结论。</p></section>
+<section class="section" aria-labelledby="selection"><h2 id="selection">项目精选</h2><div class="reports"><article class="card" aria-labelledby="repo-1">
+<p class="eyebrow">精选 01 · Trending 位置 #1</p>
+<h2 id="repo-1"><a href="https://github.com/alibaba/open-code-review">alibaba/open-code-review</a></h2>
+<span class="tag">代码审查</span>
+<div class="meta"><span class="stars">⭐ 总星标 28,586</span><span class="stars">今日新增 +2,756</span><span>Go</span></div>
+<p>读取 Git diff 或完整文件，利用规则和模型助手检索上下文，生成定位到代码行的结构化审查意见；适合接入日常变更检查流程。</p><p class="reason"><strong>关注理由：</strong>关注代码选择、上下文组织和评论定位如何共同提高审查的可复查性。项目自报的性能基准与实际团队效果应分开看，本文未复现基准。</p>
+<p class="source">来源：<a href="https://github.com/alibaba/open-code-review#readme">项目 README</a> · <a href="https://api.github.com/repos/alibaba/open-code-review">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-2">
+<p class="eyebrow">精选 02 · Trending 位置 #2</p>
+<h2 id="repo-2"><a href="https://github.com/JustVugg/colibri">JustVugg/colibri</a></h2>
+<span class="tag">本地模型推理</span>
+<div class="meta"><span class="stars">⭐ 总星标 33,846</span><span class="stars">今日新增 +2,026</span><span>C</span></div>
+<p>以 C 编写的 MoE 推理引擎，将显存、内存和磁盘组织为分层存储，按需调度专家权重，并提供聊天、服务与网页入口。</p><p class="reason"><strong>关注理由：</strong>适合研究模型权重的存储布局与计算调度。README 强调端到端测量，具体速度取决于模型、内存与磁盘条件，不宜仅凭模型参数量推断体验。</p>
+<p class="source">来源：<a href="https://github.com/JustVugg/colibri#readme">项目 README</a> · <a href="https://api.github.com/repos/JustVugg/colibri">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-3">
+<p class="eyebrow">精选 03 · Trending 位置 #3</p>
+<h2 id="repo-3"><a href="https://github.com/ever-co/ever-gauzy">ever-co/ever-gauzy</a></h2>
+<span class="tag">业务管理平台</span>
+<div class="meta"><span class="stars">⭐ 总星标 6,668</span><span class="stars">今日新增 +634</span><span>TypeScript</span></div>
+<p>整合客户、招聘、人力、项目、工时、销售及财务等业务模块，提供多组织管理、角色权限、报表与 Headless API。</p><p class="reason"><strong>关注理由：</strong>适合将团队内部管理需求映射到可复用的数据和权限模型，观察业务模块如何共享基础能力，也可按实际流程评估其中一部分功能。</p>
+<p class="source">来源：<a href="https://github.com/ever-co/ever-gauzy#readme">项目 README</a> · <a href="https://api.github.com/repos/ever-co/ever-gauzy">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-4">
+<p class="eyebrow">精选 04 · Trending 位置 #4</p>
+<h2 id="repo-4"><a href="https://github.com/debpalash/VoiceStudio">debpalash/VoiceStudio</a></h2>
+<span class="tag">语音创作工作台</span>
+<div class="meta"><span class="stars">⭐ 总星标 30,980</span><span class="stars">今日新增 +2,072</span><span>Python</span></div>
+<p>把声音设计与克隆、配音、听写、转录及有声书制作组织在同一界面中，支持多种语音生成和识别引擎，以及本地音频接口。</p><p class="reason"><strong>关注理由：</strong>适合比较底层语音模型如何接入较完整的创作流程。README 仍标注活跃测试和桌面端重写，实际语言覆盖与音质需结合选用引擎判断。</p>
+<p class="source">来源：<a href="https://github.com/debpalash/VoiceStudio#readme">项目 README</a> · <a href="https://api.github.com/repos/debpalash/VoiceStudio">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-5">
+<p class="eyebrow">精选 05 · Trending 位置 #5</p>
+<h2 id="repo-5"><a href="https://github.com/Homebrew/BrewUI">Homebrew/BrewUI</a></h2>
+<span class="tag">软件包管理界面</span>
+<div class="meta"><span class="stars">⭐ 总星标 1,363</span><span class="stars">今日新增 +271</span><span>Swift</span></div>
+<p>Homebrew 官方 macOS 图形界面，使用 SwiftUI 提供发现、安装、更新和管理软件包的操作入口，同时呈现底层 Homebrew 操作。</p><p class="reason"><strong>关注理由：</strong>适合偏好图形操作的用户，也可作为命令行工具界面化的设计参考。当前 README 要求 macOS Tahoe 26 或更高版本，并说明配置来自 brew.env 文件。</p>
+<p class="source">来源：<a href="https://github.com/Homebrew/BrewUI#readme">项目 README</a> · <a href="https://api.github.com/repos/Homebrew/BrewUI">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-6">
+<p class="eyebrow">精选 06 · Trending 位置 #7</p>
+<h2 id="repo-6"><a href="https://github.com/alphaXiv/OpenResearch">alphaXiv/OpenResearch</a></h2>
+<span class="tag">研究与实验管理</span>
+<div class="meta"><span class="stars">⭐ 总星标 3,363</span><span class="stars">今日新增 +531</span><span>Rust</span></div>
+<p>本地优先的研究助手工作区，把文献、假设、实验和产物关联起来；不同研究方向可使用独立会话与 Git worktree，并记录运行所用代码快照。</p><p class="reason"><strong>关注理由：</strong>把日志、差异、结果与实验来源放在一起，有助于比较不同方案和回溯决策。它提供研究过程的组织工具，研究结论仍需要依据实验和原始材料核验。</p>
+<p class="source">来源：<a href="https://github.com/alphaXiv/OpenResearch#readme">项目 README</a> · <a href="https://api.github.com/repos/alphaXiv/OpenResearch">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-7">
+<p class="eyebrow">精选 07 · Trending 位置 #8</p>
+<h2 id="repo-7"><a href="https://github.com/NationalSecurityAgency/ghidra">NationalSecurityAgency/ghidra</a></h2>
+<span class="tag">软件分析</span>
+<div class="meta"><span class="stars">⭐ 总星标 76,710</span><span class="stars">今日新增 +725</span><span>Java</span></div>
+<p>支持多种处理器指令集和可执行格式的软件逆向分析框架，集成反汇编、反编译、图形分析与脚本功能，可交互操作或自动化运行。</p><p class="reason"><strong>关注理由：</strong>适合软件分析、兼容性研究和安全审计学习。Java 与 Python 扩展机制也便于观察成熟分析工具如何提供可组合的研究接口。</p>
+<p class="source">来源：<a href="https://github.com/NationalSecurityAgency/ghidra#readme">项目 README</a> · <a href="https://api.github.com/repos/NationalSecurityAgency/ghidra">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-8">
+<p class="eyebrow">精选 08 · Trending 位置 #9</p>
+<h2 id="repo-8"><a href="https://github.com/danny-avila/LibreChat">danny-avila/LibreChat</a></h2>
+<span class="tag">自托管 AI 工作区</span>
+<div class="meta"><span class="stars">⭐ 总星标 43,839</span><span class="stars">今日新增 +254</span><span>TypeScript</span></div>
+<p>在可自托管的聊天界面中接入多种模型服务，并组织助手、MCP、技能、文件和工具调用。当前 README 还介绍了测试中的助手管理 API 与实验性附加工作区。</p><p class="reason"><strong>关注理由：</strong>适合研究多模型入口如何与用户权限、工具执行及对话管理结合。新增功能的测试或实验状态已有明确标注，选用时可按需要逐项评估。</p>
+<p class="source">来源：<a href="https://github.com/danny-avila/LibreChat#readme">项目 README</a> · <a href="https://api.github.com/repos/danny-avila/LibreChat">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-9">
+<p class="eyebrow">精选 09 · Trending 位置 #10</p>
+<h2 id="repo-9"><a href="https://github.com/pacifio/atlas">pacifio/atlas</a></h2>
+<span class="tag">编程会话追踪</span>
+<div class="meta"><span class="stars">⭐ 总星标 4,627</span><span class="stars">今日新增 +91</span><span>Rust</span></div>
+<p>面向编程助手的源码管理工具，把提交与产生变更的会话、提示、工具调用和文件差异连接起来，并支持在同一项目中使用多种助手及共享项目记忆。</p><p class="reason"><strong>关注理由：</strong>适合关注改动来源和决策背景的团队，把代码版本与任务过程一起保留。README 当前将 macOS 列为受支持平台，其他桌面平台尚未测试。</p>
+<p class="source">来源：<a href="https://github.com/pacifio/atlas#readme">项目 README</a> · <a href="https://api.github.com/repos/pacifio/atlas">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-10">
+<p class="eyebrow">精选 10 · Trending 位置 #14</p>
+<h2 id="repo-10"><a href="https://github.com/earendil-works/pi">earendil-works/pi</a></h2>
+<span class="tag">助手开发工具包</span>
+<div class="meta"><span class="stars">⭐ 总星标 105,712</span><span class="stars">今日新增 +458</span><span>TypeScript</span></div>
+<p>提供统一的多模型服务 API、带工具调用与状态管理的运行时、交互式编程 CLI 和终端界面库，便于组装或扩展自己的 AI 助手。</p><p class="reason"><strong>关注理由：</strong>从运行时、模型接口到交互层的拆分具有参考价值。README 明确默认沿用启动进程的权限；需要隔离执行时，应采用其文档中的容器或沙箱方案。</p>
+<p class="source">来源：<a href="https://github.com/earendil-works/pi#readme">项目 README</a> · <a href="https://api.github.com/repos/earendil-works/pi">GitHub API</a></p>
+</article></div></section>
+<section class="card section" aria-labelledby="method"><h2 id="method">数据来源与选取口径</h2><p>榜单快照采集于北京时间 <time datetime="2026-09-16T09:02:45.982386+08:00">2026-09-16 09:02:45</time>（UTC+8）。范围为 <a href="https://github.com/trending?since=daily">GitHub Trending · Today</a>，不限语言；从采集时展示的项目中选取 10 个，兼顾代码与实验管理、本地推理、语音创作、业务平台、软件包管理、软件分析及助手开发工具，按原榜单位置排列，并非完整 Top 10。</p><p>总星标、今日新增及语言均取自同一 Trending 快照；“今日新增”使用 GitHub 页面定义的 today 口径，不代表北京时间自然日累计值。仓库存在性、语言和说明另由 GitHub API 与 README 核实，接口数字可能因采集时差略有不同。本文未据此推断真实用户数或软件质量，也不将其视为今天刚发布的项目。</p><p>项目能力说明依据各仓库 README，关注理由为编辑判断；未对所有项目进行安装或性能测试。<a href="16.json">查看本期数据快照（JSON）</a>。</p></section>
+<nav aria-label="阅读后导航"><a href="../../../index.html">返回总入口</a><a href="index.html">浏览本月日报 →</a></nav>
+<footer><p>GitHub Insights · 每日追踪开源动态</p><p><a href="https://github.com/yaoshining/github-insights">项目仓库</a> · Made with ❤️ by <a href="https://github.com/yaoshining">@yaoshining</a></p></footer>
+</main></body>
+</html>
