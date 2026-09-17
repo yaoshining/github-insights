@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-17",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-17T09:02:03.910630+08:00",
+  "verified_at": "2026-09-17T09:02:32.489867+08:00",
+  "items": [
+    {
+      "repo": "alibaba/open-code-review",
+      "rank": 1,
+      "stars": 31870,
+      "daily": 3231,
+      "language": "Go",
+      "metadata": {
+        "full_name": "alibaba/open-code-review",
+        "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "language": "Go",
+        "stargazers_count": 31870,
+        "pushed_at": "2026-09-16T14:52:32Z",
+        "archived": false,
+        "html_url": "https://github.com/alibaba/open-code-review",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/alibaba/open-code-review/readme",
+      "category": "代码审查",
+      "summary_zh": "结合确定性处理流程与模型助手，读取 Git diff、检索相关代码，并生成定位到代码行的审查意见；也能扫描完整文件。",
+      "editorial_reason_zh": "适合观察如何把文件筛选、上下文组织和评论输出变成可检查的工程流程。团队接入时可用自己的变更样本评估误报与漏报，本文未复现项目自报基准。"
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "rank": 2,
+      "stars": 7247,
+      "daily": 927,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "cloudflare/security-audit-skill",
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "stargazers_count": 7248,
+        "pushed_at": "2026-09-14T19:29:02Z",
+        "archived": false,
+        "html_url": "https://github.com/cloudflare/security-audit-skill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cloudflare/security-audit-skill/readme",
+      "category": "安全审计工作流",
+      "summary_zh": "面向编程助手的多阶段审计技能，组织架构梳理、覆盖检查、候选问题验证、结构化记录与独立复核，并分别标注已确认、待验证和已排除的发现。",
+      "editorial_reason_zh": "把覆盖记录与发现证据分开管理，有助于追踪审计检查了什么、还缺什么。适合研究自动化审计的验证流程，生成报告仍需结合具体项目复核。"
+    },
+    {
+      "repo": "JustVugg/colibri",
+      "rank": 3,
+      "stars": 35035,
+      "daily": 1546,
+      "language": "C",
+      "metadata": {
+        "full_name": "JustVugg/colibri",
+        "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+        "language": "C",
+        "stargazers_count": 35035,
+        "pushed_at": "2026-09-15T21:33:15Z",
+        "archived": false,
+        "html_url": "https://github.com/JustVugg/colibri",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/JustVugg/colibri/readme",
+      "category": "本地模型推理",
+      "summary_zh": "以 C 实现 MoE 推理引擎，将磁盘、内存与显存作为不同存储层来调度专家权重，提供聊天、服务和网页入口。",
+      "editorial_reason_zh": "本地运行大模型不仅取决于计算量，也取决于权重如何移动。该项目适合研究存储与推理的协同设计，实际速度仍受模型和硬件配置影响。"
+    },
+    {
+      "repo": "abue-ammar/tinycast",
+      "rank": 4,
+      "stars": 5594,
+      "daily": 1179,
+      "language": "Swift",
+      "metadata": {
+        "full_name": "abue-ammar/tinycast",
+        "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
+        "language": "Swift",
+        "stargazers_count": 5594,
+        "pushed_at": "2026-09-16T23:38:09Z",
+        "archived": false,
+        "html_url": "https://github.com/abue-ammar/tinycast",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/abue-ammar/tinycast/readme",
+      "category": "原生桌面效率工具",
+      "summary_zh": "macOS 原生启动器，将应用搜索、全局快捷键、剪贴板历史、文件搜索、窗口操作和文本片段等功能集中到一个命令面板。",
+      "editorial_reason_zh": "适合观察如何把高频桌面操作组织成统一入口。README 还介绍了原生渲染的扩展支持，但具体扩展兼容性和资源占用需要在设备上验证。"
+    },
+    {
+      "repo": "jamiepine/voicebox",
+      "rank": 5,
+      "stars": 54383,
+      "daily": 417,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "jamiepine/voicebox",
+        "description": "The open-source AI voice studio. Clone, dictate, create.",
+        "language": "TypeScript",
+        "stargazers_count": 54383,
+        "pushed_at": "2026-08-09T00:03:42Z",
+        "archived": false,
+        "html_url": "https://github.com/jamiepine/voicebox",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/jamiepine/voicebox/readme",
+      "category": "本地语音工作台",
+      "summary_zh": "将声音克隆、语音生成、全局听写和多轨叙事编辑放在同一应用中，提供 REST API 与 MCP 接口，便于把语音输入输出接入其他工具。",
+      "editorial_reason_zh": "既覆盖把文字变成声音，也覆盖把语音写入文本框，适合研究语音模型如何融入日常工作。不同引擎的语言与设备支持应按项目文档分别核对。"
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "rank": 7,
+      "stars": 24285,
+      "daily": 110,
+      "language": "Python",
+      "metadata": {
+        "full_name": "anthropics/knowledge-work-plugins",
+        "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "language": "Python",
+        "stargazers_count": 24286,
+        "pushed_at": "2026-09-17T00:17:25Z",
+        "archived": false,
+        "html_url": "https://github.com/anthropics/knowledge-work-plugins",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/anthropics/knowledge-work-plugins/readme",
+      "category": "知识工作插件",
+      "summary_zh": "面向 Claude Cowork、兼容 Claude Code 的角色插件集合，将技能、连接器、命令与子助手组合成产品、销售、客服、数据等工作流程。",
+      "editorial_reason_zh": "可作为团队封装专业流程的参考：把工具入口、术语和交付方式放在同一插件中，再按组织需求定制。具体能力还依赖连接器配置与可访问的数据。"
+    },
+    {
+      "repo": "ankitects/anki",
+      "rank": 9,
+      "stars": 30861,
+      "daily": 58,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "ankitects/anki",
+        "description": "Anki is a smart spaced repetition flashcard program",
+        "language": "Rust",
+        "stargazers_count": 30862,
+        "pushed_at": "2026-09-16T20:59:17Z",
+        "archived": false,
+        "html_url": "https://github.com/ankitects/anki",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/ankitects/anki/readme",
+      "category": "间隔复习",
+      "summary_zh": "Anki 电脑端的源码仓库，提供以间隔重复为核心的闪卡学习程序，用于持续复习需要记忆的内容。",
+      "editorial_reason_zh": "在本期自动化与生成工具之外，它提供了另一种知识使用路径：将需要长期掌握的内容放入反复练习的流程。适合关注学习工具和桌面应用开发的读者。"
+    },
+    {
+      "repo": "roboflow/supervision",
+      "rank": 12,
+      "stars": 50598,
+      "daily": 260,
+      "language": "Python",
+      "metadata": {
+        "full_name": "roboflow/supervision",
+        "description": "We write your reusable computer vision tools. 💜",
+        "language": "Python",
+        "stargazers_count": 50598,
+        "pushed_at": "2026-09-16T20:26:40Z",
+        "archived": false,
+        "html_url": "https://github.com/roboflow/supervision",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "develop"
+      },
+      "readme_url": "https://api.github.com/repos/roboflow/supervision/readme",
+      "category": "计算机视觉工具",
+      "summary_zh": "面向分类、检测与分割结果的通用 Python 工具集，提供模型连接、可视化标注、数据处理和区域计数等组件，帮助构建模型周边的应用流程。",
+      "editorial_reason_zh": "很多视觉应用的工作发生在模型输出之后。该项目把常用处理组件独立出来，适合减少重复代码，也便于比较不同模型在同一应用中的接入方式。"
+    },
+    {
+      "repo": "supabase/supabase",
+      "rank": 14,
+      "stars": 109731,
+      "daily": 120,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "supabase/supabase",
+        "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+        "language": "TypeScript",
+        "stargazers_count": 109732,
+        "pushed_at": "2026-09-17T00:35:43Z",
+        "archived": false,
+        "html_url": "https://github.com/supabase/supabase",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/supabase/supabase/readme",
+      "category": "数据库与应用后端",
+      "summary_zh": "以 Postgres 为核心，组合认证授权、自动生成的 API、实时订阅、文件存储、函数与向量工具，支持托管服务、本地开发及自托管路径。",
+      "editorial_reason_zh": "适合研究数据库如何与应用所需的后端能力衔接，尤其是把普通业务数据与 AI 检索放在同一开发体系中的方式。可按实际需求选择组件和部署方式。"
+    },
+    {
+      "repo": "Tencent/WeKnora",
+      "rank": 16,
+      "stars": 25299,
+      "daily": 1197,
+      "language": "Go",
+      "metadata": {
+        "full_name": "Tencent/WeKnora",
+        "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+        "language": "Go",
+        "stargazers_count": 25300,
+        "pushed_at": "2026-09-16T15:12:14Z",
+        "archived": false,
+        "html_url": "https://github.com/Tencent/WeKnora",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Tencent/WeKnora/readme",
+      "category": "文档知识平台",
+      "summary_zh": "围绕文档理解和语义检索，提供 RAG 问答、多步推理助手与 Wiki 模式；支持把原始文档整理为关联的 Markdown 知识库，并保留编辑与修订记录。",
+      "editorial_reason_zh": "从检索原始片段到维护可编辑的知识页面，展示了知识库的不同组织方式。适合关注文档治理、来源回溯和多工具问答的团队研究。"
+    }
+  ]
+}
