@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-18",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-18T09:16:52.204731+08:00",
+  "verified_at": "2026-09-18T09:17:22.476380+08:00",
+  "items": [
+    {
+      "repo": "alibaba/open-code-review",
+      "rank": 1,
+      "stars": 34795,
+      "daily": 3286,
+      "language": "Go",
+      "metadata": {
+        "full_name": "alibaba/open-code-review",
+        "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "language": "Go",
+        "stargazers_count": 34795,
+        "pushed_at": "2026-09-17T13:19:37Z",
+        "archived": false,
+        "html_url": "https://github.com/alibaba/open-code-review",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/alibaba/open-code-review/readme",
+      "category": "AI 代码审查",
+      "summary_zh": "结合确定性检查流程与 LLM Agent 的代码审查工具，可读取 Git 差异、完整文件和相关上下文，输出定位到代码行的审查意见，也支持文件扫描。",
+      "editorial_reason_zh": "适合观察 AI 审查如何从单段提示走向可配置的工程流程；接入团队前仍应使用自己的已知缺陷样本验证误报与漏报。"
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "rank": 2,
+      "stars": 10689,
+      "daily": 3607,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "cloudflare/security-audit-skill",
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "stargazers_count": 10689,
+        "pushed_at": "2026-09-14T19:29:02Z",
+        "archived": false,
+        "html_url": "https://github.com/cloudflare/security-audit-skill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cloudflare/security-audit-skill/readme",
+      "category": "安全审计工作流",
+      "summary_zh": "面向编码智能体的安全审计技能，将架构与信任边界梳理、候选问题挖掘、独立验证和报告输出分为多个阶段，并记录已确认、待验证和被否定的发现。",
+      "editorial_reason_zh": "值得借鉴的是对证据和覆盖范围的记录，以及尝试推翻候选问题的复核环节；流程本身不等于漏洞已被完整发现。"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "rank": 3,
+      "stars": 95858,
+      "daily": 680,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "addyosmani/agent-skills",
+        "description": "Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "stargazers_count": 95858,
+        "pushed_at": "2026-09-17T23:38:02Z",
+        "archived": false,
+        "html_url": "https://github.com/addyosmani/agent-skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/addyosmani/agent-skills/readme",
+      "category": "AI 工程实践",
+      "summary_zh": "为编码智能体提供需求定义、规划、构建、测试、审查和交付等技能，也包含代码简化与 Web 性能相关工作流。",
+      "editorial_reason_zh": "适合把团队反复强调的工程要求整理成可复用步骤；采用时应检查技能引用文件是否齐全，并结合项目约定调整验收条件。"
+    },
+    {
+      "repo": "Tencent/BrowserSkill",
+      "rank": 4,
+      "stars": 4170,
+      "daily": 1302,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "Tencent/BrowserSkill",
+        "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+        "language": "TypeScript",
+        "stargazers_count": 4170,
+        "pushed_at": "2026-09-17T09:11:26Z",
+        "archived": false,
+        "html_url": "https://github.com/Tencent/BrowserSkill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Tencent/BrowserSkill/readme",
+      "category": "浏览器自动化",
+      "summary_zh": "通过命令行、后台服务与浏览器扩展，让智能体操作已有登录状态的浏览器。提供可见的 Agent 窗口，并支持借用标签页、截图及需要人工介入时的交接。",
+      "editorial_reason_zh": "它关注自动操作与人工接管之间的衔接，适合研究需要真实登录会话的网页工作流；当前 README 列出的支持浏览器为 Chrome 和 Edge。"
+    },
+    {
+      "repo": "alphaXiv/OpenResearch",
+      "rank": 5,
+      "stars": 4957,
+      "daily": 939,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "alphaXiv/OpenResearch",
+        "description": "Turn your coding agents into research agents",
+        "language": "Rust",
+        "stargazers_count": 4957,
+        "pushed_at": "2026-09-17T23:48:29Z",
+        "archived": false,
+        "html_url": "https://github.com/alphaXiv/OpenResearch",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/alphaXiv/OpenResearch/readme",
+      "category": "AI 研究工作台",
+      "summary_zh": "本地优先的研究工作区，可组织文献、假设、实验和产物，为不同研究方向配置独立智能体与工作树，并把运行快照、日志、差异和结果关联起来。",
+      "editorial_reason_zh": "研究过程能否追溯和复现，比单次生成结果更有价值。该项目提供了组织实验记录的思路，但结论的有效性仍需研究者检验。"
+    },
+    {
+      "repo": "Tencent/WeKnora",
+      "rank": 9,
+      "stars": 26241,
+      "daily": 1125,
+      "language": "Go",
+      "metadata": {
+        "full_name": "Tencent/WeKnora",
+        "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+        "language": "Go",
+        "stargazers_count": 26241,
+        "pushed_at": "2026-09-17T16:55:44Z",
+        "archived": false,
+        "html_url": "https://github.com/Tencent/WeKnora",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Tencent/WeKnora/readme",
+      "category": "知识库与检索",
+      "summary_zh": "集文档解析、语义检索和 RAG 问答于一体的知识工具，支持智能体工具调用，并可把资料组织成关联的 Markdown Wiki，进行人工编辑和版本回退。",
+      "editorial_reason_zh": "适合关注资料从导入、检索到持续维护的完整流程；部署时需分别确认模型服务、存储与访问权限的配置。"
+    },
+    {
+      "repo": "cilium/cilium",
+      "rank": 11,
+      "stars": 25270,
+      "daily": 111,
+      "language": "Go",
+      "metadata": {
+        "full_name": "cilium/cilium",
+        "description": "eBPF-based Networking, Security, and Observability",
+        "language": "Go",
+        "stargazers_count": 25270,
+        "pushed_at": "2026-09-18T00:57:55Z",
+        "archived": false,
+        "html_url": "https://github.com/cilium/cilium",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cilium/cilium/readme",
+      "category": "云原生网络",
+      "summary_zh": "基于 eBPF 的网络、安全与可观测性平台，覆盖容器网络、基于身份的访问策略、负载均衡及网络流量可见性等能力。",
+      "editorial_reason_zh": "当应用和智能体进入集群运行，连接策略与故障定位仍是基础问题。Cilium 为这类基础设施需求提供了值得深入研究的实现。"
+    },
+    {
+      "repo": "roboflow/supervision",
+      "rank": 14,
+      "stars": 50803,
+      "daily": 329,
+      "language": "Python",
+      "metadata": {
+        "full_name": "roboflow/supervision",
+        "description": "We write your reusable computer vision tools. 💜",
+        "language": "Python",
+        "stargazers_count": 50804,
+        "pushed_at": "2026-09-17T15:52:31Z",
+        "archived": false,
+        "html_url": "https://github.com/roboflow/supervision",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "develop"
+      },
+      "readme_url": "https://api.github.com/repos/roboflow/supervision/readme",
+      "category": "计算机视觉工具",
+      "summary_zh": "提供面向不同视觉模型的 Python 工具，包括模型输出适配、检测结果处理、计数和图像标注可视化，帮助串联视觉应用中的常见步骤。",
+      "editorial_reason_zh": "适合已经有模型、但需要减少后处理和展示代码的开发者；它的价值主要在模型周边工具的复用，而非提供一种新模型。"
+    },
+    {
+      "repo": "TencentCloud/Octop",
+      "rank": 16,
+      "stars": 3456,
+      "daily": 367,
+      "language": "Python",
+      "metadata": {
+        "full_name": "TencentCloud/Octop",
+        "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+        "language": "Python",
+        "stargazers_count": 3457,
+        "pushed_at": "2026-09-17T13:31:22Z",
+        "archived": false,
+        "html_url": "https://github.com/TencentCloud/Octop",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/TencentCloud/Octop/readme",
+      "category": "自托管 AI 助手",
+      "summary_zh": "面向团队或家庭的多用户、多智能体助手，提供网页界面、命令行与聊天渠道，可结合知识检索、记忆、工具连接和定时任务组织工作。",
+      "editorial_reason_zh": "值得关注多人使用时如何共享能力、隔离用户并管理工具调用。自托管应用与模型请求是否外发是两项配置，需要分别确认。"
+    },
+    {
+      "repo": "coder/coder",
+      "rank": 19,
+      "stars": 14843,
+      "daily": 145,
+      "language": "Go",
+      "metadata": {
+        "full_name": "coder/coder",
+        "description": "Secure environments for developers and their agents",
+        "language": "Go",
+        "stargazers_count": 14843,
+        "pushed_at": "2026-09-18T01:15:40Z",
+        "archived": false,
+        "html_url": "https://github.com/coder/coder",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/coder/coder/readme",
+      "category": "云开发环境",
+      "summary_zh": "自托管的云开发环境平台，可通过 Terraform 配置虚拟机、容器或 Kubernetes 工作区，支持远程连接、空闲关闭，并提供面向 AI 编码工具的模型访问管理能力。",
+      "editorial_reason_zh": "当人和智能体共同参与开发时，可复现的环境与统一访问管理会影响协作成本；适合需要集中维护开发工作区的团队研究。"
+    }
+  ]
+}
