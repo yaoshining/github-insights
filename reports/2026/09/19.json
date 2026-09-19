@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-19",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-19T09:15:12.813121+08:00",
+  "verified_at": "2026-09-19T09:15:33.408484+08:00",
+  "items": [
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "rank": 1,
+      "stars": 13723,
+      "daily": 3006,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "cloudflare/security-audit-skill",
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "stargazers_count": 13724,
+        "pushed_at": "2026-09-14T19:29:02Z",
+        "archived": false,
+        "html_url": "https://github.com/cloudflare/security-audit-skill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cloudflare/security-audit-skill/readme",
+      "category": "AI 安全审计",
+      "summary_zh": "为编码智能体组织分阶段安全审计，从架构和信任边界梳理，到候选问题验证、结构化记录与最终报告，并将已确认、待验证和被否定的发现分开保存。",
+      "editorial_reason_zh": "适合研究如何把审计结论与源码证据、覆盖范围关联起来。独立复核和记录校验值得借鉴，但采用流程并不保证发现所有漏洞。"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "rank": 3,
+      "stars": 36684,
+      "daily": 2704,
+      "language": "Go",
+      "metadata": {
+        "full_name": "alibaba/open-code-review",
+        "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "language": "Go",
+        "stargazers_count": 36684,
+        "pushed_at": "2026-09-18T14:24:55Z",
+        "archived": false,
+        "html_url": "https://github.com/alibaba/open-code-review",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/alibaba/open-code-review/readme",
+      "category": "AI 代码审查",
+      "summary_zh": "结合确定性工程流程与 LLM Agent 的审查命令行工具，读取 Git 差异、文件和相关上下文，生成代码行级意见，也可扫描完整文件。",
+      "editorial_reason_zh": "它把文件筛选、规则匹配与模型判断拆分处理，适合关注 AI 审查可重复性的团队；实际精确率和召回率仍应通过自己的代码样本评估。"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "rank": 4,
+      "stars": 262078,
+      "daily": 958,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "affaan-m/ECC",
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "stargazers_count": 262078,
+        "pushed_at": "2026-09-19T01:10:31Z",
+        "archived": false,
+        "html_url": "https://github.com/affaan-m/ECC",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/affaan-m/ECC/readme",
+      "category": "智能体工程工具",
+      "summary_zh": "为编码智能体提供规划、测试、审查、记忆和技能复用等工作流，包含专用智能体、规则、钩子及配置检查工具，并适配多种编码助手。",
+      "editorial_reason_zh": "适合将反复使用的工程步骤沉淀为团队工具。README 明确不同平台的支持程度存在差异，选用时应对照实际运行环境，而非假定所有功能一致。"
+    },
+    {
+      "repo": "Tencent/BrowserSkill",
+      "rank": 5,
+      "stars": 5310,
+      "daily": 1306,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "Tencent/BrowserSkill",
+        "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+        "language": "TypeScript",
+        "stargazers_count": 5311,
+        "pushed_at": "2026-09-18T15:01:25Z",
+        "archived": false,
+        "html_url": "https://github.com/Tencent/BrowserSkill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Tencent/BrowserSkill/readme",
+      "category": "浏览器自动化",
+      "summary_zh": "通过命令行服务和浏览器扩展，把智能体连接到已登录的真实浏览器，提供独立可见窗口、显式借用标签页、人工接管和整页截图能力。",
+      "editorial_reason_zh": "浏览器任务常常需要在自动执行和人工确认之间切换，该项目的交接设计值得关注；适合研究需要现有会话的网页操作流程。"
+    },
+    {
+      "repo": "Fission-AI/OpenSpec",
+      "rank": 8,
+      "stars": 69360,
+      "daily": 296,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "Fission-AI/OpenSpec",
+        "description": "Spec-driven development (SDD) for AI coding assistants.",
+        "language": "TypeScript",
+        "stargazers_count": 69360,
+        "pushed_at": "2026-09-18T23:23:30Z",
+        "archived": false,
+        "html_url": "https://github.com/Fission-AI/OpenSpec",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Fission-AI/OpenSpec/readme",
+      "category": "规范驱动开发",
+      "summary_zh": "面向 AI 编码助手的规范工作流，用 Markdown 提案、需求场景、技术设计和任务清单组织变更，再将实施结果归档到项目规范中。",
+      "editorial_reason_zh": "它为先对齐需求、再实施和验收提供了可阅读的中间产物。README 还介绍了跨仓库共享规划的 Stores 功能，目前标注为 beta。"
+    },
+    {
+      "repo": "ankitects/anki",
+      "rank": 9,
+      "stars": 31212,
+      "daily": 174,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "ankitects/anki",
+        "description": "Anki is a smart spaced repetition flashcard program",
+        "language": "Rust",
+        "stargazers_count": 31212,
+        "pushed_at": "2026-09-18T19:26:11Z",
+        "archived": false,
+        "html_url": "https://github.com/ankitects/anki",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/ankitects/anki/readme",
+      "category": "间隔复习",
+      "summary_zh": "Anki 电脑版的源代码仓库，以间隔重复的方式组织卡片复习，服务于需要持续巩固知识的学习过程。",
+      "editorial_reason_zh": "在信息获取越来越容易的背景下，长期记忆仍需要主动练习。适合关注个人知识工具的读者，卡片质量与持续使用同样影响效果。"
+    },
+    {
+      "repo": "rustfs/rustfs",
+      "rank": 13,
+      "stars": 33170,
+      "daily": 267,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "rustfs/rustfs",
+        "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+        "language": "Rust",
+        "stargazers_count": 33170,
+        "pushed_at": "2026-09-18T20:00:40Z",
+        "archived": false,
+        "html_url": "https://github.com/rustfs/rustfs",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/rustfs/rustfs/readme",
+      "category": "分布式对象存储",
+      "summary_zh": "使用 Rust 构建的分布式对象存储，提供 S3 API 兼容能力及单节点、分布式部署方式，面向对象数据、数据湖等存储场景。",
+      "editorial_reason_zh": "适合研究自托管存储和现有 S3 工具的接入；应按官方兼容矩阵核对具体接口，README 将 MinIO 磁盘格式兼容等部分能力标为预览。"
+    },
+    {
+      "repo": "supabase/supabase",
+      "rank": 14,
+      "stars": 110154,
+      "daily": 120,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "supabase/supabase",
+        "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+        "language": "TypeScript",
+        "stargazers_count": 110154,
+        "pushed_at": "2026-09-18T23:53:36Z",
+        "archived": false,
+        "html_url": "https://github.com/supabase/supabase",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/supabase/supabase/readme",
+      "category": "Postgres 应用后端",
+      "summary_zh": "围绕 Postgres 组合数据库、身份认证、自动生成 API、实时订阅、文件存储和函数服务，同时提供向量与嵌入相关工具，支持托管及自托管使用。",
+      "editorial_reason_zh": "适合需要把业务数据、用户系统与 AI 应用后端组织在一起的开发者；统一开发体验有助于减少重复集成，部署和权限设计仍需按场景落实。"
+    },
+    {
+      "repo": "ahmedkhaleel2004/gitdiagram",
+      "rank": 16,
+      "stars": 16470,
+      "daily": 152,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "ahmedkhaleel2004/gitdiagram",
+        "description": "Free, simple, fast interactive diagrams for any GitHub repository",
+        "language": "TypeScript",
+        "stargazers_count": 16470,
+        "pushed_at": "2026-09-18T23:55:16Z",
+        "archived": false,
+        "html_url": "https://github.com/ahmedkhaleel2004/gitdiagram",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/ahmedkhaleel2004/gitdiagram/readme",
+      "category": "代码架构可视化",
+      "summary_zh": "根据 GitHub 仓库树、README 和限定范围的源码片段生成交互式架构图，可点击组件跳转源码，并导出 Mermaid 或 PNG。",
+      "editorial_reason_zh": "适合初步了解陌生仓库、准备架构交流材料。由于输入是有范围的源码采样，生成图应回到代码核实，不能直接视为完整依赖分析。"
+    },
+    {
+      "repo": "asciimoo/hister",
+      "rank": 17,
+      "stars": 4968,
+      "daily": 889,
+      "language": "Go",
+      "metadata": {
+        "full_name": "asciimoo/hister",
+        "description": "Your own search engine",
+        "language": "Go",
+        "stargazers_count": 4968,
+        "pushed_at": "2026-09-18T12:36:05Z",
+        "archived": false,
+        "html_url": "https://github.com/asciimoo/hister",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/asciimoo/hister/readme",
+      "category": "个人全文搜索",
+      "summary_zh": "为访问过的网页和本地文件建立个人全文索引，提供网页、终端及 MCP 查询入口，可配合浏览器扩展收集内容，并支持可选的语义搜索。",
+      "editorial_reason_zh": "它解决的是重新找到自己看过的资料。默认可在本地或自有服务器运行；启用语义搜索时，文档文本会发送到配置的嵌入服务，需要据此选择服务位置。"
+    }
+  ]
+}
