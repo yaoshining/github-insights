@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-20",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-20T09:06:31.923758+08:00",
+  "verified_at": "2026-09-20T09:07:13.938416+08:00",
+  "items": [
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "rank": 1,
+      "stars": 16354,
+      "daily": 3155,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "cloudflare/security-audit-skill",
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "stargazers_count": 16354,
+        "pushed_at": "2026-09-14T19:29:02Z",
+        "archived": false,
+        "html_url": "https://github.com/cloudflare/security-audit-skill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cloudflare/security-audit-skill/readme",
+      "category": "AI 安全审计",
+      "summary_zh": "为编码智能体提供从架构梳理、覆盖范围记录到候选问题验证和报告生成的审计流程，区分已确认、待验证及被否定的发现。",
+      "editorial_reason_zh": "持续上榜的审计工具提醒我们关注结论背后的证据。它对独立复核和覆盖缺口的组织方式值得研究，但流程本身不保证漏洞被完整发现。"
+    },
+    {
+      "repo": "trycua/cua",
+      "rank": 2,
+      "stars": 24418,
+      "daily": 859,
+      "language": "HTML",
+      "metadata": {
+        "full_name": "trycua/cua",
+        "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+        "language": "HTML",
+        "stargazers_count": 24418,
+        "pushed_at": "2026-09-19T23:36:40Z",
+        "archived": false,
+        "html_url": "https://github.com/trycua/cua",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/trycua/cua/readme",
+      "category": "计算机操作智能体",
+      "summary_zh": "围绕智能体操作电脑提供桌面自动化驱动、隔离桌面环境、本地 macOS 虚拟机和评测工具，可通过命令行、MCP 或 SDK 接入。",
+      "editorial_reason_zh": "适合研究跨应用操作的开发与评测环境。不同系统对后台操作和焦点保持的支持有边界，应按平台能力选择运行方式。"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "rank": 3,
+      "stars": 97038,
+      "daily": 556,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "addyosmani/agent-skills",
+        "description": "Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "stargazers_count": 97039,
+        "pushed_at": "2026-09-18T03:32:22Z",
+        "archived": false,
+        "html_url": "https://github.com/addyosmani/agent-skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/addyosmani/agent-skills/readme",
+      "category": "AI 工程工作流",
+      "summary_zh": "将需求定义、规划、构建、测试、审查和交付组织为可复用技能，并提供代码简化、质量约束和 Web 性能相关流程。",
+      "editorial_reason_zh": "适合把反复使用的工程要求整理成明确步骤。README 提醒单独安装技能可能缺少仓库共享参考文件，接入时应一并核对。"
+    },
+    {
+      "repo": "coder/coder",
+      "rank": 4,
+      "stars": 15622,
+      "daily": 402,
+      "language": "Go",
+      "metadata": {
+        "full_name": "coder/coder",
+        "description": "Secure environments for developers and their agents",
+        "language": "Go",
+        "stargazers_count": 15622,
+        "pushed_at": "2026-09-20T01:00:31Z",
+        "archived": false,
+        "html_url": "https://github.com/coder/coder",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/coder/coder/readme",
+      "category": "云开发环境",
+      "summary_zh": "自托管开发环境平台，通过 Terraform 定义虚拟机、容器等工作区，支持远程连接、空闲资源关闭，以及在自有基础设施中运行 AI 编码智能体。",
+      "editorial_reason_zh": "团队协作需要可复现的依赖和可管理的资源。它把开发环境与智能体运行放到同一管理视角，适合研究集中维护工作区的方案。"
+    },
+    {
+      "repo": "higgsfield-ai/higgsfield",
+      "rank": 7,
+      "stars": 4958,
+      "daily": 196,
+      "language": "Jupyter Notebook",
+      "metadata": {
+        "full_name": "higgsfield-ai/higgsfield",
+        "description": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
+        "language": "Jupyter Notebook",
+        "stargazers_count": 4958,
+        "pushed_at": "2026-09-14T02:46:36Z",
+        "archived": false,
+        "html_url": "https://github.com/higgsfield-ai/higgsfield",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/higgsfield-ai/higgsfield/readme",
+      "category": "GPU 训练编排",
+      "summary_zh": "面向多节点模型训练的 GPU 工作负载管理与机器学习框架，提供资源分配、实验排队、训练启动与监控，并集成 PyTorch 分片和 DeepSpeed 相关接口。",
+      "editorial_reason_zh": "适合关注训练实验如何与环境配置、代码变更及 GitHub Actions 衔接的开发者；README 的大规模训练定位不等同于本文完成了性能验证。"
+    },
+    {
+      "repo": "docling-project/docling",
+      "rank": 8,
+      "stars": 67056,
+      "daily": 129,
+      "language": "Python",
+      "metadata": {
+        "full_name": "docling-project/docling",
+        "description": "Get your documents ready for gen AI",
+        "language": "Python",
+        "stargazers_count": 67056,
+        "pushed_at": "2026-09-18T13:47:32Z",
+        "archived": false,
+        "html_url": "https://github.com/docling-project/docling",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/docling-project/docling/readme",
+      "category": "文档解析",
+      "summary_zh": "将 PDF、办公文档、网页和多媒体等输入转换为统一文档表示，支持版面、阅读顺序、表格与 OCR 处理，并可导出 Markdown、HTML 或 JSON。",
+      "editorial_reason_zh": "知识库和 RAG 的质量往往受输入结构影响。Docling 适合研究如何保留文档结构并连接后续检索流程，实际解析效果应使用自己的材料检查。"
+    },
+    {
+      "repo": "cloudflare/quiche",
+      "rank": 9,
+      "stars": 12018,
+      "daily": 31,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "cloudflare/quiche",
+        "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+        "language": "Rust",
+        "stargazers_count": 12018,
+        "pushed_at": "2026-09-18T10:10:05Z",
+        "archived": false,
+        "html_url": "https://github.com/cloudflare/quiche",
+        "license": {
+          "key": "bsd-2-clause",
+          "name": "BSD 2-Clause \"Simplified\" License",
+          "spdx_id": "BSD-2-Clause",
+          "url": "https://api.github.com/licenses/bsd-2-clause",
+          "node_id": "MDc6TGljZW5zZTQ="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/cloudflare/quiche/readme",
+      "category": "QUIC 与 HTTP/3",
+      "summary_zh": "使用 Rust 实现 QUIC 传输协议和 HTTP/3，提供处理数据包及连接状态的底层 API，由应用负责网络 I/O、事件循环与定时器。",
+      "editorial_reason_zh": "适合深入理解现代网络传输及其集成边界。仓库中的命令行客户端和服务器用于示例与实验，README 明确它们不适合作为生产部署。"
+    },
+    {
+      "repo": "asciimoo/hister",
+      "rank": 10,
+      "stars": 5228,
+      "daily": 420,
+      "language": "Go",
+      "metadata": {
+        "full_name": "asciimoo/hister",
+        "description": "Your own search engine",
+        "language": "Go",
+        "stargazers_count": 5228,
+        "pushed_at": "2026-09-19T21:20:04Z",
+        "archived": false,
+        "html_url": "https://github.com/asciimoo/hister",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/asciimoo/hister/readme",
+      "category": "个人全文搜索",
+      "summary_zh": "为访问过的网页和本地文件建立全文索引，支持浏览器历史与书签导入，并提供网页、终端和 MCP 查询入口，可选配语义搜索。",
+      "editorial_reason_zh": "适合找回已经看过却难以定位的资料。索引可保存在自有服务器；开启语义搜索后，文本会发送到所配置的嵌入服务。"
+    },
+    {
+      "repo": "ZuodaoTech/everyone-can-use-english",
+      "rank": 12,
+      "stars": 37796,
+      "daily": 48,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "ZuodaoTech/everyone-can-use-english",
+        "description": "人人都能用英语",
+        "language": "TypeScript",
+        "stargazers_count": 37796,
+        "pushed_at": "2026-06-29T09:40:15Z",
+        "archived": false,
+        "html_url": "https://github.com/ZuodaoTech/everyone-can-use-english",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/ZuodaoTech/everyone-can-use-english/readme",
+      "category": "英语学习工具",
+      "summary_zh": "围绕 Enjoy 学习工具与英语自我训练资料建设的仓库，README 提供网页版、支持 YouTube 和 Netflix 的浏览器插件，以及《人人都能用英语》等阅读材料入口。",
+      "editorial_reason_zh": "适合关注开源软件如何服务持续语言练习的读者。当前 README 将新版桌面端标为即将发布，应区分已提供的网页和插件与后续计划。"
+    },
+    {
+      "repo": "cactus-compute/needle",
+      "rank": 14,
+      "stars": 11607,
+      "daily": 234,
+      "language": "Python",
+      "metadata": {
+        "full_name": "cactus-compute/needle",
+        "description": "Automation foundation model for tiny devices: 2-bit, 8-29 MB, tool calls, structured extraction and embeddings on phones, wearables, smart homes, robots, cars and microcontrollers.",
+        "language": "Python",
+        "stargazers_count": 11607,
+        "pushed_at": "2026-09-19T21:48:45Z",
+        "archived": false,
+        "html_url": "https://github.com/cactus-compute/needle",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cactus-compute/needle/readme",
+      "category": "端侧模型",
+      "summary_zh": "面向移动设备和小型硬件的模型项目，聚焦工具调用、结构化字段提取与文本嵌入。README 介绍了紧凑模型文件、类型约束解码和置信度输出。",
+      "editorial_reason_zh": "它展示了围绕有限任务设计端侧模型的方向，适合研究本地路由与结构化处理；具体设备兼容性、准确率和资源消耗仍需按目标硬件实测。"
+    }
+  ]
+}

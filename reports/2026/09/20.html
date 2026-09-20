@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="从电脑操作到端侧推理：精选 Cua、Docling、Needle 等 10 个上榜项目，同时关注安全审计、GPU 训练、网络协议与个人学习工具。">
+<title>GitHub 热点日报 2026-09-20</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{color-scheme:dark}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);min-height:100vh;color:#e4e4e4;line-height:1.75}
+.container{max-width:1000px;margin:auto;padding:40px 24px}header{margin:24px 0 40px}h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.25;margin:12px 0 20px;background:linear-gradient(90deg,#ff6b6b,#feca57,#48dbfb,#ff9ff3);background-clip:text;-webkit-background-clip:text;color:transparent}h2{font-size:1.5rem;margin:0 0 18px;color:#feca57}h3{font-size:1.12rem;margin:0 0 8px}a{color:#7dd3fc;text-underline-offset:4px;overflow-wrap:anywhere}a:hover{color:#bceaff}a:focus-visible{outline:2px solid #feca57;outline-offset:5px}.subtitle,.muted{color:#b5c2d2}.eyebrow{font-size:.85rem;letter-spacing:.08em;color:#fbbf87}.card,.latest-report{background:rgba(10,19,37,.58);border:1px solid rgba(255,255,255,.15);border-radius:16px;padding:24px;min-width:0}.latest-report{padding:32px;margin-bottom:36px}.card p+p{margin-top:12px}.report-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:16px}.reports{display:grid;gap:20px}.meta{display:flex;gap:8px 18px;flex-wrap:wrap;margin:12px 0;color:#b5c2d2;font-size:.88rem}.stars{color:#fbbf87}.tag{display:inline-block;font-size:.82rem;color:#8fd5ff;background:#19446d;padding:2px 10px;border-radius:20px}.btn{display:inline-block;margin-top:20px;padding:10px 24px;border-radius:24px;background:linear-gradient(90deg,#667eea,#764ba2);color:white;text-decoration:none;font-weight:600}nav{display:flex;gap:12px 24px;flex-wrap:wrap;margin-bottom:28px}.section{margin:36px 0}.archive-list{list-style:none;display:grid;gap:12px}.archive-list>li{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:16px 20px}.archive-list a{font-weight:600}details{margin-top:10px;font-size:.85rem;color:#b5c2d2}details a{display:block;margin:8px 0}.reason{color:#c8d4e3}.source{font-size:.85rem;margin-top:16px}footer{margin-top:44px;padding-top:24px;border-top:1px solid rgba(255,255,255,.16);color:#b5c2d2;font-size:.85rem}footer p+p{margin-top:8px}time{font-variant-numeric:tabular-nums}p,li,h1,h2,h3{overflow-wrap:anywhere}.note{border-left:3px solid #fbbf87;padding-left:16px;margin-top:16px}.skip{position:absolute;left:12px;top:-100px}.skip:focus{top:12px;background:#16213e;padding:10px;z-index:2}
+@media(max-width:480px){.container{padding:24px 16px}.card,.latest-report{padding:20px}header{margin:16px 0 28px}h2{font-size:1.25rem}nav{font-size:.9rem}.meta{gap:6px 12px}}
+</style>
+<link rel="stylesheet" href="../../../assets/report-share.css">
+<script defer src="../../../assets/report-share.js"></script>
+</head>
+<body><a class="skip" href="#main">跳至正文</a><main id="main" class="container">
+<nav aria-label="日报导航"><a href="../../../index.html">← 返回首页</a><a href="index.html">本月归档</a><a href="../index.html">年度归档</a></nav>
+<header><p class="eyebrow">GITHUB INSIGHTS / DAILY</p><h1>GitHub 热点日报</h1><p class="subtitle"><time datetime="2026-09-20">2026-09-20</time> · 周日 · 10 个上榜项目精选</p></header>
+<section class="latest-report" aria-labelledby="overview"><h2 id="overview">今日观察</h2><p>从电脑操作到端侧推理：精选 Cua、Docling、Needle 等 10 个上榜项目，同时关注安全审计、GPU 训练、网络协议与个人学习工具。</p><p class="note">本期观察：Cua 提供可操作与评测的电脑环境，Docling 整理输入文档，Needle 面向设备内的有限任务，Coder 和 Higgsfield 管理开发及训练资源。能力之外，数据准备、运行环境和验证方式共同影响落地效果；这是对本期样本的编辑解读，并非长期趋势结论。</p></section>
+<section class="section" aria-labelledby="selection"><h2 id="selection">项目精选</h2><div class="reports"><article class="card" aria-labelledby="repo-1">
+<p class="eyebrow">精选 01 · Trending 位置 #1</p>
+<h2 id="repo-1"><a href="https://github.com/cloudflare/security-audit-skill">cloudflare/security-audit-skill</a></h2>
+<span class="tag">AI 安全审计</span>
+<div class="meta"><span class="stars">⭐ 总星标 16,354</span><span class="stars">今日新增 +3,155</span><span>JavaScript</span></div>
+<p>为编码智能体提供从架构梳理、覆盖范围记录到候选问题验证和报告生成的审计流程，区分已确认、待验证及被否定的发现。</p><p class="reason"><strong>关注理由：</strong>持续上榜的审计工具提醒我们关注结论背后的证据。它对独立复核和覆盖缺口的组织方式值得研究，但流程本身不保证漏洞被完整发现。</p>
+<p class="source">来源：<a href="https://github.com/cloudflare/security-audit-skill#readme">项目 README</a> · <a href="https://api.github.com/repos/cloudflare/security-audit-skill">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-2">
+<p class="eyebrow">精选 02 · Trending 位置 #2</p>
+<h2 id="repo-2"><a href="https://github.com/trycua/cua">trycua/cua</a></h2>
+<span class="tag">计算机操作智能体</span>
+<div class="meta"><span class="stars">⭐ 总星标 24,418</span><span class="stars">今日新增 +859</span><span>HTML</span></div>
+<p>围绕智能体操作电脑提供桌面自动化驱动、隔离桌面环境、本地 macOS 虚拟机和评测工具，可通过命令行、MCP 或 SDK 接入。</p><p class="reason"><strong>关注理由：</strong>适合研究跨应用操作的开发与评测环境。不同系统对后台操作和焦点保持的支持有边界，应按平台能力选择运行方式。</p>
+<p class="source">来源：<a href="https://github.com/trycua/cua#readme">项目 README</a> · <a href="https://api.github.com/repos/trycua/cua">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-3">
+<p class="eyebrow">精选 03 · Trending 位置 #3</p>
+<h2 id="repo-3"><a href="https://github.com/addyosmani/agent-skills">addyosmani/agent-skills</a></h2>
+<span class="tag">AI 工程工作流</span>
+<div class="meta"><span class="stars">⭐ 总星标 97,038</span><span class="stars">今日新增 +556</span><span>JavaScript</span></div>
+<p>将需求定义、规划、构建、测试、审查和交付组织为可复用技能，并提供代码简化、质量约束和 Web 性能相关流程。</p><p class="reason"><strong>关注理由：</strong>适合把反复使用的工程要求整理成明确步骤。README 提醒单独安装技能可能缺少仓库共享参考文件，接入时应一并核对。</p>
+<p class="source">来源：<a href="https://github.com/addyosmani/agent-skills#readme">项目 README</a> · <a href="https://api.github.com/repos/addyosmani/agent-skills">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-4">
+<p class="eyebrow">精选 04 · Trending 位置 #4</p>
+<h2 id="repo-4"><a href="https://github.com/coder/coder">coder/coder</a></h2>
+<span class="tag">云开发环境</span>
+<div class="meta"><span class="stars">⭐ 总星标 15,622</span><span class="stars">今日新增 +402</span><span>Go</span></div>
+<p>自托管开发环境平台，通过 Terraform 定义虚拟机、容器等工作区，支持远程连接、空闲资源关闭，以及在自有基础设施中运行 AI 编码智能体。</p><p class="reason"><strong>关注理由：</strong>团队协作需要可复现的依赖和可管理的资源。它把开发环境与智能体运行放到同一管理视角，适合研究集中维护工作区的方案。</p>
+<p class="source">来源：<a href="https://github.com/coder/coder#readme">项目 README</a> · <a href="https://api.github.com/repos/coder/coder">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-5">
+<p class="eyebrow">精选 05 · Trending 位置 #7</p>
+<h2 id="repo-5"><a href="https://github.com/higgsfield-ai/higgsfield">higgsfield-ai/higgsfield</a></h2>
+<span class="tag">GPU 训练编排</span>
+<div class="meta"><span class="stars">⭐ 总星标 4,958</span><span class="stars">今日新增 +196</span><span>Jupyter Notebook</span></div>
+<p>面向多节点模型训练的 GPU 工作负载管理与机器学习框架，提供资源分配、实验排队、训练启动与监控，并集成 PyTorch 分片和 DeepSpeed 相关接口。</p><p class="reason"><strong>关注理由：</strong>适合关注训练实验如何与环境配置、代码变更及 GitHub Actions 衔接的开发者；README 的大规模训练定位不等同于本文完成了性能验证。</p>
+<p class="source">来源：<a href="https://github.com/higgsfield-ai/higgsfield#readme">项目 README</a> · <a href="https://api.github.com/repos/higgsfield-ai/higgsfield">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-6">
+<p class="eyebrow">精选 06 · Trending 位置 #8</p>
+<h2 id="repo-6"><a href="https://github.com/docling-project/docling">docling-project/docling</a></h2>
+<span class="tag">文档解析</span>
+<div class="meta"><span class="stars">⭐ 总星标 67,056</span><span class="stars">今日新增 +129</span><span>Python</span></div>
+<p>将 PDF、办公文档、网页和多媒体等输入转换为统一文档表示，支持版面、阅读顺序、表格与 OCR 处理，并可导出 Markdown、HTML 或 JSON。</p><p class="reason"><strong>关注理由：</strong>知识库和 RAG 的质量往往受输入结构影响。Docling 适合研究如何保留文档结构并连接后续检索流程，实际解析效果应使用自己的材料检查。</p>
+<p class="source">来源：<a href="https://github.com/docling-project/docling#readme">项目 README</a> · <a href="https://api.github.com/repos/docling-project/docling">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-7">
+<p class="eyebrow">精选 07 · Trending 位置 #9</p>
+<h2 id="repo-7"><a href="https://github.com/cloudflare/quiche">cloudflare/quiche</a></h2>
+<span class="tag">QUIC 与 HTTP/3</span>
+<div class="meta"><span class="stars">⭐ 总星标 12,018</span><span class="stars">今日新增 +31</span><span>Rust</span></div>
+<p>使用 Rust 实现 QUIC 传输协议和 HTTP/3，提供处理数据包及连接状态的底层 API，由应用负责网络 I/O、事件循环与定时器。</p><p class="reason"><strong>关注理由：</strong>适合深入理解现代网络传输及其集成边界。仓库中的命令行客户端和服务器用于示例与实验，README 明确它们不适合作为生产部署。</p>
+<p class="source">来源：<a href="https://github.com/cloudflare/quiche#readme">项目 README</a> · <a href="https://api.github.com/repos/cloudflare/quiche">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-8">
+<p class="eyebrow">精选 08 · Trending 位置 #10</p>
+<h2 id="repo-8"><a href="https://github.com/asciimoo/hister">asciimoo/hister</a></h2>
+<span class="tag">个人全文搜索</span>
+<div class="meta"><span class="stars">⭐ 总星标 5,228</span><span class="stars">今日新增 +420</span><span>Go</span></div>
+<p>为访问过的网页和本地文件建立全文索引，支持浏览器历史与书签导入，并提供网页、终端和 MCP 查询入口，可选配语义搜索。</p><p class="reason"><strong>关注理由：</strong>适合找回已经看过却难以定位的资料。索引可保存在自有服务器；开启语义搜索后，文本会发送到所配置的嵌入服务。</p>
+<p class="source">来源：<a href="https://github.com/asciimoo/hister#readme">项目 README</a> · <a href="https://api.github.com/repos/asciimoo/hister">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-9">
+<p class="eyebrow">精选 09 · Trending 位置 #12</p>
+<h2 id="repo-9"><a href="https://github.com/ZuodaoTech/everyone-can-use-english">ZuodaoTech/everyone-can-use-english</a></h2>
+<span class="tag">英语学习工具</span>
+<div class="meta"><span class="stars">⭐ 总星标 37,796</span><span class="stars">今日新增 +48</span><span>TypeScript</span></div>
+<p>围绕 Enjoy 学习工具与英语自我训练资料建设的仓库，README 提供网页版、支持 YouTube 和 Netflix 的浏览器插件，以及《人人都能用英语》等阅读材料入口。</p><p class="reason"><strong>关注理由：</strong>适合关注开源软件如何服务持续语言练习的读者。当前 README 将新版桌面端标为即将发布，应区分已提供的网页和插件与后续计划。</p>
+<p class="source">来源：<a href="https://github.com/ZuodaoTech/everyone-can-use-english#readme">项目 README</a> · <a href="https://api.github.com/repos/ZuodaoTech/everyone-can-use-english">GitHub API</a></p>
+</article><article class="card" aria-labelledby="repo-10">
+<p class="eyebrow">精选 10 · Trending 位置 #14</p>
+<h2 id="repo-10"><a href="https://github.com/cactus-compute/needle">cactus-compute/needle</a></h2>
+<span class="tag">端侧模型</span>
+<div class="meta"><span class="stars">⭐ 总星标 11,607</span><span class="stars">今日新增 +234</span><span>Python</span></div>
+<p>面向移动设备和小型硬件的模型项目，聚焦工具调用、结构化字段提取与文本嵌入。README 介绍了紧凑模型文件、类型约束解码和置信度输出。</p><p class="reason"><strong>关注理由：</strong>它展示了围绕有限任务设计端侧模型的方向，适合研究本地路由与结构化处理；具体设备兼容性、准确率和资源消耗仍需按目标硬件实测。</p>
+<p class="source">来源：<a href="https://github.com/cactus-compute/needle#readme">项目 README</a> · <a href="https://api.github.com/repos/cactus-compute/needle">GitHub API</a></p>
+</article></div></section>
+<section class="card section" aria-labelledby="method"><h2 id="method">数据来源与选取口径</h2><p>榜单快照采集于北京时间 <time datetime="2026-09-20T09:06:31.923758+08:00">2026-09-20 09:06:31</time>（UTC+8）。范围为 <a href="https://github.com/trending?since=daily">GitHub Trending · Today</a>，不限语言；从采集时展示的 15 个项目中选取 10 个，兼顾安全审计、计算机操作智能体、工程工作流、云开发环境、GPU 训练、文档解析、网络协议、个人搜索、语言学习及端侧模型，按原榜单位置排列，并非完整 Top 10。</p><p>总星标、今日新增及语言均取自同一 Trending 快照；“今日新增”使用 GitHub 页面定义的 today 口径，不代表北京时间自然日累计值。仓库存在性、语言和说明另由 GitHub API 与 README 核实，接口数字可能因采集时差略有不同。本文未据此推断真实用户数或软件质量，也不将其视为今天刚发布的项目。</p><p>项目能力说明依据各仓库 README，关注理由为编辑判断；未对所有项目进行安装或性能测试。<a href="20.json">查看本期数据快照（JSON）</a>。</p></section>
+<nav aria-label="阅读后导航"><a href="../../../index.html">返回总入口</a><a href="index.html">浏览本月日报 →</a></nav>
+<footer><p>GitHub Insights · 每日追踪开源动态</p><p><a href="https://github.com/yaoshining/github-insights">项目仓库</a> · Made with ❤️ by <a href="https://github.com/yaoshining">@yaoshining</a></p></footer>
+</main></body>
+</html>
