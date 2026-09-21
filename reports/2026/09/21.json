@@ -1,0 +1,282 @@
+{
+  "date": "2026-09-21",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-21T09:15:05.116853+08:00",
+  "verified_at": "2026-09-21T09:52:46.244337+08:00",
+  "items": [
+    {
+      "repo": "affaan-m/ECC",
+      "rank": 1,
+      "stars": 263751,
+      "daily": 826,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "affaan-m/ECC",
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "stargazers_count": 263751,
+        "pushed_at": "2026-09-20T19:37:57Z",
+        "archived": false,
+        "html_url": "https://github.com/affaan-m/ECC",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/affaan-m/ECC/readme",
+      "category": "智能体工程工作流",
+      "summary_zh": "为编码智能体提供规划、测试、审查、记忆和技能复用工具，包含规则、钩子与专门处理工程任务的智能体，并适配多种编码助手。",
+      "editorial_reason_zh": "适合把重复出现的工程步骤整理成可维护的工具配置。不同平台支持程度并不相同，应按实际运行环境核对功能。"
+    },
+    {
+      "repo": "BuilderIO/agent-native",
+      "rank": 2,
+      "stars": 5224,
+      "daily": 98,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "BuilderIO/agent-native",
+        "description": "A framework for building agentic apps",
+        "language": "TypeScript",
+        "stargazers_count": 5224,
+        "pushed_at": "2026-09-21T01:01:18Z",
+        "archived": false,
+        "html_url": "https://github.com/BuilderIO/agent-native",
+        "license": null,
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/BuilderIO/agent-native/readme",
+      "category": "智能体应用框架",
+      "summary_zh": "用 TypeScript 构建同时具有自主工作能力和专用界面的应用。将能力定义为共享 action，让智能体与 UI 复用同一实现、校验和权限逻辑，并共享数据与界面状态。",
+      "editorial_reason_zh": "适合研究人和智能体如何在同一产品中协作。共享操作层能减少两套入口各自实现业务逻辑的重复，但权限与状态一致性仍需应用验证。"
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "rank": 3,
+      "stars": 18043,
+      "daily": 2428,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "cloudflare/security-audit-skill",
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "stargazers_count": 18043,
+        "pushed_at": "2026-09-14T19:29:02Z",
+        "archived": false,
+        "html_url": "https://github.com/cloudflare/security-audit-skill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cloudflare/security-audit-skill/readme",
+      "category": "AI 安全审计",
+      "summary_zh": "把架构与信任边界梳理、覆盖范围记录、候选问题验证、结构化发现和报告输出组织为多阶段审计流程，分别保存已确认、待验证和被否定的发现。",
+      "editorial_reason_zh": "值得关注的是如何记录证据和未完成的检查，以及让独立复核尝试推翻候选问题。执行流程本身不代表漏洞已被完整发现。"
+    },
+    {
+      "repo": "trycua/cua",
+      "rank": 4,
+      "stars": 25155,
+      "daily": 1018,
+      "language": "HTML",
+      "metadata": {
+        "full_name": "trycua/cua",
+        "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+        "language": "HTML",
+        "stargazers_count": 25156,
+        "pushed_at": "2026-09-21T00:41:24Z",
+        "archived": false,
+        "html_url": "https://github.com/trycua/cua",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/trycua/cua/readme",
+      "category": "计算机操作智能体",
+      "summary_zh": "提供桌面自动化、隔离电脑环境、本地 macOS 虚拟机与计算机操作评测工具，供智能体结合代码、API 和图形界面完成任务。",
+      "editorial_reason_zh": "适合研究跨应用任务的执行环境和验收方式。不同操作系统、桌面环境与应用的支持边界应分别核对。"
+    },
+    {
+      "repo": "paperless-ngx/paperless-ngx",
+      "rank": 6,
+      "stars": 45575,
+      "daily": 57,
+      "language": "Python",
+      "metadata": {
+        "full_name": "paperless-ngx/paperless-ngx",
+        "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+        "language": "Python",
+        "stargazers_count": 45575,
+        "pushed_at": "2026-09-20T23:41:19Z",
+        "archived": false,
+        "html_url": "https://github.com/paperless-ngx/paperless-ngx",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "default_branch": "dev"
+      },
+      "readme_url": "https://api.github.com/repos/paperless-ngx/paperless-ngx/readme",
+      "category": "文档管理",
+      "summary_zh": "将纸质文档整理成可搜索在线档案的社区文档管理系统，围绕扫描、索引和归档组织资料，并提供 Docker Compose 部署方式。",
+      "editorial_reason_zh": "适合希望持续管理票据、资料和历史文档的个人或团队。README 提醒文档以未加密形式保存，部署时应落实可信存储与备份。"
+    },
+    {
+      "repo": "higgsfield-ai/higgsfield",
+      "rank": 9,
+      "stars": 5387,
+      "daily": 465,
+      "language": "Jupyter Notebook",
+      "metadata": {
+        "full_name": "higgsfield-ai/higgsfield",
+        "description": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
+        "language": "Jupyter Notebook",
+        "stargazers_count": 5387,
+        "pushed_at": "2026-09-14T02:46:36Z",
+        "archived": false,
+        "html_url": "https://github.com/higgsfield-ai/higgsfield",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/higgsfield-ai/higgsfield/readme",
+      "category": "GPU 训练编排",
+      "summary_zh": "面向多节点模型训练的 GPU 工作负载管理与机器学习框架，提供资源分配、实验排队、训练启动和监控，结合 PyTorch、DeepSpeed 及 GitHub Actions 工作流。",
+      "editorial_reason_zh": "适合研究训练实验如何与依赖环境、代码变更和资源调度一起管理；实际扩展能力和训练效率仍需在目标集群验证。"
+    },
+    {
+      "repo": "Open-Dev-Society/OpenStock",
+      "rank": 10,
+      "stars": 16837,
+      "daily": 755,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "Open-Dev-Society/OpenStock",
+        "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+        "language": "TypeScript",
+        "stargazers_count": 16868,
+        "pushed_at": "2026-09-19T13:13:19Z",
+        "archived": false,
+        "html_url": "https://github.com/Open-Dev-Society/OpenStock",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Open-Dev-Society/OpenStock/readme",
+      "category": "行情应用工程",
+      "summary_zh": "基于 Next.js 和 TypeScript 的股票市场信息应用，组合行情展示、价格提醒和公司资料，使用 Finnhub 数据与 TradingView 图表组件。",
+      "editorial_reason_zh": "适合学习外部数据服务、用户系统和信息展示的集成。行情时效取决于数据提供方与配置，不能把应用介绍中的实时描述当成所有场景的保证。"
+    },
+    {
+      "repo": "coder/coder",
+      "rank": 11,
+      "stars": 16064,
+      "daily": 379,
+      "language": "Go",
+      "metadata": {
+        "full_name": "coder/coder",
+        "description": "Secure environments for developers and their agents",
+        "language": "Go",
+        "stargazers_count": 16064,
+        "pushed_at": "2026-09-21T00:43:06Z",
+        "archived": false,
+        "html_url": "https://github.com/coder/coder",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/coder/coder/readme",
+      "category": "云开发环境",
+      "summary_zh": "自托管开发环境平台，用 Terraform 定义虚拟机或容器工作区，提供远程连接、空闲资源关闭，以及在自有基础设施中运行 AI 编码智能体的能力。",
+      "editorial_reason_zh": "适合需要统一开发依赖和集中管理工作区的团队。环境可复现、资源生命周期与模型访问管理共同影响日常维护成本。"
+    },
+    {
+      "repo": "vercel-labs/json-render",
+      "rank": 12,
+      "stars": 17322,
+      "daily": 291,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "vercel-labs/json-render",
+        "description": "The Generative UI framework",
+        "language": "TypeScript",
+        "stargazers_count": 17324,
+        "pushed_at": "2026-09-18T18:53:03Z",
+        "archived": false,
+        "html_url": "https://github.com/vercel-labs/json-render",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/vercel-labs/json-render/readme",
+      "category": "生成式界面",
+      "summary_zh": "让 AI 生成 JSON 界面描述，再由预定义组件目录和渲染器输出 UI。开发者定义组件、属性和动作，框架支持流式生成及多个前端平台。",
+      "editorial_reason_zh": "适合在已有设计系统内探索动态界面。限制组件范围有助于控制输出，但业务权限、数据正确性和最终交互仍需要应用层验证。"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "rank": 13,
+      "stars": 97705,
+      "daily": 736,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "addyosmani/agent-skills",
+        "description": "Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "stargazers_count": 97705,
+        "pushed_at": "2026-09-20T19:31:54Z",
+        "archived": false,
+        "html_url": "https://github.com/addyosmani/agent-skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/addyosmani/agent-skills/readme",
+      "category": "AI 工程实践",
+      "summary_zh": "将需求定义、规划、构建、测试、审查和交付整理为技能与命令入口，也涵盖代码简化、质量约束及 Web 性能检查。",
+      "editorial_reason_zh": "适合把团队的工程要求转换为可复用流程。单独安装技能时可能缺少仓库级共享参考文件，应核对实际使用到的引用是否齐全。"
+    }
+  ]
+}
