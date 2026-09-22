@@ -1,0 +1,254 @@
+{
+  "date": "2026-09-22",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-22T09:15:21.298929+08:00",
+  "verified_at": "2026-09-22T09:15:52.331981+08:00",
+  "items": [
+    {
+      "repo": "BuilderIO/agent-native",
+      "rank": 1,
+      "stars": 5918,
+      "daily": 607,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "BuilderIO/agent-native",
+        "description": "A framework for building agentic apps",
+        "language": "TypeScript",
+        "stargazers_count": 5919,
+        "pushed_at": "2026-09-22T01:13:41Z",
+        "archived": false,
+        "html_url": "https://github.com/BuilderIO/agent-native",
+        "license": null,
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/BuilderIO/agent-native/readme",
+      "category": "智能体应用框架",
+      "summary_zh": "用 TypeScript 构建同时具有自主工作能力和专用界面的应用，将业务能力定义为共享 action，让智能体与 UI 复用实现、校验和权限逻辑。",
+      "editorial_reason_zh": "适合研究人工操作与智能体调用如何保持一致。共享数据和界面上下文为协作提供基础，实际业务权限仍需应用层验证。"
+    },
+    {
+      "repo": "trycua/cua",
+      "rank": 2,
+      "stars": 25702,
+      "daily": 609,
+      "language": "HTML",
+      "metadata": {
+        "full_name": "trycua/cua",
+        "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+        "language": "HTML",
+        "stargazers_count": 25702,
+        "pushed_at": "2026-09-22T00:37:14Z",
+        "archived": false,
+        "html_url": "https://github.com/trycua/cua",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/trycua/cua/readme",
+      "category": "计算机操作智能体",
+      "summary_zh": "围绕智能体操作电脑提供桌面驱动、隔离云桌面、本地 macOS 虚拟机和评测工具，可将代码、API 与图形界面操作组合在同一任务中。",
+      "editorial_reason_zh": "适合关注跨应用自动化的执行环境与验收方式。各系统和应用的后台操作能力存在差异，应按实际运行平台验证。"
+    },
+    {
+      "repo": "Open-Dev-Society/OpenStock",
+      "rank": 3,
+      "stars": 17744,
+      "daily": 844,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "Open-Dev-Society/OpenStock",
+        "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+        "language": "TypeScript",
+        "stargazers_count": 17745,
+        "pushed_at": "2026-09-21T20:01:02Z",
+        "archived": false,
+        "html_url": "https://github.com/Open-Dev-Society/OpenStock",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Open-Dev-Society/OpenStock/readme",
+      "category": "行情应用工程",
+      "summary_zh": "基于 Next.js 与 TypeScript 的市场信息应用，组合行情展示、价格提醒和公司资料，并接入 Finnhub 数据、TradingView 图表及用户认证服务。",
+      "editorial_reason_zh": "适合学习外部数据源、用户系统与仪表盘的集成。行情可能因提供方规则和配置而延迟，展示效果不能代替对数据时效的核实。"
+    },
+    {
+      "repo": "akitaonrails/ai-memory",
+      "rank": 4,
+      "stars": 7692,
+      "daily": 167,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "akitaonrails/ai-memory",
+        "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+        "language": "Rust",
+        "stargazers_count": 7693,
+        "pushed_at": "2026-09-22T00:14:33Z",
+        "archived": false,
+        "html_url": "https://github.com/akitaonrails/ai-memory",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/akitaonrails/ai-memory/readme",
+      "category": "跨智能体记忆",
+      "summary_zh": "为 AI 编码工具提供长期记忆和任务交接，以 Git 管理的 Markdown Wiki 为知识源，通过生命周期钩子收集工作记录，并提供检索、会话摘要和跨工具交接。",
+      "editorial_reason_zh": "适合研究切换工具或机器时如何保留项目背景与未解决问题。默认采集、检索和交接可不调用 LLM；不同工具的集成方式与支持范围需要分别核对。"
+    },
+    {
+      "repo": "coder/coder",
+      "rank": 5,
+      "stars": 16430,
+      "daily": 460,
+      "language": "Go",
+      "metadata": {
+        "full_name": "coder/coder",
+        "description": "Secure environments for developers and their agents",
+        "language": "Go",
+        "stargazers_count": 16430,
+        "pushed_at": "2026-09-22T01:07:30Z",
+        "archived": false,
+        "html_url": "https://github.com/coder/coder",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/coder/coder/readme",
+      "category": "云开发环境",
+      "summary_zh": "自托管开发环境平台，通过 Terraform 定义虚拟机或容器工作区，支持远程连接、空闲资源关闭及在自有基础设施中运行 AI 编码智能体。",
+      "editorial_reason_zh": "适合需要集中维护开发依赖与工作区的团队。环境复现、资源生命周期和模型访问管理共同影响长期使用成本。"
+    },
+    {
+      "repo": "cloudflare/quiche",
+      "rank": 7,
+      "stars": 12360,
+      "daily": 32,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "cloudflare/quiche",
+        "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+        "language": "Rust",
+        "stargazers_count": 12360,
+        "pushed_at": "2026-09-21T12:57:02Z",
+        "archived": false,
+        "html_url": "https://github.com/cloudflare/quiche",
+        "license": {
+          "key": "bsd-2-clause",
+          "name": "BSD 2-Clause \"Simplified\" License",
+          "spdx_id": "BSD-2-Clause",
+          "url": "https://api.github.com/licenses/bsd-2-clause",
+          "node_id": "MDc6TGljZW5zZTQ="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/cloudflare/quiche/readme",
+      "category": "QUIC 与 HTTP/3",
+      "summary_zh": "使用 Rust 实现 QUIC 传输协议与 HTTP/3，提供处理数据包和连接状态的底层 API，由应用提供网络 I/O、事件循环和定时器。",
+      "editorial_reason_zh": "适合深入理解现代网络协议的集成边界。仓库附带的命令行客户端和服务器属于示例工具，README 明确它们不适合生产环境。"
+    },
+    {
+      "repo": "zhouxiaoka/autoclip",
+      "rank": 9,
+      "stars": 8254,
+      "daily": 250,
+      "language": "Python",
+      "metadata": {
+        "full_name": "zhouxiaoka/autoclip",
+        "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+        "language": "Python",
+        "stargazers_count": 8254,
+        "pushed_at": "2026-09-21T17:19:32Z",
+        "archived": false,
+        "html_url": "https://github.com/zhouxiaoka/autoclip",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/zhouxiaoka/autoclip/readme",
+      "category": "AI 视频剪辑",
+      "summary_zh": "根据视频字幕提取话题与高光、生成标题，再输出切片或合集，提供桌面应用、Docker Web 界面和 CLI／MCP 工作流，并支持云端或本地模型。",
+      "editorial_reason_zh": "适合访谈、播客和课程等以语言内容为主的素材。剪辑在本地进行，但选择云端分析时会发送字幕文本；纯视觉场景的高光识别仍有局限。"
+    },
+    {
+      "repo": "Crosstalk-Solutions/project-nomad",
+      "rank": 11,
+      "stars": 37872,
+      "daily": 394,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "Crosstalk-Solutions/project-nomad",
+        "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+        "language": "TypeScript",
+        "stargazers_count": 37873,
+        "pushed_at": "2026-09-21T23:10:39Z",
+        "archived": false,
+        "html_url": "https://github.com/Crosstalk-Solutions/project-nomad",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Crosstalk-Solutions/project-nomad/readme",
+      "category": "离线知识与教育",
+      "summary_zh": "将离线百科、电子书、课程、地图、笔记与可选本地 AI 组织成自托管知识服务器，通过浏览器管理一组容器化工具和内容资源。",
+      "editorial_reason_zh": "适合研究弱网环境下的知识服务。离线使用需要提前安装并下载所需内容与模型，运行本地 AI 的硬件需求也高于基础管理界面。"
+    },
+    {
+      "repo": "yynxxxxx/Codex-X",
+      "rank": 12,
+      "stars": 3691,
+      "daily": 50,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "yynxxxxx/Codex-X",
+        "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+        "language": "Rust",
+        "stargazers_count": 3691,
+        "pushed_at": "2026-09-18T03:37:47Z",
+        "archived": false,
+        "html_url": "https://github.com/yynxxxxx/Codex-X",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/yynxxxxx/Codex-X/readme",
+      "category": "第三方配置管理",
+      "summary_zh": "面向 Codex 桌面端与 CLI 的社区可视化管理工具，集中展示服务商配置、本地会话、提示词模板、Skills／MCP 和 TOML 设置，并提供操作备份。",
+      "editorial_reason_zh": "适合研究如何减少多套配置的手工维护。本文依据该第三方项目 README 介绍管理能力，实际兼容性需要结合所用客户端版本验证。"
+    }
+  ]
+}
