@@ -1,0 +1,232 @@
+{
+  "date": "2026-09-23",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-23T10:33:04.443663+08:00",
+  "verified_at": "2026-09-23T10:33:30.479547+08:00",
+  "items": [
+    {
+      "repo": "anthropics/financial-services",
+      "rank": 1,
+      "stars": 36401,
+      "daily": 438,
+      "language": "Python",
+      "metadata": {
+        "full_name": "anthropics/financial-services",
+        "description": null,
+        "language": "Python",
+        "stargazers_count": 36401,
+        "pushed_at": "2026-09-21T21:10:41Z",
+        "archived": false,
+        "html_url": "https://github.com/anthropics/financial-services",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/anthropics/financial-services/readme",
+      "category": "金融工作流 · 参考智能体",
+      "summary_zh": "Anthropic 提供的金融业务参考智能体、技能和数据连接器，涵盖投研资料整理、财务模型、会议准备与对账等任务，可通过 Cowork 插件或 Claude Managed Agents 模板接入工作流。",
+      "editorial_reason_zh": "适合观察如何把行业任务拆成可复用步骤与待审核产物。项目生成的是供专业人员复核的草稿，不负责执行交易、记账或作出投资决定。"
+    },
+    {
+      "repo": "agent-substrate/substrate",
+      "rank": 2,
+      "stars": 3015,
+      "daily": 245,
+      "language": "Go",
+      "metadata": {
+        "full_name": "agent-substrate/substrate",
+        "description": "Agent Substrate: the core system",
+        "language": "Go",
+        "stargazers_count": 3015,
+        "pushed_at": "2026-09-22T23:56:02Z",
+        "archived": false,
+        "html_url": "https://github.com/agent-substrate/substrate",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/agent-substrate/substrate/readme",
+      "category": "智能体基础设施 · 执行运行时",
+      "summary_zh": "面向智能体的执行运行时，将多个 actor 映射到可用 worker，管理创建、挂起、恢复及流量路由，并结合 Kubernetes 与沙箱隔离技术组织计算资源。",
+      "editorial_reason_zh": "智能体经常等待模型或工具返回，运行时如何复用资源值得研究。仓库明确处于早期开发阶段，尚不适合生产使用；接口和调度设计可以作为基础设施研究样本。"
+    },
+    {
+      "repo": "dream-num/univer",
+      "rank": 3,
+      "stars": 15527,
+      "daily": 255,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "dream-num/univer",
+        "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+        "language": "TypeScript",
+        "stargazers_count": 15527,
+        "pushed_at": "2026-09-22T07:17:35Z",
+        "archived": false,
+        "html_url": "https://github.com/dream-num/univer",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "dev"
+      },
+      "readme_url": "https://api.github.com/repos/dream-num/univer/readme",
+      "category": "办公 SDK · 表格与文档",
+      "summary_zh": "可嵌入应用的办公 SDK，开源核心提供插件系统、渲染与公式引擎、结构化编辑 API，支持浏览器及 Node.js 无界面使用，适合为内部工具或智能体增加表格、文档处理能力。",
+      "editorial_reason_zh": "把人工编辑界面与程序化操作放在同一套数据模型上，有助于构建可检查的办公流程。高级协作、服务端能力及部分产品扩展属于单独的 Univer Pro 商业层，选型时需区分。"
+    },
+    {
+      "repo": "davila7/claude-code-templates",
+      "rank": 4,
+      "stars": 31155,
+      "daily": 64,
+      "language": "Python",
+      "metadata": {
+        "full_name": "davila7/claude-code-templates",
+        "description": "CLI tool for configuring and monitoring Claude Code",
+        "language": "Python",
+        "stargazers_count": 31155,
+        "pushed_at": "2026-09-22T14:01:00Z",
+        "archived": false,
+        "html_url": "https://github.com/davila7/claude-code-templates",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/davila7/claude-code-templates/readme",
+      "category": "开发工具 · 配置与监控",
+      "summary_zh": "社区维护的 Claude Code 配置与模板集合，包含智能体、命令、设置、hooks、技能及 MCP 集成；同时提供会话分析、对话监控、健康检查和插件管理界面。",
+      "editorial_reason_zh": "适合从已有模板中挑选与团队工作流匹配的配置，并了解开发会话的运行状态。第三方组件保留各自许可与归属，应按具体组件评估，而不是将整个目录视为官方配置。"
+    },
+    {
+      "repo": "google/ax",
+      "rank": 5,
+      "stars": 7715,
+      "daily": 2305,
+      "language": "Go",
+      "metadata": {
+        "full_name": "google/ax",
+        "description": "Google's open agentic orchestration runtime",
+        "language": "Go",
+        "stargazers_count": 7715,
+        "pushed_at": "2026-09-20T03:33:20Z",
+        "archived": false,
+        "html_url": "https://github.com/google/ax",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/google/ax/readme",
+      "category": "智能体编排 · 声明式任务",
+      "summary_zh": "以 Task、Workspace、Gateway、Model 等声明式资源描述智能体任务，基于 Agent Substrate 执行沙箱工作负载，配置工作区和出站网络规则，并提供观察、调试、挂起与恢复入口。",
+      "editorial_reason_zh": "它把任务编排与底层执行运行时分开，便于研究多智能体平台的控制平面。当前概念、协议和规范仍在调整，稳定版之前可能出现重大不兼容变更；规模宣传不等于本期实测。"
+    },
+    {
+      "repo": "mvt-project/mvt",
+      "rank": 6,
+      "stars": 14148,
+      "daily": 441,
+      "language": "Python",
+      "metadata": {
+        "full_name": "mvt-project/mvt",
+        "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+        "language": "Python",
+        "stargazers_count": 14148,
+        "pushed_at": "2026-09-22T18:17:06Z",
+        "archived": false,
+        "html_url": "https://github.com/mvt-project/mvt",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mvt-project/mvt/readme",
+      "category": "移动安全 · 自定义许可",
+      "summary_zh": "Mobile Verification Toolkit 用于分析 Android、iOS 设备的取证痕迹，并匹配已知间谍软件的入侵指标，面向具备专业经验的研究与取证人员。",
+      "editorial_reason_zh": "可用于理解基于指标的移动设备排查流程，但没有发现匹配项并不能证明设备安全。项目采用强调知情同意的自定义取证许可，不应视为不受用途限制的通用开源工具。"
+    },
+    {
+      "repo": "superdesigndev/treg",
+      "rank": 7,
+      "stars": 2265,
+      "daily": 230,
+      "language": "Python",
+      "metadata": {
+        "full_name": "superdesigndev/treg",
+        "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+        "language": "Python",
+        "stargazers_count": 2265,
+        "pushed_at": "2026-09-23T01:34:26Z",
+        "archived": false,
+        "html_url": "https://github.com/superdesigndev/treg",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/superdesigndev/treg/readme",
+      "category": "工具注册与代理 · 附加许可条款",
+      "summary_zh": "面向智能体的工具注册与代理服务，通过统一入口调用工具目录或团队自己的 API、CLI 和技能，在服务端处理凭据注入；提供托管服务与自托管路径。",
+      "editorial_reason_zh": "值得关注工具接入、凭据与团队共享如何集中管理。README 声明 Apache 2.0 加附加条款，限制未经许可将代码用于向第三方提供竞争性托管注册服务，不能当作纯 Apache 2.0 许可。"
+    },
+    {
+      "repo": "browser-use/video-use",
+      "rank": 8,
+      "stars": 25897,
+      "daily": 191,
+      "language": "Python",
+      "metadata": {
+        "full_name": "browser-use/video-use",
+        "description": "Edit videos with coding agents",
+        "language": "Python",
+        "stargazers_count": 25897,
+        "pushed_at": "2026-08-30T09:45:51Z",
+        "archived": false,
+        "html_url": "https://github.com/browser-use/video-use",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/browser-use/video-use/readme",
+      "category": "视频编辑 · 编程智能体工具",
+      "summary_zh": "让编程智能体借助脚本与 ffmpeg 编辑视频，通过带词级时间戳的转写、按需胶片预览和波形图定位素材，完成剪切、字幕、音频淡入淡出与动画叠加等工作。",
+      "editorial_reason_zh": "把视频操作转成可读文本与可复查编辑步骤，适合研究半自动剪辑流程。转写路径依赖 ElevenLabs 等外部服务配置，成片仍需查看切点和音画效果，不宜据仓库介绍直接推断剪辑质量。"
+    }
+  ]
+}
