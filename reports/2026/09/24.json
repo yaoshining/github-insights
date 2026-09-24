@@ -1,0 +1,282 @@
+{
+  "date": "2026-09-24",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-24T09:05:51.956565+08:00",
+  "verified_at": "2026-09-24T09:06:21.175956+08:00",
+  "items": [
+    {
+      "repo": "google/ax",
+      "rank": 2,
+      "stars": 9059,
+      "daily": 1543,
+      "language": "Go",
+      "metadata": {
+        "full_name": "google/ax",
+        "description": "Google's open agentic orchestration runtime",
+        "language": "Go",
+        "stargazers_count": 9060,
+        "pushed_at": "2026-09-23T21:08:29Z",
+        "archived": false,
+        "html_url": "https://github.com/google/ax",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/google/ax/readme",
+      "category": "智能体平台 · 任务编排",
+      "summary_zh": "通过 Task、Workspace、Gateway 和 Model 等声明式资源描述智能体任务，基于 Agent Substrate 执行沙箱工作负载，提供工作区准备、网络规则以及任务观察、挂起和恢复能力。",
+      "editorial_reason_zh": "适合研究如何把智能体运行纳入集群管理。当前协议和核心概念仍在调整，稳定版前可能发生重大不兼容变更，应先验证具体工作负载再考虑生产接入。"
+    },
+    {
+      "repo": "BuilderIO/agent-native",
+      "rank": 4,
+      "stars": 6546,
+      "daily": 87,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "BuilderIO/agent-native",
+        "description": "A framework for building agentic apps",
+        "language": "TypeScript",
+        "stargazers_count": 6546,
+        "pushed_at": "2026-09-24T01:01:00Z",
+        "archived": false,
+        "html_url": "https://github.com/BuilderIO/agent-native",
+        "license": null,
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/BuilderIO/agent-native/readme",
+      "category": "应用框架 · 人与智能体协作",
+      "summary_zh": "面向 TypeScript 应用的框架，将业务能力定义为共享 action，让界面与智能体调用同一套实现、校验和权限逻辑，并共享数据及相关界面状态。",
+      "editorial_reason_zh": "适合构建需要查看、修改与批准智能体产物的业务应用。它展示了如何让自动执行和人工操作围绕同一份工作内容协作，而不是仅在应用旁增加一个聊天框。"
+    },
+    {
+      "repo": "obra/superpowers",
+      "rank": 5,
+      "stars": 290686,
+      "daily": 474,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "obra/superpowers",
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell",
+        "stargazers_count": 290686,
+        "pushed_at": "2026-09-22T18:22:49Z",
+        "archived": false,
+        "html_url": "https://github.com/obra/superpowers",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/obra/superpowers/readme",
+      "category": "开发方法 · 可组合技能",
+      "summary_zh": "为编程智能体提供一组可组合技能，覆盖需求澄清、设计、实施计划、测试驱动开发、调试与代码审查，用明确步骤组织软件开发过程。",
+      "editorial_reason_zh": "值得关注它如何把开发习惯写成可执行的工作指引。技能能约束过程，但实际交付质量仍取决于项目上下文、测试有效性与人工审查，不能由星标或流程名称保证。"
+    },
+    {
+      "repo": "dream-num/univer",
+      "rank": 6,
+      "stars": 16328,
+      "daily": 1142,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "dream-num/univer",
+        "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+        "language": "TypeScript",
+        "stargazers_count": 16328,
+        "pushed_at": "2026-09-23T13:53:19Z",
+        "archived": false,
+        "html_url": "https://github.com/dream-num/univer",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "dev"
+      },
+      "readme_url": "https://api.github.com/repos/dream-num/univer/readme",
+      "category": "办公 SDK · 可编程内容",
+      "summary_zh": "提供可嵌入应用的办公 SDK，开源核心包含插件系统、渲染与公式引擎和结构化编辑 API，支持浏览器及 Node.js 无界面使用，连接表格、文档界面与程序化操作。",
+      "editorial_reason_zh": "适合需要把智能体编辑结果呈现给用户复核的内部工具。高级协作、部分服务端能力与产品扩展属于独立的 Univer Pro 商业层，评估时应区分开源核心和商业功能。"
+    },
+    {
+      "repo": "Open-Dev-Society/OpenStock",
+      "rank": 7,
+      "stars": 18828,
+      "daily": 344,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "Open-Dev-Society/OpenStock",
+        "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+        "language": "TypeScript",
+        "stargazers_count": 18828,
+        "pushed_at": "2026-09-23T18:08:31Z",
+        "archived": false,
+        "html_url": "https://github.com/Open-Dev-Society/OpenStock",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Open-Dev-Society/OpenStock/readme",
+      "category": "数据应用 · 行情看板",
+      "summary_zh": "基于 Next.js 的行情应用，组合账户系统、自选列表、公司资料、图表与市场新闻，使用 Finnhub 数据及 TradingView 组件，并提供邮件和后台事件集成。",
+      "editorial_reason_zh": "可作为学习数据看板、用户偏好与外部数据服务集成的完整样例。行情时效取决于数据提供方及配置；部署应用不等于获得全部市场的实时数据服务。"
+    },
+    {
+      "repo": "strands-agents/harness-sdk",
+      "rank": 9,
+      "stars": 7844,
+      "daily": 115,
+      "language": "Python",
+      "metadata": {
+        "full_name": "strands-agents/harness-sdk",
+        "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+        "language": "Python",
+        "stargazers_count": 7844,
+        "pushed_at": "2026-09-23T21:50:15Z",
+        "archived": false,
+        "html_url": "https://github.com/strands-agents/harness-sdk",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/strands-agents/harness-sdk/readme",
+      "category": "智能体 SDK · 执行控制",
+      "summary_zh": "提供 Python 与 TypeScript 智能体 SDK 和组装好的 harness，支持模型接入、工具调用、会话与记忆、流式输出、MCP、追踪和评估，并控制轮次、预算及取消。",
+      "editorial_reason_zh": "适合需要自行掌握智能体执行循环的开发者。运行在应用进程内且不依赖托管控制平面的设计，便于把生命周期控制与现有服务结合，具体模型和工具仍需分别配置。"
+    },
+    {
+      "repo": "HKUDS/CLI-Anything",
+      "rank": 10,
+      "stars": 49929,
+      "daily": 57,
+      "language": "Python",
+      "metadata": {
+        "full_name": "HKUDS/CLI-Anything",
+        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "stargazers_count": 49929,
+        "pushed_at": "2026-09-22T02:01:29Z",
+        "archived": false,
+        "html_url": "https://github.com/HKUDS/CLI-Anything",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/HKUDS/CLI-Anything/readme",
+      "category": "软件自动化 · 命令行接口",
+      "summary_zh": "围绕现有软件构建智能体可调用的命令行接口，提供社区 CLI 目录、安装管理工具与多种软件操作示例，并使用结构化输出、预览和测试来检查操作结果。",
+      "editorial_reason_zh": "适合研究如何将图形软件能力转成可组合的命令行任务。可用程度取决于具体软件、适配器与版本，项目口号不代表任意软件都已完成可靠适配。"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "rank": 12,
+      "stars": 70340,
+      "daily": 304,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "pbakaus/impeccable",
+        "description": "The design language that makes your AI harness better at design.",
+        "language": "JavaScript",
+        "stargazers_count": 70340,
+        "pushed_at": "2026-09-24T00:46:01Z",
+        "archived": false,
+        "html_url": "https://github.com/pbakaus/impeccable",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pbakaus/impeccable/readme",
+      "category": "前端设计 · 指引与检查",
+      "summary_zh": "为 AI 编程工具提供前端设计指引和一组审查、排版、布局、动效、文案及适配命令，结合浏览器迭代与确定性检测规则组织设计改进。",
+      "editorial_reason_zh": "适合把含糊的界面反馈拆成可讨论、可检查的具体问题。规则检测与模型点评各有作用，最终仍需根据产品受众、任务和真实页面体验作判断。"
+    },
+    {
+      "repo": "DeusData/codebase-memory-mcp",
+      "rank": 14,
+      "stars": 44566,
+      "daily": 190,
+      "language": "C",
+      "metadata": {
+        "full_name": "DeusData/codebase-memory-mcp",
+        "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+        "language": "C",
+        "stargazers_count": 44566,
+        "pushed_at": "2026-09-23T23:21:44Z",
+        "archived": false,
+        "html_url": "https://github.com/DeusData/codebase-memory-mcp",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/DeusData/codebase-memory-mcp/readme",
+      "category": "代码理解 · 本地知识图谱",
+      "summary_zh": "以 C 编写的代码分析 MCP 服务，通过语法树与部分语言的语义解析，将函数、类、调用链和跨服务关系保存为知识图谱，供智能体检索、追踪与分析变更影响。",
+      "editorial_reason_zh": "适合大型仓库中的结构化探索，帮助定位文件之间的关系。仓库给出的速度和 token 节省数字属于项目方测试，本期未复测；应结合自己的语言、代码规模和索引覆盖率评估。"
+    },
+    {
+      "repo": "harry7557558/spirula-studio",
+      "rank": 15,
+      "stars": 739,
+      "daily": 69,
+      "language": "C++",
+      "metadata": {
+        "full_name": "harry7557558/spirula-studio",
+        "description": "Cross-vendor 3D Gaussian Splatting trainer - video to splat to mesh, Vulkan or CUDA.",
+        "language": "C++",
+        "stargazers_count": 739,
+        "pushed_at": "2026-09-23T23:40:23Z",
+        "archived": false,
+        "html_url": "https://github.com/harry7557558/spirula-studio",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/harry7557558/spirula-studio/readme",
+      "category": "三维重建 · Gaussian Splatting",
+      "summary_zh": "将照片或视频处理成 3D Gaussian Splatting 场景并进一步生成带纹理网格，整合视频抽帧、相机重建、训练与网格处理，提供图形界面和命令行，支持 Vulkan 与 CUDA 后端。",
+      "editorial_reason_zh": "适合关注实拍素材转三维资产的开发者。跨 GPU 后端和一体化处理流程值得尝试，但重建质量、耗时与显存需求取决于素材和硬件，本期未进行设备实测。"
+    }
+  ]
+}
