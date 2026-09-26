@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-26",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-26T09:20:24.150756+08:00",
+  "verified_at": "2026-09-26T10:41:08.134269+08:00",
+  "items": [
+    {
+      "repo": "paperclipai/paperclip",
+      "rank": 1,
+      "stars": 84988,
+      "daily": 2109,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "paperclipai/paperclip",
+        "description": "The open-source app everyone uses to manage agents at work",
+        "language": "TypeScript",
+        "stargazers_count": 85060,
+        "pushed_at": "2026-09-26T01:00:13Z",
+        "archived": false,
+        "html_url": "https://github.com/paperclipai/paperclip",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/paperclipai/paperclip/readme",
+      "category": "智能体协作 · 任务与预算",
+      "summary_zh": "以 Node.js 服务和 React 界面组织智能体团队，集中分配目标、跟踪任务与成本，并通过组织关系、审批和预算机制协调不同工具中的智能体。",
+      "editorial_reason_zh": "适合需要查看多个智能体各自工作内容与支出的团队。任务看板和审批机制提供管理入口，实际产物仍需逐项验收，不能由自动运行时长推断完成质量。"
+    },
+    {
+      "repo": "anthropics/claude-plugins-official",
+      "rank": 2,
+      "stars": 36944,
+      "daily": 83,
+      "language": "Python",
+      "metadata": {
+        "full_name": "anthropics/claude-plugins-official",
+        "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+        "language": "Python",
+        "stargazers_count": 36952,
+        "pushed_at": "2026-09-25T23:12:23Z",
+        "archived": false,
+        "html_url": "https://github.com/anthropics/claude-plugins-official",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/anthropics/claude-plugins-official/readme",
+      "category": "插件生态 · 官方目录",
+      "summary_zh": "由 Anthropic 维护的 Claude Code 插件目录，分别收录官方开发的内部插件与合作伙伴、社区提供的第三方插件，并给出插件清单、技能、命令和 MCP 配置的组织方式。",
+      "editorial_reason_zh": "适合了解插件生态及复用具体能力。目录由官方维护并不意味着所有插件都由官方开发，依赖、功能和许可需查看对应插件说明，不能将目录许可套用到全部组件。"
+    },
+    {
+      "repo": "vectorize-io/hindsight",
+      "rank": 3,
+      "stars": 29816,
+      "daily": 1653,
+      "language": "Python",
+      "metadata": {
+        "full_name": "vectorize-io/hindsight",
+        "description": "Hindsight: Agent Memory That Learns",
+        "language": "Python",
+        "stargazers_count": 29861,
+        "pushed_at": "2026-09-25T20:14:12Z",
+        "archived": false,
+        "html_url": "https://github.com/vectorize-io/hindsight",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/vectorize-io/hindsight/readme",
+      "category": "智能体记忆 · 检索与反思",
+      "summary_zh": "提供 retain、recall、reflect 三类操作，将输入整理为事实、经历和观察，结合语义、关键词、图关系与时间检索，让智能体在后续任务中调用和分析积累的信息。",
+      "editorial_reason_zh": "值得关注它如何保留证据并随新信息更新观察。记忆准确性仍依赖模型、输入与检索配置；本期未复测仓库宣称的长期记忆基准成绩。"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "rank": 5,
+      "stars": 269734,
+      "daily": 583,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "mattpocock/skills",
+        "description": "Skills for Real Engineers. Straight from my .agents directory.",
+        "language": "Shell",
+        "stargazers_count": 269755,
+        "pushed_at": "2026-09-24T14:07:55Z",
+        "archived": false,
+        "html_url": "https://github.com/mattpocock/skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mattpocock/skills/readme",
+      "category": "工程实践 · 可组合技能",
+      "summary_zh": "Matt Pocock 分享的工程技能集合，强调将日常工程经验拆成小型、可调整、可组合的指引，包含需求澄清和项目工作流配置等内容，可按项目需要选取。",
+      "editorial_reason_zh": "适合研究如何把团队习惯写成明确步骤。托管插件包与可编辑的技能文件有不同更新方式，使用前应选择适合自己的维护方式，并根据项目实际修改指引。"
+    },
+    {
+      "repo": "dream-num/univer",
+      "rank": 6,
+      "stars": 18448,
+      "daily": 1050,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "dream-num/univer",
+        "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+        "language": "TypeScript",
+        "stargazers_count": 18468,
+        "pushed_at": "2026-09-24T14:02:42Z",
+        "archived": false,
+        "html_url": "https://github.com/dream-num/univer",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "dev"
+      },
+      "readme_url": "https://api.github.com/repos/dream-num/univer/readme",
+      "category": "办公 SDK · 可编程内容",
+      "summary_zh": "提供可嵌入应用的办公 SDK，开源核心包含插件系统、渲染与公式引擎和结构化编辑 API，支持浏览器及 Node.js 无界面使用，连接表格、文档界面与程序化操作。",
+      "editorial_reason_zh": "适合需要把智能体编辑结果呈现给用户复核的内部工具。高级协作、部分服务端能力与产品扩展属于独立的 Univer Pro 商业层，评估时应区分开源核心和商业功能。"
+    },
+    {
+      "repo": "androoAGI/starnet",
+      "rank": 8,
+      "stars": 485,
+      "daily": 93,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "androoAGI/starnet",
+        "description": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
+        "language": "JavaScript",
+        "stargazers_count": 500,
+        "pushed_at": "2026-09-23T17:52:14Z",
+        "archived": false,
+        "html_url": "https://github.com/androoAGI/starnet",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "feat/harness-backend"
+      },
+      "readme_url": "https://api.github.com/repos/androoAGI/starnet/readme",
+      "category": "桌面智能体 · 像素工作站",
+      "summary_zh": "本地优先的桌面智能体工具，将房间、角色和物件对应到团队、运行状态与能力授权，提供独立工作区、任务、记忆、成本记录和 MCP 接入，以像素空间站呈现工作过程。",
+      "editorial_reason_zh": "值得关注它如何让并发任务与权限变得可见。需要接入模型账户或密钥，调用会产生实际成本；README 标明仍属早期版本，macOS 的实际覆盖少于 Windows。"
+    },
+    {
+      "repo": "kelseyhightower/kubernetes-the-hard-way",
+      "rank": 10,
+      "stars": 50125,
+      "daily": 119,
+      "language": "未标注",
+      "metadata": {
+        "full_name": "kelseyhightower/kubernetes-the-hard-way",
+        "description": "Bootstrap Kubernetes the hard way. No scripts.",
+        "language": null,
+        "stargazers_count": 50130,
+        "pushed_at": "2025-04-10T06:11:47Z",
+        "archived": false,
+        "html_url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/kelseyhightower/kubernetes-the-hard-way/readme",
+      "category": "云原生学习 · 手动搭建",
+      "summary_zh": "通过手动准备机器、证书、认证配置、etcd、控制平面、工作节点和网络，带读者理解 Kubernetes 各组件如何组成集群，重点是学习启动与连接过程。",
+      "editorial_reason_zh": "适合想理解集群内部机制的读者，教程明确不将实验结果视为生产就绪方案。榜单与 API 均未标注主语言；README 对教程内容标注 CC BY-NC-SA 4.0，复用内容应查看相应许可。"
+    },
+    {
+      "repo": "google/ax",
+      "rank": 13,
+      "stars": 11513,
+      "daily": 1379,
+      "language": "Go",
+      "metadata": {
+        "full_name": "google/ax",
+        "description": "Google's open agentic orchestration runtime",
+        "language": "Go",
+        "stargazers_count": 11538,
+        "pushed_at": "2026-09-25T22:20:58Z",
+        "archived": false,
+        "html_url": "https://github.com/google/ax",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/google/ax/readme",
+      "category": "智能体平台 · 任务编排",
+      "summary_zh": "通过 Task、Workspace 和 Model 等声明式资源描述智能体任务，基于 Agent Substrate 执行沙箱工作负载，准备 Git 仓库、MCP 与技能等工作区资源，并提供观察、调试、挂起和恢复入口。",
+      "editorial_reason_zh": "适合研究如何把智能体运行纳入集群管理。当前协议和核心概念仍在调整，稳定版前可能发生重大不兼容变更，应先验证具体工作负载再考虑生产接入。"
+    },
+    {
+      "repo": "NVIDIA/Model-Optimizer",
+      "rank": 14,
+      "stars": 4478,
+      "daily": 359,
+      "language": "Python",
+      "metadata": {
+        "full_name": "NVIDIA/Model-Optimizer",
+        "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+        "language": "Python",
+        "stargazers_count": 4489,
+        "pushed_at": "2026-09-26T00:53:20Z",
+        "archived": false,
+        "html_url": "https://github.com/NVIDIA/Model-Optimizer",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/NVIDIA/Model-Optimizer/readme",
+      "category": "模型部署 · 压缩与优化",
+      "summary_zh": "统一组织量化、剪枝、蒸馏、稀疏化、架构搜索与推测解码等模型优化技术，提供 Python API 和导出流程，对接 TensorRT-LLM、TensorRT、vLLM、SGLang 等推理框架。",
+      "editorial_reason_zh": "适合研究部署前如何平衡模型精度、显存和推理开销。支持范围与收益取决于模型、硬件和后端，不能把某个示例的加速比例直接套用到自己的服务。"
+    },
+    {
+      "repo": "openbao/openbao",
+      "rank": 16,
+      "stars": 7736,
+      "daily": 49,
+      "language": "Go",
+      "metadata": {
+        "full_name": "openbao/openbao",
+        "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+        "language": "Go",
+        "stargazers_count": 7748,
+        "pushed_at": "2026-09-24T20:34:53Z",
+        "archived": false,
+        "html_url": "https://github.com/openbao/openbao",
+        "license": {
+          "key": "mpl-2.0",
+          "name": "Mozilla Public License 2.0",
+          "spdx_id": "MPL-2.0",
+          "url": "https://api.github.com/licenses/mpl-2.0",
+          "node_id": "MDc6TGljZW5zZTE0"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/openbao/openbao/readme",
+      "category": "基础设施 · 密钥与凭据管理",
+      "summary_zh": "管理、存储和分发密钥、证书及其他敏感数据，提供加密存储、动态凭据、租约续期、撤销与数据加解密能力，用统一接口组织应用访问所需的秘密信息。",
+      "editorial_reason_zh": "适合研究如何减少应用中分散存放的长期凭据，并建立可审计的访问流程。部署时仍需设计身份认证、权限、存储与恢复方案，产品能力不能代替具体环境的运维验证。"
+    }
+  ]
+}
