@@ -1,0 +1,260 @@
+{
+  "date": "2026-09-28",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-28T09:09:00.470231+08:00",
+  "verified_at": "2026-09-28T09:20:02.918473+08:00",
+  "items": [
+    {
+      "repo": "paperclipai/paperclip",
+      "rank": 1,
+      "stars": 89922,
+      "daily": 2401,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "paperclipai/paperclip",
+        "description": "The open-source app everyone uses to manage agents at work",
+        "language": "TypeScript",
+        "stargazers_count": 89944,
+        "pushed_at": "2026-09-28T01:05:57Z",
+        "archived": false,
+        "html_url": "https://github.com/paperclipai/paperclip",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/paperclipai/paperclip/readme",
+      "category": "智能体协作 · 任务与预算",
+      "summary_zh": "以 Node.js 服务和 React 界面组织智能体团队，集中分配目标、跟踪任务与成本，并通过组织关系、审批和预算机制协调不同工具中的智能体。",
+      "editorial_reason_zh": "适合需要查看多个智能体各自工作内容与支出的团队。任务看板和审批机制提供管理入口，实际产物仍需逐项验收，不能由自动运行时长推断完成质量。"
+    },
+    {
+      "repo": "vectorize-io/hindsight",
+      "rank": 2,
+      "stars": 37328,
+      "daily": 4520,
+      "language": "Python",
+      "metadata": {
+        "full_name": "vectorize-io/hindsight",
+        "description": "Hindsight: Agent Memory That Learns",
+        "language": "Python",
+        "stargazers_count": 37356,
+        "pushed_at": "2026-09-26T14:14:46Z",
+        "archived": false,
+        "html_url": "https://github.com/vectorize-io/hindsight",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/vectorize-io/hindsight/readme",
+      "category": "智能体记忆 · 检索与反思",
+      "summary_zh": "提供 retain、recall、reflect 三类操作，将输入整理为事实、经历和观察，结合语义、关键词、图关系与时间检索，让智能体在后续任务中调用和分析积累的信息。",
+      "editorial_reason_zh": "值得关注它如何保留证据并随新信息更新观察。记忆准确性仍依赖模型、输入与检索配置；本期未复测仓库宣称的长期记忆基准成绩。"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "rank": 3,
+      "stars": 40181,
+      "daily": 3086,
+      "language": "Python",
+      "metadata": {
+        "full_name": "debpalash/VoiceStudio",
+        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "language": "Python",
+        "stargazers_count": 40195,
+        "pushed_at": "2026-09-27T13:29:55Z",
+        "archived": false,
+        "html_url": "https://github.com/debpalash/VoiceStudio",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/debpalash/VoiceStudio/readme",
+      "category": "本地语音 · 创作工作流",
+      "summary_zh": "以桌面应用和 Web 界面整合语音克隆、声音设计、视频配音、转写、有声书与批量任务，并提供模型管理及本地 API、MCP 接口。",
+      "editorial_reason_zh": "将分散的语音处理步骤放进同一工作台，适合评估本地音频创作流程。不同模型的硬件需求、语言覆盖与效果不同，使用前需要下载模型并验证自己的素材。"
+    },
+    {
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "rank": 4,
+      "stars": 59299,
+      "daily": 790,
+      "language": "Python",
+      "metadata": {
+        "full_name": "rohitg00/ai-engineering-from-scratch",
+        "description": "Learn it. Build it. Ship it for others.",
+        "language": "Python",
+        "stargazers_count": 59313,
+        "pushed_at": "2026-09-27T11:54:19Z",
+        "archived": false,
+        "html_url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/rohitg00/ai-engineering-from-scratch/readme",
+      "category": "AI 工程学习 · 实践课程",
+      "summary_zh": "从开发环境、数学与机器学习基础到 LLM 应用、智能体、MCP 和技能开发的课程与代码资料，按学习目标提供路径，并强调通过实践产出可复用的工程成果。",
+      "editorial_reason_zh": "适合为零散学习建立顺序，也可按目标挑选专题。课程覆盖面和星标不能替代练习质量，建议结合自己的基础，逐项运行并理解代码。"
+    },
+    {
+      "repo": "InfinityLoop1308/PipePipe",
+      "rank": 5,
+      "stars": 6575,
+      "daily": 242,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "InfinityLoop1308/PipePipe",
+        "description": "An open-source Android app to let you browse YouTube and other services freely. ",
+        "language": "Shell",
+        "stargazers_count": 6581,
+        "pushed_at": "2026-09-26T08:12:59Z",
+        "archived": false,
+        "html_url": "https://github.com/InfinityLoop1308/PipePipe",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/InfinityLoop1308/PipePipe/readme",
+      "category": "Android 播放器 · 内容管理",
+      "summary_zh": "基于 NewPipe 分叉独立发展的 Android 播放器，提供后台播放、弹幕与直播聊天、频道和关键词过滤，以及播放列表搜索、排序和睡眠定时等功能。",
+      "editorial_reason_zh": "值得关注它对播放交互和内容筛选的整合。外部视频站点变化可能影响可用性；本期 Shell 语言标注来自 GitHub 仓库统计，不代表 Android 客户端全部实现语言。"
+    },
+    {
+      "repo": "vercel-labs/scriptc",
+      "rank": 6,
+      "stars": 5405,
+      "daily": 102,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "vercel-labs/scriptc",
+        "description": "TypeScript-to-Native Compiler",
+        "language": "TypeScript",
+        "stargazers_count": 5409,
+        "pushed_at": "2026-09-28T01:02:13Z",
+        "archived": false,
+        "html_url": "https://github.com/vercel-labs/scriptc",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/vercel-labs/scriptc/readme",
+      "category": "原生编译 · 实验工具",
+      "summary_zh": "将 TypeScript 和 JavaScript 编译为类型化中间表示，再输出 C、LLVM IR、汇编、原生程序或 WebAssembly；静态模式使用小型运行时，动态模式可嵌入 QuickJS。",
+      "editorial_reason_zh": "为脚本工具的原生分发提供实验方向。它仍处于实验阶段，静态语法覆盖、Node.js API 和目标平台能力均有限制，迁移现有应用需要逐项验证兼容性。"
+    },
+    {
+      "repo": "mvschwarz/openrig",
+      "rank": 7,
+      "stars": 981,
+      "daily": 114,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "mvschwarz/openrig",
+        "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+        "language": "TypeScript",
+        "stargazers_count": 989,
+        "pushed_at": "2026-09-27T17:06:55Z",
+        "archived": false,
+        "html_url": "https://github.com/mvschwarz/openrig",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mvschwarz/openrig/readme",
+      "category": "智能体协作 · 终端团队",
+      "summary_zh": "用 YAML 定义负责人和专职角色，在终端中编排持续运行的 Claude Code 与 Codex 团队，配合任务队列、共享工作上下文和 TUI 查看协作进展。",
+      "editorial_reason_zh": "适合探索多个编码智能体如何分工和交接。运行依赖相应工具、认证和 tmux，初始化还涉及工具钩子与工作区信任配置，采用前应检查这些配置变更。"
+    },
+    {
+      "repo": "dream-num/univer",
+      "rank": 8,
+      "stars": 20225,
+      "daily": 895,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "dream-num/univer",
+        "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+        "language": "TypeScript",
+        "stargazers_count": 20253,
+        "pushed_at": "2026-09-27T19:58:06Z",
+        "archived": false,
+        "html_url": "https://github.com/dream-num/univer",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "dev"
+      },
+      "readme_url": "https://api.github.com/repos/dream-num/univer/readme",
+      "category": "办公 SDK · 可编程内容",
+      "summary_zh": "提供可嵌入应用的办公 SDK，开源核心包含插件系统、渲染与公式引擎和结构化编辑 API，支持浏览器及 Node.js 无界面使用，连接表格、文档界面与程序化操作。",
+      "editorial_reason_zh": "适合需要把智能体编辑结果呈现给用户复核的内部工具。高级协作、部分服务端能力与产品扩展属于独立的 Univer Pro 商业层，评估时应区分开源核心和商业功能。"
+    },
+    {
+      "repo": "willfaust/Madeira",
+      "rank": 9,
+      "stars": 816,
+      "daily": 83,
+      "language": "C",
+      "metadata": {
+        "full_name": "willfaust/Madeira",
+        "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+        "language": "C",
+        "stargazers_count": 820,
+        "pushed_at": "2026-09-25T07:23:42Z",
+        "archived": false,
+        "html_url": "https://github.com/willfaust/Madeira",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/willfaust/Madeira/readme",
+      "category": "跨平台运行 · 实验研究",
+      "summary_zh": "研究在未越狱 iPhone 上运行 Windows PC 游戏，将 Wine ARM64EC、FEX 的 x86 到 ARM64 翻译与 DXMT 的 Direct3D 11 到 Metal 转换组合在同一进程中。",
+      "editorial_reason_zh": "展示指令翻译、系统兼容与图形转换如何协同。项目仍是研究原型，涉及 JIT、签名和侧载环境，兼容性需逐游戏确认；本期未进行真机游戏验证。"
+    }
+  ]
+}
