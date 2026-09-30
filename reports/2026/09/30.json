@@ -1,0 +1,282 @@
+{
+  "date": "2026-09-30",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-09-30T09:28:20.148948+08:00",
+  "verified_at": "2026-09-30T10:02:55.599764+08:00",
+  "items": [
+    {
+      "repo": "debpalash/VoiceStudio",
+      "rank": 1,
+      "stars": 48199,
+      "daily": 4758,
+      "language": "Python",
+      "metadata": {
+        "full_name": "debpalash/VoiceStudio",
+        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "language": "Python",
+        "stargazers_count": 48265,
+        "pushed_at": "2026-09-29T15:45:28Z",
+        "archived": false,
+        "html_url": "https://github.com/debpalash/VoiceStudio",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/debpalash/VoiceStudio/readme",
+      "category": "本地语音 · 创作工作流",
+      "summary_zh": "以桌面应用和 Web 界面整合语音克隆、声音设计、视频配音、转写、有声书与批量任务，并提供模型管理及本地 API、MCP 接口。",
+      "editorial_reason_zh": "将分散的语音处理步骤放进同一工作台，适合评估本地音频创作流程。不同模型的硬件需求、语言覆盖与效果不同，使用前需要下载模型并验证自己的素材。"
+    },
+    {
+      "repo": "NVIDIA/OpenShell",
+      "rank": 2,
+      "stars": 10636,
+      "daily": 990,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "NVIDIA/OpenShell",
+        "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+        "language": "Rust",
+        "stargazers_count": 10670,
+        "pushed_at": "2026-09-30T01:51:45Z",
+        "archived": false,
+        "html_url": "https://github.com/NVIDIA/OpenShell",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/NVIDIA/OpenShell/readme",
+      "category": "智能体运行环境 · 访问策略",
+      "summary_zh": "为自主智能体提供隔离运行环境，通过策略约束文件、系统调用及网络访问，并在请求到达获准端点时注入凭据；同时提供策略变更审查与多语言 SDK。",
+      "editorial_reason_zh": "值得关注它把工具能力与运行权限放在不同层管理的设计。实际隔离效果取决于运行时、平台支持与策略配置，本期未进行安全验证，不能仅凭项目介绍认定智能体可无限制自主运行。"
+    },
+    {
+      "repo": "vectorize-io/hindsight",
+      "rank": 3,
+      "stars": 42876,
+      "daily": 2575,
+      "language": "Python",
+      "metadata": {
+        "full_name": "vectorize-io/hindsight",
+        "description": "Hindsight: Agent Memory That Learns",
+        "language": "Python",
+        "stargazers_count": 42908,
+        "pushed_at": "2026-09-30T00:37:11Z",
+        "archived": false,
+        "html_url": "https://github.com/vectorize-io/hindsight",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/vectorize-io/hindsight/readme",
+      "category": "智能体记忆 · 检索与反思",
+      "summary_zh": "提供 retain、recall、reflect 三类操作，将输入整理为事实、经历和观察，结合语义、关键词、图关系与时间检索，让智能体在后续任务中调用和分析积累的信息。",
+      "editorial_reason_zh": "值得关注它如何保留证据并随新信息更新观察。记忆准确性仍依赖模型、输入与检索配置；本期未复测仓库宣称的长期记忆基准成绩。"
+    },
+    {
+      "repo": "paperclipai/paperclip",
+      "rank": 4,
+      "stars": 94494,
+      "daily": 2458,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "paperclipai/paperclip",
+        "description": "The open-source app everyone uses to manage agents at work",
+        "language": "TypeScript",
+        "stargazers_count": 94520,
+        "pushed_at": "2026-09-30T01:12:56Z",
+        "archived": false,
+        "html_url": "https://github.com/paperclipai/paperclip",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/paperclipai/paperclip/readme",
+      "category": "智能体协作 · 任务与预算",
+      "summary_zh": "以 Node.js 服务和 React 界面组织智能体团队，集中分配目标、跟踪任务与成本，并通过组织关系、审批和预算机制协调不同工具中的智能体。",
+      "editorial_reason_zh": "适合需要查看多个智能体各自工作内容与支出的团队。任务看板和审批机制提供管理入口，实际产物仍需逐项验收，不能由自动运行时长推断完成质量。"
+    },
+    {
+      "repo": "t8y2/dbx",
+      "rank": 5,
+      "stars": 22053,
+      "daily": 232,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "t8y2/dbx",
+        "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+        "language": "Rust",
+        "stargazers_count": 22114,
+        "pushed_at": "2026-09-30T01:25:55Z",
+        "archived": false,
+        "html_url": "https://github.com/t8y2/dbx",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/t8y2/dbx/readme",
+      "category": "数据库工具 · AI 与 MCP",
+      "summary_zh": "基于 Rust 与 Tauri 的跨平台数据库管理工具，整合查询编辑、数据网格、结构管理和 AI SQL 助手，也提供 Web、Docker、CLI 与独立分发的 MCP 服务。",
+      "editorial_reason_zh": "适合希望复用数据库连接、在界面与智能体之间切换的开发者。MCP 可配置连接白名单和读写模式；不同驱动支持范围及 AI 生成 SQL 的正确性仍需结合实际数据库验证。"
+    },
+    {
+      "repo": "mvschwarz/openrig",
+      "rank": 6,
+      "stars": 2452,
+      "daily": 737,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "mvschwarz/openrig",
+        "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+        "language": "TypeScript",
+        "stargazers_count": 2465,
+        "pushed_at": "2026-09-30T00:03:52Z",
+        "archived": false,
+        "html_url": "https://github.com/mvschwarz/openrig",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mvschwarz/openrig/readme",
+      "category": "智能体协作 · 终端团队",
+      "summary_zh": "用 YAML 定义负责人和专职角色，在终端中编排持续运行的 Claude Code 与 Codex 团队，配合任务队列、共享工作上下文和 TUI 查看协作进展。",
+      "editorial_reason_zh": "适合探索编码智能体的分工、交接和终端会话管理。当前 README 要求 Node.js 22 或 24、tmux 及 macOS 或 Linux；初始化涉及工具钩子与工作区信任配置，采用前应检查这些变更。"
+    },
+    {
+      "repo": "oblien/openship",
+      "rank": 7,
+      "stars": 13843,
+      "daily": 437,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "oblien/openship",
+        "description": "Self-hosted deployment platform",
+        "language": "TypeScript",
+        "stargazers_count": 13862,
+        "pushed_at": "2026-09-30T01:05:40Z",
+        "archived": false,
+        "html_url": "https://github.com/oblien/openship",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/oblien/openship/readme",
+      "category": "自托管部署 · 构建与发布",
+      "summary_zh": "将代码仓库、本地目录或预构建产物接入构建、运行、域名路由和 TLS 流程，提供桌面端、Web 控制台与 CLI，可连接自己的服务器或托管服务。",
+      "editorial_reason_zh": "适合关注部署流程可见性和自托管控制的团队。桌面控制台与持续在线的服务端用途不同，推送自动部署需要常驻入口；采用时应结合服务器权限、备份与回滚要求评估。"
+    },
+    {
+      "repo": "cs341-illinois/coursebook",
+      "rank": 9,
+      "stars": 3113,
+      "daily": 572,
+      "language": "TeX",
+      "metadata": {
+        "full_name": "cs341-illinois/coursebook",
+        "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+        "language": "TeX",
+        "stargazers_count": 3124,
+        "pushed_at": "2026-09-26T17:06:12Z",
+        "archived": false,
+        "html_url": "https://github.com/cs341-illinois/coursebook",
+        "license": null,
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/cs341-illinois/coursebook/readme",
+      "category": "系统编程 · 开放教材",
+      "summary_zh": "伊利诺伊大学厄巴纳－香槟分校 CS 341 使用的系统编程入门教材，以 C 语言组织代码与讲解，提供 PDF、HTML 等阅读形式及可协作维护的源文件。",
+      "editorial_reason_zh": "适合已有编程基础、希望系统补齐底层知识的读者。教材假设读者熟悉基本汇编指令；TeX 标注反映教材源文件，讲解与示例使用的主要编程语言是 C。"
+    },
+    {
+      "repo": "VectifyAI/PageIndex",
+      "rank": 11,
+      "stars": 37400,
+      "daily": 835,
+      "language": "Python",
+      "metadata": {
+        "full_name": "VectifyAI/PageIndex",
+        "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+        "language": "Python",
+        "stargazers_count": 37430,
+        "pushed_at": "2026-09-29T15:50:17Z",
+        "archived": false,
+        "html_url": "https://github.com/VectifyAI/PageIndex",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/VectifyAI/PageIndex/readme",
+      "category": "文档检索 · 树形索引",
+      "summary_zh": "为文档建立层级树索引，再由大模型沿树定位相关内容，提供不依赖向量数据库的检索增强生成路径；SDK 可在本机组织索引与检索，也可连接云服务。",
+      "editorial_reason_zh": "适合探索长文档的章节结构能否改善检索与引用。效果和成本与模型、文档类型及问题有关；本地模式仍可能调用外部模型 API，本期未复测仓库中的速度和准确率结果。"
+    },
+    {
+      "repo": "rakyll/hey",
+      "rank": 14,
+      "stars": 20482,
+      "daily": 34,
+      "language": "Go",
+      "metadata": {
+        "full_name": "rakyll/hey",
+        "description": "HTTP load generator, ApacheBench (ab) replacement",
+        "language": "Go",
+        "stargazers_count": 20489,
+        "pushed_at": "2026-01-10T20:54:51Z",
+        "archived": false,
+        "html_url": "https://github.com/rakyll/hey",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/rakyll/hey/readme",
+      "category": "性能工具 · HTTP 负载测试",
+      "summary_zh": "用 Go 编写的轻量 HTTP 负载生成工具，支持设置请求数、并发数、持续时间、请求方法和头部，支持 HTTP/2，并输出统计摘要或 CSV 响应指标。",
+      "editorial_reason_zh": "适合对自己的服务做可重复的小规模性能对照。比较结果时需固定并发、网络和连接复用条件；它的 QPS 限制按每个工作线程计算，不能直接当成全局请求速率。"
+    }
+  ]
+}
