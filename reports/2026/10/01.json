@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-01",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-01T09:01:35.564417+08:00",
+  "verified_at": "2026-10-01T09:02:19.478986+08:00",
+  "items": [
+    {
+      "repo": "NVIDIA/OpenShell",
+      "rank": 1,
+      "stars": 12680,
+      "daily": 1281,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "NVIDIA/OpenShell",
+        "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+        "language": "Rust",
+        "stargazers_count": 12682,
+        "pushed_at": "2026-10-01T00:54:48Z",
+        "archived": false,
+        "html_url": "https://github.com/NVIDIA/OpenShell",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/NVIDIA/OpenShell/readme",
+      "category": "智能体运行环境 · 访问策略",
+      "summary_zh": "为自主智能体提供隔离运行环境，通过策略约束文件、系统调用及网络访问，并在请求到达获准端点时注入凭据；同时提供策略变更审查与多语言 SDK。",
+      "editorial_reason_zh": "值得关注它把工具能力与运行权限放在不同层管理的设计。实际隔离效果取决于运行时、平台支持与策略配置，本期未进行安全验证，不能仅凭项目介绍认定智能体可无限制自主运行。"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "rank": 2,
+      "stars": 50445,
+      "daily": 3483,
+      "language": "Python",
+      "metadata": {
+        "full_name": "debpalash/VoiceStudio",
+        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "language": "Python",
+        "stargazers_count": 50446,
+        "pushed_at": "2026-09-29T15:45:28Z",
+        "archived": false,
+        "html_url": "https://github.com/debpalash/VoiceStudio",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/debpalash/VoiceStudio/readme",
+      "category": "本地语音 · 创作工作流",
+      "summary_zh": "以桌面应用和 Web 界面整合语音克隆、声音设计、视频配音、转写、有声书与批量任务，并提供模型管理及本地 API、MCP 接口。",
+      "editorial_reason_zh": "将分散的语音处理步骤放进同一工作台，适合评估本地音频创作流程。不同模型的硬件需求、语言覆盖与效果不同，使用前需要下载模型并验证自己的素材。"
+    },
+    {
+      "repo": "mvschwarz/openrig",
+      "rank": 3,
+      "stars": 3029,
+      "daily": 624,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "mvschwarz/openrig",
+        "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+        "language": "TypeScript",
+        "stargazers_count": 3031,
+        "pushed_at": "2026-10-01T00:55:21Z",
+        "archived": false,
+        "html_url": "https://github.com/mvschwarz/openrig",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mvschwarz/openrig/readme",
+      "category": "智能体协作 · 终端团队",
+      "summary_zh": "用 YAML 定义负责人和专职角色，在终端中编排持续运行的 Claude Code 与 Codex 团队，配合任务队列、共享工作上下文和 TUI 查看协作进展。",
+      "editorial_reason_zh": "适合探索编码智能体的分工、交接和终端会话管理。当前 README 要求 Node.js 22 或 24、tmux 及 macOS 或 Linux；初始化涉及工具钩子与工作区信任配置，采用前应检查这些变更。"
+    },
+    {
+      "repo": "mksglu/context-mode",
+      "rank": 4,
+      "stars": 24492,
+      "daily": 90,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "mksglu/context-mode",
+        "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+        "language": "TypeScript",
+        "stargazers_count": 24492,
+        "pushed_at": "2026-10-01T00:15:35Z",
+        "archived": false,
+        "html_url": "https://github.com/mksglu/context-mode",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mksglu/context-mode/readme",
+      "category": "上下文管理 · 源码可用工具",
+      "summary_zh": "通过 MCP 工具在独立进程中处理原始输出，只把相关结果送入模型上下文；结合 SQLite、全文检索和客户端钩子记录会话事件，辅助压缩后的任务衔接。",
+      "editorial_reason_zh": "适合评估日志、网页和工具输出较多的编码流程。各客户端的钩子支持程度不同，节省比例需自行测量；项目采用 Elastic License 2.0，属于源码可用软件，应与宽松开源许可区分。"
+    },
+    {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "rank": 6,
+      "stars": 127565,
+      "daily": 431,
+      "language": "Python",
+      "metadata": {
+        "full_name": "harry0703/MoneyPrinterTurbo",
+        "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+        "language": "Python",
+        "stargazers_count": 127566,
+        "pushed_at": "2026-09-30T12:59:35Z",
+        "archived": false,
+        "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/harry0703/MoneyPrinterTurbo/readme",
+      "category": "AI 视频 · 自动化制作",
+      "summary_zh": "围绕主题或关键词组织脚本、配音、素材、字幕、配乐与剪辑，支持自定义内容、批量任务，并提供 WebUI、API、CLI 和智能体入口。",
+      "editorial_reason_zh": "适合搭建可重复的视频制作流程。成片质量取决于脚本、素材匹配和各模型服务，批量生成前应先核对样片中的内容、字幕和配音；本期未测试实际成片效果。"
+    },
+    {
+      "repo": "heygen-com/hyperframes",
+      "rank": 10,
+      "stars": 54737,
+      "daily": 349,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "heygen-com/hyperframes",
+        "description": "Write HTML. Render video. Built for agents.",
+        "language": "TypeScript",
+        "stargazers_count": 54737,
+        "pushed_at": "2026-10-01T00:58:16Z",
+        "archived": false,
+        "html_url": "https://github.com/heygen-com/hyperframes",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/heygen-com/hyperframes/readme",
+      "category": "视频渲染 · HTML 动画",
+      "summary_zh": "将 HTML、CSS、媒体素材和可定位时间的动画组织为视频，通过 CLI 预览、检查并渲染 MP4，也提供供编码智能体使用的创作工作流。",
+      "editorial_reason_zh": "适合把网页排版与动画能力用于产品介绍和数据演示。重点在代码化编排和可重复渲染，画面设计、时间轴及字体素材仍需要预览验收。"
+    },
+    {
+      "repo": "firebase/firebase-ios-sdk",
+      "rank": 11,
+      "stars": 6767,
+      "daily": 8,
+      "language": "C++",
+      "metadata": {
+        "full_name": "firebase/firebase-ios-sdk",
+        "description": "Firebase SDK for Apple App Development",
+        "language": "C++",
+        "stargazers_count": 6767,
+        "pushed_at": "2026-09-30T18:18:55Z",
+        "archived": false,
+        "html_url": "https://github.com/firebase/firebase-ios-sdk",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/firebase/firebase-ios-sdk/readme",
+      "category": "应用基础设施 · Apple SDK",
+      "summary_zh": "包含 Firebase 面向 Apple 平台的客户端库源码，覆盖身份验证、Firestore、消息、崩溃诊断、远程配置、存储及 AI Logic 等功能。",
+      "editorial_reason_zh": "适合查阅 SDK 实现和评估应用服务集成。Firebase Analytics 不在开源范围内，客户端库开源也不代表后端服务可自托管；本期 C++ 为 GitHub 仓库统计标注。"
+    },
+    {
+      "repo": "modelcontextprotocol/servers",
+      "rank": 12,
+      "stars": 90816,
+      "daily": 50,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "modelcontextprotocol/servers",
+        "description": "Model Context Protocol Servers",
+        "language": "TypeScript",
+        "stargazers_count": 90816,
+        "pushed_at": "2026-10-01T01:00:44Z",
+        "archived": false,
+        "html_url": "https://github.com/modelcontextprotocol/servers",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/modelcontextprotocol/servers/readme",
+      "category": "MCP · 参考实现",
+      "summary_zh": "由 MCP 维护方提供的参考服务器集合，展示文件系统、Git、网页抓取、记忆和时间等工具如何接入协议，并提供 SDK 使用范例。",
+      "editorial_reason_zh": "适合学习服务器结构、工具定义与客户端配置。README 明确将其定位为教学参考，并非可直接用于生产的完整方案；选型时需区分当前参考实现、已归档服务器与社区注册目录。"
+    },
+    {
+      "repo": "colbymchenry/codegraph",
+      "rank": 14,
+      "stars": 72597,
+      "daily": 118,
+      "language": "C",
+      "metadata": {
+        "full_name": "colbymchenry/codegraph",
+        "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+        "language": "C",
+        "stargazers_count": 72597,
+        "pushed_at": "2026-10-01T00:45:59Z",
+        "archived": false,
+        "html_url": "https://github.com/colbymchenry/codegraph",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/colbymchenry/codegraph/readme",
+      "category": "代码检索 · 本地知识图谱",
+      "summary_zh": "预先解析代码中的符号、调用与引用关系，保存为本地索引，通过 MCP 和 CLI 提供搜索、影响范围分析及相关代码片段，并在文件变化后同步索引。",
+      "editorial_reason_zh": "适合减少反复遍历文件来理解调用链的工作。检索返回内容仍可能占用较多常驻上下文，调用次数减少不等于上下文占用下降；本期未复测仓库的性能数据，C 标注也不代表全部实现语言。"
+    },
+    {
+      "repo": "t8y2/dbx",
+      "rank": 15,
+      "stars": 23191,
+      "daily": 1138,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "t8y2/dbx",
+        "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+        "language": "Rust",
+        "stargazers_count": 23191,
+        "pushed_at": "2026-09-30T20:07:15Z",
+        "archived": false,
+        "html_url": "https://github.com/t8y2/dbx",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/t8y2/dbx/readme",
+      "category": "数据库工具 · AI 与 MCP",
+      "summary_zh": "基于 Rust 与 Tauri 的跨平台数据库管理工具，整合查询编辑、数据网格、结构管理和 AI SQL 助手，也提供 Web、Docker、CLI 与独立分发的 MCP 服务。",
+      "editorial_reason_zh": "适合希望复用数据库连接、在界面与智能体之间切换的开发者。MCP 可配置连接白名单和读写模式；不同驱动支持范围及 AI 生成 SQL 的正确性仍需结合实际数据库验证。"
+    }
+  ]
+}
