@@ -1,0 +1,282 @@
+{
+  "date": "2026-10-02",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-02T09:09:22.108684+08:00",
+  "verified_at": "2026-10-02T09:27:15.858211+08:00",
+  "items": [
+    {
+      "repo": "NVIDIA/OpenShell",
+      "rank": 3,
+      "stars": 14022,
+      "daily": 2456,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "NVIDIA/OpenShell",
+        "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+        "language": "Rust",
+        "stargazers_count": 14028,
+        "pushed_at": "2026-10-02T00:58:53Z",
+        "archived": false,
+        "html_url": "https://github.com/NVIDIA/OpenShell",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/NVIDIA/OpenShell/readme",
+      "category": "智能体运行环境 · 访问策略",
+      "summary_zh": "为自主智能体提供隔离运行环境，通过策略约束文件、系统调用及网络访问，并在请求到达获准端点时注入凭据；同时提供策略变更审查与多语言 SDK。",
+      "editorial_reason_zh": "值得关注它把工具能力与运行权限放在不同层管理的设计。实际隔离效果取决于运行时、平台支持与策略配置，本期未进行安全验证，不能仅凭项目介绍认定智能体可无限制自主运行。"
+    },
+    {
+      "repo": "firebase/firebase-ios-sdk",
+      "rank": 4,
+      "stars": 6861,
+      "daily": 112,
+      "language": "C++",
+      "metadata": {
+        "full_name": "firebase/firebase-ios-sdk",
+        "description": "Firebase SDK for Apple App Development",
+        "language": "C++",
+        "stargazers_count": 6861,
+        "pushed_at": "2026-10-02T00:51:33Z",
+        "archived": false,
+        "html_url": "https://github.com/firebase/firebase-ios-sdk",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/firebase/firebase-ios-sdk/readme",
+      "category": "应用基础设施 · Apple SDK",
+      "summary_zh": "包含 Firebase 面向 Apple 平台的客户端库源码，覆盖身份验证、Firestore、消息、崩溃诊断、远程配置、存储及 AI Logic 等功能。",
+      "editorial_reason_zh": "适合查阅 SDK 实现和评估应用服务集成。Firebase Analytics 不在开源范围内，客户端库开源也不代表后端服务可自托管；本期 C++ 为 GitHub 仓库统计标注。"
+    },
+    {
+      "repo": "mvschwarz/openrig",
+      "rank": 5,
+      "stars": 3732,
+      "daily": 642,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "mvschwarz/openrig",
+        "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+        "language": "TypeScript",
+        "stargazers_count": 3734,
+        "pushed_at": "2026-10-02T01:22:27Z",
+        "archived": false,
+        "html_url": "https://github.com/mvschwarz/openrig",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mvschwarz/openrig/readme",
+      "category": "智能体协作 · 持续团队",
+      "summary_zh": "用 YAML 定义智能体团队和关系，在终端中组织 Claude Code、Codex 以及 Pi 等运行时，配合角色分工、共享上下文、任务归属与 TUI 查看协作状态。",
+      "editorial_reason_zh": "适合探索多个编码智能体的分工与交接。运行依赖相应工具、认证及 tmux，初始化还涉及工具钩子与工作区信任配置，采用前应检查这些变更并明确任务验收标准。"
+    },
+    {
+      "repo": "cursor/plugins",
+      "rank": 6,
+      "stars": 9323,
+      "daily": 150,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "cursor/plugins",
+        "description": "Cursor plugin specification and official plugins",
+        "language": "TypeScript",
+        "stargazers_count": 9324,
+        "pushed_at": "2026-10-01T19:55:15Z",
+        "archived": false,
+        "html_url": "https://github.com/cursor/plugins",
+        "license": null,
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cursor/plugins/readme",
+      "category": "插件生态 · 开发工具集成",
+      "summary_zh": "Cursor 的官方插件与插件规范仓库，通过独立插件目录、清单和市场索引组织技能及 MCP 配置，覆盖开发流程、框架工具和外部服务集成。",
+      "editorial_reason_zh": "适合参考插件如何封装为可发现、可维护的单元。不同插件依赖的服务、账户和授权范围各不相同，采用前需要查看具体插件内容，不能把目录中的所有能力视为安装后即可使用。"
+    },
+    {
+      "repo": "obra/superpowers",
+      "rank": 7,
+      "stars": 293977,
+      "daily": 455,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "obra/superpowers",
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell",
+        "stargazers_count": 293982,
+        "pushed_at": "2026-09-27T02:37:47Z",
+        "archived": false,
+        "html_url": "https://github.com/obra/superpowers",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/obra/superpowers/readme",
+      "category": "编码工作流 · 可组合技能",
+      "summary_zh": "把需求澄清、设计、实施计划、测试驱动开发和代码审查组织为可组合技能，帮助编码智能体按明确步骤推进软件任务。",
+      "editorial_reason_zh": "适合评估如何将团队工程习惯转为可重复执行的流程。流程约束是否有效仍取决于任务、模型与验收证据；本期未复测其自主开发或质量提升效果。"
+    },
+    {
+      "repo": "heygen-com/hyperframes",
+      "rank": 9,
+      "stars": 55350,
+      "daily": 627,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "heygen-com/hyperframes",
+        "description": "Write HTML. Render video. Built for agents.",
+        "language": "TypeScript",
+        "stargazers_count": 55355,
+        "pushed_at": "2026-10-02T01:25:14Z",
+        "archived": false,
+        "html_url": "https://github.com/heygen-com/hyperframes",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/heygen-com/hyperframes/readme",
+      "category": "视频渲染 · HTML 动画",
+      "summary_zh": "将 HTML、CSS、媒体素材和可定位时间的动画组织为视频，通过 CLI 预览、检查并渲染 MP4，也提供供编码智能体使用的创作工作流。",
+      "editorial_reason_zh": "适合把网页排版与动画能力用于产品介绍和数据演示。重点在代码化编排和可重复渲染，画面设计、时间轴及字体素材仍需要预览验收。"
+    },
+    {
+      "repo": "earendil-works/pi",
+      "rank": 10,
+      "stars": 111230,
+      "daily": 298,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "earendil-works/pi",
+        "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+        "language": "TypeScript",
+        "stargazers_count": 111235,
+        "pushed_at": "2026-10-01T23:36:28Z",
+        "archived": false,
+        "html_url": "https://github.com/earendil-works/pi",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/earendil-works/pi/readme",
+      "category": "智能体工具箱 · 运行与终端",
+      "summary_zh": "包含统一多模型 API、工具调用与状态管理运行时、交互式编码 CLI、终端 UI 等组件，供开发者使用编码智能体或搭建自己的智能体应用。",
+      "editorial_reason_zh": "组件分层便于复用模型接入与执行循环。README 明确说明默认没有内置的文件、进程、网络和凭据权限限制，需要更强边界时应结合容器或沙箱方案评估。"
+    },
+    {
+      "repo": "tile-ai/tilelang",
+      "rank": 11,
+      "stars": 8114,
+      "daily": 163,
+      "language": "Python",
+      "metadata": {
+        "full_name": "tile-ai/tilelang",
+        "description": " Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+        "language": "Python",
+        "stargazers_count": 8114,
+        "pushed_at": "2026-09-30T04:08:46Z",
+        "archived": false,
+        "html_url": "https://github.com/tile-ai/tilelang",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/tile-ai/tilelang/readme",
+      "category": "计算内核 · 多后端编译",
+      "summary_zh": "以接近 Python 的语法描述矩阵乘法、注意力等计算内核，基于 TVM 编译基础设施连接 GPU、CPU 和 NPU，支持开发者控制底层计算与数据布局。",
+      "editorial_reason_zh": "适合关注模型算子性能及跨硬件实现的工程师。README 在 9 月 30 日公布 Ascend 950 后端支持；具体算子覆盖、精度和速度仍需在目标硬件验证，本期未运行性能测试。"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "rank": 14,
+      "stars": 73682,
+      "daily": 495,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "pbakaus/impeccable",
+        "description": "The design language that makes your AI harness better at design.",
+        "language": "JavaScript",
+        "stargazers_count": 73691,
+        "pushed_at": "2026-10-02T01:19:58Z",
+        "archived": false,
+        "html_url": "https://github.com/pbakaus/impeccable",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pbakaus/impeccable/readme",
+      "category": "前端设计 · 指导与检查",
+      "summary_zh": "为编码智能体提供界面设计指导、审查和打磨命令，结合规则检测与浏览器迭代，覆盖布局、排版、交互、响应式与边界情况。",
+      "editorial_reason_zh": "适合把模糊的视觉要求转化为可检查的设计维度。规则能帮助发现常见问题，但不能替代品牌判断、可用性研究和真实设备检查，应结合产品目标使用。"
+    },
+    {
+      "repo": "Friedrich-M/UniMate",
+      "rank": 15,
+      "stars": 1081,
+      "daily": 217,
+      "language": "Python",
+      "metadata": {
+        "full_name": "Friedrich-M/UniMate",
+        "description": "[SIGGRAPH Asia 2026] UniMate: One Unified Model to Animate Diverse Skeletons",
+        "language": "Python",
+        "stargazers_count": 1084,
+        "pushed_at": "2026-09-30T23:58:32Z",
+        "archived": false,
+        "html_url": "https://github.com/Friedrich-M/UniMate",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Friedrich-M/UniMate/readme",
+      "category": "角色动画 · 多骨架研究",
+      "summary_zh": "研究用统一模型为不同骨架生成动画，提供训练和推理代码、数据处理流程及预览权重，覆盖双足、四足和其他形态的动作数据。",
+      "editorial_reason_zh": "适合关注文本驱动动画与跨骨架泛化的研究者。项目说明仍有动作和骨架失败案例，新骨架预处理流程尚列为待办；数据来源也有各自使用条件，本期未验证动画效果。"
+    }
+  ]
+}
