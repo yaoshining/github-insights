@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-03",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-03T09:35:26.900786+08:00",
+  "verified_at": "2026-10-03T09:39:49.731563+08:00",
+  "items": [
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "rank": 1,
+      "stars": 88664,
+      "daily": 696,
+      "language": "Python",
+      "metadata": {
+        "full_name": "Panniantong/Agent-Reach",
+        "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "language": "Python",
+        "stargazers_count": 88672,
+        "pushed_at": "2026-09-15T16:16:24Z",
+        "archived": false,
+        "html_url": "https://github.com/Panniantong/Agent-Reach",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Panniantong/Agent-Reach/readme",
+      "category": "智能体信息接入",
+      "summary_zh": "为命令行智能体提供网页、视频字幕、RSS 与社区内容的工具选型、配置诊断和后端路由，实际读取交给各平台的上游工具完成。",
+      "editorial_reason_zh": "适合需要跨站资料检索的工作流。各渠道并非都能零配置使用，部分依赖已有登录态或单独授权，平台可用性也会变化。"
+    },
+    {
+      "repo": "obra/superpowers",
+      "rank": 3,
+      "stars": 294477,
+      "daily": 556,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "obra/superpowers",
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell",
+        "stargazers_count": 294478,
+        "pushed_at": "2026-09-27T02:37:47Z",
+        "archived": false,
+        "html_url": "https://github.com/obra/superpowers",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/obra/superpowers/readme",
+      "category": "编码工作流 · 可组合技能",
+      "summary_zh": "把需求澄清、设计、实施计划、测试驱动开发和代码审查组织为可组合技能，帮助编码智能体按明确步骤推进软件任务。",
+      "editorial_reason_zh": "适合评估如何将团队工程习惯转为可重复执行的流程。流程约束是否有效仍取决于任务、模型与验收证据；本期未复测其自主开发或质量提升效果。"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "rank": 5,
+      "stars": 74337,
+      "daily": 722,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "pbakaus/impeccable",
+        "description": "The design language that makes your AI harness better at design.",
+        "language": "JavaScript",
+        "stargazers_count": 74341,
+        "pushed_at": "2026-10-03T01:26:40Z",
+        "archived": false,
+        "html_url": "https://github.com/pbakaus/impeccable",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pbakaus/impeccable/readme",
+      "category": "前端设计 · 指导与检查",
+      "summary_zh": "为编码智能体提供界面设计指导、审查和打磨命令，结合规则检测与浏览器迭代，覆盖布局、排版、交互、响应式与边界情况。",
+      "editorial_reason_zh": "适合把模糊的视觉要求转化为可检查的设计维度。规则能帮助发现常见问题，但不能替代品牌判断、可用性研究和真实设备检查，应结合产品目标使用。"
+    },
+    {
+      "repo": "NVIDIA/OpenShell",
+      "rank": 7,
+      "stars": 14442,
+      "daily": 594,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "NVIDIA/OpenShell",
+        "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+        "language": "Rust",
+        "stargazers_count": 14442,
+        "pushed_at": "2026-10-03T01:26:13Z",
+        "archived": false,
+        "html_url": "https://github.com/NVIDIA/OpenShell",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/NVIDIA/OpenShell/readme",
+      "category": "智能体运行环境 · 访问策略",
+      "summary_zh": "为自主智能体提供隔离运行环境，通过策略约束文件、系统调用及网络访问，并在请求到达获准端点时注入凭据；同时提供策略变更审查与多语言 SDK。",
+      "editorial_reason_zh": "值得关注它把工具能力与运行权限放在不同层管理的设计。实际隔离效果取决于运行时、平台支持与策略配置，本期未进行安全验证，不能仅凭项目介绍认定智能体可无限制自主运行。"
+    },
+    {
+      "repo": "heygen-com/hyperframes",
+      "rank": 9,
+      "stars": 55913,
+      "daily": 580,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "heygen-com/hyperframes",
+        "description": "Write HTML. Render video. Built for agents.",
+        "language": "TypeScript",
+        "stargazers_count": 55915,
+        "pushed_at": "2026-10-03T01:35:15Z",
+        "archived": false,
+        "html_url": "https://github.com/heygen-com/hyperframes",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/heygen-com/hyperframes/readme",
+      "category": "视频渲染 · HTML 动画",
+      "summary_zh": "将 HTML、CSS、媒体素材和可定位时间的动画组织为视频，通过 CLI 预览、检查并渲染 MP4，也提供供编码智能体使用的创作工作流。",
+      "editorial_reason_zh": "适合把网页排版与动画能力用于产品介绍和数据演示。重点在代码化编排和可重复渲染，画面设计、时间轴及字体素材仍需要预览验收。"
+    },
+    {
+      "repo": "mksglu/context-mode",
+      "rank": 10,
+      "stars": 25046,
+      "daily": 282,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "mksglu/context-mode",
+        "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+        "language": "TypeScript",
+        "stargazers_count": 25047,
+        "pushed_at": "2026-10-03T00:12:31Z",
+        "archived": false,
+        "html_url": "https://github.com/mksglu/context-mode",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mksglu/context-mode/readme",
+      "category": "上下文管理 · 源码可见",
+      "summary_zh": "通过 MCP 工具处理并索引大体量输出，用 SQLite、FTS5 与检索机制保存会话事件，减少原始数据直接占用模型上下文。",
+      "editorial_reason_zh": "适合日志、网页快照等输出较多的编码任务；节省比例取决于工作负载，本文未复测。README 标注 Elastic License 2.0，采用前应核对许可及客户端钩子支持。"
+    },
+    {
+      "repo": "google/skills",
+      "rank": 11,
+      "stars": 20754,
+      "daily": 39,
+      "language": "Python",
+      "metadata": {
+        "full_name": "google/skills",
+        "description": "Agent Skills for Google products and technologies",
+        "language": "Python",
+        "stargazers_count": 20757,
+        "pushed_at": "2026-10-02T16:53:41Z",
+        "archived": false,
+        "html_url": "https://github.com/google/skills",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/google/skills/readme",
+      "category": "官方产品技能库",
+      "summary_zh": "Google 组织提供的 Agent Skills 集合，覆盖云端认证、应用部署、数据分析、基础设施排障和开发者知识检索等工作流。",
+      "editorial_reason_zh": "可作为查找 Google 技术操作步骤的入口。技能文件本身不提供云账号、资源权限或服务额度，实际执行仍依赖相应环境。"
+    },
+    {
+      "repo": "getsentry/sentry",
+      "rank": 12,
+      "stars": 45037,
+      "daily": 16,
+      "language": "Python",
+      "metadata": {
+        "full_name": "getsentry/sentry",
+        "description": "Developer-first error tracking and performance monitoring",
+        "language": "Python",
+        "stargazers_count": 45038,
+        "pushed_at": "2026-10-03T01:30:10Z",
+        "archived": false,
+        "html_url": "https://github.com/getsentry/sentry",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/getsentry/sentry/readme",
+      "category": "错误追踪 · 源码可见",
+      "summary_zh": "面向开发者的调试平台，将错误、追踪与运行线索关联起来，并通过多语言 SDK 接入应用，帮助定位线上问题。",
+      "editorial_reason_zh": "适合把代码修改与运行反馈联系起来。主仓库采用 FSL-1.1-Apache-2.0，不能直接等同于当前无条件的 Apache 2.0 开源项目；SDK 与托管服务需分别核对。"
+    },
+    {
+      "repo": "colbymchenry/codegraph",
+      "rank": 13,
+      "stars": 72967,
+      "daily": 98,
+      "language": "C",
+      "metadata": {
+        "full_name": "colbymchenry/codegraph",
+        "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+        "language": "C",
+        "stargazers_count": 72967,
+        "pushed_at": "2026-10-02T21:58:28Z",
+        "archived": false,
+        "html_url": "https://github.com/colbymchenry/codegraph",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/colbymchenry/codegraph/readme",
+      "category": "代码知识图谱",
+      "summary_zh": "为代码仓库建立本地结构索引和关系图，通过 MCP 提供符号查找、调用关系和修改影响分析，并监听文件变化同步索引。",
+      "editorial_reason_zh": "适合跨文件理解和修改前评估。README 也注明匿名使用统计及关闭方式，因此本地索引不等于完全没有联网行为；GitHub 主语言标注为 C，不代表所有组件均用 C 实现。"
+    },
+    {
+      "repo": "Effect-TS/effect",
+      "rank": 16,
+      "stars": 16557,
+      "daily": 80,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "Effect-TS/effect",
+        "description": "Build production-ready applications in TypeScript",
+        "language": "TypeScript",
+        "stargazers_count": 16557,
+        "pushed_at": "2026-10-03T00:46:17Z",
+        "archived": false,
+        "html_url": "https://github.com/Effect-TS/effect",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Effect-TS/effect/readme",
+      "category": "TypeScript 工程基础",
+      "summary_zh": "面向 TypeScript 应用的库，组合类型化错误、依赖注入、结构化并发、调度、追踪与统一数据校验，支持多种运行时及集成包。",
+      "editorial_reason_zh": "适合错误路径、并发任务和资源管理逐渐复杂的应用。采用前需评估学习与迁移成本，并按当前 README 核对严格类型检查及各集成包运行时要求。"
+    }
+  ]
+}
