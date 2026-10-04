@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-04",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-04T09:51:29.773983+08:00",
+  "verified_at": "2026-10-04T10:09:48.238538+08:00",
+  "items": [
+    {
+      "repo": "pbakaus/impeccable",
+      "rank": 2,
+      "stars": 75344,
+      "daily": 699,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "pbakaus/impeccable",
+        "description": "The design language that makes your AI harness better at design.",
+        "language": "JavaScript",
+        "stargazers_count": 75359,
+        "pushed_at": "2026-10-03T07:35:50Z",
+        "archived": false,
+        "html_url": "https://github.com/pbakaus/impeccable",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pbakaus/impeccable/readme",
+      "category": "前端设计 · 指导与检查",
+      "summary_zh": "为编码智能体提供界面设计指导、审查和打磨命令，结合规则检测与浏览器迭代，覆盖布局、排版、交互、响应式与边界情况。",
+      "editorial_reason_zh": "适合把模糊的视觉要求转化为可检查的设计维度。规则能帮助发现常见问题，但不能替代品牌判断、可用性研究和真实设备检查，应结合产品目标使用。"
+    },
+    {
+      "repo": "Effect-TS/effect",
+      "rank": 4,
+      "stars": 16832,
+      "daily": 302,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "Effect-TS/effect",
+        "description": "Build production-ready applications in TypeScript",
+        "language": "TypeScript",
+        "stargazers_count": 16832,
+        "pushed_at": "2026-10-04T01:49:44Z",
+        "archived": false,
+        "html_url": "https://github.com/Effect-TS/effect",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Effect-TS/effect/readme",
+      "category": "TypeScript 工程基础",
+      "summary_zh": "面向 TypeScript 应用的库，组合类型化错误、依赖注入、结构化并发、调度、追踪与统一数据校验，支持多种运行时及集成包。",
+      "editorial_reason_zh": "适合错误路径、并发任务和资源管理逐渐复杂的应用。采用前需评估学习与迁移成本，并按当前 README 核对严格类型检查及各集成包运行时要求。"
+    },
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "rank": 6,
+      "stars": 89845,
+      "daily": 1696,
+      "language": "Python",
+      "metadata": {
+        "full_name": "Panniantong/Agent-Reach",
+        "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "language": "Python",
+        "stargazers_count": 89859,
+        "pushed_at": "2026-09-15T16:16:24Z",
+        "archived": false,
+        "html_url": "https://github.com/Panniantong/Agent-Reach",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Panniantong/Agent-Reach/readme",
+      "category": "智能体信息接入",
+      "summary_zh": "为命令行智能体提供网页、视频字幕、RSS 与社区内容的工具选型、配置诊断和后端路由，实际读取交给各平台的上游工具完成。",
+      "editorial_reason_zh": "适合需要跨站资料检索的工作流。各渠道并非都能零配置使用，部分依赖已有登录态或单独授权，平台可用性也会变化。"
+    },
+    {
+      "repo": "pingdotgg/t3code",
+      "rank": 7,
+      "stars": 24711,
+      "daily": 252,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "pingdotgg/t3code",
+        "description": null,
+        "language": "TypeScript",
+        "stargazers_count": 24712,
+        "pushed_at": "2026-10-04T02:09:09Z",
+        "archived": false,
+        "html_url": "https://github.com/pingdotgg/t3code",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pingdotgg/t3code/readme",
+      "category": "智能体控制台",
+      "summary_zh": "为本机编码智能体提供统一控制界面，包含 Web、桌面与移动端入口，支持从其他设备访问已经在电脑上配置好的智能体。",
+      "editorial_reason_zh": "适合希望跨设备查看和继续编码任务的开发者。使用前需安装并认证至少一个支持的提供方，项目仍处早期阶段，不能把控制界面视为额外的模型订阅。"
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "rank": 8,
+      "stars": 95602,
+      "daily": 79,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "thedotmack/claude-mem",
+        "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+        "language": "TypeScript",
+        "stargazers_count": 95612,
+        "pushed_at": "2026-10-04T01:18:09Z",
+        "archived": false,
+        "html_url": "https://github.com/thedotmack/claude-mem",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/thedotmack/claude-mem/readme",
+      "category": "跨会话记忆",
+      "summary_zh": "捕获智能体的工具使用观察，生成摘要并检索相关历史内容，在后续会话中注入上下文；提供本地数据库、搜索与查看界面。",
+      "editorial_reason_zh": "适合持续维护同一项目时减少上下文重复输入。README 同时介绍多种观察器和托管服务，开源代码与在线服务条件需分别核对，不能默认所有配置都完全在本机处理。"
+    },
+    {
+      "repo": "cloudflare/cloudflare-os",
+      "rank": 9,
+      "stars": 10578,
+      "daily": 85,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "cloudflare/cloudflare-os",
+        "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+        "language": "TypeScript",
+        "stargazers_count": 10583,
+        "pushed_at": "2026-10-04T00:17:29Z",
+        "archived": false,
+        "html_url": "https://github.com/cloudflare/cloudflare-os",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cloudflare/cloudflare-os/readme",
+      "category": "企业智能体工作台",
+      "summary_zh": "基于 Cloudflare Workers 构建的 AI 工作环境，结合聊天、可定制的小应用及 Gatekeepers 访问控制，把企业上下文与外部系统接入到任务流程。",
+      "editorial_reason_zh": "值得关注其按应用隔离和按资源授权的设计。官方将当前版本定位为早期访问，本地快速体验也不面向生产；实际部署需验证访问策略和审批行为，本文未做安全测试。"
+    },
+    {
+      "repo": "earendil-works/pi",
+      "rank": 14,
+      "stars": 112172,
+      "daily": 408,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "earendil-works/pi",
+        "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+        "language": "TypeScript",
+        "stargazers_count": 112176,
+        "pushed_at": "2026-10-04T00:44:54Z",
+        "archived": false,
+        "html_url": "https://github.com/earendil-works/pi",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/earendil-works/pi/readme",
+      "category": "可扩展智能体框架",
+      "summary_zh": "提供可交互的编码 CLI、多提供方模型 API 与智能体运行组件，可通过扩展、技能、提示模板和主题定制，也可使用 JSON、RPC 或 TypeScript SDK 接入应用。",
+      "editorial_reason_zh": "适合需要自己组织工作流的开发者。当前 README 明确将子智能体和计划模式留给扩展，默认功能取舍应结合任务评估；灵活的工具调用也需要外部运行边界与权限管理。"
+    },
+    {
+      "repo": "jamwithai/production-agentic-rag-course",
+      "rank": 17,
+      "stars": 9409,
+      "daily": 193,
+      "language": "Python",
+      "metadata": {
+        "full_name": "jamwithai/production-agentic-rag-course",
+        "description": null,
+        "language": "Python",
+        "stargazers_count": 9411,
+        "pushed_at": "2026-06-05T07:23:49Z",
+        "archived": false,
+        "html_url": "https://github.com/jamwithai/production-agentic-rag-course",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/jamwithai/production-agentic-rag-course/readme",
+      "category": "RAG 工程教程",
+      "summary_zh": "以 arXiv 论文助手为练习项目，从数据采集、BM25 检索逐步加入分块、混合检索、生成回答、观测与缓存，并延伸到 LangGraph 工作流。",
+      "editorial_reason_zh": "适合希望理解完整检索链路的学习者。课程提供分阶段实现路径，标题中的 production 不代表已通过你的生产验收；部署仍需配置依赖、服务凭据并评估资源开销。"
+    },
+    {
+      "repo": "meituan-longcat/LongCat-Video",
+      "rank": 18,
+      "stars": 8755,
+      "daily": 44,
+      "language": "Python",
+      "metadata": {
+        "full_name": "meituan-longcat/LongCat-Video",
+        "description": null,
+        "language": "Python",
+        "stargazers_count": 8761,
+        "pushed_at": "2026-05-27T02:51:41Z",
+        "archived": false,
+        "html_url": "https://github.com/meituan-longcat/LongCat-Video",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/meituan-longcat/LongCat-Video/readme",
+      "category": "视频生成模型",
+      "summary_zh": "提供 LongCat-Video 推理代码与模型入口，覆盖文生视频、图生视频和视频续写；仓库还包含面向音频驱动角色视频的 Avatar 系列。",
+      "editorial_reason_zh": "适合研究多任务视频生成与续写工作流。生成速度、长视频一致性等效果需在目标硬件和素材上复测，代码许可、模型权重条件与显存需求应分别核对，本期未运行模型。"
+    },
+    {
+      "repo": "OpenCut-app/OpenCut",
+      "rank": 19,
+      "stars": 91637,
+      "daily": 232,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "OpenCut-app/OpenCut",
+        "description": "The open-source CapCut alternative",
+        "language": "TypeScript",
+        "stargazers_count": 91639,
+        "pushed_at": "2026-09-24T09:24:44Z",
+        "archived": false,
+        "html_url": "https://github.com/OpenCut-app/OpenCut",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/OpenCut-app/OpenCut/readme",
+      "category": "视频编辑器 · 重写中",
+      "summary_zh": "开放源码的视频编辑项目。当前主仓库正在重写，规划以 Rust 核心连接桌面、移动端与浏览器，并引入插件、Editor API、MCP 和无界面渲染。",
+      "editorial_reason_zh": "适合关注可编程视频编辑架构，但上述重写特性仍在建设中。README 建议当前需要使用编辑器的人选择 opencut-classic，不能将路线图当作已交付能力。"
+    }
+  ]
+}
