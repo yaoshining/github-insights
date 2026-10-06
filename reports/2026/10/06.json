@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-06",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-06T10:48:05.331336+08:00",
+  "verified_at": "2026-10-06T10:59:20.246151+08:00",
+  "items": [
+    {
+      "repo": "tester-army/e2e",
+      "rank": 1,
+      "stars": 4914,
+      "daily": 1398,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "tester-army/e2e",
+        "description": "Next generation e2e testing framework for web and mobile apps.",
+        "language": "TypeScript",
+        "stargazers_count": 4920,
+        "pushed_at": "2026-10-05T21:55:17Z",
+        "archived": false,
+        "html_url": "https://github.com/tester-army/e2e",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/tester-army/e2e/readme",
+      "category": "端到端测试",
+      "summary_zh": "面向 Web 与移动应用的测试框架，将自然语言驱动的智能体操作与定位器、断言放进同一测试；经过后续断言验证的操作可记录并在之后回放。",
+      "editorial_reason_zh": "适合探索如何将语义操作与确定性检查组合起来。普通测试不必使用模型，智能体步骤则需配置提供方；项目尚在迈向 1.0，API 与配置仍可能变化。"
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "rank": 2,
+      "stars": 96671,
+      "daily": 534,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "thedotmack/claude-mem",
+        "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+        "language": "TypeScript",
+        "stargazers_count": 96674,
+        "pushed_at": "2026-10-06T02:58:47Z",
+        "archived": false,
+        "html_url": "https://github.com/thedotmack/claude-mem",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/thedotmack/claude-mem/readme",
+      "category": "跨会话记忆",
+      "summary_zh": "捕获智能体的工具使用观察，生成摘要并检索相关历史内容，在后续会话中注入上下文；提供本地数据库、搜索与查看界面。当前 README 也列出了 T3 Code 集成入口。",
+      "editorial_reason_zh": "适合持续维护同一项目时减少上下文重复输入。不同客户端依赖各自的钩子与提供方配置，开源代码和托管记忆服务需分别核对，本期未安装验证新集成。"
+    },
+    {
+      "repo": "earthtojake/text-to-cad",
+      "rank": 3,
+      "stars": 17477,
+      "daily": 437,
+      "language": "Python",
+      "metadata": {
+        "full_name": "earthtojake/text-to-cad",
+        "description": "Give your agent CAD superpowers.",
+        "language": "Python",
+        "stargazers_count": 17484,
+        "pushed_at": "2026-10-05T21:22:33Z",
+        "archived": false,
+        "html_url": "https://github.com/earthtojake/text-to-cad",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/earthtojake/text-to-cad/readme",
+      "category": "CAD 与制造工具",
+      "summary_zh": "为智能体提供本地三维建模、工程图和制造检查流程，输出 STEP、GLB、STL 或 3MF 等文件，并通过插件或技能接入本地 CAD 查看器。",
+      "editorial_reason_zh": "适合把文字需求转成可检查、可修改的工程产物。当前 README 细化了各客户端安装与更新路径；生成模型及自动检查仍需配合尺寸、公差和制造可行性验收，本期未加工样件。"
+    },
+    {
+      "repo": "pingdotgg/t3code",
+      "rank": 4,
+      "stars": 25643,
+      "daily": 485,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "pingdotgg/t3code",
+        "description": null,
+        "language": "TypeScript",
+        "stargazers_count": 25645,
+        "pushed_at": "2026-10-06T02:54:02Z",
+        "archived": false,
+        "html_url": "https://github.com/pingdotgg/t3code",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pingdotgg/t3code/readme",
+      "category": "智能体控制台",
+      "summary_zh": "为本机编码智能体提供统一控制界面，包含 Web、桌面与移动端入口，支持从其他设备访问已经在电脑上配置好的智能体。",
+      "editorial_reason_zh": "适合希望跨设备查看和继续编码任务的开发者。使用前需安装并认证至少一个支持的提供方，项目仍处早期阶段，不能把控制界面视为额外的模型订阅。"
+    },
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "rank": 6,
+      "stars": 91963,
+      "daily": 1155,
+      "language": "Python",
+      "metadata": {
+        "full_name": "Panniantong/Agent-Reach",
+        "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "language": "Python",
+        "stargazers_count": 91972,
+        "pushed_at": "2026-09-15T16:16:24Z",
+        "archived": false,
+        "html_url": "https://github.com/Panniantong/Agent-Reach",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Panniantong/Agent-Reach/readme",
+      "category": "智能体信息接入",
+      "summary_zh": "为命令行智能体提供网页、视频字幕、RSS 与社区内容的工具选型、配置诊断和后端路由，实际读取交给各平台的上游工具完成。",
+      "editorial_reason_zh": "适合需要跨站资料检索的工作流。各渠道并非都能零配置使用，部分依赖已有登录态或单独授权，平台可用性也会变化。"
+    },
+    {
+      "repo": "calesthio/OpenMontage",
+      "rank": 7,
+      "stars": 64111,
+      "daily": 742,
+      "language": "Python",
+      "metadata": {
+        "full_name": "calesthio/OpenMontage",
+        "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+        "language": "Python",
+        "stargazers_count": 64118,
+        "pushed_at": "2026-10-03T16:28:55Z",
+        "archived": false,
+        "html_url": "https://github.com/calesthio/OpenMontage",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/calesthio/OpenMontage/readme",
+      "category": "智能体视频制作",
+      "summary_zh": "以技能和 Python 工具组织视频制作流程，串联脚本、素材、配音、字幕、合成与渲染，提供制作看板、预算记录和产物检查，并可选择本地或云端提供方。",
+      "editorial_reason_zh": "适合评估从创意到交付的自动化编排。实际画面与成本取决于素材、模型、硬件和服务配置；README 中的演示费用不等于其他项目的预算，本期未制作样片。"
+    },
+    {
+      "repo": "caddyserver/caddy",
+      "rank": 8,
+      "stars": 77162,
+      "daily": 515,
+      "language": "Go",
+      "metadata": {
+        "full_name": "caddyserver/caddy",
+        "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+        "language": "Go",
+        "stargazers_count": 77167,
+        "pushed_at": "2026-10-05T22:54:40Z",
+        "archived": false,
+        "html_url": "https://github.com/caddyserver/caddy",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/caddyserver/caddy/readme",
+      "category": "Web 服务基础设施",
+      "summary_zh": "使用 Go 编写的模块化 Web 服务器，提供自动 HTTPS、HTTP/1.1、HTTP/2 与 HTTP/3，通过 Caddyfile、JSON 和配置 API 管理服务。",
+      "editorial_reason_zh": "适合需要简化证书管理和服务配置的部署场景。自动 HTTPS 能减少日常维护工作，实际上线仍应按域名、网络和证书签发条件核对配置。"
+    },
+    {
+      "repo": "DuarteSantos8/openGym",
+      "rank": 9,
+      "stars": 4301,
+      "daily": 1433,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "DuarteSantos8/openGym",
+        "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
+        "language": "JavaScript",
+        "stargazers_count": 4307,
+        "pushed_at": "2026-10-04T10:11:01Z",
+        "archived": false,
+        "html_url": "https://github.com/DuarteSantos8/openGym",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/DuarteSantos8/openGym/readme",
+      "category": "自托管应用",
+      "summary_zh": "提供训练计划、组数与体重记录、进度图表及多设备同步，支持 Passkey 登录、历史数据导入与导出，可在自己的服务器上运行。",
+      "editorial_reason_zh": "适合关注个人数据可迁移性和自托管产品设计的读者。AI 教练及 MCP 是默认关闭的可选功能，部署到手机可访问的环境时还需配置 HTTPS、登录与备份。"
+    },
+    {
+      "repo": "cloudflare/cloudflare-os",
+      "rank": 10,
+      "stars": 11039,
+      "daily": 101,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "cloudflare/cloudflare-os",
+        "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+        "language": "TypeScript",
+        "stargazers_count": 11041,
+        "pushed_at": "2026-10-05T23:52:14Z",
+        "archived": false,
+        "html_url": "https://github.com/cloudflare/cloudflare-os",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cloudflare/cloudflare-os/readme",
+      "category": "企业智能体工作台",
+      "summary_zh": "基于 Cloudflare Workers 构建的 AI 工作环境，结合聊天、可定制的小应用及 Gatekeepers 访问控制，把企业上下文与外部系统接入到任务流程。",
+      "editorial_reason_zh": "值得关注其按应用隔离和按资源授权的设计。官方将当前版本定位为早期访问，本地快速体验也不面向生产；实际部署需验证访问策略和审批行为，本文未做安全测试。"
+    },
+    {
+      "repo": "M-Abozaid/esp32-c3-adblock",
+      "rank": 13,
+      "stars": 1385,
+      "daily": 196,
+      "language": "C++",
+      "metadata": {
+        "full_name": "M-Abozaid/esp32-c3-adblock",
+        "description": "Pi-hole-class DNS ad-blocker on a $2 ESP32-C3 (no PSRAM): 537k domains as 40-bit FNV-1a hashes in flash, binary-searched. UDP DNS sinkhole + web dashboard. https://youtube.com/shorts/RaxszOUMi8E?feature=share",
+        "language": "C++",
+        "stargazers_count": 1394,
+        "pushed_at": "2026-10-04T09:40:52Z",
+        "archived": false,
+        "html_url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/M-Abozaid/esp32-c3-adblock/readme",
+      "category": "嵌入式 DNS 过滤",
+      "summary_zh": "在 ESP32-C3 上实现 DNS 域名拦截，把排序后的 40 位域名哈希存入闪存并二分查找，配合 Web 面板、名单更新和固件 OTA，减少对内存的依赖。",
+      "editorial_reason_zh": "值得关注其闪存与内存的取舍。4 MB 闪存下，双固件分区会压缩名单容量；DNS 过滤不等于网页元素过滤。管理面板仍使用明文 HTTP，本期未刷机或测试实际吞吐。"
+    }
+  ]
+}
