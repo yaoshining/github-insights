@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-10",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-10T09:04:09.656021+08:00",
+  "verified_at": "2026-10-10T09:04:37.718209+08:00",
+  "items": [
+    {
+      "repo": "morluto/rea",
+      "rank": 1,
+      "stars": 46423,
+      "daily": 14927,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "morluto/rea",
+        "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+        "language": "TypeScript",
+        "stargazers_count": 46435,
+        "pushed_at": "2026-10-10T00:15:18Z",
+        "archived": false,
+        "html_url": "https://github.com/morluto/rea",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/morluto/rea/readme",
+      "category": "逆向分析工具",
+      "summary_zh": "通过 MCP 和命令行连接原生二进制、JavaScript/Electron、.NET 等分析工具，向智能体提供调用关系、伪代码、汇编及证据，辅助理解软件实现。",
+      "editorial_reason_zh": "适合软件维护与兼容性研究。原生深度分析依赖 Hopper、Ghidra 或 IDA 等提供方；静态文件检查与会实际执行目标的运行时捕获应分开评估，返回的分析仍需验证。"
+    },
+    {
+      "repo": "boykopovar/AnyPS5",
+      "rank": 2,
+      "stars": 22406,
+      "daily": 5868,
+      "language": "C++",
+      "metadata": {
+        "full_name": "boykopovar/AnyPS5",
+        "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+        "language": "C++",
+        "stargazers_count": 22407,
+        "pushed_at": "2026-10-10T01:04:14Z",
+        "archived": false,
+        "html_url": "https://github.com/boykopovar/AnyPS5",
+        "license": {
+          "key": "gpl-2.0",
+          "name": "GNU General Public License v2.0",
+          "spdx_id": "GPL-2.0",
+          "url": "https://api.github.com/licenses/gpl-2.0",
+          "node_id": "MDc6TGljZW5zZTg="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/boykopovar/AnyPS5/readme",
+      "category": "程序兼容",
+      "summary_zh": "尝试将 PS5 可执行文件移植为 Linux 或 Windows 的原生格式，组合重链接器、系统库实现与着色器重编译，探索无需独立模拟运行进程的兼容路线。",
+      "editorial_reason_zh": "适合关注二进制兼容与图形工具链的开发者。README 的库覆盖率只针对项目已知函数，个别游戏演示也不能代表普遍兼容；本期未运行游戏或复测性能。"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "rank": 3,
+      "stars": 282716,
+      "daily": 1687,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "mattpocock/skills",
+        "description": "Skills for Real Engineers. Straight from my .agents directory.",
+        "language": "Shell",
+        "stargazers_count": 282716,
+        "pushed_at": "2026-10-09T10:57:08Z",
+        "archived": false,
+        "html_url": "https://github.com/mattpocock/skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mattpocock/skills/readme",
+      "category": "工程技能库",
+      "summary_zh": "一组可组合、可修改的智能体技能，围绕需求澄清、项目术语、测试驱动开发、调试与重构组织工程步骤，可按团队的工作方式选用。",
+      "editorial_reason_zh": "适合评估如何把既有工程习惯写成可复用指导。技能文件仍需结合仓库约定和实际反馈调整，并不自动保证代码质量或适用于所有模型。"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "rank": 4,
+      "stars": 47876,
+      "daily": 1739,
+      "language": "HTML",
+      "metadata": {
+        "full_name": "cathrynlavery/diagram-design",
+        "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "stargazers_count": 47878,
+        "pushed_at": "2026-10-09T23:02:12Z",
+        "archived": false,
+        "html_url": "https://github.com/cathrynlavery/diagram-design",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cathrynlavery/diagram-design/readme",
+      "category": "图解与技术表达",
+      "summary_zh": "提供架构、流程、时序、数据模型等图解类型与排版规则，以自包含 HTML 和 SVG 作为静态输出，也支持按需加入动效或重绘已有图源。",
+      "editorial_reason_zh": "适合需要可编辑、便于浏览器展示的技术说明。先确定节点关系与阅读顺序，再选择布局和视觉层级；生成结果仍需核对语义、文字尺寸与可访问性。"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "rank": 5,
+      "stars": 45224,
+      "daily": 326,
+      "language": "Go",
+      "metadata": {
+        "full_name": "alibaba/open-code-review",
+        "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "language": "Go",
+        "stargazers_count": 45225,
+        "pushed_at": "2026-10-10T00:55:20Z",
+        "archived": false,
+        "html_url": "https://github.com/alibaba/open-code-review",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/alibaba/open-code-review/readme",
+      "category": "代码评审",
+      "summary_zh": "读取 Git 差异或完整文件，把文件筛选、分组、规则匹配与模型驱动的上下文检索组合起来，生成可定位到代码行的结构化评审意见。",
+      "editorial_reason_zh": "适合评估如何把 AI 评审接入日常开发。应同时观察误报、漏报和定位准确性；README 的基准测试结果属于项目方证据，本期未复测，也不把评审通过等同于没有缺陷。"
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "rank": 6,
+      "stars": 28268,
+      "daily": 709,
+      "language": "Python",
+      "metadata": {
+        "full_name": "anthropics/knowledge-work-plugins",
+        "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "language": "Python",
+        "stargazers_count": 28269,
+        "pushed_at": "2026-10-09T21:48:47Z",
+        "archived": false,
+        "html_url": "https://github.com/anthropics/knowledge-work-plugins",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/anthropics/knowledge-work-plugins/readme",
+      "category": "知识工作插件",
+      "summary_zh": "面向 Claude Cowork，并兼容 Claude Code，将岗位技能、命令和工具连接配置整理为插件，覆盖生产力、客户支持、产品管理、数据分析等工作场景。",
+      "editorial_reason_zh": "适合研究如何把团队术语和流程转为可修改的工作模板。仓库提供通用起点，接入外部服务仍需相应账户与授权；建议先用具体任务检验输出，再调整插件内容。"
+    },
+    {
+      "repo": "BerriAI/litellm",
+      "rank": 7,
+      "stars": 60668,
+      "daily": 95,
+      "language": "Python",
+      "metadata": {
+        "full_name": "BerriAI/litellm",
+        "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+        "language": "Python",
+        "stargazers_count": 60668,
+        "pushed_at": "2026-10-10T01:04:27Z",
+        "archived": false,
+        "html_url": "https://github.com/BerriAI/litellm",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/BerriAI/litellm/readme",
+      "category": "模型网关",
+      "summary_zh": "通过 Python SDK 或集中式代理接入多个模型提供方，统一调用格式，并提供虚拟密钥、费用记录、负载均衡和日志等管理能力。",
+      "editorial_reason_zh": "适合需要在多模型服务之间组织调用的团队。接入前仍需验证目标模型的参数、流式响应与错误行为；开源网关、托管服务和企业功能应分别核对，本期未进行部署或延迟测试。"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "rank": 8,
+      "stars": 103998,
+      "daily": 436,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "addyosmani/agent-skills",
+        "description": "Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "stargazers_count": 103999,
+        "pushed_at": "2026-10-03T18:21:11Z",
+        "archived": false,
+        "html_url": "https://github.com/addyosmani/agent-skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/addyosmani/agent-skills/readme",
+      "category": "工程工作流",
+      "summary_zh": "将需求、规划、实现、测试、评审与发布组织成可复用的编码助手技能，提供命令入口、质量检查表和专题指导。",
+      "editorial_reason_zh": "适合把团队的验收标准写入日常开发流程。README 提醒：单独安装技能时可能缺少仓库级参考材料；采用前应检查所需文件是否完整，效果仍取决于实际执行与验证。"
+    },
+    {
+      "repo": "Robbyant/lingbot-map",
+      "rank": 10,
+      "stars": 17701,
+      "daily": 110,
+      "language": "Python",
+      "metadata": {
+        "full_name": "Robbyant/lingbot-map",
+        "description": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+        "language": "Python",
+        "stargazers_count": 17701,
+        "pushed_at": "2026-10-06T09:23:51Z",
+        "archived": false,
+        "html_url": "https://github.com/Robbyant/lingbot-map",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Robbyant/lingbot-map/readme",
+      "category": "流式三维重建",
+      "summary_zh": "以几何上下文 Transformer 处理连续图像，结合锚点、位姿参考窗口与轨迹记忆进行流式三维重建，并提供交互式点云查看和离线渲染入口。",
+      "editorial_reason_zh": "适合研究长序列场景建图。README 提供关键帧、窗口推理和显存管理选项，运行还需匹配模型权重、PyTorch 与 CUDA 环境；帧率和重建质量需要在自己的设备与数据上验证。"
+    },
+    {
+      "repo": "twostraws/SwiftUI-Agent-Skill",
+      "rank": 11,
+      "stars": 5431,
+      "daily": 65,
+      "language": "未标注",
+      "metadata": {
+        "full_name": "twostraws/SwiftUI-Agent-Skill",
+        "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+        "language": null,
+        "stargazers_count": 5431,
+        "pushed_at": "2026-10-07T13:39:28Z",
+        "archived": false,
+        "html_url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/twostraws/SwiftUI-Agent-Skill/readme",
+      "category": "SwiftUI 开发指导",
+      "summary_zh": "为编码助手整理 SwiftUI API、布局、状态管理、动画、性能和可访问性指导，重点覆盖过时接口、VoiceOver 和常见生成代码问题。",
+      "editorial_reason_zh": "适合审查 Apple 平台界面代码。技能建议需要结合项目的最低系统版本、工具链和实际交互验证；仓库内容以指导材料为主，GitHub 当前未标注主要编程语言。"
+    }
+  ]
+}
