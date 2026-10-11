@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-11",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-11T09:15:05.897929+08:00",
+  "verified_at": "2026-10-11T09:32:33.871122+08:00",
+  "items": [
+    {
+      "repo": "morluto/rea",
+      "rank": 1,
+      "stars": 73086,
+      "daily": 25793,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "morluto/rea",
+        "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+        "language": "TypeScript",
+        "stargazers_count": 73414,
+        "pushed_at": "2026-10-11T01:32:02Z",
+        "archived": false,
+        "html_url": "https://github.com/morluto/rea",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/morluto/rea/readme",
+      "category": "逆向分析工具",
+      "summary_zh": "通过 MCP 和命令行连接原生二进制、JavaScript/Electron、.NET 等分析工具，向智能体提供调用关系、伪代码、汇编及证据，辅助理解软件实现。",
+      "editorial_reason_zh": "适合软件维护与兼容性研究。原生深度分析依赖 Hopper、Ghidra 或 IDA 等提供方；静态文件检查与会实际执行目标的运行时捕获应分开评估，返回的分析仍需验证。"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "rank": 4,
+      "stars": 48969,
+      "daily": 1190,
+      "language": "HTML",
+      "metadata": {
+        "full_name": "cathrynlavery/diagram-design",
+        "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "stargazers_count": 48983,
+        "pushed_at": "2026-10-10T21:10:14Z",
+        "archived": false,
+        "html_url": "https://github.com/cathrynlavery/diagram-design",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cathrynlavery/diagram-design/readme",
+      "category": "图解与技术表达",
+      "summary_zh": "提供架构、流程、时序、数据模型等图解类型与排版规则，以自包含 HTML 和 SVG 作为静态输出，也支持按需加入动效或重绘已有图源。",
+      "editorial_reason_zh": "适合需要可编辑、便于浏览器展示的技术说明。先确定节点关系与阅读顺序，再选择布局和视觉层级；生成结果仍需核对语义、文字尺寸与可访问性。"
+    },
+    {
+      "repo": "mksglu/context-mode",
+      "rank": 5,
+      "stars": 26323,
+      "daily": 178,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "mksglu/context-mode",
+        "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+        "language": "TypeScript",
+        "stargazers_count": 26327,
+        "pushed_at": "2026-10-11T00:15:03Z",
+        "archived": false,
+        "html_url": "https://github.com/mksglu/context-mode",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mksglu/context-mode/readme",
+      "category": "上下文管理 · 源码可用",
+      "summary_zh": "将较大的工具输出留在执行与索引层，通过检索返回相关片段，并用 SQLite 记录会话事件，尝试减少上下文占用和压缩后的信息丢失。",
+      "editorial_reason_zh": "适合处理大量日志、文件与工具结果的编码任务。节省比例取决于实际工作负载，平台钩子和路由能力也不同；当前仓库采用 ELv2 源码可用许可，本期未复测其压缩效果。"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "rank": 6,
+      "stars": 284523,
+      "daily": 1736,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "mattpocock/skills",
+        "description": "Skills for Real Engineers. Straight from my .agents directory.",
+        "language": "Shell",
+        "stargazers_count": 284533,
+        "pushed_at": "2026-10-09T10:57:08Z",
+        "archived": false,
+        "html_url": "https://github.com/mattpocock/skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mattpocock/skills/readme",
+      "category": "工程技能库",
+      "summary_zh": "一组可组合、可修改的智能体技能，围绕需求澄清、项目术语、测试驱动开发、调试与重构组织工程步骤，可按团队的工作方式选用。",
+      "editorial_reason_zh": "适合评估如何把既有工程习惯写成可复用指导。技能文件仍需结合仓库约定和实际反馈调整，并不自动保证代码质量或适用于所有模型。"
+    },
+    {
+      "repo": "flutter/flutter",
+      "rank": 7,
+      "stars": 179528,
+      "daily": 88,
+      "language": "Dart",
+      "metadata": {
+        "full_name": "flutter/flutter",
+        "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+        "language": "Dart",
+        "stargazers_count": 179531,
+        "pushed_at": "2026-10-11T00:14:58Z",
+        "archived": false,
+        "html_url": "https://github.com/flutter/flutter",
+        "license": {
+          "key": "bsd-3-clause",
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdx_id": "BSD-3-Clause",
+          "url": "https://api.github.com/licenses/bsd-3-clause",
+          "node_id": "MDc6TGljZW5zZTU="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/flutter/flutter/readme",
+      "category": "跨平台应用",
+      "summary_zh": "使用 Dart 与统一组件体系构建移动、网页和桌面界面，提供热重载、图形渲染及调用平台能力的接口，支持与现有代码集成。",
+      "editorial_reason_zh": "适合希望复用界面与业务代码的产品。平台插件、输入方式、布局和性能仍需分别验收；今天上榜不等于发布了新版本，本期未进行跨设备测试。"
+    },
+    {
+      "repo": "tensorflow/tensorflow",
+      "rank": 8,
+      "stars": 200729,
+      "daily": 26,
+      "language": "C++",
+      "metadata": {
+        "full_name": "tensorflow/tensorflow",
+        "description": "An Open Source Machine Learning Framework for Everyone",
+        "language": "C++",
+        "stargazers_count": 200729,
+        "pushed_at": "2026-10-11T00:29:53Z",
+        "archived": false,
+        "html_url": "https://github.com/tensorflow/tensorflow",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/tensorflow/tensorflow/readme",
+      "category": "机器学习框架",
+      "summary_zh": "提供机器学习模型构建与部署所需的工具和库，包含 Python、C++ API 以及配套生态，可用于训练、推理和应用集成。",
+      "editorial_reason_zh": "适合已有 TensorFlow 模型或部署链路的团队持续跟踪。硬件加速、运行环境和包版本需要按目标平台匹配；总星标反映累计关注，不能据此比较当日采用率。"
+    },
+    {
+      "repo": "hugohe3/ppt-master",
+      "rank": 9,
+      "stars": 59470,
+      "daily": 461,
+      "language": "Python",
+      "metadata": {
+        "full_name": "hugohe3/ppt-master",
+        "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+        "language": "Python",
+        "stargazers_count": 59487,
+        "pushed_at": "2026-10-08T07:45:46Z",
+        "archived": false,
+        "html_url": "https://github.com/hugohe3/ppt-master",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/hugohe3/ppt-master/readme",
+      "category": "演示文稿生成",
+      "summary_zh": "将文档或主题转为可继续编辑的 PowerPoint，围绕原生形状、连接线、图表和表格组织页面，也提供模板沿用、动画与讲稿配音等工作路径。",
+      "editorial_reason_zh": "适合需要后续修改的汇报材料。模型生成后仍要检查事实、叙事、版式及目标 PowerPoint 的兼容性；工作流主要在本机运行，但模型通信和相关服务的费用应单独核对。"
+    },
+    {
+      "repo": "pytorch/pytorch",
+      "rank": 10,
+      "stars": 104146,
+      "daily": 84,
+      "language": "Python",
+      "metadata": {
+        "full_name": "pytorch/pytorch",
+        "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+        "language": "Python",
+        "stargazers_count": 104146,
+        "pushed_at": "2026-10-11T01:26:54Z",
+        "archived": false,
+        "html_url": "https://github.com/pytorch/pytorch",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pytorch/pytorch/readme",
+      "category": "张量计算与深度学习",
+      "summary_zh": "提供 CPU/GPU 张量运算、自动微分和神经网络组件，结合 Python 生态支持模型研究、训练与应用开发。",
+      "editorial_reason_zh": "适合需要调试模型计算过程或自定义训练逻辑的开发者。算子、驱动、加速后端与模型代码的组合决定实际兼容性；本期关注其上榜情况，未进行速度或精度对比。"
+    },
+    {
+      "repo": "huggingface/transformers",
+      "rank": 11,
+      "stars": 167268,
+      "daily": 96,
+      "language": "Python",
+      "metadata": {
+        "full_name": "huggingface/transformers",
+        "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+        "language": "Python",
+        "stargazers_count": 167272,
+        "pushed_at": "2026-10-11T01:24:19Z",
+        "archived": false,
+        "html_url": "https://github.com/huggingface/transformers",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/huggingface/transformers/readme",
+      "category": "模型定义与推理",
+      "summary_zh": "集中维护文本、视觉、音频和多模态模型的定义与加载方式，提供 Pipeline 等接口，并与训练框架及推理引擎协作。",
+      "editorial_reason_zh": "适合复用现有模型并保持模型实现可检查的项目。库的许可与具体模型、权重和数据许可需要分开核对；选型时还应验证目标任务、依赖版本和资源占用。"
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "rank": 12,
+      "stars": 28827,
+      "daily": 625,
+      "language": "Python",
+      "metadata": {
+        "full_name": "anthropics/knowledge-work-plugins",
+        "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "language": "Python",
+        "stargazers_count": 28831,
+        "pushed_at": "2026-10-10T22:23:52Z",
+        "archived": false,
+        "html_url": "https://github.com/anthropics/knowledge-work-plugins",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/anthropics/knowledge-work-plugins/readme",
+      "category": "知识工作插件",
+      "summary_zh": "面向 Claude Cowork，并兼容 Claude Code，将岗位技能、命令和工具连接配置整理为插件，覆盖生产力、客户支持、产品管理、数据分析等工作场景。",
+      "editorial_reason_zh": "适合研究如何把团队术语和流程转为可修改的工作模板。仓库提供通用起点，接入外部服务仍需相应账户与授权；建议先用具体任务检验输出，再调整插件内容。"
+    }
+  ]
+}
