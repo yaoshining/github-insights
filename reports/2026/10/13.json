@@ -1,0 +1,260 @@
+{
+  "date": "2026-10-13",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-13T09:18:54.590272+08:00",
+  "verified_at": "2026-10-13T09:35:37.344923+08:00",
+  "items": [
+    {
+      "repo": "morluto/rea",
+      "rank": 1,
+      "stars": 158493,
+      "daily": 45327,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "morluto/rea",
+        "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+        "language": "TypeScript",
+        "stargazers_count": 159352,
+        "pushed_at": "2026-10-13T01:29:19Z",
+        "archived": false,
+        "html_url": "https://github.com/morluto/rea",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/morluto/rea/readme",
+      "category": "逆向分析工具",
+      "summary_zh": "通过 MCP 和命令行连接原生二进制、JavaScript/Electron、.NET 等分析工具，向智能体提供调用关系、伪代码、汇编及证据，辅助理解软件实现。",
+      "editorial_reason_zh": "适合软件维护与兼容性研究。原生深度分析依赖 Hopper、Ghidra 或 IDA 等提供方；静态文件检查与会实际执行目标的运行时捕获应分开评估，返回的分析仍需验证。"
+    },
+    {
+      "repo": "bilawalsidhu/gods-eye-view",
+      "rank": 2,
+      "stars": 53709,
+      "daily": 1895,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "bilawalsidhu/gods-eye-view",
+        "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+        "language": "JavaScript",
+        "stargazers_count": 53732,
+        "pushed_at": "2026-10-12T14:15:33Z",
+        "archived": false,
+        "html_url": "https://github.com/bilawalsidhu/gods-eye-view",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/bilawalsidhu/gods-eye-view/readme",
+      "category": "空间数据可视化",
+      "summary_zh": "在浏览器三维地球上整合航班、船舶、卫星、地震、天气和公共摄像头等数据层，并提供目标跟踪、场景录制和语音操作。",
+      "editorial_reason_zh": "适合研究公开数据的空间表达与交互设计。多数数据实时或定期刷新，但道路交通包含模拟，摄像机姿态等是估计值；数据覆盖、时效和第三方数据条款需分别核对。"
+    },
+    {
+      "repo": "mksglu/context-mode",
+      "rank": 3,
+      "stars": 27304,
+      "daily": 246,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "mksglu/context-mode",
+        "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+        "language": "TypeScript",
+        "stargazers_count": 27316,
+        "pushed_at": "2026-10-12T18:05:18Z",
+        "archived": false,
+        "html_url": "https://github.com/mksglu/context-mode",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mksglu/context-mode/readme",
+      "category": "上下文管理 · 源码可用",
+      "summary_zh": "将较大的工具输出留在执行与索引层，通过检索返回相关片段，并用 SQLite 记录会话事件，尝试减少上下文占用和压缩后的信息丢失。",
+      "editorial_reason_zh": "适合处理大量日志、文件与工具结果的编码任务。节省比例取决于实际工作负载，平台钩子和路由能力也不同；当前仓库采用 ELv2 源码可用许可，本期未复测其压缩效果。"
+    },
+    {
+      "repo": "storytold/artcraft",
+      "rank": 4,
+      "stars": 22104,
+      "daily": 4095,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "storytold/artcraft",
+        "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+        "language": "Rust",
+        "stargazers_count": 22144,
+        "pushed_at": "2026-10-11T13:47:59Z",
+        "archived": false,
+        "html_url": "https://github.com/storytold/artcraft",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/storytold/artcraft/readme",
+      "category": "AI 视觉创作",
+      "summary_zh": "把二维合成、三维场景布置、角色姿态和镜头控制接入 AI 图像与视频生成，让创作者先安排构图，再选择模型生成画面。",
+      "editorial_reason_zh": "适合需要控制人物位置、镜头和场景一致性的创作。代码采用 MIT 或 Apache-2.0 双许可；模型服务、素材和发行应用的使用条件仍需单独确认，生成结果要逐镜头检查。"
+    },
+    {
+      "repo": "open-webui/open-webui",
+      "rank": 5,
+      "stars": 155023,
+      "daily": 157,
+      "language": "Python",
+      "metadata": {
+        "full_name": "open-webui/open-webui",
+        "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+        "language": "Python",
+        "stargazers_count": 155050,
+        "pushed_at": "2026-10-12T22:13:08Z",
+        "archived": false,
+        "html_url": "https://github.com/open-webui/open-webui",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/open-webui/open-webui/readme",
+      "category": "自托管 AI 工作台",
+      "summary_zh": "通过统一网页界面连接 Ollama 和兼容 OpenAI 协议的模型服务，提供文档检索、工具插件、用户权限、笔记及协作能力。",
+      "editorial_reason_zh": "适合搭建可自行管理的模型入口与团队知识工作台。离线使用取决于模型和依赖是否本地可用；当前代码包含要求保留 Open WebUI 品牌的许可条款，应结合 LICENSE 与 LICENSE_HISTORY 评估。"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "rank": 6,
+      "stars": 52648,
+      "daily": 2081,
+      "language": "HTML",
+      "metadata": {
+        "full_name": "cathrynlavery/diagram-design",
+        "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "stargazers_count": 52672,
+        "pushed_at": "2026-10-13T01:09:19Z",
+        "archived": false,
+        "html_url": "https://github.com/cathrynlavery/diagram-design",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cathrynlavery/diagram-design/readme",
+      "category": "图解与技术表达",
+      "summary_zh": "提供架构、流程、时序、数据模型等图解类型与排版规则，以自包含 HTML 和 SVG 作为静态输出，也支持按需加入动效或重绘已有图源。",
+      "editorial_reason_zh": "适合需要可编辑、便于浏览器展示的技术说明。先确定节点关系与阅读顺序，再选择布局和视觉层级；生成结果仍需核对语义、文字尺寸与可访问性。"
+    },
+    {
+      "repo": "lyogavin/airllm",
+      "rank": 7,
+      "stars": 37551,
+      "daily": 879,
+      "language": "Jupyter Notebook",
+      "metadata": {
+        "full_name": "lyogavin/airllm",
+        "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
+        "language": "Jupyter Notebook",
+        "stargazers_count": 37564,
+        "pushed_at": "2026-10-12T06:31:50Z",
+        "archived": false,
+        "html_url": "https://github.com/lyogavin/airllm",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/lyogavin/airllm/readme",
+      "category": "低显存模型运行",
+      "summary_zh": "通过分层加载与流式调度模型权重降低显存占用，提供统一模型加载入口，也在 README 中介绍以冻结权重和适配器配合的小显存训练路径。",
+      "editorial_reason_zh": "适合显存有限、愿意用存储和加载时间换取模型可运行性的实验。低显存不等于低总资源需求或高吞吐；需要同时估算磁盘、内存和 I/O，本期未复现仓库列出的显存或速度指标。"
+    },
+    {
+      "repo": "microsoft/BitNet",
+      "rank": 8,
+      "stars": 40920,
+      "daily": 97,
+      "language": "C++",
+      "metadata": {
+        "full_name": "microsoft/BitNet",
+        "description": "Official inference framework for 1-bit LLMs",
+        "language": "C++",
+        "stargazers_count": 40923,
+        "pushed_at": "2026-07-27T05:52:06Z",
+        "archived": false,
+        "html_url": "https://github.com/microsoft/BitNet",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/microsoft/BitNet/readme",
+      "category": "低比特推理框架",
+      "summary_zh": "微软的 bitnet.cpp 为 BitNet 等低比特模型提供优化推理内核，包含 CPU 与 GPU 路径，并列出语言模型和嵌入模型的适配范围。",
+      "editorial_reason_zh": "适合探索本地设备上的模型推理效率。收益依赖模型格式、架构和内核组合；不能把普通全精度模型直接等同于原生低比特模型，本期未复测其性能及能耗宣传值。"
+    },
+    {
+      "repo": "Alishahryar1/free-claude-code",
+      "rank": 9,
+      "stars": 59139,
+      "daily": 626,
+      "language": "Python",
+      "metadata": {
+        "full_name": "Alishahryar1/free-claude-code",
+        "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+        "language": "Python",
+        "stargazers_count": 59156,
+        "pushed_at": "2026-10-12T17:09:53Z",
+        "archived": false,
+        "html_url": "https://github.com/Alishahryar1/free-claude-code",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Alishahryar1/free-claude-code/readme",
+      "category": "编码工具模型接入",
+      "summary_zh": "独立社区项目，将多家模型服务接入编码客户端，提供管理界面、模型目录、失败后的备用模型和浏览器会话等功能。",
+      "editorial_reason_zh": "适合比较多模型接入和客户端适配方式。名称中的“免费”不代表可无限使用 Claude 或其他付费模型；额度、费用和服务条款由各提供方决定，仓库自称的节省比例未由本期验证。"
+    }
+  ]
+}
