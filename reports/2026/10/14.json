@@ -1,0 +1,260 @@
+{
+  "date": "2026-10-14",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-14T09:01:44.409268+08:00",
+  "verified_at": "2026-10-14T09:02:16.332740+08:00",
+  "items": [
+    {
+      "repo": "morluto/rea",
+      "rank": 1,
+      "stars": 207679,
+      "daily": 54679,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "morluto/rea",
+        "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+        "language": "TypeScript",
+        "stargazers_count": 207687,
+        "pushed_at": "2026-10-14T00:51:46Z",
+        "archived": false,
+        "html_url": "https://github.com/morluto/rea",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/morluto/rea/readme",
+      "category": "逆向分析工具",
+      "summary_zh": "通过 MCP 与命令行连接原生二进制、JavaScript/Electron、.NET 等分析能力，组织调用关系与伪代码证据；当前 README 也列出 Rust 嵌入依赖信息、抓包摘要等检查路径。",
+      "editorial_reason_zh": "适合理解已有软件与追踪兼容性问题。不同分析能力依赖相应外部工具；静态读取与会执行或交互目标的运行时捕获应分开评估，分析结论仍需结合实际样本验证。"
+    },
+    {
+      "repo": "bilawalsidhu/gods-eye-view",
+      "rank": 2,
+      "stars": 55403,
+      "daily": 1961,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "bilawalsidhu/gods-eye-view",
+        "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+        "language": "JavaScript",
+        "stargazers_count": 55403,
+        "pushed_at": "2026-10-13T23:03:44Z",
+        "archived": false,
+        "html_url": "https://github.com/bilawalsidhu/gods-eye-view",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/bilawalsidhu/gods-eye-view/readme",
+      "category": "空间数据可视化",
+      "summary_zh": "在三维地球上整合航班、船舶、卫星、地震、天气等公开数据，结合目标跟踪与语音操作；当前 README 还提供 Mapillary 和 Google Street View 街景接入说明。",
+      "editorial_reason_zh": "适合学习多来源空间数据的组织和交互。道路交通含模拟，部分位置和姿态是估计；街景服务的密钥、费用和展示条件不同，不能把所有画面理解为实时卫星观测。"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "rank": 3,
+      "stars": 63303,
+      "daily": 1748,
+      "language": "Python",
+      "metadata": {
+        "full_name": "debpalash/VoiceStudio",
+        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "language": "Python",
+        "stargazers_count": 63304,
+        "pushed_at": "2026-10-14T00:22:04Z",
+        "archived": false,
+        "html_url": "https://github.com/debpalash/VoiceStudio",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/debpalash/VoiceStudio/readme",
+      "category": "本地语音工作台",
+      "summary_zh": "把声音克隆、声音设计、视频配音、听写、转录与有声书制作整合到桌面工作台，并提供本地 API、MCP、批处理与模型管理，可按引擎选择本地或可选远端路径。",
+      "editorial_reason_zh": "适合希望把语音制作留在本机的内容工作流。硬件支持随平台和引擎变化，Intel Mac 当前需要远端后端；应用许可、模型权重与声音授权需分别核对，本期未复测语言覆盖或音质。"
+    },
+    {
+      "repo": "mksglu/context-mode",
+      "rank": 4,
+      "stars": 28248,
+      "daily": 969,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "mksglu/context-mode",
+        "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+        "language": "TypeScript",
+        "stargazers_count": 28248,
+        "pushed_at": "2026-10-14T00:33:46Z",
+        "archived": false,
+        "html_url": "https://github.com/mksglu/context-mode",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mksglu/context-mode/readme",
+      "category": "上下文管理 · 源码可用",
+      "summary_zh": "将较大的工具输出留在执行与索引层，通过检索返回相关片段，并用 SQLite 记录会话事件，尝试减少上下文占用和压缩后的信息丢失。",
+      "editorial_reason_zh": "适合处理大量日志、文件与工具结果的编码任务。节省比例取决于实际工作负载，平台钩子和路由能力也不同；当前仓库采用 ELv2 源码可用许可，本期未复测其压缩效果。"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "rank": 5,
+      "stars": 54136,
+      "daily": 1815,
+      "language": "HTML",
+      "metadata": {
+        "full_name": "cathrynlavery/diagram-design",
+        "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "stargazers_count": 54136,
+        "pushed_at": "2026-10-13T21:48:36Z",
+        "archived": false,
+        "html_url": "https://github.com/cathrynlavery/diagram-design",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cathrynlavery/diagram-design/readme",
+      "category": "图解与技术表达",
+      "summary_zh": "提供架构、流程、时序、数据模型等图解类型与排版规则，以自包含 HTML 和 SVG 作为静态输出，也支持按需加入动效或重绘已有图源。",
+      "editorial_reason_zh": "适合需要可编辑、便于浏览器展示的技术说明。先确定节点关系与阅读顺序，再选择布局和视觉层级；生成结果仍需核对语义、文字尺寸与可访问性。"
+    },
+    {
+      "repo": "vercel-labs/skills",
+      "rank": 6,
+      "stars": 34510,
+      "daily": 190,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "vercel-labs/skills",
+        "description": "The open agent skills tool - npx skills",
+        "language": "TypeScript",
+        "stargazers_count": 34510,
+        "pushed_at": "2026-10-09T17:54:47Z",
+        "archived": false,
+        "html_url": "https://github.com/vercel-labs/skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/vercel-labs/skills/readme",
+      "category": "智能体技能管理",
+      "summary_zh": "面向 Agent Skills 生态的命令行工具，支持从仓库或本地路径查找、安装、列出、更新和移除技能，也能将单个技能临时交给支持的编码智能体使用。",
+      "editorial_reason_zh": "适合管理团队共享的技能来源和跨工具安装位置。应区分项目级与用户级范围、软链接与复制方式；安装成功只说明文件已分发，技能是否符合当前任务仍需实际验证。"
+    },
+    {
+      "repo": "lyogavin/airllm",
+      "rank": 7,
+      "stars": 38334,
+      "daily": 1001,
+      "language": "Jupyter Notebook",
+      "metadata": {
+        "full_name": "lyogavin/airllm",
+        "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
+        "language": "Jupyter Notebook",
+        "stargazers_count": 38334,
+        "pushed_at": "2026-10-13T06:24:34Z",
+        "archived": false,
+        "html_url": "https://github.com/lyogavin/airllm",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/lyogavin/airllm/readme",
+      "category": "低显存模型运行",
+      "summary_zh": "通过分层加载与流式调度模型权重降低显存占用，提供统一模型加载入口，也在 README 中介绍以冻结权重和适配器配合的小显存训练路径。",
+      "editorial_reason_zh": "适合显存有限、愿意用存储和加载时间换取模型可运行性的实验。低显存不等于低总资源需求或高吞吐；需要同时估算磁盘、内存和 I/O，本期未复现仓库列出的显存或速度指标。"
+    },
+    {
+      "repo": "storytold/artcraft",
+      "rank": 8,
+      "stars": 25685,
+      "daily": 4081,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "storytold/artcraft",
+        "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+        "language": "Rust",
+        "stargazers_count": 25686,
+        "pushed_at": "2026-10-11T13:47:59Z",
+        "archived": false,
+        "html_url": "https://github.com/storytold/artcraft",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/storytold/artcraft/readme",
+      "category": "AI 视觉创作",
+      "summary_zh": "把二维合成、三维场景布置、角色姿态和镜头控制接入 AI 图像与视频生成，让创作者先安排构图，再选择模型生成画面。",
+      "editorial_reason_zh": "适合需要控制人物位置、镜头和场景一致性的创作。代码采用 MIT 或 Apache-2.0 双许可；模型服务、素材和发行应用的使用条件仍需单独确认，生成结果要逐镜头检查。"
+    },
+    {
+      "repo": "xtool-org/xtool",
+      "rank": 9,
+      "stars": 9378,
+      "daily": 1198,
+      "language": "Swift",
+      "metadata": {
+        "full_name": "xtool-org/xtool",
+        "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+        "language": "Swift",
+        "stargazers_count": 9378,
+        "pushed_at": "2026-10-14T00:11:42Z",
+        "archived": false,
+        "html_url": "https://github.com/xtool-org/xtool",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/xtool-org/xtool/readme",
+      "category": "跨平台 iOS 构建",
+      "summary_zh": "以 SwiftPM 项目构建 iOS 应用，提供签名、安装、启动、设备管理及 Apple Developer Services 接口；README 列出的开发环境包括 Linux、WSL 和 macOS。",
+      "editorial_reason_zh": "适合探索跨平台 Swift 开发与自动化构建。Windows 路径涉及 WSL，仍需准备对应 SDK、签名和设备环境；仓库的 Xcode replacement 定位不等于已覆盖所有 Xcode 能力，本期未进行真机安装验证。"
+    }
+  ]
+}
