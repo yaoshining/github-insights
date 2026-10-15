@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-15",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-15T09:25:07.082671+08:00",
+  "verified_at": "2026-10-15T09:42:00.329148+08:00",
+  "items": [
+    {
+      "repo": "morluto/rea",
+      "rank": 1,
+      "stars": 242977,
+      "daily": 41034,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "morluto/rea",
+        "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+        "language": "TypeScript",
+        "stargazers_count": 243456,
+        "pushed_at": "2026-10-15T01:34:05Z",
+        "archived": false,
+        "html_url": "https://github.com/morluto/rea",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/morluto/rea/readme",
+      "category": "逆向分析工具",
+      "summary_zh": "通过 MCP 与命令行连接原生二进制、JavaScript/Electron、.NET 等分析能力，组织调用关系与伪代码证据；当前 README 也列出 Rust 嵌入依赖信息、抓包摘要等检查路径。",
+      "editorial_reason_zh": "适合理解已有软件与追踪兼容性问题。不同分析能力依赖相应外部工具；静态读取与会执行或交互目标的运行时捕获应分开评估，分析结论仍需结合实际样本验证。"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "rank": 2,
+      "stars": 66419,
+      "daily": 3538,
+      "language": "Python",
+      "metadata": {
+        "full_name": "debpalash/VoiceStudio",
+        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "language": "Python",
+        "stargazers_count": 66466,
+        "pushed_at": "2026-10-14T22:26:47Z",
+        "archived": false,
+        "html_url": "https://github.com/debpalash/VoiceStudio",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/debpalash/VoiceStudio/readme",
+      "category": "本地语音工作台",
+      "summary_zh": "把声音克隆、声音设计、视频配音、听写、转录与有声书制作整合到桌面工作台，并提供本地 API、MCP、批处理与模型管理，可按引擎选择本地或可选远端路径。",
+      "editorial_reason_zh": "适合希望把语音制作留在本机的内容工作流。硬件支持随平台和引擎变化，Intel Mac 当前需要远端后端；应用许可、模型权重与声音授权需分别核对，本期未复测语言覆盖或音质。"
+    },
+    {
+      "repo": "mksglu/context-mode",
+      "rank": 3,
+      "stars": 29146,
+      "daily": 947,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "mksglu/context-mode",
+        "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+        "language": "TypeScript",
+        "stargazers_count": 29162,
+        "pushed_at": "2026-10-14T22:18:40Z",
+        "archived": false,
+        "html_url": "https://github.com/mksglu/context-mode",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mksglu/context-mode/readme",
+      "category": "上下文管理 · 源码可用",
+      "summary_zh": "将较大的工具输出留在执行与索引层，通过检索返回相关片段，并用 SQLite 记录会话事件，尝试减少上下文占用和压缩后的信息丢失。",
+      "editorial_reason_zh": "适合处理大量日志、文件与工具结果的编码任务。节省比例取决于实际工作负载，平台钩子和路由能力也不同；当前仓库采用 ELv2 源码可用许可，本期未复测其压缩效果。"
+    },
+    {
+      "repo": "nvm-sh/nvm",
+      "rank": 4,
+      "stars": 95460,
+      "daily": 52,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "nvm-sh/nvm",
+        "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+        "language": "Shell",
+        "stargazers_count": 95465,
+        "pushed_at": "2026-10-10T04:34:41Z",
+        "archived": false,
+        "html_url": "https://github.com/nvm-sh/nvm",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/nvm-sh/nvm/readme",
+      "category": "Node.js 环境管理",
+      "summary_zh": "通过命令行安装和切换多个 Node.js 版本，按用户安装、在当前 Shell 中启用，并支持以 .nvmrc 约定项目所需版本。",
+      "editorial_reason_zh": "适合同时维护不同运行时要求的前端和服务端项目。需要确认交互终端、非交互脚本与 CI 是否正确加载 nvm；Windows 路径主要是 WSL，不能直接等同于原生 Windows 版本管理器。"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "rank": 5,
+      "stars": 49365,
+      "daily": 163,
+      "language": "Python",
+      "metadata": {
+        "full_name": "K-Dense-AI/scientific-agent-skills",
+        "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+        "language": "Python",
+        "stargazers_count": 49394,
+        "pushed_at": "2026-10-12T09:43:31Z",
+        "archived": false,
+        "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/K-Dense-AI/scientific-agent-skills/readme",
+      "category": "科学研究技能库",
+      "summary_zh": "把科学计算包、数据源和研究工作流的使用方式整理为 Agent Skills，覆盖生物、化学、物理、工程、数据分析及科学表达，包含示例与验证步骤。",
+      "editorial_reason_zh": "适合把已有研究步骤转成可复用的智能体指导。技能数量和工具覆盖不代表研究结论已被验证；数据库访问条件、来源追溯及领域方法仍需核对，本期未测试其科学准确率。"
+    },
+    {
+      "repo": "HKUDS/CLI-Anything",
+      "rank": 6,
+      "stars": 52523,
+      "daily": 103,
+      "language": "Python",
+      "metadata": {
+        "full_name": "HKUDS/CLI-Anything",
+        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "stargazers_count": 52532,
+        "pushed_at": "2026-09-22T02:01:29Z",
+        "archived": false,
+        "html_url": "https://github.com/HKUDS/CLI-Anything",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/HKUDS/CLI-Anything/readme",
+      "category": "软件命令行适配",
+      "summary_zh": "围绕软件源码分析、接口设计、实现、测试和文档组织 CLI 生成流程，提供社区命令行工具目录，让智能体调用应用并生成真实文件或渲染结果。",
+      "editorial_reason_zh": "适合研究如何将已有应用能力接入自动化任务。生成质量依赖模型、源码可用性与迭代修正；能运行命令还不足以证明导出物正确，需要用目标软件和实际文件验收。"
+    },
+    {
+      "repo": "ifixai-ai/iFixAi",
+      "rank": 7,
+      "stars": 27444,
+      "daily": 2109,
+      "language": "Python",
+      "metadata": {
+        "full_name": "ifixai-ai/iFixAi",
+        "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+        "language": "Python",
+        "stargazers_count": 27466,
+        "pushed_at": "2026-10-14T23:04:34Z",
+        "archived": false,
+        "html_url": "https://github.com/ifixai-ai/iFixAi",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/ifixai-ai/iFixAi/readme",
+      "category": "智能体行为审计",
+      "summary_zh": "通过命令行、配置向导或插件，对模型或智能体接口执行行为检查，输出评分卡及 JSON、Markdown 报告，关注编造、操纵、偏离任务和可解释性等问题。",
+      "editorial_reason_zh": "适合为具体业务场景建立可重复的评估。必须使用匹配的测试样例与适配接口；证据不足的检查不能当作通过，评分也不等于生产系统保证。本期未复测其耗时或检出率。"
+    },
+    {
+      "repo": "rust-lang/rust",
+      "rank": 9,
+      "stars": 120045,
+      "daily": 207,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "rust-lang/rust",
+        "description": "Empowering everyone to build reliable and efficient software.",
+        "language": "Rust",
+        "stargazers_count": 120055,
+        "pushed_at": "2026-10-14T23:41:32Z",
+        "archived": false,
+        "html_url": "https://github.com/rust-lang/rust",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/rust-lang/rust/readme",
+      "category": "系统编程语言",
+      "summary_zh": "Rust 主仓库包含编译器、标准库和文档，以类型系统与所有权模型支持内存安全的系统开发，并与 Cargo、Clippy 等工具构成开发生态。",
+      "editorial_reason_zh": "适合关注性能、资源控制和长期维护的工程项目。学习成本、依赖成熟度及跨语言接口需要结合项目评估；今日上榜反映关注度，不表示今天发布了新稳定版。"
+    },
+    {
+      "repo": "xtool-org/xtool",
+      "rank": 10,
+      "stars": 10857,
+      "daily": 1502,
+      "language": "Swift",
+      "metadata": {
+        "full_name": "xtool-org/xtool",
+        "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+        "language": "Swift",
+        "stargazers_count": 10872,
+        "pushed_at": "2026-10-14T04:44:37Z",
+        "archived": false,
+        "html_url": "https://github.com/xtool-org/xtool",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/xtool-org/xtool/readme",
+      "category": "跨平台 iOS 构建",
+      "summary_zh": "以 SwiftPM 项目构建 iOS 应用，提供签名、安装、启动、设备管理及 Apple Developer Services 接口；README 列出的开发环境包括 Linux、WSL 和 macOS。",
+      "editorial_reason_zh": "适合探索跨平台 Swift 开发与自动化构建。Windows 路径涉及 WSL，仍需准备对应 SDK、签名和设备环境；仓库的 Xcode replacement 定位不等于已覆盖所有 Xcode 能力，本期未进行真机安装验证。"
+    },
+    {
+      "repo": "NationalSecurityAgency/ghidra",
+      "rank": 12,
+      "stars": 87548,
+      "daily": 1008,
+      "language": "Java",
+      "metadata": {
+        "full_name": "NationalSecurityAgency/ghidra",
+        "description": "Ghidra is a software reverse engineering (SRE) framework",
+        "language": "Java",
+        "stargazers_count": 87562,
+        "pushed_at": "2026-10-13T17:14:10Z",
+        "archived": false,
+        "html_url": "https://github.com/NationalSecurityAgency/ghidra",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/NationalSecurityAgency/ghidra/readme",
+      "category": "软件逆向分析框架",
+      "summary_zh": "提供反汇编、反编译、图形分析和脚本扩展，支持多种指令集与可执行格式，可交互使用，也能用于自动化分析。",
+      "editorial_reason_zh": "适合软件维护、兼容性研究与二进制理解。反编译结果需要结合汇编和实际行为核验；预构建发行包与开发源码的安装方式不同，运行环境和版本应按对应文档确认。"
+    }
+  ]
+}
