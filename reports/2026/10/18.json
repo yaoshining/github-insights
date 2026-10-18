@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-18",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-18T09:14:36.251619+08:00",
+  "verified_at": "2026-10-18T09:30:43.528228+08:00",
+  "items": [
+    {
+      "repo": "anthropics/claude-plugins-official",
+      "rank": 1,
+      "stars": 41776,
+      "daily": 1397,
+      "language": "Python",
+      "metadata": {
+        "full_name": "anthropics/claude-plugins-official",
+        "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+        "language": "Python",
+        "stargazers_count": 41788,
+        "pushed_at": "2026-10-17T16:41:00Z",
+        "archived": false,
+        "html_url": "https://github.com/anthropics/claude-plugins-official",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/anthropics/claude-plugins-official/readme",
+      "category": "Claude Code 插件目录",
+      "summary_zh": "由 Anthropic 管理的插件目录，分别收录内部维护插件与伙伴、社区提供的外部插件，整理插件清单、命令、技能和可选 MCP 配置等入口。",
+      "editorial_reason_zh": "适合查找可复用的开发扩展与参考插件结构。目录收录不等于所有组件均由 Anthropic 开发；实际能力、依赖和许可证应按各插件核对，本期未安装测试目录中的插件。"
+    },
+    {
+      "repo": "MadsLorentzen/ai-job-search",
+      "rank": 2,
+      "stars": 50427,
+      "daily": 1365,
+      "language": "Python",
+      "metadata": {
+        "full_name": "MadsLorentzen/ai-job-search",
+        "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+        "language": "Python",
+        "stargazers_count": 50447,
+        "pushed_at": "2026-10-17T18:12:49Z",
+        "archived": false,
+        "html_url": "https://github.com/MadsLorentzen/ai-job-search",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/MadsLorentzen/ai-job-search/readme",
+      "category": "求职资料工作流",
+      "summary_zh": "基于 Claude Code 的社区求职工作流，围绕个人经历整理、职位匹配、简历与求职信草拟和面试准备组织步骤；核心流程可适配不同语言，内置招聘网站以丹麦市场为主。",
+      "editorial_reason_zh": "适合减少反复整理个人资料的工作，但职位覆盖需按地区核对，生成内容仍需本人确认真实性。个人档案可能写入仓库文件，使用时应先确认私有存储与访问范围；项目本身不代表自动投递服务。"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "rank": 3,
+      "stars": 282525,
+      "daily": 1145,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "affaan-m/ECC",
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "stargazers_count": 282535,
+        "pushed_at": "2026-10-15T19:17:01Z",
+        "archived": false,
+        "html_url": "https://github.com/affaan-m/ECC",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/affaan-m/ECC/readme",
+      "category": "编码工具工作流",
+      "summary_zh": "汇集规划、审查、构建修复等角色，以及技能、规则、钩子、记忆和安全扫描工具，并提供不同编码平台的适配与安装管理。",
+      "editorial_reason_zh": "适合梳理团队常用工程流程并按需复用。平台支持表明确列出能力差异，部分功能依赖 Bash、Python 或特定运行时；不应把某一平台可用理解为所有平台完全等价。"
+    },
+    {
+      "repo": "HKUDS/CLI-Anything",
+      "rank": 4,
+      "stars": 54069,
+      "daily": 574,
+      "language": "Python",
+      "metadata": {
+        "full_name": "HKUDS/CLI-Anything",
+        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "stargazers_count": 54074,
+        "pushed_at": "2026-09-22T02:01:29Z",
+        "archived": false,
+        "html_url": "https://github.com/HKUDS/CLI-Anything",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/HKUDS/CLI-Anything/readme",
+      "category": "软件命令行适配",
+      "summary_zh": "围绕软件源码分析、接口设计、实现、测试和文档组织 CLI 生成流程，提供社区命令行工具目录，让智能体调用应用并生成真实文件或渲染结果。",
+      "editorial_reason_zh": "适合研究如何将已有应用能力接入自动化任务。生成质量依赖模型、源码可用性与迭代修正；能运行命令还不足以证明导出物正确，需要用目标软件和实际文件验收。"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "rank": 5,
+      "stars": 52260,
+      "daily": 878,
+      "language": "Python",
+      "metadata": {
+        "full_name": "K-Dense-AI/scientific-agent-skills",
+        "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+        "language": "Python",
+        "stargazers_count": 52267,
+        "pushed_at": "2026-10-15T23:57:39Z",
+        "archived": false,
+        "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/K-Dense-AI/scientific-agent-skills/readme",
+      "category": "科学研究技能库",
+      "summary_zh": "把科学计算包、数据源和研究工作流的使用方式整理为 Agent Skills，覆盖生物、化学、物理、工程、数据分析及科学表达，包含示例与验证步骤。",
+      "editorial_reason_zh": "适合把已有研究步骤转成可复用的智能体指导。技能数量和工具覆盖不代表研究结论已被验证；数据库访问条件、来源追溯及领域方法仍需核对，本期未测试其科学准确率。"
+    },
+    {
+      "repo": "akitaonrails/ai-memory",
+      "rank": 6,
+      "stars": 9926,
+      "daily": 178,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "akitaonrails/ai-memory",
+        "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+        "language": "Rust",
+        "stargazers_count": 9925,
+        "pushed_at": "2026-10-17T19:53:00Z",
+        "archived": false,
+        "html_url": "https://github.com/akitaonrails/ai-memory",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/akitaonrails/ai-memory/readme",
+      "category": "跨工具开发记忆",
+      "summary_zh": "用 Git 管理的 Markdown 知识库保存开发上下文，围绕捕获、整理、召回与交接连接不同编码工具；索引是派生数据，默认捕获、搜索和交接不要求模型调用。",
+      "editorial_reason_zh": "适合希望跨会话复用项目经验、保留可审阅文本记录的开发者。可选模型整理和向量检索需另行配置，平台集成方式也不同；采集提示词与工具历史前应明确记录范围和访问权限。"
+    },
+    {
+      "repo": "android/skills",
+      "rank": 7,
+      "stars": 8430,
+      "daily": 355,
+      "language": "Kotlin",
+      "metadata": {
+        "full_name": "android/skills",
+        "description": null,
+        "language": "Kotlin",
+        "stargazers_count": 8433,
+        "pushed_at": "2026-10-16T10:07:27Z",
+        "archived": false,
+        "html_url": "https://github.com/android/skills",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/android/skills/readme",
+      "category": "Android 官方技能库",
+      "summary_zh": "Google Android 团队提供的 Agent Skills，针对智能体容易出错的特定 Android 开发任务补充说明与资源，包含 R8 分析、Wear Compose Material 3 和边到边布局等方向。",
+      "editorial_reason_zh": "适合在 Android 项目中按具体任务引入官方指导，并结合开发者文档核验结果。它不是覆盖所有 Android 知识的完整教程；技能指导仍需通过构建和目标设备行为验证。"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "rank": 10,
+      "stars": 73408,
+      "daily": 2125,
+      "language": "Python",
+      "metadata": {
+        "full_name": "debpalash/VoiceStudio",
+        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "language": "Python",
+        "stargazers_count": 73421,
+        "pushed_at": "2026-10-18T01:17:51Z",
+        "archived": false,
+        "html_url": "https://github.com/debpalash/VoiceStudio",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/debpalash/VoiceStudio/readme",
+      "category": "本地语音工作台",
+      "summary_zh": "把声音克隆、声音设计、视频配音、听写、转录与有声书制作整合到桌面工作台，并提供本地 API、MCP、批处理与模型管理，可按引擎选择本地或可选远端路径。",
+      "editorial_reason_zh": "适合希望把语音制作留在本机的内容工作流。硬件支持随平台和引擎变化，Intel Mac 当前需要远端后端；应用许可、模型权重与声音授权需分别核对，本期未复测语言覆盖或音质。"
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "rank": 11,
+      "stars": 215351,
+      "daily": 438,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "anomalyco/opencode",
+        "description": "The open source coding agent.",
+        "language": "TypeScript",
+        "stargazers_count": 215366,
+        "pushed_at": "2026-10-18T01:10:15Z",
+        "archived": false,
+        "html_url": "https://github.com/anomalyco/opencode",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "dev"
+      },
+      "readme_url": "https://api.github.com/repos/anomalyco/opencode/readme",
+      "category": "开源编码智能体",
+      "summary_zh": "提供面向终端的 AI 编码工作流，并提供处于 Beta 阶段的桌面客户端；内置 build 与 plan 模式，分别服务于执行修改和规划分析。",
+      "editorial_reason_zh": "适合需要在终端中切换规划与实现阶段的开发者。plan 默认限制编辑并对部分命令请求确认，实际操作边界仍应结合配置检查；桌面版的 Beta 状态也需要纳入采用评估。"
+    },
+    {
+      "repo": "xerj-org/xerj",
+      "rank": 13,
+      "stars": 7812,
+      "daily": 1160,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "xerj-org/xerj",
+        "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs.",
+        "language": "Rust",
+        "stargazers_count": 7821,
+        "pushed_at": "2026-10-18T01:30:20Z",
+        "archived": false,
+        "html_url": "https://github.com/xerj-org/xerj",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/xerj-org/xerj/readme",
+      "category": "本地索引与检索",
+      "summary_zh": "自动为代码、文档、日志、PDF 等建立索引，提供 BM25、向量与混合检索，并通过 MCP 和兼容 Elasticsearch 的接口支持代码参考、RAG 与智能体记忆。",
+      "editorial_reason_zh": "适合让智能体先检索相关片段再阅读资料。需验证索引更新、召回质量和实际接口兼容性；项目报告的 token 节省依赖具体任务，本期未复测。无认证的本地开发模式不适合直接暴露到公网。"
+    }
+  ]
+}
