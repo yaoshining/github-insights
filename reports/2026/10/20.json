@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-20",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-20T09:01:18.922224+08:00",
+  "verified_at": "2026-10-20T09:02:01.532896+08:00",
+  "items": [
+    {
+      "repo": "MadsLorentzen/ai-job-search",
+      "rank": 1,
+      "stars": 57288,
+      "daily": 3856,
+      "language": "Python",
+      "metadata": {
+        "full_name": "MadsLorentzen/ai-job-search",
+        "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+        "language": "Python",
+        "stargazers_count": 57291,
+        "pushed_at": "2026-10-19T19:46:48Z",
+        "archived": false,
+        "html_url": "https://github.com/MadsLorentzen/ai-job-search",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/MadsLorentzen/ai-job-search/readme",
+      "category": "求职资料工作流",
+      "summary_zh": "基于 Claude Code 的社区求职工作流，围绕个人经历整理、职位匹配、简历与求职信草拟和面试准备组织步骤；核心流程可适配不同语言，内置招聘网站以丹麦市场为主。",
+      "editorial_reason_zh": "适合减少反复整理个人资料的工作。当前 README 增加职位文本完整性检查，但也明确说明智能体防护不等于沙箱；个人资料存储、生成材料的真实性与投递前核对仍需本人把关。"
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "rank": 2,
+      "stars": 217820,
+      "daily": 1311,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "anomalyco/opencode",
+        "description": "The open source coding agent.",
+        "language": "TypeScript",
+        "stargazers_count": 217820,
+        "pushed_at": "2026-10-20T00:56:54Z",
+        "archived": false,
+        "html_url": "https://github.com/anomalyco/opencode",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "dev"
+      },
+      "readme_url": "https://api.github.com/repos/anomalyco/opencode/readme",
+      "category": "开源编码智能体",
+      "summary_zh": "提供面向终端的 AI 编码工作流，并提供处于 Beta 阶段的桌面客户端；内置 build 与 plan 模式，分别服务于执行修改和规划分析。",
+      "editorial_reason_zh": "适合需要在终端中切换规划与实现阶段的开发者。plan 默认限制编辑并对部分命令请求确认，实际操作边界仍应结合配置检查；桌面版的 Beta 状态也需要纳入采用评估。"
+    },
+    {
+      "repo": "akitaonrails/ai-memory",
+      "rank": 3,
+      "stars": 11350,
+      "daily": 666,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "akitaonrails/ai-memory",
+        "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+        "language": "Rust",
+        "stargazers_count": 11353,
+        "pushed_at": "2026-10-19T23:29:24Z",
+        "archived": false,
+        "html_url": "https://github.com/akitaonrails/ai-memory",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/akitaonrails/ai-memory/readme",
+      "category": "跨工具开发记忆",
+      "summary_zh": "用 Git 管理的 Markdown 知识库保存开发上下文，围绕捕获、整理、召回与交接连接不同编码工具；索引是派生数据，默认捕获、搜索和交接不要求模型调用。",
+      "editorial_reason_zh": "适合希望跨会话复用项目经验、保留可审阅文本记录的开发者。可选模型整理和向量检索需另行配置，平台集成方式也不同；采集提示词与工具历史前应明确记录范围和访问权限。"
+    },
+    {
+      "repo": "Comfy-Org/ComfyUI",
+      "rank": 4,
+      "stars": 139729,
+      "daily": 1011,
+      "language": "Python",
+      "metadata": {
+        "full_name": "Comfy-Org/ComfyUI",
+        "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+        "language": "Python",
+        "stargazers_count": 139729,
+        "pushed_at": "2026-10-20T01:01:29Z",
+        "archived": false,
+        "html_url": "https://github.com/Comfy-Org/ComfyUI",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/Comfy-Org/ComfyUI/readme",
+      "category": "可视化生成工作流",
+      "summary_zh": "通过节点图组织图像、视频、音频及其他生成任务，支持可复用子图、工作流模板、JSON 保存与本地 API，也可扩展自定义节点并连接可选云端模型服务。",
+      "editorial_reason_zh": "适合需要复用生成流程、调节各阶段参数或将工作流接入应用的创作者与开发者。实际显存需求取决于模型和任务；核心版本、前端与自定义节点存在兼容性差异，模型授权及云端节点费用应分别核对。"
+    },
+    {
+      "repo": "ruvnet/ruflo",
+      "rank": 5,
+      "stars": 77192,
+      "daily": 564,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "ruvnet/ruflo",
+        "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+        "language": "TypeScript",
+        "stargazers_count": 77192,
+        "pushed_at": "2026-10-19T23:32:37Z",
+        "archived": false,
+        "html_url": "https://github.com/ruvnet/ruflo",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/ruvnet/ruflo/readme",
+      "category": "多智能体编排",
+      "summary_zh": "围绕编码智能体提供任务路由、协作、记忆和执行控制，通过 CLI、MCP 及插件接入不同客户端，并用控制台查看工作流、日志、模型调用与成本。",
+      "editorial_reason_zh": "适合研究多智能体任务如何分工和留存执行记录。插件、CLI 与不同客户端的能力并不等价；控制台演示也不等于任务已完成，实际协作效果和权限边界需要在目标工程中验证。"
+    },
+    {
+      "repo": "stablyai/orca",
+      "rank": 6,
+      "stars": 98294,
+      "daily": 1590,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "stablyai/orca",
+        "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+        "language": "TypeScript",
+        "stargazers_count": 98296,
+        "pushed_at": "2026-10-20T01:01:42Z",
+        "archived": false,
+        "html_url": "https://github.com/stablyai/orca",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/stablyai/orca/readme",
+      "category": "智能体开发工作台",
+      "summary_zh": "在桌面工作台中管理多个编码智能体，利用独立 Git worktree 隔离任务，整合终端、编辑器、浏览器、差异审阅及 SSH 远程开发，并提供手机伴侣应用。",
+      "editorial_reason_zh": "适合同时处理多项开发任务并集中查看进度。独立工作区能减少文件冲突，但合并结果仍需审查；智能体订阅、远程连接和各平台集成能力应分别确认，本期未实际运行任务。"
+    },
+    {
+      "repo": "headroomlabs-ai/headroom",
+      "rank": 7,
+      "stars": 76248,
+      "daily": 310,
+      "language": "Python",
+      "metadata": {
+        "full_name": "headroomlabs-ai/headroom",
+        "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+        "language": "Python",
+        "stargazers_count": 76250,
+        "pushed_at": "2026-10-17T18:29:50Z",
+        "archived": false,
+        "html_url": "https://github.com/headroomlabs-ai/headroom",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/headroomlabs-ai/headroom/readme",
+      "category": "上下文压缩",
+      "summary_zh": "在内容进入模型前压缩工具输出、日志、文件、检索片段和对话历史，提供库、代理、智能体包装与 MCP 接口，并在本地缓存原文以便按需取回。",
+      "editorial_reason_zh": "适合分析上下文占用较高的工作流。节省比例取决于输入冗余程度，原文可取回也不保证模型一定会主动取回；需要同时测试任务准确性、延迟和费用，本期未复测其基准结果。"
+    },
+    {
+      "repo": "withmarbleapp/os-taxonomy",
+      "rank": 8,
+      "stars": 6125,
+      "daily": 284,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "withmarbleapp/os-taxonomy",
+        "description": null,
+        "language": "JavaScript",
+        "stargazers_count": 6126,
+        "pushed_at": "2026-10-19T20:52:26Z",
+        "archived": false,
+        "html_url": "https://github.com/withmarbleapp/os-taxonomy",
+        "license": {
+          "key": "odbl-1.0",
+          "name": "Open Data Commons Open Database License v1.0",
+          "spdx_id": "ODbL-1.0",
+          "url": "https://api.github.com/licenses/odbl-1.0",
+          "node_id": "MDc6TGljZW5zZTM3"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/withmarbleapp/os-taxonomy/readme",
+      "category": "开放教育知识图谱",
+      "summary_zh": "将小学阶段的学习内容拆成细粒度主题，用先修依赖连接成知识图谱，并提供课程标准映射与部分学科的教学研究记录，可直接读取 JSON 数据。",
+      "editorial_reason_zh": "适合探索学习路径、课程检索与教育应用的数据结构。教学记录由智能体编写，来源未在本次数据发布中重新核验，活动不代表经过实证验证；数据库、原创文字与第三方课程标准采用不同许可。"
+    },
+    {
+      "repo": "HKUDS/CLI-Anything",
+      "rank": 10,
+      "stars": 55239,
+      "daily": 606,
+      "language": "Python",
+      "metadata": {
+        "full_name": "HKUDS/CLI-Anything",
+        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "stargazers_count": 55240,
+        "pushed_at": "2026-09-22T02:01:29Z",
+        "archived": false,
+        "html_url": "https://github.com/HKUDS/CLI-Anything",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/HKUDS/CLI-Anything/readme",
+      "category": "软件命令行适配",
+      "summary_zh": "围绕软件源码分析、接口设计、实现、测试和文档组织 CLI 生成流程，提供社区命令行工具目录，让智能体调用应用并生成真实文件或渲染结果。",
+      "editorial_reason_zh": "适合研究如何将已有应用能力接入自动化任务。生成质量依赖模型、源码可用性与迭代修正；能运行命令还不足以证明导出物正确，需要用目标软件和实际文件验收。"
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "rank": 12,
+      "stars": 41675,
+      "daily": 363,
+      "language": "Python",
+      "metadata": {
+        "full_name": "shiyu-coder/Kronos",
+        "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+        "language": "Python",
+        "stargazers_count": 41678,
+        "pushed_at": "2026-04-13T12:38:49Z",
+        "archived": false,
+        "html_url": "https://github.com/shiyu-coder/Kronos",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/shiyu-coder/Kronos/readme",
+      "category": "金融时序研究模型",
+      "summary_zh": "把多维金融 K 线序列离散化为分层 token，再用自回归 Transformer 建模，提供预测接口、不同规模的已发布模型及微调示例。",
+      "editorial_reason_zh": "适合研究领域时序数据的表示与建模方式。README 中的微调与回测流程属于简化演示，不能据此推断实盘收益；模型发布范围、时间切分和评估方法需要单独核验，本期未复测预测效果。"
+    }
+  ]
+}
