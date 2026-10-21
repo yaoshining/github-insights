@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-21",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-21T09:00:34.744965+08:00",
+  "verified_at": "2026-10-21T09:17:34.439663+08:00",
+  "items": [
+    {
+      "repo": "MadsLorentzen/ai-job-search",
+      "rank": 1,
+      "stars": 60600,
+      "daily": 3861,
+      "language": "Python",
+      "metadata": {
+        "full_name": "MadsLorentzen/ai-job-search",
+        "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+        "language": "Python",
+        "stargazers_count": 60641,
+        "pushed_at": "2026-10-20T19:02:25Z",
+        "archived": false,
+        "html_url": "https://github.com/MadsLorentzen/ai-job-search",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/MadsLorentzen/ai-job-search/readme",
+      "category": "求职资料工作流",
+      "summary_zh": "基于 Claude Code 的社区求职工作流，围绕个人经历整理、职位匹配、简历与求职信草拟和面试准备组织步骤；核心流程可适配不同语言，内置招聘网站以丹麦市场为主。",
+      "editorial_reason_zh": "适合减少反复整理个人资料的工作。职位网站覆盖需按地区核对，个人档案应保存在合适的私有位置；生成的经历描述和申请材料仍需本人确认真实性，本期未实际投递职位。"
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "rank": 2,
+      "stars": 34238,
+      "daily": 1712,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "cloudflare/security-audit-skill",
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "stargazers_count": 34268,
+        "pushed_at": "2026-09-14T19:29:02Z",
+        "archived": false,
+        "html_url": "https://github.com/cloudflare/security-audit-skill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cloudflare/security-audit-skill/readme",
+      "category": "安全审计工作流",
+      "summary_zh": "由 Cloudflare 提供的编码智能体技能，将架构侦察、按覆盖范围查找问题、候选验证、结构化输出、独立复核与报告组织成多阶段流程，区分已确认、待验证和已排除的发现。",
+      "editorial_reason_zh": "适合研究怎样让安全审计留下可追溯的源码证据和覆盖记录。使用依赖支持工具与并行任务的智能体、Node.js 及受控执行环境；发现数量不能替代验证质量，本期未实际审计目标仓库。"
+    },
+    {
+      "repo": "stablyai/orca",
+      "rank": 3,
+      "stars": 99753,
+      "daily": 1565,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "stablyai/orca",
+        "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+        "language": "TypeScript",
+        "stargazers_count": 99765,
+        "pushed_at": "2026-10-21T01:17:34Z",
+        "archived": false,
+        "html_url": "https://github.com/stablyai/orca",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/stablyai/orca/readme",
+      "category": "智能体开发工作台",
+      "summary_zh": "在桌面工作台中管理多个编码智能体，利用独立 Git worktree 隔离任务，整合终端、编辑器、浏览器、差异审阅及 SSH 远程开发，并提供手机伴侣应用。",
+      "editorial_reason_zh": "适合同时处理多项开发任务并集中查看进度。独立工作区能减少文件冲突，但合并结果仍需审查；智能体订阅、远程连接和各平台集成能力应分别确认，本期未实际运行任务。"
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "rank": 4,
+      "stars": 169672,
+      "daily": 1208,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "DietrichGebert/ponytail",
+        "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+        "language": "JavaScript",
+        "stargazers_count": 169703,
+        "pushed_at": "2026-10-18T01:55:14Z",
+        "archived": false,
+        "html_url": "https://github.com/DietrichGebert/ponytail",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/DietrichGebert/ponytail/readme",
+      "category": "精简实现与代码审查",
+      "summary_zh": "通过技能指导编码智能体优先检查需求是否必要、复用仓库已有能力，并提供针对变更和整个仓库的审查流程，覆盖缺陷、安全、负载与测试等方面。",
+      "editorial_reason_zh": "适合减少重复实现与不必要的抽象，同时保留任务必需的验证。README 强调不能为了缩短代码而削减错误处理、安全或可访问性；其代码量、成本和测试数据来自特定基准，本期未独立复测。"
+    },
+    {
+      "repo": "Comfy-Org/ComfyUI",
+      "rank": 5,
+      "stars": 140771,
+      "daily": 1206,
+      "language": "Python",
+      "metadata": {
+        "full_name": "Comfy-Org/ComfyUI",
+        "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+        "language": "Python",
+        "stargazers_count": 140787,
+        "pushed_at": "2026-10-21T01:08:10Z",
+        "archived": false,
+        "html_url": "https://github.com/Comfy-Org/ComfyUI",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/Comfy-Org/ComfyUI/readme",
+      "category": "可视化生成工作流",
+      "summary_zh": "通过节点图组织图像、视频、音频及其他生成任务，支持可复用子图、工作流模板、JSON 保存与本地 API，也可扩展自定义节点并连接可选云端模型服务。",
+      "editorial_reason_zh": "适合需要复用生成流程、调节各阶段参数或将工作流接入应用的创作者与开发者。实际显存需求取决于模型和任务；核心版本、前端与自定义节点存在兼容性差异，模型授权及云端节点费用应分别核对。"
+    },
+    {
+      "repo": "Graphify-Labs/graphify",
+      "rank": 7,
+      "stars": 130246,
+      "daily": 802,
+      "language": "Python",
+      "metadata": {
+        "full_name": "Graphify-Labs/graphify",
+        "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+        "language": "Python",
+        "stargazers_count": 130266,
+        "pushed_at": "2026-10-20T16:16:19Z",
+        "archived": false,
+        "html_url": "https://github.com/Graphify-Labs/graphify",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "v8"
+      },
+      "readme_url": "https://api.github.com/repos/Graphify-Labs/graphify/readme",
+      "category": "代码知识图谱",
+      "summary_zh": "将代码及相关文档转换为可查询的知识图谱，代码路径使用本地 AST 解析，连接区分直接提取与推断，提供查询、路径追踪、解释及交互式图谱输出。",
+      "editorial_reason_zh": "适合探索陌生代码库、梳理依赖与追踪设计关系。代码解析和文档媒体的语义处理采用不同路径，后者可能调用配置的模型；推断关系仍需回到源码核验，商业云服务能力也应与开源工具区分。"
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "rank": 8,
+      "stars": 218932,
+      "daily": 1240,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "anomalyco/opencode",
+        "description": "The open source coding agent.",
+        "language": "TypeScript",
+        "stargazers_count": 218945,
+        "pushed_at": "2026-10-21T01:15:58Z",
+        "archived": false,
+        "html_url": "https://github.com/anomalyco/opencode",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "dev"
+      },
+      "readme_url": "https://api.github.com/repos/anomalyco/opencode/readme",
+      "category": "开源编码智能体",
+      "summary_zh": "提供面向终端的 AI 编码工作流，并提供处于 Beta 阶段的桌面客户端；内置 build 与 plan 模式，分别服务于执行修改和规划分析。",
+      "editorial_reason_zh": "适合需要在终端中切换规划与实现阶段的开发者。plan 默认限制编辑并对部分命令请求确认，实际操作边界仍应结合配置检查；桌面版的 Beta 状态也需要纳入采用评估。"
+    },
+    {
+      "repo": "headroomlabs-ai/headroom",
+      "rank": 10,
+      "stars": 76758,
+      "daily": 549,
+      "language": "Python",
+      "metadata": {
+        "full_name": "headroomlabs-ai/headroom",
+        "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+        "language": "Python",
+        "stargazers_count": 76770,
+        "pushed_at": "2026-10-21T00:47:00Z",
+        "archived": false,
+        "html_url": "https://github.com/headroomlabs-ai/headroom",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/headroomlabs-ai/headroom/readme",
+      "category": "上下文压缩",
+      "summary_zh": "在内容进入模型前压缩工具输出、日志、文件、检索片段和对话历史，提供库、代理、智能体包装与 MCP 接口，并在本地缓存原文以便按需取回。",
+      "editorial_reason_zh": "适合分析上下文占用较高的工作流。节省比例取决于输入冗余程度，原文可取回也不保证模型一定会主动取回；需要同时测试任务准确性、延迟和费用，本期未复测其基准结果。"
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "rank": 11,
+      "stars": 30794,
+      "daily": 267,
+      "language": "Python",
+      "metadata": {
+        "full_name": "anthropics/knowledge-work-plugins",
+        "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "language": "Python",
+        "stargazers_count": 30800,
+        "pushed_at": "2026-10-20T23:09:26Z",
+        "archived": false,
+        "html_url": "https://github.com/anthropics/knowledge-work-plugins",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/anthropics/knowledge-work-plugins/readme",
+      "category": "知识工作插件",
+      "summary_zh": "面向 Claude Cowork 并兼容 Claude Code，按工作职能组织技能、命令及连接器配置，覆盖产品、销售、客服、数据分析和企业检索等任务，并允许按团队流程定制。",
+      "editorial_reason_zh": "适合把岗位中的重复步骤整理为可复用指导。插件提供通用起点，实际效果取决于团队资料、外部工具权限和输出复核；仓库开放不代表所有连接器或模型服务免费。"
+    },
+    {
+      "repo": "vllm-project/vllm",
+      "rank": 15,
+      "stars": 94437,
+      "daily": 128,
+      "language": "Python",
+      "metadata": {
+        "full_name": "vllm-project/vllm",
+        "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+        "language": "Python",
+        "stargazers_count": 94444,
+        "pushed_at": "2026-10-21T01:07:12Z",
+        "archived": false,
+        "html_url": "https://github.com/vllm-project/vllm",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/vllm-project/vllm/readme",
+      "category": "大模型推理与服务",
+      "summary_zh": "提供大模型推理和在线服务能力，采用 PagedAttention 管理注意力缓存，结合连续批处理、前缀缓存、量化和分布式推理，并提供兼容常用模型接口的服务端。",
+      "editorial_reason_zh": "适合评估多请求推理服务的吞吐、显存和部署方式。模型、硬件及插件的支持范围需要按版本核对，性能取决于并发与上下文长度等负载条件；本期未做硬件性能测试。"
+    }
+  ]
+}
