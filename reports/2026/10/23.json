@@ -1,0 +1,262 @@
+{
+  "date": "2026-10-23",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-23T09:03:13.695167+08:00",
+  "verified_at": "2026-10-23T09:03:43.607245+08:00",
+  "items": [
+    {
+      "repo": "php/php-src",
+      "rank": 1,
+      "stars": 41163,
+      "daily": 287,
+      "language": "C",
+      "metadata": {
+        "full_name": "php/php-src",
+        "description": "The PHP Interpreter",
+        "language": "C",
+        "stargazers_count": 41162,
+        "pushed_at": "2026-10-22T23:59:52Z",
+        "archived": false,
+        "html_url": "https://github.com/php/php-src",
+        "license": {
+          "key": "bsd-3-clause",
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdx_id": "BSD-3-Clause",
+          "url": "https://api.github.com/licenses/bsd-3-clause",
+          "node_id": "MDc6TGljZW5zZTU="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/php/php-src/readme",
+      "category": "语言运行时",
+      "summary_zh": "PHP 解释器的官方源码仓库，包含面向 Web 开发的语言实现、内置扩展与测试体系，提供从源码构建、测试以及参与语言开发的入口。GitHub 将仓库主要实现语言标记为 C。",
+      "editorial_reason_zh": "适合研究 PHP 运行机制、扩展开发和兼容性问题，也为跟踪语言演进提供源码依据。上榜不表示今天发布了新版本；应用部署仍需选定合适的发行版，并验证扩展和依赖兼容性。"
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "rank": 2,
+      "stars": 31610,
+      "daily": 303,
+      "language": "Python",
+      "metadata": {
+        "full_name": "anthropics/knowledge-work-plugins",
+        "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "language": "Python",
+        "stargazers_count": 31610,
+        "pushed_at": "2026-10-22T07:39:25Z",
+        "archived": false,
+        "html_url": "https://github.com/anthropics/knowledge-work-plugins",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/anthropics/knowledge-work-plugins/readme",
+      "category": "知识工作插件",
+      "summary_zh": "面向 Claude Cowork 并兼容 Claude Code，按工作职能组织技能、命令及连接器配置，覆盖产品、销售、客服、数据分析和企业检索等任务，并允许按团队流程定制。",
+      "editorial_reason_zh": "适合把岗位中的重复步骤整理为可复用指导。插件提供通用起点，实际效果取决于团队资料、外部工具权限和输出复核；仓库开放不代表所有连接器或模型服务免费。"
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "rank": 3,
+      "stars": 173490,
+      "daily": 1948,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "DietrichGebert/ponytail",
+        "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+        "language": "JavaScript",
+        "stargazers_count": 173491,
+        "pushed_at": "2026-10-18T01:55:14Z",
+        "archived": false,
+        "html_url": "https://github.com/DietrichGebert/ponytail",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/DietrichGebert/ponytail/readme",
+      "category": "精简实现与代码审查",
+      "summary_zh": "通过技能指导编码智能体优先检查需求是否必要、复用仓库已有能力，并提供针对变更和整个仓库的审查流程，覆盖缺陷、安全、负载与测试等方面。",
+      "editorial_reason_zh": "适合减少重复实现与不必要的抽象，同时保留任务必需的验证。README 强调不能为了缩短代码而削减错误处理、安全或可访问性；其代码量、成本和测试数据来自特定基准，本期未独立复测。"
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "rank": 4,
+      "stars": 39586,
+      "daily": 2979,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "cloudflare/security-audit-skill",
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "stargazers_count": 39586,
+        "pushed_at": "2026-09-14T19:29:02Z",
+        "archived": false,
+        "html_url": "https://github.com/cloudflare/security-audit-skill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cloudflare/security-audit-skill/readme",
+      "category": "安全审计工作流",
+      "summary_zh": "由 Cloudflare 提供的编码智能体技能，将架构侦察、按覆盖范围查找问题、候选验证、结构化输出、独立复核与报告组织成多阶段流程，区分已确认、待验证和已排除的发现。",
+      "editorial_reason_zh": "适合研究怎样让安全审计留下可追溯的源码证据和覆盖记录。使用依赖支持工具与并行任务的智能体、Node.js 及受控执行环境；发现数量不能替代验证质量，本期未实际审计目标仓库。"
+    },
+    {
+      "repo": "Graphify-Labs/graphify",
+      "rank": 5,
+      "stars": 132962,
+      "daily": 1408,
+      "language": "Python",
+      "metadata": {
+        "full_name": "Graphify-Labs/graphify",
+        "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+        "language": "Python",
+        "stargazers_count": 132962,
+        "pushed_at": "2026-10-22T16:19:38Z",
+        "archived": false,
+        "html_url": "https://github.com/Graphify-Labs/graphify",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "v8"
+      },
+      "readme_url": "https://api.github.com/repos/Graphify-Labs/graphify/readme",
+      "category": "代码知识图谱",
+      "summary_zh": "将代码及相关文档转换为可查询的知识图谱，代码路径使用本地 AST 解析，连接区分直接提取与推断，提供查询、路径追踪、解释及交互式图谱输出。",
+      "editorial_reason_zh": "适合探索陌生代码库、梳理依赖与追踪设计关系。代码解析和文档媒体的语义处理采用不同路径，后者可能调用配置的模型；推断关系仍需回到源码核验，商业云服务能力也应与开源工具区分。"
+    },
+    {
+      "repo": "supabase/supabase",
+      "rank": 6,
+      "stars": 113488,
+      "daily": 693,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "supabase/supabase",
+        "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+        "language": "TypeScript",
+        "stargazers_count": 113488,
+        "pushed_at": "2026-10-23T00:59:48Z",
+        "archived": false,
+        "html_url": "https://github.com/supabase/supabase",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/supabase/supabase/readme",
+      "category": "Postgres 后端平台",
+      "summary_zh": "围绕 Postgres 提供数据库、身份认证、自动生成的 REST 与 GraphQL API、实时订阅、文件存储及函数能力，同时提供向量与嵌入相关工具，支持托管、本地开发和自托管等使用方式。",
+      "editorial_reason_zh": "适合需要快速搭建数据与用户系统的应用团队，将常用后端能力放进统一开发流程。选型时仍需验证权限模型、备份恢复和部署方式，各组件的运维要求与使用条件应分别核对。"
+    },
+    {
+      "repo": "fastapi/fastapi",
+      "rank": 7,
+      "stars": 103754,
+      "daily": 101,
+      "language": "Python",
+      "metadata": {
+        "full_name": "fastapi/fastapi",
+        "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+        "language": "Python",
+        "stargazers_count": 103754,
+        "pushed_at": "2026-10-22T22:21:50Z",
+        "archived": false,
+        "html_url": "https://github.com/fastapi/fastapi",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/fastapi/fastapi/readme",
+      "category": "Python API 框架",
+      "summary_zh": "基于 Python 类型提示构建 Web API，结合 Starlette 和 Pydantic 处理请求与数据校验，并自动生成 OpenAPI 描述和交互式接口文档，支持同步与异步处理方式。",
+      "editorial_reason_zh": "适合为数据处理、模型推理或常规业务提供明确的接口契约。类型声明、校验和文档可减少重复维护，但认证、数据库访问与部署仍需按应用设计；性能应以实际负载测试为准。"
+    },
+    {
+      "repo": "luongnv89/claude-howto",
+      "rank": 8,
+      "stars": 43222,
+      "daily": 177,
+      "language": "Python",
+      "metadata": {
+        "full_name": "luongnv89/claude-howto",
+        "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+        "language": "Python",
+        "stargazers_count": 43222,
+        "pushed_at": "2026-10-20T12:23:14Z",
+        "archived": false,
+        "html_url": "https://github.com/luongnv89/claude-howto",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/luongnv89/claude-howto/readme",
+      "category": "社区学习指南",
+      "summary_zh": "通过分级学习路径、Mermaid 图解、配置模板和自测练习，介绍 Claude Code 的命令、记忆、技能、Hooks、MCP、子智能体及插件，并展示如何组合成开发工作流。",
+      "editorial_reason_zh": "适合希望按步骤学习工具配置的开发者。它是社区教程，具体选项和行为需与所用版本的官方文档核对；复制模板前应审查工具权限与脚本内容，教程许可不包含模型服务费用。"
+    },
+    {
+      "repo": "Meloong-Git/PCL",
+      "rank": 9,
+      "stars": 8701,
+      "daily": 119,
+      "language": "Visual Basic .NET",
+      "metadata": {
+        "full_name": "Meloong-Git/PCL",
+        "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
+        "language": "Visual Basic .NET",
+        "stargazers_count": 8701,
+        "pushed_at": "2026-10-20T07:01:33Z",
+        "archived": false,
+        "html_url": "https://github.com/Meloong-Git/PCL",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Meloong-Git/PCL/readme",
+      "license_note_zh": "自定义有限许可与使用指南；公开源码，使用和分发受限。",
+      "license_source": "https://github.com/Meloong-Git/PCL/blob/main/LICENCE",
+      "category": "公开源码 · 游戏启动器",
+      "summary_zh": "Plain Craft Launcher 的源码仓库，公开大部分 UI 库、动画、下载和 Minecraft 启动模块。README 说明源码随 PCL 版本发布同步，并非实时更新；GitHub 标注的主要语言为 Visual Basic .NET。",
+      "editorial_reason_zh": "适合阅读桌面启动器的界面与下载模块实现。该仓库采用自定义有限许可并附使用指南，使用和分发存在限制，不能按 MIT 等宽松开源许可理解；正式软件与仓库源码的完整性也需区分。"
+    }
+  ]
+}
