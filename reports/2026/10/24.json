@@ -1,0 +1,232 @@
+{
+  "date": "2026-10-24",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-24T09:10:35.122432+08:00",
+  "verified_at": "2026-10-24T09:11:03.709120+08:00",
+  "items": [
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "rank": 1,
+      "stars": 42165,
+      "daily": 2716,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "cloudflare/security-audit-skill",
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "stargazers_count": 42165,
+        "pushed_at": "2026-09-14T19:29:02Z",
+        "archived": false,
+        "html_url": "https://github.com/cloudflare/security-audit-skill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cloudflare/security-audit-skill/readme",
+      "category": "安全审计工作流",
+      "summary_zh": "由 Cloudflare 提供的编码智能体技能，将架构侦察、按覆盖范围查找问题、候选验证、结构化输出、独立复核与报告组织成多阶段流程，区分已确认、待验证和已排除的发现。",
+      "editorial_reason_zh": "适合研究怎样让安全审计留下可追溯的源码证据和覆盖记录。使用依赖支持工具与并行任务的智能体、Node.js 及受控执行环境；发现数量不能替代验证质量，本期未实际审计目标仓库。"
+    },
+    {
+      "repo": "php/php-src",
+      "rank": 2,
+      "stars": 41567,
+      "daily": 716,
+      "language": "C",
+      "metadata": {
+        "full_name": "php/php-src",
+        "description": "The PHP Interpreter",
+        "language": "C",
+        "stargazers_count": 41567,
+        "pushed_at": "2026-10-23T22:42:32Z",
+        "archived": false,
+        "html_url": "https://github.com/php/php-src",
+        "license": {
+          "key": "bsd-3-clause",
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdx_id": "BSD-3-Clause",
+          "url": "https://api.github.com/licenses/bsd-3-clause",
+          "node_id": "MDc6TGljZW5zZTU="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://api.github.com/repos/php/php-src/readme",
+      "category": "语言运行时",
+      "summary_zh": "PHP 解释器的官方源码仓库，包含面向 Web 开发的语言实现、内置扩展与测试体系，提供从源码构建、测试以及参与语言开发的入口。GitHub 将仓库主要实现语言标记为 C。",
+      "editorial_reason_zh": "适合研究 PHP 运行机制、扩展开发和兼容性问题，也为跟踪语言演进提供源码依据。上榜不表示今天发布了新版本；应用部署仍需选定合适的发行版，并验证扩展和依赖兼容性。"
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "rank": 3,
+      "stars": 32227,
+      "daily": 635,
+      "language": "Python",
+      "metadata": {
+        "full_name": "anthropics/knowledge-work-plugins",
+        "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "language": "Python",
+        "stargazers_count": 32227,
+        "pushed_at": "2026-10-23T07:38:30Z",
+        "archived": false,
+        "html_url": "https://github.com/anthropics/knowledge-work-plugins",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/anthropics/knowledge-work-plugins/readme",
+      "category": "知识工作插件",
+      "summary_zh": "面向 Claude Cowork 并兼容 Claude Code，按工作职能组织技能、命令及连接器配置，覆盖产品、销售、客服、数据分析和企业检索等任务，并允许按团队流程定制。",
+      "editorial_reason_zh": "适合把岗位中的重复步骤整理为可复用指导。插件提供通用起点，实际效果取决于团队资料、外部工具权限和输出复核；仓库开放不代表所有连接器或模型服务免费。"
+    },
+    {
+      "repo": "NVIDIA/OpenShell",
+      "rank": 4,
+      "stars": 18808,
+      "daily": 1119,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "NVIDIA/OpenShell",
+        "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+        "language": "Rust",
+        "stargazers_count": 18808,
+        "pushed_at": "2026-10-24T00:42:43Z",
+        "archived": false,
+        "html_url": "https://github.com/NVIDIA/OpenShell",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/NVIDIA/OpenShell/readme",
+      "category": "智能体隔离运行环境",
+      "summary_zh": "为自主 AI 智能体提供沙箱与策略控制，对文件访问、系统调用和网络连接施加约束，并将凭据注入限定到获准端点。README 还介绍了在策略变更前检查新增权限的验证机制。",
+      "editorial_reason_zh": "适合研究如何在保留工具能力的同时约束智能体权限。实际隔离效果依赖运行环境、策略和部署配置，不能仅凭安全运行时的名称作保证；本期未验证其隔离强度或策略验证机制。"
+    },
+    {
+      "repo": "Renhuai123/ziwei-doushu",
+      "rank": 5,
+      "stars": 6867,
+      "daily": 546,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "Renhuai123/ziwei-doushu",
+        "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+        "language": "TypeScript",
+        "stargazers_count": 6867,
+        "pushed_at": "2026-10-20T08:20:05Z",
+        "archived": false,
+        "html_url": "https://github.com/Renhuai123/ziwei-doushu",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Renhuai123/ziwei-doushu/readme",
+      "category": "传统文化规则与数据",
+      "summary_zh": "以 TypeScript 实现紫微斗数排盘规则、历法换算、真太阳时与夏令时处理，并提供演示界面、传统文本资料及生成数据集。README 明确说明线上断语库、AI 解读接口与用户系统未随仓库开放。",
+      "editorial_reason_zh": "适合从软件工程角度观察复杂规则、时间边界和结构化文本的组织方式。命理解读不具备已确立的科学预测依据；代码、数据和引用资料采用不同许可，不能将演示仓库等同于完整线上产品。"
+    },
+    {
+      "repo": "SnailSploit/Claude-Red",
+      "rank": 6,
+      "stars": 8498,
+      "daily": 226,
+      "language": "Python",
+      "metadata": {
+        "full_name": "SnailSploit/Claude-Red",
+        "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+        "language": "Python",
+        "stargazers_count": 8501,
+        "pushed_at": "2026-10-12T15:02:40Z",
+        "archived": false,
+        "html_url": "https://github.com/SnailSploit/Claude-Red",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/SnailSploit/Claude-Red/readme",
+      "category": "授权安全测试技能资料",
+      "summary_zh": "面向 Claude 技能系统组织安全测试方法资料，通过分领域的 SKILL.md 文件覆盖 Web、身份、云环境、移动端及基础设施等主题，README 将授权红队、漏洞研究、CTF 与培训列为用途。",
+      "editorial_reason_zh": "适合安全团队梳理授权评估范围、培训资料和测试记录。技能文件是给模型的指导材料，不代表自动获得专家判断或验证结果；使用时需要明确目标授权、隔离测试环境并复核输出，本期未执行其中的测试流程。"
+    },
+    {
+      "repo": "OpenBMB/VoxCPM",
+      "rank": 7,
+      "stars": 40263,
+      "daily": 150,
+      "language": "Python",
+      "metadata": {
+        "full_name": "OpenBMB/VoxCPM",
+        "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+        "language": "Python",
+        "stargazers_count": 40265,
+        "pushed_at": "2026-10-08T03:26:41Z",
+        "archived": false,
+        "html_url": "https://github.com/OpenBMB/VoxCPM",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/OpenBMB/VoxCPM/readme",
+      "category": "多语言语音生成",
+      "summary_zh": "采用不依赖离散语音分词的语音合成架构，当前 README 主推 VoxCPM2，提供多语言文本转语音、自然语言声音设计、基于参考音频的音色复现及流式输出，并提供 Python、CLI 和 Web 演示入口。",
+      "editorial_reason_zh": "适合评估配音、语音交互和多语言内容生成。文档注明声音风格控制可能随生成变化，质量和延迟需按语言及硬件实测；参考音频应具备使用授权，公开生成内容宜明确标注，本期未复测音质或速度。"
+    },
+    {
+      "repo": "nodejs/node",
+      "rank": 8,
+      "stars": 122871,
+      "daily": 66,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "nodejs/node",
+        "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+        "language": "JavaScript",
+        "stargazers_count": 122872,
+        "pushed_at": "2026-10-24T00:09:23Z",
+        "archived": false,
+        "html_url": "https://github.com/nodejs/node",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/nodejs/node/readme",
+      "category": "JavaScript 运行时",
+      "summary_zh": "开源、跨平台的 JavaScript 运行环境，支持在浏览器之外构建服务和工具。官方仓库提供源码构建、版本类型、API 文档与发布二进制校验的入口，并区分开发版本和长期支持版本。",
+      "editorial_reason_zh": "适合跟踪 JavaScript 服务端与工具链的基础能力。选择运行版本时应核对支持周期、原生扩展和依赖兼容性；Trending 星标变化不代表当天发布了新版本，本期未执行升级或兼容性测试。"
+    }
+  ]
+}
