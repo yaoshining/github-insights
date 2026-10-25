@@ -1,0 +1,260 @@
+{
+  "date": "2026-10-25",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-25T08:57:02.185202+08:00",
+  "verified_at": "2026-10-25T08:57:24.349316+08:00",
+  "items": [
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "rank": 1,
+      "stars": 44566,
+      "daily": 2264,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "cloudflare/security-audit-skill",
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "stargazers_count": 44567,
+        "pushed_at": "2026-09-14T19:29:02Z",
+        "archived": false,
+        "html_url": "https://github.com/cloudflare/security-audit-skill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cloudflare/security-audit-skill/readme",
+      "category": "安全审计工作流",
+      "summary_zh": "由 Cloudflare 提供的编码智能体技能，将架构侦察、按覆盖范围查找问题、候选验证、结构化输出、独立复核与报告组织成多阶段流程，区分已确认、待验证和已排除的发现。",
+      "editorial_reason_zh": "适合研究怎样让安全审计留下可追溯的源码证据和覆盖记录。使用依赖支持工具与并行任务的智能体、Node.js 及受控执行环境；发现数量不能替代验证质量，本期未实际审计目标仓库。"
+    },
+    {
+      "repo": "NVIDIA/OpenShell",
+      "rank": 2,
+      "stars": 19479,
+      "daily": 896,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "NVIDIA/OpenShell",
+        "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+        "language": "Rust",
+        "stargazers_count": 19479,
+        "pushed_at": "2026-10-24T23:55:12Z",
+        "archived": false,
+        "html_url": "https://github.com/NVIDIA/OpenShell",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/NVIDIA/OpenShell/readme",
+      "category": "智能体隔离运行环境",
+      "summary_zh": "为自主 AI 智能体提供沙箱与策略控制，对文件访问、系统调用和网络连接施加约束，并将凭据注入限定到获准端点。README 还介绍了在策略变更前检查新增权限的验证机制。",
+      "editorial_reason_zh": "适合研究如何在保留工具能力的同时约束智能体权限。实际隔离效果依赖运行环境、策略和部署配置，不能仅凭安全运行时的名称作保证；本期未验证其隔离强度或策略验证机制。"
+    },
+    {
+      "repo": "aws/agent-toolkit-for-aws",
+      "rank": 3,
+      "stars": 3130,
+      "daily": 13,
+      "language": "Python",
+      "metadata": {
+        "full_name": "aws/agent-toolkit-for-aws",
+        "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+        "language": "Python",
+        "stargazers_count": 3130,
+        "pushed_at": "2026-10-23T15:00:22Z",
+        "archived": false,
+        "html_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/aws/agent-toolkit-for-aws/readme",
+      "category": "云平台智能体工具",
+      "summary_zh": "AWS 官方维护的工具包，将 MCP 服务配置、技能与插件结合，为编码智能体提供 AWS 文档检索、服务操作和任务指导，覆盖应用部署、基础设施、数据分析及智能体开发等场景。",
+      "editorial_reason_zh": "适合把云服务文档与操作能力接入现有开发流程。仓库中的本地技能与托管 MCP 服务是不同部分；执行 API 操作依赖账号凭据、权限与区域支持，云资源及服务费用需另行确认。"
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "rank": 4,
+      "stars": 32152,
+      "daily": 455,
+      "language": "CSS",
+      "metadata": {
+        "full_name": "Nutlope/hallmark",
+        "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "language": "CSS",
+        "stargazers_count": 32153,
+        "pushed_at": "2026-10-22T17:20:32Z",
+        "archived": false,
+        "html_url": "https://github.com/Nutlope/hallmark",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Nutlope/hallmark/readme",
+      "category": "网页设计技能",
+      "summary_zh": "为编码智能体提供主题素材、按页面用途组织布局的方法，以及浏览器渲染检查和审阅流程；支持新建页面、针对指定页面重设计及只读审计，并关注对比度、焦点、动态效果和手机布局。",
+      "editorial_reason_zh": "适合探索怎样把视觉方向、真实内容与交互目标结合起来。规则和主题不能替代对实际页面的审美与可用性检查；浏览器检查依赖相应环境，引用照片还需遵循各自许可，本期未运行其生成流程。"
+    },
+    {
+      "repo": "luongnv89/claude-howto",
+      "rank": 5,
+      "stars": 44567,
+      "daily": 392,
+      "language": "Python",
+      "metadata": {
+        "full_name": "luongnv89/claude-howto",
+        "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+        "language": "Python",
+        "stargazers_count": 44568,
+        "pushed_at": "2026-10-20T12:23:14Z",
+        "archived": false,
+        "html_url": "https://github.com/luongnv89/claude-howto",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/luongnv89/claude-howto/readme",
+      "category": "社区学习指南",
+      "summary_zh": "通过分级学习路径、Mermaid 图解、配置模板和自测练习，介绍 Claude Code 的命令、记忆、技能、Hooks、MCP、子智能体及插件，并展示如何组合成开发工作流。",
+      "editorial_reason_zh": "适合希望按步骤学习工具配置的开发者。它是社区教程，具体选项和行为需与所用版本的官方文档核对；复制模板前应审查工具权限与脚本内容，教程许可不包含模型服务费用。"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "rank": 6,
+      "stars": 86418,
+      "daily": 619,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "pbakaus/impeccable",
+        "description": "The design language that makes your AI harness better at design.",
+        "language": "Rust",
+        "stargazers_count": 86420,
+        "pushed_at": "2026-10-24T06:29:27Z",
+        "archived": false,
+        "html_url": "https://github.com/pbakaus/impeccable",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pbakaus/impeccable/readme",
+      "category": "设计指导与检测工具",
+      "summary_zh": "将面向 AI 编码工具的设计指导、审计与润色命令、浏览器迭代和确定性检测规则组合起来，分别记录产品事实与视觉系统，并提供布局、字体、可访问性和边界情况等检查入口。",
+      "editorial_reason_zh": "适合建立可重复的界面评审与改进流程。文档明确区分规则检测与人工视觉判断，检测通过不等于整体设计或可访问性合格；主要语言标注反映仓库实现，本期未复测其规则覆盖率。"
+    },
+    {
+      "repo": "pollen-robotics/microduck",
+      "rank": 7,
+      "stars": 10997,
+      "daily": 319,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "pollen-robotics/microduck",
+        "description": "A Tiny biped duck robot 🦆",
+        "language": "Rust",
+        "stargazers_count": 10997,
+        "pushed_at": "2026-10-24T09:37:44Z",
+        "archived": false,
+        "html_url": "https://github.com/pollen-robotics/microduck",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pollen-robotics/microduck/readme",
+      "category": "双足机器人运行软件",
+      "summary_zh": "小型双足机器人 Microduck 的运行软件，使用 Rust 服务组织控制循环、电机、无线通信、摄像头和更新机制，加载神经策略驱动动作；策略训练位于另一个 microduck_rl 仓库，并提供 MuJoCo 仿真入口。",
+      "editorial_reason_zh": "适合研究机器人控制服务、统一通信接口及软件更新回滚的工程设计。仓库软件、独立训练工程与实体硬件应分别理解，动作效果和仿真到实机的差异需要硬件验证；本期未运行仿真或测试机器人。"
+    },
+    {
+      "repo": "google-gemini/gemini-cli",
+      "rank": 8,
+      "stars": 108056,
+      "daily": 44,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "google-gemini/gemini-cli",
+        "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+        "language": "TypeScript",
+        "stargazers_count": 108056,
+        "pushed_at": "2026-10-24T01:15:52Z",
+        "archived": false,
+        "html_url": "https://github.com/google-gemini/gemini-cli",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/google-gemini/gemini-cli/readme",
+      "category": "终端 AI 智能体",
+      "summary_zh": "将 Gemini 模型接入终端，支持代码库理解与编辑、非交互脚本及 MCP 工具扩展。当前 README 提醒，免费层和 Google One 用户已转向 Antigravity CLI，并说明本工具未针对最新 Gemini 模型优化。",
+      "editorial_reason_zh": "适合了解终端智能体的工具与脚本接口，已有用户也应关注迁移说明。应按账号类型、模型支持及官方文档选择客户端，不能把开源仓库继续存在理解为所有用户均适合新装；本期未验证登录或模型调用。"
+    },
+    {
+      "repo": "makecindy/cindy",
+      "rank": 10,
+      "stars": 4106,
+      "daily": 477,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "makecindy/cindy",
+        "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+        "language": "TypeScript",
+        "stargazers_count": 4106,
+        "pushed_at": "2026-10-25T00:14:02Z",
+        "archived": false,
+        "html_url": "https://github.com/makecindy/cindy",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/makecindy/cindy/readme",
+      "category": "桌面与移动端智能体客户端",
+      "summary_zh": "把多种智能体运行工具、模型、记忆、技能与 MCP 接入同一客户端，包含桌面、移动端和共享组件；README 说明已支持 Claude Code 与 Codex，并可结合本机文件、应用及计划任务工作。",
+      "editorial_reason_zh": "适合观察跨设备、跨模型任务体验的客户端实现。开源范围不包含后端服务；跳过登录模式仅提供相应本地能力，默认云服务、模型授权及费用需分别确认，本期未验证跨设备操作或服务端功能。"
+    }
+  ]
+}
