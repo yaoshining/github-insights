@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-26",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-26T09:05:10.093417+08:00",
+  "verified_at": "2026-10-26T09:05:35.659561+08:00",
+  "items": [
+    {
+      "repo": "makecindy/cindy",
+      "rank": 1,
+      "stars": 4881,
+      "daily": 675,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "makecindy/cindy",
+        "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+        "language": "TypeScript",
+        "stargazers_count": 4881,
+        "pushed_at": "2026-10-25T20:26:51Z",
+        "archived": false,
+        "html_url": "https://github.com/makecindy/cindy",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/makecindy/cindy/readme",
+      "category": "桌面与移动端智能体客户端",
+      "summary_zh": "把多种智能体运行工具、模型、记忆、技能与 MCP 接入同一客户端，包含桌面、移动端和共享组件；README 说明已支持 Claude Code 与 Codex，并可结合本机文件、应用及计划任务工作。",
+      "editorial_reason_zh": "适合观察跨设备、跨模型任务体验的客户端实现。开源范围不包含后端服务；跳过登录模式仅提供相应本地能力，默认云服务、模型授权及费用需分别确认，本期未验证跨设备操作或服务端功能。"
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "rank": 2,
+      "stars": 33790,
+      "daily": 1317,
+      "language": "CSS",
+      "metadata": {
+        "full_name": "Nutlope/hallmark",
+        "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "language": "CSS",
+        "stargazers_count": 33790,
+        "pushed_at": "2026-10-22T17:20:32Z",
+        "archived": false,
+        "html_url": "https://github.com/Nutlope/hallmark",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Nutlope/hallmark/readme",
+      "category": "网页设计技能",
+      "summary_zh": "为编码智能体提供主题素材、按页面用途组织布局的方法，以及浏览器渲染检查和审阅流程；支持新建页面、针对指定页面重设计及只读审计，并关注对比度、焦点、动态效果和手机布局。",
+      "editorial_reason_zh": "适合探索怎样把视觉方向、真实内容与交互目标结合起来。规则和主题不能替代对实际页面的审美与可用性检查；浏览器检查依赖相应环境，引用照片还需遵循各自许可，本期未运行其生成流程。"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "rank": 3,
+      "stars": 86845,
+      "daily": 1592,
+      "language": "Python",
+      "metadata": {
+        "full_name": "debpalash/VoiceStudio",
+        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "language": "Python",
+        "stargazers_count": 86846,
+        "pushed_at": "2026-10-26T00:55:38Z",
+        "archived": false,
+        "html_url": "https://github.com/debpalash/VoiceStudio",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/debpalash/VoiceStudio/readme",
+      "category": "本地语音工作台",
+      "summary_zh": "将声音复现与设计、视频配音、听写、转录和有声书制作整合进桌面工作台，支持多种语音引擎、模型管理、批处理及本地 API 与 MCP。README 说明本地任务在用户硬件运行，远程服务为可选项。",
+      "editorial_reason_zh": "适合希望把多种语音任务放进统一流程的创作者和开发者。语言覆盖、速度与内存需求取决于所选引擎和硬件；应用许可不自动覆盖模型、声音和输出条件，参考录音需获授权，本期未实测音质或全语言支持。"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "rank": 4,
+      "stars": 87712,
+      "daily": 1092,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "pbakaus/impeccable",
+        "description": "The design language that makes your AI harness better at design.",
+        "language": "Rust",
+        "stargazers_count": 87712,
+        "pushed_at": "2026-10-25T18:04:24Z",
+        "archived": false,
+        "html_url": "https://github.com/pbakaus/impeccable",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pbakaus/impeccable/readme",
+      "category": "设计指导与检测工具",
+      "summary_zh": "将面向 AI 编码工具的设计指导、审计与润色命令、浏览器迭代和确定性检测规则组合起来，分别记录产品事实与视觉系统，并提供布局、字体、可访问性和边界情况等检查入口。",
+      "editorial_reason_zh": "适合建立可重复的界面评审与改进流程。文档明确区分规则检测与人工视觉判断，检测通过不等于整体设计或可访问性合格；主要语言标注反映仓库实现，本期未复测其规则覆盖率。"
+    },
+    {
+      "repo": "pollen-robotics/microduck",
+      "rank": 5,
+      "stars": 11651,
+      "daily": 647,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "pollen-robotics/microduck",
+        "description": "A Tiny biped duck robot 🦆",
+        "language": "Rust",
+        "stargazers_count": 11651,
+        "pushed_at": "2026-10-25T13:23:00Z",
+        "archived": false,
+        "html_url": "https://github.com/pollen-robotics/microduck",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pollen-robotics/microduck/readme",
+      "category": "双足机器人运行软件",
+      "summary_zh": "小型双足机器人 Microduck 的运行软件，使用 Rust 服务组织控制循环、电机、无线通信、摄像头和更新机制，加载神经策略驱动动作；策略训练位于另一个 microduck_rl 仓库，并提供 MuJoCo 仿真入口。",
+      "editorial_reason_zh": "适合研究机器人控制服务、统一通信接口及软件更新回滚的工程设计。仓库软件、独立训练工程与实体硬件应分别理解，动作效果和仿真到实机的差异需要硬件验证；本期未运行仿真或测试机器人。"
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "rank": 6,
+      "stars": 114625,
+      "daily": 381,
+      "language": "Python",
+      "metadata": {
+        "full_name": "TauricResearch/TradingAgents",
+        "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+        "language": "Python",
+        "stargazers_count": 114625,
+        "pushed_at": "2026-10-16T21:38:46Z",
+        "archived": false,
+        "html_url": "https://github.com/TauricResearch/TradingAgents",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/TauricResearch/TradingAgents/readme",
+      "category": "多智能体研究框架",
+      "summary_zh": "以基本面、新闻、情绪和技术分析等角色组织金融市场研究，通过研究讨论、风险评估和组合管理角色形成决策报告，并提供命令行、历史评估、记录持久化及恢复流程。",
+      "editorial_reason_zh": "适合研究多智能体分工、数据时间口径和评估可复现性。项目明确定位研究用途；模型随机性与实时数据变化可能影响结果，历史评估不等于未来收益，本期未执行回测或交易，不构成投资建议。"
+    },
+    {
+      "repo": "JetBrains/thinkrail",
+      "rank": 8,
+      "stars": 1750,
+      "daily": 51,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "JetBrains/thinkrail",
+        "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+        "language": "TypeScript",
+        "stargazers_count": 1750,
+        "pushed_at": "2026-10-26T00:43:27Z",
+        "archived": false,
+        "html_url": "https://github.com/JetBrains/thinkrail",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/JetBrains/thinkrail/readme",
+      "category": "智能体开发环境",
+      "summary_zh": "JetBrains 孵化项目，围绕 pi 编码智能体提供编辑器、终端、差异审阅和聊天工作台，使用 Git worktree 隔离任务，并通过 SPEC.md 规格图与可复用技能保存项目知识，支持桌面和浏览器入口。",
+      "editorial_reason_zh": "适合观察如何把智能体会话与代码变更、项目规格和 PR 状态放在同一工作区。完整扩展能力仍有路线图内容，应按已实现功能判断；平台依赖、模型凭据和并行任务合并仍需核对，本期未安装测试。"
+    },
+    {
+      "repo": "coollabsio/coolify",
+      "rank": 9,
+      "stars": 64391,
+      "daily": 152,
+      "language": "PHP",
+      "metadata": {
+        "full_name": "coollabsio/coolify",
+        "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.",
+        "language": "PHP",
+        "stargazers_count": 64391,
+        "pushed_at": "2026-10-25T23:01:11Z",
+        "archived": false,
+        "html_url": "https://github.com/coollabsio/coolify",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/coollabsio/coolify/readme",
+      "category": "自托管部署平台",
+      "summary_zh": "在自己的服务器上部署应用、数据库和服务，支持 Git 源码、Dockerfile、Docker Compose 与镜像等方式，并集成自动部署、预览、域名与 HTTPS、日志、备份及多服务器管理入口。",
+      "editorial_reason_zh": "适合希望以统一面板管理自有服务器资源的团队。自托管需要承担服务器维护、更新与备份恢复验证；回滚能力取决于保留的镜像和数据状态，托管云服务与开源自托管版应分别评估，本期未执行部署。"
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "rank": 10,
+      "stars": 46922,
+      "daily": 2878,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "cloudflare/security-audit-skill",
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "stargazers_count": 46923,
+        "pushed_at": "2026-09-14T19:29:02Z",
+        "archived": false,
+        "html_url": "https://github.com/cloudflare/security-audit-skill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/cloudflare/security-audit-skill/readme",
+      "category": "安全审计工作流",
+      "summary_zh": "由 Cloudflare 提供的编码智能体技能，将架构侦察、按覆盖范围查找问题、候选验证、结构化输出、独立复核与报告组织成多阶段流程，区分已确认、待验证和已排除的发现。",
+      "editorial_reason_zh": "适合研究怎样让安全审计留下可追溯的源码证据和覆盖记录。使用依赖支持工具与并行任务的智能体、Node.js 及受控执行环境；发现数量不能替代验证质量，本期未实际审计目标仓库。"
+    },
+    {
+      "repo": "AgriciDaniel/claude-seo",
+      "rank": 11,
+      "stars": 20885,
+      "daily": 197,
+      "language": "Python",
+      "metadata": {
+        "full_name": "AgriciDaniel/claude-seo",
+        "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+        "language": "Python",
+        "stargazers_count": 20885,
+        "pushed_at": "2026-10-22T16:47:40Z",
+        "archived": false,
+        "html_url": "https://github.com/AgriciDaniel/claude-seo",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/AgriciDaniel/claude-seo/readme",
+      "category": "网站搜索优化审计",
+      "summary_zh": "通过 Claude Code 插件组织技术 SEO、抓取与索引、页面速度、内容质量、结构化数据及 AI 搜索相关检查，结合分工技能与可选数据扩展，输出按优先级排序的发现和改进建议。",
+      "editorial_reason_zh": "适合把网站检查项和可验证的改进步骤整理成重复流程。审计报告不能保证搜索排名或被 AI 引用；模型服务与外部数据扩展可能另有条件，建议需结合真实抓取与站点数据验证，本期未复测其效果案例。"
+    }
+  ]
+}
