@@ -1,0 +1,262 @@
+{
+  "date": "2026-10-28",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-28T08:58:16.833951+08:00",
+  "verified_at": "2026-10-28T08:58:48.787393+08:00",
+  "items": [
+    {
+      "repo": "elayadesign/ai-design-skills",
+      "rank": 1,
+      "stars": 9347,
+      "daily": 1395,
+      "language": "未标注",
+      "metadata": {
+        "full_name": "elayadesign/ai-design-skills",
+        "description": null,
+        "language": null,
+        "stargazers_count": 9350,
+        "pushed_at": "2026-10-27T16:02:10Z",
+        "archived": false,
+        "html_url": "https://github.com/elayadesign/ai-design-skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/elayadesign/ai-design-skills/readme",
+      "category": "落地页设计规则",
+      "summary_zh": "面向 AI 编码工具的 Markdown 设计技能集合，当前 README 列出 landing-page-design：从需求问答、页面结构和转化文案，到字体、间距、圆角与动效，组织从零搭建落地页的流程。",
+      "editorial_reason_zh": "适合研究如何把页面目标与视觉规范一起交给编码智能体。当前集合仍较小，已有站点重设计在另一个仓库；GitHub 未标注主要编程语言，本期按原样记录，未运行其页面生成流程。"
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "rank": 2,
+      "stars": 39010,
+      "daily": 2830,
+      "language": "CSS",
+      "metadata": {
+        "full_name": "Nutlope/hallmark",
+        "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "language": "CSS",
+        "stargazers_count": 39010,
+        "pushed_at": "2026-10-27T15:05:53Z",
+        "archived": false,
+        "html_url": "https://github.com/Nutlope/hallmark",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Nutlope/hallmark/readme",
+      "category": "网页设计技能",
+      "summary_zh": "为编码智能体提供主题素材、按页面用途组织布局的方法，以及浏览器渲染检查和审阅流程；支持新建页面、针对指定页面重设计及只读审计，并关注对比度、焦点、动态效果和手机布局。",
+      "editorial_reason_zh": "适合探索怎样把视觉方向、真实内容与交互目标结合起来。规则和主题不能替代对实际页面的审美与可用性检查；浏览器检查依赖相应环境，引用照片还需遵循各自许可，本期未运行其生成流程。"
+    },
+    {
+      "repo": "obra/superpowers",
+      "rank": 4,
+      "stars": 306443,
+      "daily": 617,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "obra/superpowers",
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell",
+        "stargazers_count": 306444,
+        "pushed_at": "2026-10-23T03:48:57Z",
+        "archived": false,
+        "html_url": "https://github.com/obra/superpowers",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/obra/superpowers/readme",
+      "category": "智能体软件工程方法",
+      "summary_zh": "以可组合技能组织需求澄清、设计审阅、实施计划、测试驱动开发、任务执行和代码复核，为多种编码智能体提供配套入口。",
+      "editorial_reason_zh": "适合需要让长任务保留规格、测试与审阅记录的团队。实际执行能力取决于所用智能体和安装方式；流程约束不等于软件质量保证，本期未进行跨工具效果比较。"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "rank": 5,
+      "stars": 90534,
+      "daily": 1449,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "pbakaus/impeccable",
+        "description": "The design language that makes your AI harness better at design.",
+        "language": "Rust",
+        "stargazers_count": 90535,
+        "pushed_at": "2026-10-27T16:28:34Z",
+        "archived": false,
+        "html_url": "https://github.com/pbakaus/impeccable",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pbakaus/impeccable/readme",
+      "category": "设计指导与检测工具",
+      "summary_zh": "将面向 AI 编码工具的设计指导、审计与润色命令、浏览器迭代和确定性检测规则组合起来，分别记录产品事实与视觉系统，并提供布局、字体、可访问性和边界情况等检查入口。",
+      "editorial_reason_zh": "适合建立可重复的界面评审与改进流程。文档明确区分规则检测与人工视觉判断，检测通过不等于整体设计或可访问性合格；主要语言标注反映仓库实现，本期未复测其规则覆盖率。"
+    },
+    {
+      "repo": "makecindy/cindy",
+      "rank": 6,
+      "stars": 7467,
+      "daily": 1465,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "makecindy/cindy",
+        "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+        "language": "TypeScript",
+        "stargazers_count": 7467,
+        "pushed_at": "2026-10-28T00:40:05Z",
+        "archived": false,
+        "html_url": "https://github.com/makecindy/cindy",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/makecindy/cindy/readme",
+      "category": "跨设备智能体客户端",
+      "summary_zh": "将 Claude Code、Codex 和 Pi 接入共享客户端，结合文件、浏览器、应用、记忆和自动化工作，并支持从不同设备继续会话、访问文件及使用已授权的远程模型服务。",
+      "editorial_reason_zh": "适合观察跨设备任务延续与多引擎界面的实现。开源仓库不包含后端；远程文件访问不等于整盘同步，云端能力与模型费用需单独确认，跳过登录仅提供相应本地能力。"
+    },
+    {
+      "repo": "gitroomhq/postiz-app",
+      "rank": 7,
+      "stars": 39380,
+      "daily": 951,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "gitroomhq/postiz-app",
+        "description": "📨 The ultimate agentic social media scheduling tool 🤖",
+        "language": "TypeScript",
+        "stargazers_count": 39382,
+        "pushed_at": "2026-10-24T18:27:21Z",
+        "archived": false,
+        "html_url": "https://github.com/gitroomhq/postiz-app",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/gitroomhq/postiz-app/readme",
+      "category": "社交内容排期与协作",
+      "summary_zh": "为社交媒体内容提供计划发布、自动化、分析和团队协作，支持多个社交平台，并提供公共 API、SDK 及自动化工具集成；可使用托管云服务或部署开源版本。",
+      "editorial_reason_zh": "适合将内容草稿、排期和跨平台发布集中管理。各平台账号授权、接口限制与托管服务条件需要单独核对；开源版使用 AGPL-3.0，本期未连接社交账号或执行发布。"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "rank": 8,
+      "stars": 290894,
+      "daily": 1165,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "affaan-m/ECC",
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "stargazers_count": 290895,
+        "pushed_at": "2026-10-26T04:56:56Z",
+        "archived": false,
+        "html_url": "https://github.com/affaan-m/ECC",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/affaan-m/ECC/readme",
+      "category": "智能体工程工具集",
+      "summary_zh": "将规划、测试、实施、审阅、验证和经验保存组织成工程流程，提供专业代理、技能、规则、钩子、记忆机制与 AgentShield 配置扫描，并适配多种编码工具。",
+      "editorial_reason_zh": "适合研究如何按项目选择规则并把重复经验变成可复用步骤。README 明确各工具适配能力不同，不能假定功能完全一致；开源工具集与商业服务需分别判断，本期未执行安装或性能基准。"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "rank": 9,
+      "stars": 45908,
+      "daily": 1598,
+      "language": "Python",
+      "metadata": {
+        "full_name": "HKUDS/DeepTutor",
+        "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+        "language": "Python",
+        "stargazers_count": 45911,
+        "pushed_at": "2026-10-27T18:37:55Z",
+        "archived": false,
+        "html_url": "https://github.com/HKUDS/DeepTutor",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/HKUDS/DeepTutor/readme",
+      "category": "个性化学习工作区",
+      "summary_zh": "把辅导问答、解题、测验、研究、可视化、掌握度练习和沉浸阅读放进同一学习工作区，支持多种知识库引擎、文档解析、可检查记忆，以及工具和技能扩展。",
+      "editorial_reason_zh": "适合观察学习材料、练习反馈与长期上下文如何关联。答案与引文仍需对照原始材料核验，模型和解析服务有各自条件；功能丰富度不能直接证明教学效果，本期未评估学习收益。"
+    },
+    {
+      "repo": "JetBrains/thinkrail",
+      "rank": 10,
+      "stars": 4010,
+      "daily": 1204,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "JetBrains/thinkrail",
+        "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+        "language": "TypeScript",
+        "stargazers_count": 4010,
+        "pushed_at": "2026-10-28T00:52:27Z",
+        "archived": false,
+        "html_url": "https://github.com/JetBrains/thinkrail",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/JetBrains/thinkrail/readme",
+      "category": "智能体开发环境",
+      "summary_zh": "JetBrains 孵化项目，围绕 pi 编码智能体提供编辑器、终端、差异审阅和聊天工作台，使用 Git worktree 隔离任务，并通过 SPEC.md 规格图与可复用技能保存项目知识，支持桌面和浏览器入口。",
+      "editorial_reason_zh": "适合观察如何把智能体会话与代码变更、项目规格和 PR 状态放在同一工作区。完整扩展能力仍有路线图内容，应按已实现功能判断；平台依赖、模型凭据和并行任务合并仍需核对，本期未安装测试。"
+    }
+  ],
+  "selection_note": "从本次返回的 11 个 Trending 项目中选取 9 个，保留原始位置；排除使用非商业限制许可证的 OpenBot，以及提示词绕过合集。",
+  "trending_returned_count": 11
+}
