@@ -1,0 +1,262 @@
+{
+  "date": "2026-10-29",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-29T10:50:42.033599+08:00",
+  "verified_at": "2026-10-29T10:51:48.639627+08:00",
+  "items": [
+    {
+      "repo": "JetBrains/thinkrail",
+      "rank": 1,
+      "stars": 5181,
+      "daily": 1068,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "JetBrains/thinkrail",
+        "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+        "language": "TypeScript",
+        "stargazers_count": 5182,
+        "pushed_at": "2026-10-29T00:41:34Z",
+        "archived": false,
+        "html_url": "https://github.com/JetBrains/thinkrail",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/JetBrains/thinkrail/readme",
+      "category": "智能体开发环境",
+      "summary_zh": "JetBrains 孵化项目，围绕 pi 编码智能体提供编辑器、终端、差异审阅和聊天工作台，使用 Git worktree 隔离任务，并通过 SPEC.md 规格图与可复用技能保存项目知识，支持桌面和浏览器入口。",
+      "editorial_reason_zh": "适合观察如何把智能体会话与代码变更、项目规格和 PR 状态放在同一工作区。完整扩展能力仍有路线图内容，应按已实现功能判断；平台依赖、模型凭据和并行任务合并仍需核对，本期未安装测试。"
+    },
+    {
+      "repo": "elayadesign/ai-design-skills",
+      "rank": 2,
+      "stars": 11251,
+      "daily": 2139,
+      "language": "未标注",
+      "metadata": {
+        "full_name": "elayadesign/ai-design-skills",
+        "description": null,
+        "language": null,
+        "stargazers_count": 11253,
+        "pushed_at": "2026-10-27T16:02:10Z",
+        "archived": false,
+        "html_url": "https://github.com/elayadesign/ai-design-skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/elayadesign/ai-design-skills/readme",
+      "category": "落地页设计规则",
+      "summary_zh": "面向 AI 编码工具的 Markdown 设计技能集合，当前 README 列出 landing-page-design：从需求问答、页面结构和转化文案，到字体、间距、圆角与动效，组织从零搭建落地页的流程。",
+      "editorial_reason_zh": "适合研究如何把页面目标与视觉规范一起交给编码智能体。当前集合仍较小，已有站点重设计在另一个仓库；GitHub 未标注主要编程语言，本期按原样记录，未运行其页面生成流程。"
+    },
+    {
+      "repo": "obra/superpowers",
+      "rank": 3,
+      "stars": 307523,
+      "daily": 1095,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "obra/superpowers",
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell",
+        "stargazers_count": 307523,
+        "pushed_at": "2026-10-23T03:48:57Z",
+        "archived": false,
+        "html_url": "https://github.com/obra/superpowers",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/obra/superpowers/readme",
+      "category": "智能体软件工程方法",
+      "summary_zh": "以可组合技能组织需求澄清、设计审阅、实施计划、测试驱动开发、任务执行和代码复核，为多种编码智能体提供配套入口。",
+      "editorial_reason_zh": "适合需要让长任务保留规格、测试与审阅记录的团队。实际执行能力取决于所用智能体和安装方式；流程约束不等于软件质量保证，本期未进行跨工具效果比较。"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "rank": 4,
+      "stars": 48187,
+      "daily": 2371,
+      "language": "Python",
+      "metadata": {
+        "full_name": "HKUDS/DeepTutor",
+        "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+        "language": "Python",
+        "stargazers_count": 48187,
+        "pushed_at": "2026-10-28T18:01:08Z",
+        "archived": false,
+        "html_url": "https://github.com/HKUDS/DeepTutor",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/HKUDS/DeepTutor/readme",
+      "category": "个性化学习工作区",
+      "summary_zh": "把辅导问答、解题、测验、研究、可视化、掌握度练习和沉浸阅读放进同一学习工作区，支持多种知识库引擎、文档解析、可检查记忆，以及工具和技能扩展。",
+      "editorial_reason_zh": "适合观察学习材料、练习反馈与长期上下文如何关联。答案与引文仍需对照原始材料核验，模型和解析服务有各自条件；功能丰富度不能直接证明教学效果，本期未评估学习收益。"
+    },
+    {
+      "repo": "macro-inc/macro",
+      "rank": 5,
+      "stars": 5464,
+      "daily": 117,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "macro-inc/macro",
+        "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+        "language": "Rust",
+        "stargazers_count": 5464,
+        "pushed_at": "2026-10-29T02:40:51Z",
+        "archived": false,
+        "html_url": "https://github.com/macro-inc/macro",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/macro-inc/macro/readme",
+      "category": "团队协作工作区",
+      "summary_zh": "把邮件、消息、文档、任务、智能体、通话和 CRM 放进统一界面，以双向关联连接工作对象；文档支持 CRDT 协作，任务可关联其来源邮件或讨论，并向智能体提供团队上下文。",
+      "editorial_reason_zh": "适合研究团队信息如何从分散工具转向统一检索与协作。仓库采用 AGPL-3.0；自托管与托管服务的条件需分别核对，邮件授权和团队权限也需要实际验证。本期未部署或验证其安全认证声明。"
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "rank": 6,
+      "stars": 40846,
+      "daily": 2110,
+      "language": "CSS",
+      "metadata": {
+        "full_name": "Nutlope/hallmark",
+        "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "language": "CSS",
+        "stargazers_count": 40848,
+        "pushed_at": "2026-10-28T14:52:03Z",
+        "archived": false,
+        "html_url": "https://github.com/Nutlope/hallmark",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/Nutlope/hallmark/readme",
+      "category": "网页设计技能",
+      "summary_zh": "为编码智能体提供主题素材、按页面用途组织布局的方法，以及浏览器渲染检查和审阅流程；支持新建页面、针对指定页面重设计及只读审计，并关注对比度、焦点、动态效果和手机布局。",
+      "editorial_reason_zh": "适合探索怎样把视觉方向、真实内容与交互目标结合起来。规则和主题不能替代对实际页面的审美与可用性检查；浏览器检查依赖相应环境，引用照片还需遵循各自许可，本期未运行其生成流程。"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "rank": 7,
+      "stars": 92939,
+      "daily": 1472,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "pbakaus/impeccable",
+        "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+        "language": "Rust",
+        "stargazers_count": 92943,
+        "pushed_at": "2026-10-28T23:28:56Z",
+        "archived": false,
+        "html_url": "https://github.com/pbakaus/impeccable",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pbakaus/impeccable/readme",
+      "category": "界面设计指导与检测",
+      "summary_zh": "为编码智能体提供设计调整、可用性审阅、技术审计和润色命令，分别保存产品事实与视觉规范；提供确定性检测规则、浏览器迭代与针对指定组件的改进流程。",
+      "editorial_reason_zh": "适合把模糊的视觉反馈转为针对页面或组件的具体修改。源码扫描与浏览器渲染检测的覆盖范围不同，规则通过不等于整体设计或可访问性合格；本期未复测检测准确率。"
+    },
+    {
+      "repo": "makecindy/cindy",
+      "rank": 8,
+      "stars": 8173,
+      "daily": 728,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "makecindy/cindy",
+        "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+        "language": "TypeScript",
+        "stargazers_count": 8174,
+        "pushed_at": "2026-10-29T02:46:27Z",
+        "archived": false,
+        "html_url": "https://github.com/makecindy/cindy",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/makecindy/cindy/readme",
+      "category": "跨设备智能体客户端",
+      "summary_zh": "将 Claude Code、Codex 和 Pi 接入共享客户端，结合文件、浏览器、应用、记忆和自动化工作，并支持从不同设备继续会话、访问文件及使用已授权的远程模型服务。",
+      "editorial_reason_zh": "适合观察跨设备任务延续与多引擎界面的实现。开源仓库不包含后端；远程文件访问不等于整盘同步，云端能力与模型费用需单独确认，跳过登录仅提供相应本地能力。"
+    },
+    {
+      "repo": "expo/skills",
+      "rank": 12,
+      "stars": 3621,
+      "daily": 90,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "expo/skills",
+        "description": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+        "language": "Shell",
+        "stargazers_count": 3622,
+        "pushed_at": "2026-10-28T20:08:40Z",
+        "archived": false,
+        "html_url": "https://github.com/expo/skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/expo/skills/readme",
+      "category": "移动应用开发技能",
+      "summary_zh": "Expo 团队提供的智能体技能集合，覆盖应用结构、路由、原生界面、动画、数据获取、升级及调试，也包含 EAS 构建、提交、更新和工作流等服务相关技能。",
+      "editorial_reason_zh": "适合让编码智能体按 Expo 与 React Native 的具体约束处理移动开发任务。技能采用 MIT，但 EAS 服务与应用商店分发有独立条件；README 明确文档和 CLI 才是依据，本期未构建或上架应用。"
+    }
+  ],
+  "selection_note": "从本次返回的 14 个 Trending 项目中选取 9 个，保留原始位置；按开放源码许可和开发、协作、设计、学习等主题筛选，不是完整榜单。",
+  "trending_returned_count": 14
+}
