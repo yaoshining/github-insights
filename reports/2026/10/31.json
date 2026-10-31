@@ -1,0 +1,290 @@
+{
+  "date": "2026-10-31",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-10-31T10:21:09.923741+08:00",
+  "verified_at": "2026-10-31T10:21:30.894836+08:00",
+  "items": [
+    {
+      "repo": "thedotmack/claude-mem",
+      "rank": 1,
+      "stars": 106344,
+      "daily": 1140,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "thedotmack/claude-mem",
+        "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+        "language": "TypeScript",
+        "stargazers_count": 106344,
+        "pushed_at": "2026-10-31T02:09:54Z",
+        "archived": false,
+        "html_url": "https://github.com/thedotmack/claude-mem",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/thedotmack/claude-mem/readme",
+      "category": "智能体持续记忆",
+      "summary_zh": "记录智能体会话中的工具使用等观察信息，以 AI 生成摘要，再检索并向后续会话注入相关上下文。提供可检索的观察记录与本地查看界面，支持多种编码智能体集成，也可按配置接入团队共享记忆。",
+      "editorial_reason_zh": "适合研究跨会话任务如何保留可追溯的上下文。需要核对记录范围、摘要准确性和模型服务成本；本地存储、可选云同步及截图功能有不同的数据边界，本期未验证记忆召回效果。"
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "rank": 2,
+      "stars": 8717,
+      "daily": 895,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "milind-soni/OpenMausBot",
+        "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+        "language": "TypeScript",
+        "stargazers_count": 8717,
+        "pushed_at": "2026-10-30T22:54:18Z",
+        "archived": false,
+        "html_url": "https://github.com/milind-soni/OpenMausBot",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/milind-soni/OpenMausBot/readme",
+      "category": "多智能体桌面工作台",
+      "summary_zh": "基于 Electron 的聊天工作台，为不同机器人配置模型、个性、工作目录和可用应用；通过本地 Claude、Codex 等 CLI 驱动任务，并支持云端 Linux 桌面、本地虚拟机及可选的宿主机控制。",
+      "editorial_reason_zh": "适合观察多智能体如何共享一个操作入口，同时分别管理工具权限。它是独立开源项目；本地优先不等于完全离线，云桌面、模型和应用连接仍有各自依赖，本期未验证权限隔离与桌面操作可靠性。"
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "rank": 3,
+      "stars": 97149,
+      "daily": 2300,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "pbakaus/impeccable",
+        "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+        "language": "Rust",
+        "stargazers_count": 97149,
+        "pushed_at": "2026-10-30T17:36:40Z",
+        "archived": false,
+        "html_url": "https://github.com/pbakaus/impeccable",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pbakaus/impeccable/readme",
+      "category": "界面设计指导与检测",
+      "summary_zh": "为编码智能体提供设计调整、可用性审阅、技术审计和润色命令，分别保存产品事实与视觉规范；提供确定性检测规则、浏览器迭代与针对指定组件的改进流程。",
+      "editorial_reason_zh": "适合把模糊的视觉反馈转为针对页面或组件的具体修改。源码扫描与浏览器渲染检测的覆盖范围不同，规则通过不等于整体设计或可访问性合格；本期未复测检测准确率。"
+    },
+    {
+      "repo": "CopilotKit/OpenBot",
+      "rank": 4,
+      "stars": 8835,
+      "daily": 706,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "CopilotKit/OpenBot",
+        "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+        "language": "TypeScript",
+        "stargazers_count": 8835,
+        "pushed_at": "2026-10-30T22:06:51Z",
+        "archived": false,
+        "html_url": "https://github.com/CopilotKit/OpenBot",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/CopilotKit/OpenBot/readme",
+      "category": "可审阅的智能体协作模板",
+      "summary_zh": "为兼容 AG-UI 的智能体提供工作区模板，每个协作者可获得浏览器、文件和工具；网关在操作前进行决策并记录执行活动，便于检查智能体做过什么。项目目前处于 Beta 阶段。",
+      "editorial_reason_zh": "适合研究带操作记录的智能体工作流。仓库为 MIT，但依赖另行许可的 CopilotKit Intelligence 与模型服务；默认单用户模式会将请求视为管理员，对外部署前需配置认证。本期未部署该模板。"
+    },
+    {
+      "repo": "expo/skills",
+      "rank": 6,
+      "stars": 3909,
+      "daily": 38,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "expo/skills",
+        "description": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+        "language": "Shell",
+        "stargazers_count": 3909,
+        "pushed_at": "2026-10-30T20:29:57Z",
+        "archived": false,
+        "html_url": "https://github.com/expo/skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/expo/skills/readme",
+      "category": "移动应用开发技能",
+      "summary_zh": "Expo 团队提供的智能体技能集合，覆盖应用结构、路由、原生界面、动画、数据获取、升级及调试，也包含 EAS 构建、提交、更新和工作流等服务相关技能。",
+      "editorial_reason_zh": "适合让编码智能体按 Expo 与 React Native 的具体约束处理移动开发任务。技能采用 MIT，但 EAS 服务与应用商店分发有独立条件；README 明确文档和 CLI 才是依据，本期未构建或上架应用。"
+    },
+    {
+      "repo": "macro-inc/macro",
+      "rank": 7,
+      "stars": 5888,
+      "daily": 57,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "macro-inc/macro",
+        "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+        "language": "Rust",
+        "stargazers_count": 5888,
+        "pushed_at": "2026-10-31T02:11:28Z",
+        "archived": false,
+        "html_url": "https://github.com/macro-inc/macro",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/macro-inc/macro/readme",
+      "category": "团队协作工作区",
+      "summary_zh": "把邮件、消息、文档、任务、智能体、通话和 CRM 放进统一界面，以双向关联连接工作对象；文档支持 CRDT 协作，任务可关联其来源邮件或讨论，并向智能体提供团队上下文。",
+      "editorial_reason_zh": "适合研究团队信息如何从分散工具转向统一检索与协作。仓库采用 AGPL-3.0；自托管与托管服务的条件需分别核对，邮件授权和团队权限也需要实际验证。本期未部署或验证其安全认证声明。"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "rank": 8,
+      "stars": 307531,
+      "daily": 876,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "mattpocock/skills",
+        "description": "Skills for Real Engineers. Straight from my .agents directory.",
+        "language": "Shell",
+        "stargazers_count": 307532,
+        "pushed_at": "2026-10-30T14:00:30Z",
+        "archived": false,
+        "html_url": "https://github.com/mattpocock/skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/mattpocock/skills/readme",
+      "category": "工程流程技能集合",
+      "summary_zh": "将需求追问、共享术语、架构决策记录、产品需求拆解、测试驱动开发、代码审阅和交接等工程活动拆成可组合的智能体技能，并为不同使用方式提供接入说明。",
+      "editorial_reason_zh": "适合把团队现有工程规范转为可重复使用的工作步骤。建议按项目需要选取并审阅技能内容，避免流程与实际约束脱节；技能存在不代表智能体会稳定遵循，本期未比较不同模型的执行效果。"
+    },
+    {
+      "repo": "pingdotgg/t3code",
+      "rank": 9,
+      "stars": 32807,
+      "daily": 930,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "pingdotgg/t3code",
+        "description": null,
+        "language": "TypeScript",
+        "stargazers_count": 32807,
+        "pushed_at": "2026-10-31T02:16:26Z",
+        "archived": false,
+        "html_url": "https://github.com/pingdotgg/t3code",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/pingdotgg/t3code/readme",
+      "category": "编码智能体控制界面",
+      "summary_zh": "为编码智能体提供统一控制界面，包含桌面与 Web 入口，并支持通过移动端远程访问计算机上的智能体；可连接 Claude Code、Codex、Cursor、OpenCode 等已有运行环境。",
+      "editorial_reason_zh": "适合需要跨设备查看和继续编码任务的开发者。至少需要安装并认证一个受支持的智能体，模型服务条件另算；项目仍在早期阶段，远程访问权限与版本兼容性需实测，本期未完成移动设备验证。"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "rank": 10,
+      "stars": 51828,
+      "daily": 2282,
+      "language": "Python",
+      "metadata": {
+        "full_name": "HKUDS/DeepTutor",
+        "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+        "language": "Python",
+        "stargazers_count": 51828,
+        "pushed_at": "2026-10-30T14:15:04Z",
+        "archived": false,
+        "html_url": "https://github.com/HKUDS/DeepTutor",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/HKUDS/DeepTutor/readme",
+      "category": "个性化学习工作区",
+      "summary_zh": "把辅导问答、解题、测验、研究、可视化、掌握度练习和沉浸阅读放进同一学习工作区，支持多种知识库引擎、文档解析、可检查记忆，以及工具和技能扩展。",
+      "editorial_reason_zh": "适合观察学习材料、练习反馈与长期上下文如何关联。答案与引文仍需对照原始材料核验，模型和解析服务有各自条件；功能丰富度不能直接证明教学效果，本期未评估学习收益。"
+    },
+    {
+      "repo": "lightpanda-io/browser",
+      "rank": 15,
+      "stars": 38452,
+      "daily": 626,
+      "language": "Zig",
+      "metadata": {
+        "full_name": "lightpanda-io/browser",
+        "description": "Lightpanda: the headless browser designed for AI and automation",
+        "language": "Zig",
+        "stargazers_count": 38452,
+        "pushed_at": "2026-10-31T02:19:40Z",
+        "archived": false,
+        "html_url": "https://github.com/lightpanda-io/browser",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://api.github.com/repos/lightpanda-io/browser/readme",
+      "category": "面向自动化的无头浏览器",
+      "summary_zh": "使用 Zig 构建的独立无头浏览器，提供 JavaScript、DOM、网络请求、表单操作及 CDP 等自动化接口，可导出 HTML、Markdown 和结构化数据，面向网页采集与智能体访问场景。",
+      "editorial_reason_zh": "适合关注浏览器自动化资源开销和数据提取的团队。它没有图形渲染引擎，图片与 PDF 输出采用文本渲染，不能直接承担视觉验收；具体站点的 Web API 兼容性及性能仍需按工作负载测试。"
+    }
+  ],
+  "selection_note": "从本次返回的 15 个 Trending 项目中选取 10 个，保留原始位置；按智能体记忆、协作、开发、学习和浏览器自动化等技术主题筛选，不是完整榜单。",
+  "trending_returned_count": 15
+}
