@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-06",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-06T09:05:54.795989+08:00",
+  "items": [
+    {
+      "repo": "NVIDIA/auto-ontology",
+      "rank": 1,
+      "stars": 7346,
+      "daily": 2679,
+      "language": "Python",
+      "metadata": {
+        "full_name": "NVIDIA/auto-ontology",
+        "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+        "language": "Python",
+        "stargazers_count": 7349,
+        "pushed_at": "2026-11-05T14:45:30Z",
+        "archived": false,
+        "html_url": "https://github.com/NVIDIA/auto-ontology",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/NVIDIA/auto-ontology/main/README.md",
+      "category": "数据语义与查询上下文",
+      "summary_zh": "从企业元数据构建本体和知识图谱，将指标、实体、关系与来源信息组织成智能体可用的上下文。框架提供自然语言查询、语义目录和 Web 界面，并通过 MCP、CLI 与 API 对外提供能力。",
+      "editorial_reason_zh": "当不同系统对同一指标有不同定义时，可以借此研究如何先统一含义，再生成查询。当前实现依赖 Postgres、模型推理及嵌入服务；语义目录仍需业务人员校验，本期未复测查询准确率。"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "rank": 2,
+      "stars": 315237,
+      "daily": 2071,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "mattpocock/skills",
+        "description": "Skills for Real Engineers. Straight from my .agents directory.",
+        "language": "Shell",
+        "stargazers_count": 315238,
+        "pushed_at": "2026-11-05T10:40:01Z",
+        "archived": false,
+        "html_url": "https://github.com/mattpocock/skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/mattpocock/skills/main/README.md",
+      "category": "工程流程技能集合",
+      "summary_zh": "将需求追问、共享术语、架构决策记录、产品需求拆解、测试驱动开发、代码审阅和交接等工程活动拆成可组合的智能体技能，并为不同使用方式提供接入说明。",
+      "editorial_reason_zh": "适合把团队现有工程规范转为可重复使用的工作步骤。建议按项目需要选取并审阅技能内容，避免流程与实际约束脱节；技能存在不代表智能体会稳定遵循，本期未比较不同模型的执行效果。"
+    },
+    {
+      "repo": "garrytan/gstack",
+      "rank": 3,
+      "stars": 139946,
+      "daily": 612,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "garrytan/gstack",
+        "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+        "language": "TypeScript",
+        "stargazers_count": 139946,
+        "pushed_at": "2026-11-06T01:01:37Z",
+        "archived": false,
+        "html_url": "https://github.com/garrytan/gstack",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/garrytan/gstack/main/README.md",
+      "category": "智能体工程流程",
+      "summary_zh": "把产品讨论、架构规划、代码审阅、浏览器测试和发布等工作组织成可调用的技能，前一步生成的文档可供后续步骤使用。提供 Claude Code 集成，也列出其他编码智能体的安装方式与支持等级。",
+      "editorial_reason_zh": "适合希望把设计、开发和验收串起来的团队。README 将 Codex 等多种集成标为实验性，部分安全约束在这些环境仅提供建议；采用前应核对宿主差异、自动更新设置和发布权限，本期未验证其效率主张。"
+    },
+    {
+      "repo": "D4Vinci/Scrapling",
+      "rank": 5,
+      "stars": 97984,
+      "daily": 1655,
+      "language": "Python",
+      "metadata": {
+        "full_name": "D4Vinci/Scrapling",
+        "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+        "language": "Python",
+        "stargazers_count": 97984,
+        "pushed_at": "2026-11-05T18:01:47Z",
+        "archived": false,
+        "html_url": "https://github.com/D4Vinci/Scrapling",
+        "license": {
+          "key": "bsd-3-clause",
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdx_id": "BSD-3-Clause",
+          "url": "https://api.github.com/licenses/bsd-3-clause",
+          "node_id": "MDc6TGljZW5zZTU="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/D4Vinci/Scrapling/main/README.md",
+      "category": "网页采集与解析框架",
+      "summary_zh": "将 HTTP 请求、浏览器加载、会话管理和 CSS/XPath 等解析方式整合在 Python 框架中；爬虫支持并发控制、暂停恢复、按域限速与结果导出，也提供 MCP 接入及网页转 Markdown 能力。",
+      "editorial_reason_zh": "适合需要把网页数据接入分析或检索流程的开发者。动态页面和结构变更仍需实测，robots.txt 遵循为可选配置，应按目标站点规则设置采集范围和速率；本期未验证性能或反爬兼容性声明。"
+    },
+    {
+      "repo": "vercel-labs/agent-desktop",
+      "rank": 6,
+      "stars": 16855,
+      "daily": 2173,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "vercel-labs/agent-desktop",
+        "description": "Computer use CLI for AI agents",
+        "language": "Rust",
+        "stargazers_count": 16855,
+        "pushed_at": "2026-11-05T06:31:12Z",
+        "archived": false,
+        "html_url": "https://github.com/vercel-labs/agent-desktop",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/main/README.md",
+      "category": "桌面智能体操作接口",
+      "summary_zh": "通过操作系统的无障碍树读取和操作桌面应用，提供 CLI 与 C 库。快照返回带引用的结构化元素，智能体根据引用执行操作后再次获取快照核验，覆盖 macOS、Windows 和 Linux。",
+      "editorial_reason_zh": "适合研究基于界面语义的桌面自动化。元素引用属于特定快照，界面变化后需刷新；系统权限与应用无障碍支持影响覆盖范围，快照和剪贴板也可能包含私密内容。本期未测试跨应用操作可靠性。"
+    },
+    {
+      "repo": "max-sixty/worktrunk",
+      "rank": 7,
+      "stars": 11517,
+      "daily": 546,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "max-sixty/worktrunk",
+        "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+        "language": "Rust",
+        "stargazers_count": 11517,
+        "pushed_at": "2026-11-06T00:31:20Z",
+        "archived": false,
+        "html_url": "https://github.com/max-sixty/worktrunk",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/max-sixty/worktrunk/main/README.md",
+      "category": "Git 工作区管理",
+      "summary_zh": "面向并行开发的 Git worktree 命令行工具，以分支名管理工作目录，简化创建、切换、查看状态和清理；提供钩子、合并流程、PR 检出以及在支持的文件系统上共享构建缓存等功能。",
+      "editorial_reason_zh": "适合同时推进多个独立修改的开发者。工作目录隔离仍需配合分支和合并审阅，项目钩子会运行命令，启用前需检查；README 标注 MIT 或 Apache-2.0 双许可，GitHub API 未给出单一 SPDX 分类。本期未执行合并或缓存测试。"
+    },
+    {
+      "repo": "lz4/lz4",
+      "rank": 8,
+      "stars": 12386,
+      "daily": 23,
+      "language": "C",
+      "metadata": {
+        "full_name": "lz4/lz4",
+        "description": "Extremely Fast Compression algorithm",
+        "language": "C",
+        "stargazers_count": 12386,
+        "pushed_at": "2026-11-06T00:00:14Z",
+        "archived": false,
+        "html_url": "https://github.com/lz4/lz4",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "dev"
+      },
+      "readme_url": "https://raw.githubusercontent.com/lz4/lz4/dev/README.md",
+      "category": "无损压缩基础库",
+      "summary_zh": "以低压缩和解压开销为目标的无损压缩算法，提供 C 库和命令行工具。可通过加速参数或 LZ4_HC 在处理时间与压缩率之间取舍，并提供字典、块格式和帧格式接口。",
+      "editorial_reason_zh": "适合日志、缓存和数据传输等对处理延迟敏感的场景研究。应以自己的数据与硬件比较吞吐、压缩率和内存用量；库采用 BSD-2-Clause，命令行工具采用 GPL-2.0-or-later，API 未归为单一许可。本期未复测性能。"
+    },
+    {
+      "repo": "google/skills",
+      "rank": 9,
+      "stars": 22377,
+      "daily": 211,
+      "language": "Python",
+      "metadata": {
+        "full_name": "google/skills",
+        "description": "Agent Skills for Google products and technologies",
+        "language": "Python",
+        "stargazers_count": 22377,
+        "pushed_at": "2026-11-05T22:00:15Z",
+        "archived": false,
+        "html_url": "https://github.com/google/skills",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/google/skills/main/README.md",
+      "category": "Google 产品技能目录",
+      "summary_zh": "收集面向 Google 产品和技术的智能体技能，涵盖云端身份认证、架构设计、数据分析、应用开发、监控及故障排查。可按技能、目标智能体和项目或全局范围选择安装。",
+      "editorial_reason_zh": "适合在已有 Google Cloud 项目中查找对应任务的操作指导，例如 BigQuery 分析或 GKE 排障。技能代码的开放许可不等于云资源免费；执行前需核对项目、身份权限和资源费用，本期未创建或修改云资源。"
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "rank": 10,
+      "stars": 45891,
+      "daily": 150,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "vercel-labs/agent-browser",
+        "description": "Browser automation CLI for AI agents",
+        "language": "Rust",
+        "stargazers_count": 45891,
+        "pushed_at": "2026-11-06T01:02:45Z",
+        "archived": false,
+        "html_url": "https://github.com/vercel-labs/agent-browser",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/vercel-labs/agent-browser/main/README.md",
+      "category": "浏览器自动化接口",
+      "summary_zh": "原生 Rust 命令行工具，将网页转换为带元素引用的无障碍树，让智能体逐条打开页面、点击、填写和读取结果。后台进程保持浏览器会话，另提供截图、下载、独立会话及 MCP 接入。",
+      "editorial_reason_zh": "适合把网页操作接入可检查的任务流程。导航或页面结构变化后应刷新快照，点击后还需核实业务结果；登录状态与会话持久化应按任务范围配置。本期未测试不同网站的成功率。"
+    },
+    {
+      "repo": "microsoft/VibeVoice",
+      "rank": 13,
+      "stars": 55938,
+      "daily": 223,
+      "language": "Python",
+      "metadata": {
+        "full_name": "microsoft/VibeVoice",
+        "description": "Open-Source Frontier Voice AI",
+        "language": "Python",
+        "stargazers_count": 55938,
+        "pushed_at": "2026-10-08T05:29:29Z",
+        "archived": false,
+        "html_url": "https://github.com/microsoft/VibeVoice",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/microsoft/VibeVoice/main/README.md",
+      "category": "语音识别与实时合成",
+      "summary_zh": "语音 AI 研究项目，包含长音频识别、流式识别及实时文本转语音等方向。ASR 可生成带说话人、时间戳和内容的结构化转写，并支持自定义热词；流式版本可随音频到达输出结果。",
+      "editorial_reason_zh": "适合研究会议转写、字幕与语音交互。当前 README 明确旧 VibeVoice-TTS 代码已从仓库移除，不能把仍展示的旧演示当作当前可用实现；各模型的权重、语言范围和运行需求应分别核对，本期未复测准确率或延迟。"
+    }
+  ],
+  "trending_returned_count": 15,
+  "verified_at": "2026-11-06T09:06:52.023791+08:00",
+  "selection_note": "从本次返回的 15 个 Trending 项目中选取 10 个，保留原始位置；按开放源码许可与智能体开发、网页与桌面操作、压缩和语音处理等技术主题筛选，不是完整榜单。"
+}
