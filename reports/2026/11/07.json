@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-07",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-07T08:56:17.841252+08:00",
+  "items": [
+    {
+      "repo": "zed-industries/zed",
+      "rank": 1,
+      "stars": 93628,
+      "daily": 306,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "zed-industries/zed",
+        "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+        "language": "Rust",
+        "stargazers_count": 93628,
+        "pushed_at": "2026-11-06T20:00:38Z",
+        "archived": false,
+        "html_url": "https://github.com/zed-industries/zed",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/zed-industries/zed/main/README.md",
+      "category": "协作代码编辑器",
+      "summary_zh": "使用 Rust 开发的代码编辑器，重点关注编辑响应和多人协作。当前官方 README 提供 macOS、Linux 与 Windows 的下载和构建入口，Web 版仍列为未提供的平台。",
+      "editorial_reason_zh": "适合希望尝试不同编辑体验或结对开发方式的团队。源码主要采用 GPL-3.0-or-later，另有标注为 Apache-2.0 的组件；选择时应检查所需语言与扩展支持，本期未进行响应速度或协作体验测试。"
+    },
+    {
+      "repo": "NVIDIA/auto-ontology",
+      "rank": 2,
+      "stars": 9031,
+      "daily": 2015,
+      "language": "Python",
+      "metadata": {
+        "full_name": "NVIDIA/auto-ontology",
+        "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+        "language": "Python",
+        "stargazers_count": 9031,
+        "pushed_at": "2026-11-06T23:03:36Z",
+        "archived": false,
+        "html_url": "https://github.com/NVIDIA/auto-ontology",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/NVIDIA/auto-ontology/main/README.md",
+      "category": "数据语义与查询上下文",
+      "summary_zh": "从企业元数据构建本体和知识图谱，将指标、实体、关系与来源信息组织成智能体可用的上下文。框架提供自然语言查询、语义目录和 Web 界面，并通过 MCP、CLI 与 API 对外提供能力。",
+      "editorial_reason_zh": "当不同系统对同一指标有不同定义时，可以借此研究如何先统一含义，再生成查询。当前实现依赖 Postgres、模型推理及嵌入服务；语义目录仍需业务人员校验，本期未复测查询准确率。"
+    },
+    {
+      "repo": "rails/rails",
+      "rank": 3,
+      "stars": 59026,
+      "daily": 142,
+      "language": "Ruby",
+      "metadata": {
+        "full_name": "rails/rails",
+        "description": "Ruby on Rails",
+        "language": "Ruby",
+        "stargazers_count": 59026,
+        "pushed_at": "2026-11-06T23:19:25Z",
+        "archived": false,
+        "html_url": "https://github.com/rails/rails",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/rails/rails/main/README.md",
+      "category": "全栈 Web 应用框架",
+      "summary_zh": "以 MVC 组织数据库驱动的 Web 应用，使用 Active Record 处理数据模型、Action View 渲染视图、控制器响应请求。框架还包含邮件、后台任务、WebSocket、文件附件和富文本等组件。",
+      "editorial_reason_zh": "适合希望以一套约定连接业务数据、页面与后台工作的 Ruby 项目。部分组件可独立使用；应依据应用规模与部署条件选择组合，并以实际业务用例验证，本期不把上榜解读为新版本发布。"
+    },
+    {
+      "repo": "mpv-player/mpv",
+      "rank": 4,
+      "stars": 37876,
+      "daily": 37,
+      "language": "C",
+      "metadata": {
+        "full_name": "mpv-player/mpv",
+        "description": "🎥 Command line media player",
+        "language": "C",
+        "stargazers_count": 37876,
+        "pushed_at": "2026-11-05T15:31:49Z",
+        "archived": false,
+        "html_url": "https://github.com/mpv-player/mpv",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/mpv-player/mpv/master/README.md",
+      "category": "媒体播放与集成",
+      "summary_zh": "面向命令行的自由媒体播放器，支持多种媒体容器、音视频编解码器和字幕格式，并提供客户端 C API。主要视频输出使用着色器完成渲染与缩放，构建依赖 FFmpeg、libplacebo、libass 等组件。",
+      "editorial_reason_zh": "适合研究播放行为、字幕渲染或应用内播放器集成。硬件解码需显式启用，效果取决于平台、驱动和构建配置；默认 GPLv2-or-later，可通过关闭 GPL 组件构建 LGPLv2.1-or-later 版本。本期未进行设备播放测试。"
+    },
+    {
+      "repo": "react/react",
+      "rank": 6,
+      "stars": 252257,
+      "daily": 248,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "react/react",
+        "description": "The library for web and native user interfaces.",
+        "language": "JavaScript",
+        "stargazers_count": 252257,
+        "pushed_at": "2026-11-07T00:20:04Z",
+        "archived": false,
+        "html_url": "https://github.com/react/react",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/react/react/main/README.md",
+      "category": "组件化用户界面",
+      "summary_zh": "用于构建用户界面的 JavaScript 库，以声明式视图描述状态，并用可组合组件组织交互。可逐步加入已有应用，也能配合服务端渲染与 React Native 构建其他界面。",
+      "editorial_reason_zh": "适合需要复用界面组件、明确状态与视图关系的产品。React 本身不包办应用的全部技术选择；路由、数据获取和构建方案仍需结合项目评估，本期仅介绍当前仓库能力，不推断今日发生重大升级。"
+    },
+    {
+      "repo": "prometheus/prometheus",
+      "rank": 9,
+      "stars": 67183,
+      "daily": 148,
+      "language": "Go",
+      "metadata": {
+        "full_name": "prometheus/prometheus",
+        "description": "The Prometheus monitoring system and time series database.",
+        "language": "Go",
+        "stargazers_count": 67183,
+        "pushed_at": "2026-11-06T17:19:24Z",
+        "archived": false,
+        "html_url": "https://github.com/prometheus/prometheus",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/prometheus/prometheus/main/README.md",
+      "category": "指标监控与时序数据库",
+      "summary_zh": "按设定间隔从目标采集指标，以指标名和标签组织时间序列，通过 PromQL 查询与规则表达式分析结果并触发告警。支持静态配置、服务发现以及联邦机制。",
+      "editorial_reason_zh": "适合为服务建立可持续观察的运行指标。指标设计、标签规模、采样间隔和告警阈值需要结合负载验证；系统能采到数据不等于业务已健康，本期未部署监控实例或进行容量测试。"
+    },
+    {
+      "repo": "google/skills",
+      "rank": 10,
+      "stars": 22837,
+      "daily": 534,
+      "language": "Python",
+      "metadata": {
+        "full_name": "google/skills",
+        "description": "Agent Skills for Google products and technologies",
+        "language": "Python",
+        "stargazers_count": 22837,
+        "pushed_at": "2026-11-06T22:01:22Z",
+        "archived": false,
+        "html_url": "https://github.com/google/skills",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/google/skills/main/README.md",
+      "category": "Google 产品技能目录",
+      "summary_zh": "收集面向 Google 产品和技术的智能体技能，涵盖云端身份认证、架构设计、数据分析、应用开发、监控及故障排查。可按技能、目标智能体和项目或全局范围选择安装。",
+      "editorial_reason_zh": "适合在已有 Google Cloud 项目中查找对应任务的操作指导，例如 BigQuery 分析或 GKE 排障。技能代码的开放许可不等于云资源免费；执行前需核对项目、身份权限和资源费用，本期未创建或修改云资源。"
+    },
+    {
+      "repo": "nushell/nushell",
+      "rank": 12,
+      "stars": 40983,
+      "daily": 131,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "nushell/nushell",
+        "description": "A new type of shell",
+        "language": "Rust",
+        "stargazers_count": 40983,
+        "pushed_at": "2026-11-06T12:38:23Z",
+        "archived": false,
+        "html_url": "https://github.com/nushell/nushell",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/nushell/nushell/main/README.md",
+      "category": "结构化命令行管道",
+      "summary_zh": "把目录、进程列表及可识别的文件内容视为有结构的数据，通过管道进行筛选、变换与展示。命令除了标准输入输出，还可传递结构化值，减少围绕纯文本拆分的操作。",
+      "editorial_reason_zh": "适合经常在终端整理表格数据和组合查询的开发者。需要学习其数据与命令模型；README 仍提示部分命令可能不稳定、设计可能变化，迁移现有脚本前应逐项验证。"
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "rank": 16,
+      "stars": 64011,
+      "daily": 2548,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "cloudflare/security-audit-skill",
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "stargazers_count": 64012,
+        "pushed_at": "2026-09-14T19:29:02Z",
+        "archived": false,
+        "html_url": "https://github.com/cloudflare/security-audit-skill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/cloudflare/security-audit-skill/main/README.md",
+      "category": "智能体安全审计流程",
+      "summary_zh": "把代码审计拆为架构摸底、按覆盖范围查找问题、候选验证、结构化记录、独立复核和报告生成六个阶段。使用覆盖台账和 JSON 校验器记录已确认、待验证与已否定的发现。",
+      "editorial_reason_zh": "适合研究如何让审计结论对应可追溯证据。需要支持并行子智能体的环境、Node.js 及隔离执行条件；待验证线索不能当作已确认漏洞，本期仅核对公开说明，未运行审计或验证漏洞发现率。"
+    },
+    {
+      "repo": "astral-sh/ruff",
+      "rank": 17,
+      "stars": 50691,
+      "daily": 169,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "astral-sh/ruff",
+        "description": "An extremely fast Python linter and code formatter, written in Rust.",
+        "language": "Rust",
+        "stargazers_count": 50691,
+        "pushed_at": "2026-11-07T00:40:37Z",
+        "archived": false,
+        "html_url": "https://github.com/astral-sh/ruff",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/astral-sh/ruff/main/README.md",
+      "category": "Python 静态检查与格式化",
+      "summary_zh": "用 Rust 实现的 Python 检查和格式化工具，提供大量内置规则、自动修复、缓存、编辑器集成和 pyproject.toml 配置。可将导入排序与多类代码规范检查统一到一套工具中。",
+      "editorial_reason_zh": "适合希望减少 Python 工具链配置分散、缩短反馈等待的项目。替换现有工具前应比对规则与格式差异，自动修复仍需审阅；静态检查通过也不替代业务测试，本期未复测官方速度对比。"
+    }
+  ],
+  "trending_returned_count": 17,
+  "verified_at": "2026-11-07T08:57:24.966368+08:00",
+  "selection_note": "从本次返回的 17 个 Trending 项目中选取 10 个，保留原始位置；按开放源码许可与编辑器、应用开发、媒体播放、运维与 AI 工程等技术主题筛选，不是完整榜单。"
+}
