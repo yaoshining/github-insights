@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-08",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-08T08:59:52.533262+08:00",
+  "verified_at": "2026-11-08T09:02:05.588089+08:00",
+  "trending_returned_count": 15,
+  "items": [
+    {
+      "repo": "vercel-labs/agent-browser",
+      "rank": 1,
+      "stars": 46830,
+      "daily": 190,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "vercel-labs/agent-browser",
+        "description": "Browser automation CLI for AI agents",
+        "language": "Rust",
+        "stargazers_count": 46830,
+        "pushed_at": "2026-11-08T00:40:09Z",
+        "archived": false,
+        "html_url": "https://github.com/vercel-labs/agent-browser",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/vercel-labs/agent-browser/main/README.md",
+      "category": "网页自动化",
+      "summary_zh": "用 Rust 命令行工具打开网页，把可交互元素列成带编号的快照，再按编号点击或填写。浏览器在多条命令之间保留会话，操作后可重新读取页面。",
+      "editorial_reason_zh": "适合把登录后的网页流程拆成可重复核对的步骤。页面跳转或结构改变后要重新获取快照；例如提交表单后，还应读取确认信息才能判断是否成功。"
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "rank": 2,
+      "stars": 65741,
+      "daily": 2085,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "cloudflare/security-audit-skill",
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript",
+        "stargazers_count": 65741,
+        "pushed_at": "2026-09-14T19:29:02Z",
+        "archived": false,
+        "html_url": "https://github.com/cloudflare/security-audit-skill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/cloudflare/security-audit-skill/main/README.md",
+      "category": "代码安全审计",
+      "summary_zh": "先列出代码中需要检查的入口和信任边界，再由独立的智能体复核候选问题。结果分为已确认、待验证和已否定三类，附带检查范围和结构化记录。",
+      "editorial_reason_zh": "如果审计报告只有漏洞列表，很难判断哪些地方还没看过。这个项目把未覆盖范围也留下来，适合团队复核；记录通过格式校验不等于漏洞已经复现。"
+    },
+    {
+      "repo": "google/skills",
+      "rank": 3,
+      "stars": 23405,
+      "daily": 443,
+      "language": "Python",
+      "metadata": {
+        "full_name": "google/skills",
+        "description": "Agent Skills for Google products and technologies",
+        "language": "Python",
+        "stargazers_count": 23405,
+        "pushed_at": "2026-11-07T14:41:39Z",
+        "archived": false,
+        "html_url": "https://github.com/google/skills",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/google/skills/main/README.md",
+      "category": "云服务操作指南",
+      "summary_zh": "按 Google 产品和任务整理智能体可用的技能说明，覆盖身份认证、数据分析、应用部署、排障等场景。可选择单项技能及安装范围。",
+      "editorial_reason_zh": "例如排查 GKE 故障时，可以从对应技能入手，再对照自己的集群配置核实。安装指南不会自动授予云账号权限，实际执行仍取决于项目、身份和配额。"
+    },
+    {
+      "repo": "meta/astryx",
+      "rank": 6,
+      "stars": 14531,
+      "daily": 96,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "meta/astryx",
+        "description": "An open source design system that's fully customizable and agent ready",
+        "language": "TypeScript",
+        "stargazers_count": 14532,
+        "pushed_at": "2026-11-08T00:56:22Z",
+        "archived": false,
+        "html_url": "https://github.com/meta/astryx",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/meta/astryx/main/README.md",
+      "category": "React 设计系统",
+      "summary_zh": "提供带类型的 React 组件、主题、模板及命令行文档，供设计者、开发者和编码助手使用同一套界面约定。主题通过 CSS 自定义属性调整，组件也允许进一步组合。",
+      "editorial_reason_zh": "适合已有 React 应用先用一个表单或详情页验证主题与组件是否合用。当前为 Beta，要求 React 19 或以上；部分图表包仅在 canary 渠道发布。"
+    },
+    {
+      "repo": "prometheus/prometheus",
+      "rank": 7,
+      "stars": 67449,
+      "daily": 322,
+      "language": "Go",
+      "metadata": {
+        "full_name": "prometheus/prometheus",
+        "description": "The Prometheus monitoring system and time series database.",
+        "language": "Go",
+        "stargazers_count": 67449,
+        "pushed_at": "2026-11-07T22:52:23Z",
+        "archived": false,
+        "html_url": "https://github.com/prometheus/prometheus",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/prometheus/prometheus/main/README.md",
+      "category": "服务指标监控",
+      "summary_zh": "定时从服务拉取指标，以名称和标签组织时间序列。通过 PromQL 查询这些数据，按规则检测异常并触发告警。",
+      "editorial_reason_zh": "当请求变慢时，可按服务或实例查看延迟变化，帮助缩小排查范围。是否能定位原因取决于采集了哪些指标，不能把采集成功当成服务健康。"
+    },
+    {
+      "repo": "sherlock-project/sherlock",
+      "rank": 8,
+      "stars": 100474,
+      "daily": 1766,
+      "language": "Python",
+      "metadata": {
+        "full_name": "sherlock-project/sherlock",
+        "description": "Hunt down social media accounts by username across social networks",
+        "language": "Python",
+        "stargazers_count": 100474,
+        "pushed_at": "2026-11-07T05:13:07Z",
+        "archived": false,
+        "html_url": "https://github.com/sherlock-project/sherlock",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/sherlock-project/sherlock/master/docs/README.md",
+      "category": "公开用户名检索",
+      "summary_zh": "给定用户名，通过命令行检查多个社交站点的公开账号页面，可指定站点并导出结果。官方文档位于仓库的 docs 目录。",
+      "editorial_reason_zh": "可用于盘点自己或团队品牌在哪些网站使用了同一名称。命中只提供待复核的链接：两个站点上的同名账号未必属于同一人。"
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "rank": 9,
+      "stars": 16989,
+      "daily": 1955,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "milind-soni/OpenMausBot",
+        "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+        "language": "TypeScript",
+        "stargazers_count": 16989,
+        "pushed_at": "2026-11-08T00:56:28Z",
+        "archived": false,
+        "html_url": "https://github.com/milind-soni/OpenMausBot",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/README.md",
+      "category": "智能体桌面工作区",
+      "summary_zh": "在会话里为机器人配置模型和可操作的电脑，通过桌面预览查看进度，在聊天中确认命令或文件修改。可连接外部应用，也提供定时和 webhook 触发方式。",
+      "editorial_reason_zh": "选用前先分清预览与控制：项目将 Ubuntu 桌面列为 Beta，Xorg 本机控制需显式开启，Wayland 下则禁用本机控制。团队可据此判断所需流程是否适用于自己的环境。"
+    },
+    {
+      "repo": "astral-sh/ruff",
+      "rank": 10,
+      "stars": 50979,
+      "daily": 350,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "astral-sh/ruff",
+        "description": "An extremely fast Python linter and code formatter, written in Rust.",
+        "language": "Rust",
+        "stargazers_count": 50979,
+        "pushed_at": "2026-11-07T20:47:39Z",
+        "archived": false,
+        "html_url": "https://github.com/astral-sh/ruff",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/astral-sh/ruff/main/README.md",
+      "category": "Python 代码检查",
+      "summary_zh": "用 Rust 实现 Python 静态检查和格式化，可在项目配置中选择规则，通过缓存跳过未变化的文件，并对部分问题给出自动修复。",
+      "editorial_reason_zh": "若项目分别使用导入排序、格式化和规则检查工具，可先在一个目录比较 Ruff 的输出。迁移时应检查修复差异，并保留验证程序行为的测试。"
+    },
+    {
+      "repo": "tailwindlabs/tailwindcss",
+      "rank": 11,
+      "stars": 98474,
+      "daily": 122,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "tailwindlabs/tailwindcss",
+        "description": "A utility-first CSS framework for rapid UI development.",
+        "language": "TypeScript",
+        "stargazers_count": 98474,
+        "pushed_at": "2026-11-06T14:50:08Z",
+        "archived": false,
+        "html_url": "https://github.com/tailwindlabs/tailwindcss",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/tailwindlabs/tailwindcss/main/README.md",
+      "category": "界面样式工具",
+      "summary_zh": "通过组合用途明确的 CSS 工具类来构建自定义界面，例如分别设置间距、字号和排列方式。仓库提供框架源码和官方文档入口。",
+      "editorial_reason_zh": "适合希望在组件代码中直接调整样式的团队。它与本期 Astryx 解决的是不同问题：工具类表达样式，组件库则提供可复用的界面元素，两者可以配合使用。"
+    },
+    {
+      "repo": "mbillow/localthings",
+      "rank": 12,
+      "stars": 1062,
+      "daily": 186,
+      "language": "Python",
+      "metadata": {
+        "full_name": "mbillow/localthings",
+        "description": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
+        "language": "Python",
+        "stargazers_count": 1062,
+        "pushed_at": "2026-11-07T06:48:26Z",
+        "archived": false,
+        "html_url": "https://github.com/mbillow/localthings",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/mbillow/localthings/main/README.md",
+      "category": "本地智能家居",
+      "summary_zh": "把支持的三星家电接入 Home Assistant，根据设备公开的资源创建传感器和控制项，在家庭网络内读取状态或下发操作。",
+      "editorial_reason_zh": "适合想在局域网查看洗衣机剩余时间等状态的用户。首次添加会向三星服务器读取公开标识，无需账号；具体控制项因机型而异，部分旧设备还需要令牌。"
+    }
+  ],
+  "selection_note": "从本次返回的 15 个 Trending 项目中选取 10 个，保留原始位置；按开放源码许可与智能体工具、界面开发、服务监控与本地设备控制等技术主题筛选，不是完整榜单。"
+}
