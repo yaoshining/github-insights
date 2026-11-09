@@ -1,0 +1,258 @@
+{
+  "date": "2026-11-09",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-09T09:01:20.760489+08:00",
+  "verified_at": "2026-11-09T09:03:41.922806+08:00",
+  "trending_returned_count": 9,
+  "selection_note": "收录本次 GitHub Trending · Today 不限语言页面返回的全部 9 个仓库，按原始位置展示。",
+  "items": [
+    {
+      "repo": "sherlock-project/sherlock",
+      "rank": 1,
+      "stars": 103538,
+      "daily": 2373,
+      "language": "Python",
+      "metadata": {
+        "full_name": "sherlock-project/sherlock",
+        "description": "Hunt down social media accounts by username across social networks",
+        "language": "Python",
+        "stargazers_count": 103541,
+        "pushed_at": "2026-11-08T05:13:22Z",
+        "archived": false,
+        "html_url": "https://github.com/sherlock-project/sherlock",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/sherlock-project/sherlock/master/docs/README.md",
+      "category": "公开用户名检索",
+      "summary_zh": "输入一个用户名，Sherlock 会到多个社交站点查找对应的公开主页。可以指定站点，把返回的链接保存为清单。",
+      "editorial_reason_zh": "团队盘点品牌账号时，可用它缩小人工核查范围，再用主页上的官网链接或公开资料确认归属。同名结果需要逐个核实。"
+    },
+    {
+      "repo": "dsx-ai-factory/nvke",
+      "rank": 2,
+      "stars": 854,
+      "daily": 345,
+      "language": "Go",
+      "metadata": {
+        "full_name": "dsx-ai-factory/nvke",
+        "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+        "language": "Go",
+        "stargazers_count": 855,
+        "pushed_at": "2026-11-07T02:09:56Z",
+        "archived": false,
+        "html_url": "https://github.com/dsx-ai-factory/nvke",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/dsx-ai-factory/nvke/main/README.md",
+      "category": "GPU 集群管理",
+      "summary_zh": "NVKE 在管理集群上提供 API，通过 NVIDIA Infra Controller 调配裸机，为工作负载建立各自独立的 Kubernetes 控制平面。开发者也能先在 Linux 虚拟机上用模拟节点走完建群流程。",
+      "editorial_reason_zh": "适合想了解 GPU 节点如何加入、扩容和更换的基础设施团队。预览版安装后的 API 默认使用明文 HTTP 且未开启认证。评估真实部署时，需要先配置访问保护，并核对支持的硬件组合。"
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "rank": 3,
+      "stars": 18264,
+      "daily": 1439,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "milind-soni/OpenMausBot",
+        "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+        "language": "TypeScript",
+        "stargazers_count": 18265,
+        "pushed_at": "2026-11-08T21:59:04Z",
+        "archived": false,
+        "html_url": "https://github.com/milind-soni/OpenMausBot",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/milind-soni/OpenMausBot/main/README.md",
+      "category": "智能体工作区",
+      "summary_zh": "通过聊天为机器人分配任务和电脑，用户可查看桌面预览，并在会话中确认命令或文件修改。定时任务和 webhook 可以触发后续工作。",
+      "editorial_reason_zh": "如果希望让机器人处理重复的桌面操作，可以先从一个能观察结果的任务入手。README 将 Ubuntu Xorg 本机控制列为需显式启用的 Beta 功能，桌面预览与本机控制各有支持条件。"
+    },
+    {
+      "repo": "anthropics/claude-quickstarts",
+      "rank": 4,
+      "stars": 19424,
+      "daily": 32,
+      "language": "Python",
+      "metadata": {
+        "full_name": "anthropics/claude-quickstarts",
+        "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+        "language": "Python",
+        "stargazers_count": 19424,
+        "pushed_at": "2026-11-06T19:37:57Z",
+        "archived": false,
+        "html_url": "https://github.com/anthropics/claude-quickstarts",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/anthropics/claude-quickstarts/main/README.md",
+      "category": "Claude API 示例",
+      "summary_zh": "用可运行的示例演示客服知识库、浏览器操作和桌面控制等任务。浏览器工具示例还提供一条独立测试路径，可以先用脚本直接驱动 Chromium 标签页。",
+      "editorial_reason_zh": "适合排查浏览器自动化问题。先单独检查驱动能否找到并操作元素，再接入模型，有助于判断问题来自浏览器连接、页面状态还是工具调用。"
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "rank": 5,
+      "stars": 47609,
+      "daily": 815,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "vercel-labs/agent-browser",
+        "description": "Browser automation CLI for AI agents",
+        "language": "Rust",
+        "stargazers_count": 47609,
+        "pushed_at": "2026-11-08T10:03:53Z",
+        "archived": false,
+        "html_url": "https://github.com/vercel-labs/agent-browser",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/vercel-labs/agent-browser/main/README.md",
+      "category": "网页操作与验证",
+      "summary_zh": "从命令行打开网页、读取无障碍树快照，按元素引用点击或填写。浏览器会话可跨命令保留，让下一步读取操作后的页面状态。",
+      "editorial_reason_zh": "例如验证注册表单时，可先保存输入前的快照，再在提交后查找成功提示或错误信息。导航或 DOM 变化后重新获取引用，可以减少操作失效元素的情况。"
+    },
+    {
+      "repo": "meta/astryx",
+      "rank": 6,
+      "stars": 16806,
+      "daily": 875,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "meta/astryx",
+        "description": "An open source design system that's fully customizable and agent ready",
+        "language": "TypeScript",
+        "stargazers_count": 16808,
+        "pushed_at": "2026-11-09T00:58:14Z",
+        "archived": false,
+        "html_url": "https://github.com/meta/astryx",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/meta/astryx/main/README.md",
+      "category": "React 设计系统",
+      "summary_zh": "用带类型的 React 组件、现成模板、主题和命令行文档组织界面开发。组件支持组合，项目可通过 CSS 自定义属性调整品牌配色与风格。",
+      "editorial_reason_zh": "适合用一张真实表单评估设计系统。可同时检查键盘导航、错误提示和主题切换。当前项目处于 Beta，核心组件要求 React 19 或以上。"
+    },
+    {
+      "repo": "anthropics/skills",
+      "rank": 7,
+      "stars": 189658,
+      "daily": 792,
+      "language": "Python",
+      "metadata": {
+        "full_name": "anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "language": "Python",
+        "stargazers_count": 189658,
+        "pushed_at": "2026-11-06T22:32:32Z",
+        "archived": false,
+        "html_url": "https://github.com/anthropics/skills",
+        "license": null,
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/anthropics/skills/main/README.md",
+      "category": "智能体技能示例",
+      "summary_zh": "把说明、脚本和资源放进独立技能目录，供 Claude 在文档处理、网页测试等任务中加载。仓库里的 PDF 技能同时展示了任务说明和配套文件。",
+      "editorial_reason_zh": "想让团队复用一项固定流程时，可从单个目录研究如何描述输入、操作和输出。PDF 技能附有 Apache-2.0 许可，使用其他目录时可查看对应许可文件。",
+      "license_source": "https://github.com/anthropics/skills/blob/main/skills/pdf/LICENSE.txt"
+    },
+    {
+      "repo": "google-deepmind/mujoco",
+      "rank": 8,
+      "stars": 16421,
+      "daily": 41,
+      "language": "C++",
+      "metadata": {
+        "full_name": "google-deepmind/mujoco",
+        "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+        "language": "C++",
+        "stargazers_count": 16421,
+        "pushed_at": "2026-11-08T23:35:03Z",
+        "archived": false,
+        "html_url": "https://github.com/google-deepmind/mujoco",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/google-deepmind/mujoco/main/README.md",
+      "category": "机器人动力学仿真",
+      "summary_zh": "MuJoCo 模拟带关节物体与环境接触时的运动。它提供 C API、Python 绑定和交互式查看器，可加载模型并观察接触、姿态和运动轨迹。",
+      "editorial_reason_zh": "适合在机器人控制策略迭代时重复运行相同初始条件，比较不同动作的结果。用于预测实物行为时，质量、摩擦和关节约束等参数需要用测量数据校准。"
+    },
+    {
+      "repo": "ranxianglei/billion-context",
+      "rank": 9,
+      "stars": 5157,
+      "daily": 460,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "ranxianglei/billion-context",
+        "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+        "language": "TypeScript",
+        "stargazers_count": 5157,
+        "pushed_at": "2026-11-09T00:58:43Z",
+        "archived": false,
+        "html_url": "https://github.com/ranxianglei/billion-context",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/ranxianglei/billion-context/master/README.md",
+      "category": "长会话上下文管理",
+      "summary_zh": "将对话中的一段记录折叠为摘要，支持按关键词检索上下文，并在需要逐字检查时恢复原始片段。项目给出多种编码助手的接入方式。",
+      "editorial_reason_zh": "长任务里既要保留决策，又可能需要找回原始报错，可用真实会话检验恢复效果。仓库采用 MIT 条文并附额外署名要求，分发时需按许可文件标注项目及链接。",
+      "license_source": "https://github.com/ranxianglei/billion-context/blob/master/LICENSE"
+    }
+  ]
+}
