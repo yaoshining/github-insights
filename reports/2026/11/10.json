@@ -1,0 +1,285 @@
+{
+  "date": "2026-11-10",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-10T09:05:30.400665+08:00",
+  "verified_at": "2026-11-10T09:07:31.350534+08:00",
+  "trending_returned_count": 11,
+  "selection_note": "本次 GitHub Trending · Today 不限语言页面列出 11 个仓库，本期按页面顺序收录前 10 个。",
+  "items": [
+    {
+      "repo": "anthropics/skills",
+      "rank": 1,
+      "stars": 190988,
+      "daily": 1038,
+      "language": "Python",
+      "metadata": {
+        "full_name": "anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "language": "Python",
+        "stargazers_count": 190988,
+        "pushed_at": "2026-11-06T22:32:32Z",
+        "archived": false,
+        "html_url": "https://github.com/anthropics/skills",
+        "license": null,
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/anthropics/skills/main/README.md",
+      "category": "智能体技能",
+      "summary_zh": "把一项任务的说明、脚本和参考文件放在同一目录，供 Claude 按需加载。PDF 示例展示了文档处理任务怎样把操作指引与配套文件一起交付。",
+      "editorial_reason_zh": "如果团队反复执行同一项文档工作，可先用两份结构不同的样本检查技能能否复用。PDF 目录附有 Apache-2.0 许可，可直接查看条款。",
+      "license_source": "https://github.com/anthropics/skills/blob/main/skills/pdf/LICENSE.txt"
+    },
+    {
+      "repo": "meta/astryx",
+      "rank": 2,
+      "stars": 20083,
+      "daily": 3278,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "meta/astryx",
+        "description": "An open source design system that's fully customizable and agent ready",
+        "language": "TypeScript",
+        "stargazers_count": 20083,
+        "pushed_at": "2026-11-10T01:05:09Z",
+        "archived": false,
+        "html_url": "https://github.com/meta/astryx",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/meta/astryx/main/README.md",
+      "category": "React 设计系统",
+      "summary_zh": "为 React 19 及以上版本提供组件、主题、模板和命令行文档。团队可以调整 CSS 变量定义品牌主题，也能组合底层组件来制作界面。",
+      "editorial_reason_zh": "可以挑一个带校验的表单，实际检查键盘操作、错误提示和暗色主题。项目仍处于 Beta，试用单页便于发现现有组件库与 Astryx 的接口差异。"
+    },
+    {
+      "repo": "sherlock-project/sherlock",
+      "rank": 3,
+      "stars": 107049,
+      "daily": 4267,
+      "language": "Python",
+      "metadata": {
+        "full_name": "sherlock-project/sherlock",
+        "description": "Hunt down social media accounts by username across social networks",
+        "language": "Python",
+        "stargazers_count": 107049,
+        "pushed_at": "2026-11-09T05:14:34Z",
+        "archived": false,
+        "html_url": "https://github.com/sherlock-project/sherlock",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/sherlock-project/sherlock/master/docs/README.md",
+      "category": "公开账号检索",
+      "summary_zh": "给出用户名后，Sherlock 会检查不同社交站点上的公开主页，并生成候选链接。可指定要查的网站，也可将多组结果导出。",
+      "editorial_reason_zh": "盘点团队品牌账号时，可把它的结果作为核对清单，再通过官网互链或公开资料确认归属。同名账号可能由不同的人持有。"
+    },
+    {
+      "repo": "google-deepmind/mujoco",
+      "rank": 4,
+      "stars": 16911,
+      "daily": 574,
+      "language": "C++",
+      "metadata": {
+        "full_name": "google-deepmind/mujoco",
+        "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+        "language": "C++",
+        "stargazers_count": 16911,
+        "pushed_at": "2026-11-09T12:57:21Z",
+        "archived": false,
+        "html_url": "https://github.com/google-deepmind/mujoco",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/google-deepmind/mujoco/main/README.md",
+      "category": "物理仿真",
+      "summary_zh": "用模型描述关节、几何形状与接触条件，模拟物体受到力之后的运动。MuJoCo 提供 C API、Python 绑定以及可互动的查看器。",
+      "editorial_reason_zh": "调试机械臂抓取时，可以固定初始姿态，仅改变摩擦参数，观察抓取物是否滑落。要把仿真结果用于实物，仍需用测量值校准模型。"
+    },
+    {
+      "repo": "anthropics/claude-quickstarts",
+      "rank": 5,
+      "stars": 20020,
+      "daily": 551,
+      "language": "Python",
+      "metadata": {
+        "full_name": "anthropics/claude-quickstarts",
+        "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+        "language": "Python",
+        "stargazers_count": 20020,
+        "pushed_at": "2026-11-06T19:37:57Z",
+        "archived": false,
+        "html_url": "https://github.com/anthropics/claude-quickstarts",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/anthropics/claude-quickstarts/main/README.md",
+      "category": "Claude API 参考应用",
+      "summary_zh": "官方示例覆盖客服知识库、浏览器操作、桌面控制等任务。浏览器工具示例提供独立驱动脚本，可以直接在一个 Chromium 标签页上检验操作。",
+      "editorial_reason_zh": "搭建浏览器助手时，可先用脚本复现页面操作，再引入模型调用。这样能定位问题发生在页面驱动、工具接口还是模型选择的动作。"
+    },
+    {
+      "repo": "garrytan/gbrain",
+      "rank": 6,
+      "stars": 32157,
+      "daily": 216,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "garrytan/gbrain",
+        "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+        "language": "TypeScript",
+        "stargazers_count": 32157,
+        "pushed_at": "2026-11-10T01:04:22Z",
+        "archived": false,
+        "html_url": "https://github.com/garrytan/gbrain",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/garrytan/gbrain/master/README.md",
+      "category": "智能体知识库",
+      "summary_zh": "将事实与来源保存在可由用户管理的知识库中，支持更正、撤回和跨智能体检索。可以先按关键词查找，再按需接入语义搜索及带引用的回答。",
+      "editorial_reason_zh": "适合让多个助手共用同一份项目记录。试用时可以改正一条旧决定，然后从另一个客户端重新查询，检查返回的内容和引用是否一起更新。"
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "rank": 7,
+      "stars": 48472,
+      "daily": 916,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "vercel-labs/agent-browser",
+        "description": "Browser automation CLI for AI agents",
+        "language": "Rust",
+        "stargazers_count": 48472,
+        "pushed_at": "2026-11-10T00:37:18Z",
+        "archived": false,
+        "html_url": "https://github.com/vercel-labs/agent-browser",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/vercel-labs/agent-browser/main/README.md",
+      "category": "浏览器自动化",
+      "summary_zh": "从命令行读取网页的无障碍树，按快照中的引用点击、输入，再读取操作后的状态。浏览器会话在这些调用之间保持打开。",
+      "editorial_reason_zh": "排查表单提交失败时，可以保存提交前后的快照，比较按钮状态与错误提示。页面跳转后重新读取元素引用，能让复现步骤更可靠。"
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "rank": 8,
+      "stars": 103462,
+      "daily": 172,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "ruvnet/RuView",
+        "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+        "language": "Rust",
+        "stargazers_count": 103462,
+        "pushed_at": "2026-11-10T00:57:38Z",
+        "archived": false,
+        "html_url": "https://github.com/ruvnet/RuView",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/ruvnet/RuView/main/README.md",
+      "category": "无线信号感知",
+      "summary_zh": "使用 ESP32 等节点采集 Wi-Fi 信道状态信息（CSI），研究人员可以记录人在空间内移动时信号如何变化，再将样本用于活动感知实验。",
+      "editorial_reason_zh": "适合用空房、有人静坐和有人走动等可控条件比较采集结果。仓库将设备报告的生命体征标为未经验证，多传感器模型的准确度也仍待真实数据检验。"
+    },
+    {
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "rank": 9,
+      "stars": 68858,
+      "daily": 506,
+      "language": "Python",
+      "metadata": {
+        "full_name": "ZhuLinsen/daily_stock_analysis",
+        "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+        "language": "Python",
+        "stargazers_count": 68858,
+        "pushed_at": "2026-11-09T14:14:52Z",
+        "archived": false,
+        "html_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/ZhuLinsen/daily_stock_analysis/main/README.md",
+      "category": "行情与新闻报告",
+      "summary_zh": "汇集自选股的行情、技术指标、新闻和公告，调用语言模型生成报告，可定时推送到消息渠道，也能在工作台查看历史报告。",
+      "editorial_reason_zh": "适合研究自动简报怎样处理多源数据。可以挑一条结论，回查原公告、行情日期和缺失字段，检查报告在数据源延迟或限流时是否仍可追溯。"
+    },
+    {
+      "repo": "homeassistant-ai/ha-mcp",
+      "rank": 10,
+      "stars": 5979,
+      "daily": 31,
+      "language": "Python",
+      "metadata": {
+        "full_name": "homeassistant-ai/ha-mcp",
+        "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+        "language": "Python",
+        "stargazers_count": 5980,
+        "pushed_at": "2026-11-09T22:34:50Z",
+        "archived": false,
+        "html_url": "https://github.com/homeassistant-ai/ha-mcp",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/README.md",
+      "category": "智能家居自动化",
+      "summary_zh": "通过 MCP 将 Home Assistant 的实体状态、历史记录与自动化执行轨迹提供给助手，也支持管理仪表盘、修改自动化并调用设备服务。",
+      "editorial_reason_zh": "例如门廊灯没有按时亮起时，可先读取传感器状态和执行轨迹，定位触发器或条件，再决定是否调整规则。能执行哪些操作取决于连接配置及服务账号的权限。"
+    }
+  ]
+}
