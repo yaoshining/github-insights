@@ -1,0 +1,285 @@
+{
+  "date": "2026-11-11",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-11T09:01:42.882270+08:00",
+  "verified_at": "2026-11-11T09:03:47.407161+08:00",
+  "trending_returned_count": 12,
+  "selection_note": "本次 GitHub Trending · Today 不限语言页面列出 12 个仓库，本期按页面顺序收录前 10 个。",
+  "items": [
+    {
+      "rank": 1,
+      "repo": "meta/astryx",
+      "stars": 22847,
+      "daily": 3108,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "meta/astryx",
+        "description": "An open source design system that's fully customizable and agent ready",
+        "language": "TypeScript",
+        "stargazers_count": 22848,
+        "pushed_at": "2026-11-11T01:01:12Z",
+        "archived": false,
+        "html_url": "https://github.com/meta/astryx",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/meta/astryx/main/README.md",
+      "category": "React 设计系统",
+      "summary_zh": "提供带类型的 React 组件、主题、深色模式与页面模板，也为编码助手提供文档和命令行入口。主题可通过 CSS 自定义属性调整，组件内部结构支持进一步组合。",
+      "editorial_reason_zh": "适合用一个真实表单验证设计规范能否由人和智能体共同复用。当前仍为 Beta，要求 React 19 或以上，接入前应核对现有应用版本。"
+    },
+    {
+      "rank": 2,
+      "repo": "anthropics/skills",
+      "stars": 192337,
+      "daily": 1679,
+      "language": "Python",
+      "metadata": {
+        "full_name": "anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "language": "Python",
+        "stargazers_count": 192337,
+        "pushed_at": "2026-11-06T22:32:32Z",
+        "archived": false,
+        "html_url": "https://github.com/anthropics/skills",
+        "license": null,
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/anthropics/skills/main/README.md",
+      "category": "可复用任务技能",
+      "summary_zh": "将操作说明、脚本和参考资料组织成独立目录，由 Claude 在执行特定任务时加载。仓库涵盖文档、设计、开发与沟通等示例。",
+      "editorial_reason_zh": "团队重复处理同类文档时，可以从示例中学习如何封装格式要求与操作步骤。文档技能是可检查的参考实现，实际产物仍需按自己的样本核验。",
+      "license_source": "https://github.com/anthropics/skills/blob/main/skills/pdf/LICENSE.txt"
+    },
+    {
+      "rank": 3,
+      "repo": "addyosmani/agent-skills",
+      "stars": 115171,
+      "daily": 465,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "addyosmani/agent-skills",
+        "description": "Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "stargazers_count": 115172,
+        "pushed_at": "2026-11-01T19:24:49Z",
+        "archived": false,
+        "html_url": "https://github.com/addyosmani/agent-skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/addyosmani/agent-skills/main/README.md",
+      "category": "软件工程流程",
+      "summary_zh": "用 Markdown 技能描述从需求澄清、任务拆分到实现、验证、审阅和交付的步骤，并提供配套检查清单与不同编码助手的接入说明。",
+      "editorial_reason_zh": "适合把代码评审中反复出现的要求转为可复用流程。已有项目可先选择验证或调试环节，观察输出是否包含足够证据，再扩大使用范围。"
+    },
+    {
+      "rank": 4,
+      "repo": "anthropics/claude-quickstarts",
+      "stars": 20496,
+      "daily": 531,
+      "language": "Python",
+      "metadata": {
+        "full_name": "anthropics/claude-quickstarts",
+        "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+        "language": "Python",
+        "stargazers_count": 20496,
+        "pushed_at": "2026-11-06T19:37:57Z",
+        "archived": false,
+        "html_url": "https://github.com/anthropics/claude-quickstarts",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/anthropics/claude-quickstarts/main/README.md",
+      "category": "智能体应用示例",
+      "summary_zh": "汇集 Claude API 应用示例，包含客服、浏览器操作、桌面操作和定时简报等。浏览器示例展示如何把页面读取与表单交互接入智能体。",
+      "editorial_reason_zh": "Daily Brief 示例保存来源书签和防重复记录，并把无法读取的来源明确标出。这些细节适合参考到每日汇总任务中，部署时仍需自行配置服务与凭据。"
+    },
+    {
+      "rank": 5,
+      "repo": "google-deepmind/mujoco",
+      "stars": 17355,
+      "daily": 456,
+      "language": "C++",
+      "metadata": {
+        "full_name": "google-deepmind/mujoco",
+        "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+        "language": "C++",
+        "stargazers_count": 17355,
+        "pushed_at": "2026-11-10T20:50:33Z",
+        "archived": false,
+        "html_url": "https://github.com/google-deepmind/mujoco",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/google-deepmind/mujoco/main/README.md",
+      "category": "机器人与物理仿真",
+      "summary_zh": "模拟有关节的结构与环境之间的运动和接触，面向机器人、生物力学、图形与机器学习研究。提供 C API、Python 绑定和交互式可视化。",
+      "editorial_reason_zh": "可先用一个机械臂模型观察关节、接触和控制输入的关系，再设计实验。模型参数和环境设定会影响结果，仿真表现需通过实际设备实验进一步验证。"
+    },
+    {
+      "rank": 6,
+      "repo": "we-promise/sure",
+      "stars": 11958,
+      "daily": 159,
+      "language": "Ruby",
+      "metadata": {
+        "full_name": "we-promise/sure",
+        "description": "The personal finance app for everyone (by everyone)",
+        "language": "Ruby",
+        "stargazers_count": 11958,
+        "pushed_at": "2026-11-11T00:56:48Z",
+        "archived": false,
+        "html_url": "https://github.com/we-promise/sure",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/we-promise/sure/main/README.md",
+      "category": "自托管财务应用",
+      "summary_zh": "社区继续维护 Maybe Finance 的代码，提供可通过 Docker 自托管的个人财务应用。README 列出浏览器、桌面、移动端和 API 等访问入口。",
+      "editorial_reason_zh": "值得关注的是社区如何延续已停止维护的应用。可先用演示数据检查仪表盘和操作流程；选用时同时评估自己的部署维护能力及 AGPLv3 许可要求。"
+    },
+    {
+      "rank": 7,
+      "repo": "homeassistant-ai/ha-mcp",
+      "stars": 6665,
+      "daily": 790,
+      "language": "Python",
+      "metadata": {
+        "full_name": "homeassistant-ai/ha-mcp",
+        "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+        "language": "Python",
+        "stargazers_count": 6666,
+        "pushed_at": "2026-11-11T00:27:16Z",
+        "archived": false,
+        "html_url": "https://github.com/homeassistant-ai/ha-mcp",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/README.md",
+      "category": "智能家居工具接口",
+      "summary_zh": "通过 MCP 把 Home Assistant 的实体查询、历史记录、自动化轨迹和服务调用提供给 AI 助手，也支持配置与自动化管理。",
+      "editorial_reason_zh": "排查一盏灯为什么亮起时，可把状态历史与自动化执行轨迹放在一起查看。可用操作受服务器连接身份和工具配置约束，文件与 YAML 编辑需额外启用。"
+    },
+    {
+      "rank": 8,
+      "repo": "vercel-labs/agent-browser",
+      "stars": 49218,
+      "daily": 780,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "vercel-labs/agent-browser",
+        "description": "Browser automation CLI for AI agents",
+        "language": "Rust",
+        "stargazers_count": 49218,
+        "pushed_at": "2026-11-11T00:34:33Z",
+        "archived": false,
+        "html_url": "https://github.com/vercel-labs/agent-browser",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/vercel-labs/agent-browser/main/README.md",
+      "category": "浏览器自动化",
+      "summary_zh": "用 Rust 命令行工具打开网页，以紧凑的可访问性树读取页面，并为元素分配引用编号。智能体可据此点击、填写，再重新读取结果。",
+      "editorial_reason_zh": "适合将网页任务拆成可以核对的小步骤，例如填写后查看确认页面。页面跳转或结构改变后应刷新快照，避免沿用已失效的元素编号。"
+    },
+    {
+      "rank": 9,
+      "repo": "sherlock-project/sherlock",
+      "stars": 108983,
+      "daily": 2393,
+      "language": "Python",
+      "metadata": {
+        "full_name": "sherlock-project/sherlock",
+        "description": "Hunt down social media accounts by username across social networks",
+        "language": "Python",
+        "stargazers_count": 108983,
+        "pushed_at": "2026-11-10T05:13:55Z",
+        "archived": false,
+        "html_url": "https://github.com/sherlock-project/sherlock",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/sherlock-project/sherlock/master/docs/README.md",
+      "category": "公开用户名检索",
+      "summary_zh": "按用户名检查多个社交网站的公开账号页面，可指定网站并将查询结果保存到文件，便于集中复核。",
+      "editorial_reason_zh": "可用于检查自己或团队品牌的公开账号分布。查询命中提供的是待核对页面，同名账号是否属于同一主体需要另行确认。"
+    },
+    {
+      "rank": 10,
+      "repo": "tokio-rs/topcoat",
+      "stars": 6817,
+      "daily": 192,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "tokio-rs/topcoat",
+        "description": "A batteries-included framework for building web apps",
+        "language": "Rust",
+        "stargazers_count": 6817,
+        "pushed_at": "2026-11-10T18:32:12Z",
+        "archived": false,
+        "html_url": "https://github.com/tokio-rs/topcoat",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/tokio-rs/topcoat/main/README.md",
+      "category": "Rust 全栈框架",
+      "summary_zh": "以 Rust 编写服务端 HTML 与组件，部分交互表达式可转成浏览器执行的 JavaScript。还提供路由、资源处理和可复制修改的界面组件。",
+      "editorial_reason_zh": "适合对 Rust 服务端页面与局部交互感兴趣的开发者做小型原型。项目明确处于早期实验阶段，预期会有破坏性变更，路线图中的功能应与现有能力分开评估。"
+    }
+  ]
+}
