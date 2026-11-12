@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-12",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-12T08:58:09.138219+08:00",
+  "verified_at": "2026-11-12T09:00:13.246085+08:00",
+  "trending_returned_count": 10,
+  "selection_note": "本次 GitHub Trending · Today 不限语言页面返回 10 个项目，本期按页面顺序全部收录。",
+  "items": [
+    {
+      "rank": 1,
+      "repo": "meta/astryx",
+      "stars": 24994,
+      "daily": 2776,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "meta/astryx",
+        "description": "An open source design system that's fully customizable and agent ready",
+        "language": "TypeScript",
+        "stargazers_count": 24996,
+        "pushed_at": "2026-11-12T00:55:15Z",
+        "archived": false,
+        "html_url": "https://github.com/meta/astryx",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/meta/astryx/main/README.md",
+      "category": "React 设计系统",
+      "summary_zh": "提供带类型的 React 组件、主题、深色模式与模板，并通过同一套文档和命令行工具支持开发者与编码助手。样式可用 CSS 自定义属性调整。",
+      "editorial_reason_zh": "适合先用一个表单验证组件、主题和现有样式能否配合。项目当前为 Beta，要求 React 19 或以上，团队可据此评估接入范围。"
+    },
+    {
+      "rank": 2,
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "stars": 70251,
+      "daily": 278,
+      "language": "Python",
+      "metadata": {
+        "full_name": "ZhuLinsen/daily_stock_analysis",
+        "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+        "language": "Python",
+        "stargazers_count": 70252,
+        "pushed_at": "2026-11-10T11:51:09Z",
+        "archived": false,
+        "html_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/ZhuLinsen/daily_stock_analysis/main/README.md",
+      "category": "数据聚合与报告",
+      "summary_zh": "聚合多市场行情、新闻和公告，通过大模型生成分析报告，提供 Web 工作台、历史记录和定时推送。仓库列出了不同市场的数据支持边界。",
+      "editorial_reason_zh": "作为工程案例，它把数据采集、模型处理和消息推送串成可定时执行的流程。可关注来源缺失时如何展示报告；生成内容需要核实，本期不评价投资效果。"
+    },
+    {
+      "rank": 3,
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "stars": 1753,
+      "daily": 159,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "GoogleChrome/modern-web-guidance-src",
+        "description": null,
+        "language": "TypeScript",
+        "stargazers_count": 1753,
+        "pushed_at": "2026-11-12T00:50:12Z",
+        "archived": false,
+        "html_url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/GoogleChrome/modern-web-guidance-src/main/README.md",
+      "category": "现代网页开发指引",
+      "summary_zh": "这是 Modern Web Guidance 的源码仓库，包含指引编写、校准和评估工具。内容覆盖现代浏览器 API、CSS 布局、性能、无障碍与兼容性，供编码助手按需检索。",
+      "editorial_reason_zh": "例如实现弹出层时，可先检查原生 Popover 或 Dialog 能否满足交互，再核对目标浏览器的支持范围。仓库同时公开评估相关材料，便于了解指引的维护方式。"
+    },
+    {
+      "rank": 4,
+      "repo": "shadcn/improve",
+      "stars": 10881,
+      "daily": 361,
+      "language": "未标注",
+      "metadata": {
+        "full_name": "shadcn/improve",
+        "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+        "language": null,
+        "stargazers_count": 10881,
+        "pushed_at": "2026-09-12T11:29:28Z",
+        "archived": false,
+        "html_url": "https://github.com/shadcn/improve",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/shadcn/improve/main/README.md",
+      "category": "代码审阅与实施计划",
+      "summary_zh": "审阅代码库后，按优先级整理带源码位置的问题，并将选中的问题写成独立实施计划。计划包含基准提交、具体步骤、验证命令与停止条件，也提供执行结果复核流程。",
+      "editorial_reason_zh": "适合把审阅结果交给另一位开发者或智能体实施。基准提交和验证条件让接手者有办法识别代码已经变化，减少仅凭一句问题描述直接修改的情况。"
+    },
+    {
+      "rank": 5,
+      "repo": "addyosmani/agent-skills",
+      "stars": 115953,
+      "daily": 787,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "addyosmani/agent-skills",
+        "description": "Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "stargazers_count": 115953,
+        "pushed_at": "2026-11-01T19:24:49Z",
+        "archived": false,
+        "html_url": "https://github.com/addyosmani/agent-skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/addyosmani/agent-skills/main/README.md",
+      "category": "智能体工程流程",
+      "summary_zh": "将需求、规划、实现、测试、评审与交付组织成可复用的技能和检查清单，支持多种编码助手。每个环节强调可核对的完成条件。",
+      "editorial_reason_zh": "团队可以从最常出问题的环节开始，例如将发布前需要的检查固定下来。技能提供执行步骤，是否满足项目要求仍应以实际检查结果为准。"
+    },
+    {
+      "rank": 6,
+      "repo": "vercel-labs/agent-browser",
+      "stars": 49872,
+      "daily": 708,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "vercel-labs/agent-browser",
+        "description": "Browser automation CLI for AI agents",
+        "language": "Rust",
+        "stargazers_count": 49872,
+        "pushed_at": "2026-11-11T22:13:48Z",
+        "archived": false,
+        "html_url": "https://github.com/vercel-labs/agent-browser",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/vercel-labs/agent-browser/main/README.md",
+      "category": "浏览器自动化",
+      "summary_zh": "提供 Rust 命令行工具，以可访问性树读取网页，并给元素分配引用编号，供智能体点击、填写和重新检查页面。浏览器会话可在命令之间保留。",
+      "editorial_reason_zh": "适合把网页流程拆成短步骤并检查每一步的结果。页面跳转或结构变化后重新获取快照，可以避免用旧编号操作已改变的页面。"
+    },
+    {
+      "rank": 7,
+      "repo": "we-promise/sure",
+      "stars": 12959,
+      "daily": 1078,
+      "language": "Ruby",
+      "metadata": {
+        "full_name": "we-promise/sure",
+        "description": "The personal finance app for everyone (by everyone)",
+        "language": "Ruby",
+        "stargazers_count": 12959,
+        "pushed_at": "2026-11-11T22:32:40Z",
+        "archived": false,
+        "html_url": "https://github.com/we-promise/sure",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/we-promise/sure/main/README.md",
+      "category": "自托管财务应用",
+      "summary_zh": "社区延续 Maybe Finance 项目，提供可通过 Docker 自托管的个人财务应用，并列出浏览器、桌面、移动端与 API 客户端入口。",
+      "editorial_reason_zh": "适合研究社区如何接续一个停止维护的应用，也可用演示数据了解仪表盘与客户端体验。自行部署前需要评估数据备份和日常维护安排。"
+    },
+    {
+      "rank": 8,
+      "repo": "homeassistant-ai/ha-mcp",
+      "stars": 7370,
+      "daily": 645,
+      "language": "Python",
+      "metadata": {
+        "full_name": "homeassistant-ai/ha-mcp",
+        "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+        "language": "Python",
+        "stargazers_count": 7370,
+        "pushed_at": "2026-11-12T00:54:45Z",
+        "archived": false,
+        "html_url": "https://github.com/homeassistant-ai/ha-mcp",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/homeassistant-ai/ha-mcp/master/README.md",
+      "category": "智能家居接口",
+      "summary_zh": "通过 MCP 向 AI 助手提供 Home Assistant 状态、历史、自动化轨迹和服务调用，也支持配置及自动化管理。文件与 YAML 编辑工具需要额外启用。",
+      "editorial_reason_zh": "例如排查灯光误触发时，可把设备历史和自动化轨迹放在一起查看。实际可操作范围由连接身份与启用的工具决定，可先从读取状态与排障流程入手。"
+    },
+    {
+      "rank": 9,
+      "repo": "openai/codex-security",
+      "stars": 11732,
+      "daily": 52,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "openai/codex-security",
+        "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+        "language": "TypeScript",
+        "stargazers_count": 11732,
+        "pushed_at": "2026-11-12T00:55:29Z",
+        "archived": false,
+        "html_url": "https://github.com/openai/codex-security",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/openai/codex-security/main/README.md",
+      "category": "代码安全检查",
+      "summary_zh": "提供命令行与 TypeScript SDK，可检查仓库、指定目录或 Git 变更，验证候选问题、生成补丁并检查已有修复。报告保留源码证据与检查范围。",
+      "editorial_reason_zh": "可先聚焦一次认证逻辑变更，查看发现是否有足够证据以及哪些路径未被覆盖。报告、问题验证和修复验证是不同步骤，应逐项核对结果。"
+    },
+    {
+      "rank": 10,
+      "repo": "TheAlgorithms/Java",
+      "stars": 67023,
+      "daily": 51,
+      "language": "Java",
+      "metadata": {
+        "full_name": "TheAlgorithms/Java",
+        "description": "All Algorithms implemented in Java",
+        "language": "Java",
+        "stargazers_count": 67023,
+        "pushed_at": "2026-11-11T21:56:41Z",
+        "archived": false,
+        "html_url": "https://github.com/TheAlgorithms/Java",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/README.md",
+      "category": "Java 算法学习",
+      "summary_zh": "用 Java 实现多种算法，并通过目录集中列出示例。项目明确以教学为目的，便于阅读、运行和修改实现。",
+      "editorial_reason_zh": "适合选取一个算法，配合小规模输入观察中间状态，再比较不同实现的复杂度。教学代码可能不如标准库高效，实际应用应结合需求选择。"
+    }
+  ]
+}
