@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-13",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-13T08:59:42.089338+08:00",
+  "verified_at": "2026-11-13T09:02:00.332782+08:00",
+  "trending_returned_count": 13,
+  "selection_note": "从本次 Trending 返回的 13 个项目中，按开发工具、本地推理、工程流程与自托管应用主题选取 10 个，保留原始位置；不是完整榜单或前十名。",
+  "items": [
+    {
+      "rank": 1,
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "stars": 2953,
+      "daily": 739,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "GoogleChrome/modern-web-guidance-src",
+        "description": "Keep your coding agent up to date with the latest web best practices",
+        "language": "TypeScript",
+        "stargazers_count": 2953,
+        "pushed_at": "2026-11-13T00:57:46Z",
+        "archived": false,
+        "html_url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/GoogleChrome/modern-web-guidance-src/main/README.md",
+      "category": "网页开发指引",
+      "summary_zh": "将现代浏览器 API、CSS、性能、无障碍与兼容性知识整理为编码助手可检索的指引。这个源码仓库还包含内容编写、校准和评估工具。",
+      "editorial_reason_zh": "开发弹出层或页面过渡时，可先查浏览器原生能力与兼容范围，再确定实现方式。指引与评估材料一起公开，便于团队检查建议的依据。"
+    },
+    {
+      "rank": 2,
+      "repo": "openai/codex-security",
+      "stars": 12427,
+      "daily": 643,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "openai/codex-security",
+        "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+        "language": "TypeScript",
+        "stargazers_count": 12427,
+        "pushed_at": "2026-11-12T21:10:11Z",
+        "archived": false,
+        "html_url": "https://github.com/openai/codex-security",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/openai/codex-security/main/README.md",
+      "category": "代码安全检查",
+      "summary_zh": "提供命令行和 TypeScript SDK，支持检查仓库、指定目录或 Git 变更，验证候选漏洞、生成补丁与复核已有修复，并保存源码证据和检查范围。",
+      "editorial_reason_zh": "适合从一次认证或权限相关变更开始，核对报告中的证据与遗漏范围。候选问题、已验证问题和修复结果需要分别确认。"
+    },
+    {
+      "rank": 3,
+      "repo": "nvm-sh/nvm",
+      "stars": 96015,
+      "daily": 63,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "nvm-sh/nvm",
+        "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+        "language": "Shell",
+        "stargazers_count": 96015,
+        "pushed_at": "2026-11-12T05:50:45Z",
+        "archived": false,
+        "html_url": "https://github.com/nvm-sh/nvm",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/nvm-sh/nvm/master/README.md",
+      "category": "Node.js 版本管理",
+      "summary_zh": "按用户安装、在各个 Shell 中调用的 Node.js 版本管理工具，可安装和切换多个版本，并从项目的 .nvmrc 文件读取版本要求。",
+      "editorial_reason_zh": "同时维护几个前端或命令行项目时，可以把运行时版本写进项目约定。进入目录后显式切换并核对版本，有助于复现依赖安装或构建问题。"
+    },
+    {
+      "rank": 5,
+      "repo": "we-promise/sure",
+      "stars": 13920,
+      "daily": 967,
+      "language": "Ruby",
+      "metadata": {
+        "full_name": "we-promise/sure",
+        "description": "The personal finance app for everyone (by everyone)",
+        "language": "Ruby",
+        "stargazers_count": 13921,
+        "pushed_at": "2026-11-12T23:09:43Z",
+        "archived": false,
+        "html_url": "https://github.com/we-promise/sure",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/we-promise/sure/main/README.md",
+      "category": "自托管应用",
+      "summary_zh": "由社区继续维护 Maybe Finance 的个人财务应用，支持 Docker 自托管，并提供浏览器、桌面、移动端及 API 等访问入口。",
+      "editorial_reason_zh": "适合观察社区接续维护与多客户端支持的实践。准备自行部署时，可先用演示数据检查流程，再评估备份、更新及数据恢复方式。"
+    },
+    {
+      "rank": 6,
+      "repo": "QwenLM/qwen-code",
+      "stars": 29812,
+      "daily": 151,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "QwenLM/qwen-code",
+        "description": "An open-source AI coding agent that lives in your terminal.",
+        "language": "TypeScript",
+        "stargazers_count": 29812,
+        "pushed_at": "2026-11-13T00:59:33Z",
+        "archived": false,
+        "html_url": "https://github.com/QwenLM/qwen-code",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/QwenLM/qwen-code/main/README.md",
+      "category": "终端编码智能体",
+      "summary_zh": "从终端出发，提供代码库理解与开发任务协作，也支持编辑器、桌面、网页和聊天入口。README 列出多种模型 API 协议、MCP 与本地模型接入方式。",
+      "editorial_reason_zh": "适合希望在不同开发入口复用编码助手的团队。可先选一个小改动验证读代码、修改与测试流程；主线和 1.0 Preview 的安装入口需要区分。"
+    },
+    {
+      "rank": 7,
+      "repo": "ashhart/TensorFold",
+      "stars": 1938,
+      "daily": 54,
+      "language": "Zig",
+      "metadata": {
+        "full_name": "ashhart/TensorFold",
+        "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+        "language": "Zig",
+        "stargazers_count": 1938,
+        "pushed_at": "2026-11-13T00:51:13Z",
+        "archived": false,
+        "html_url": "https://github.com/ashhart/TensorFold",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/ashhart/TensorFold/main/README.md",
+      "category": "本地模型推理",
+      "summary_zh": "用 Zig 二进制读取模型权重、分词并直接运行 Metal 或 CUDA 内核，为 Apple Silicon 和 NVIDIA GPU 提供模型服务。服务端可提供聊天等 API。",
+      "editorial_reason_zh": "如果想缩小本地推理环境的依赖范围，可以先用 README 固定版本的小模型示例核对硬件、内存和输出。模型权重另有许可，吞吐与效果需在自己的机器上测量。"
+    },
+    {
+      "rank": 8,
+      "repo": "nodejs/node",
+      "stars": 123601,
+      "daily": 62,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "nodejs/node",
+        "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+        "language": "JavaScript",
+        "stargazers_count": 123601,
+        "pushed_at": "2026-11-12T21:07:38Z",
+        "archived": false,
+        "html_url": "https://github.com/nodejs/node",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/nodejs/node/main/README.md",
+      "category": "JavaScript 运行时",
+      "summary_zh": "提供跨平台、开源的 JavaScript 运行环境，支撑服务端程序与大量开发工具。官方仓库说明发布类型、二进制校验、构建与贡献方式。",
+      "editorial_reason_zh": "本期 nvm 和 Qwen Code 都涉及 Node.js 环境。把项目要求、当前运行版本与测试环境对应起来，能帮助定位运行时差异造成的问题。",
+      "license_source": "https://github.com/nodejs/node/blob/main/LICENSE"
+    },
+    {
+      "rank": 9,
+      "repo": "addyosmani/agent-skills",
+      "stars": 116674,
+      "daily": 816,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "addyosmani/agent-skills",
+        "description": "Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript",
+        "stargazers_count": 116674,
+        "pushed_at": "2026-11-01T19:24:49Z",
+        "archived": false,
+        "html_url": "https://github.com/addyosmani/agent-skills",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/addyosmani/agent-skills/main/README.md",
+      "category": "工程流程技能",
+      "summary_zh": "把需求澄清、任务规划、实现、测试、评审和发布整理为编码助手可使用的技能，附带检查清单与可验证的完成条件。",
+      "editorial_reason_zh": "适合将团队反复强调的要求放进固定工作步骤。可以先从测试或交付环节试用，再根据实际项目补充需要保留的证据。"
+    },
+    {
+      "rank": 10,
+      "repo": "meta/astryx",
+      "stars": 26543,
+      "daily": 1830,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "meta/astryx",
+        "description": "An open source design system that's fully customizable and agent ready",
+        "language": "TypeScript",
+        "stargazers_count": 26544,
+        "pushed_at": "2026-11-13T00:59:59Z",
+        "archived": false,
+        "html_url": "https://github.com/meta/astryx",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/meta/astryx/main/README.md",
+      "category": "React 设计系统",
+      "summary_zh": "提供 React 组件、品牌主题、深色模式、模板及命令行文档。组件支持组合，主题通过 CSS 自定义属性调整，供开发者与编码助手共同使用。",
+      "editorial_reason_zh": "团队可以用一个表单或详情页检查视觉规范与交互是否合用。当前为 Beta，要求 React 19 或以上，应结合现有技术栈评估。"
+    },
+    {
+      "rank": 13,
+      "repo": "ggml-org/llama.cpp",
+      "stars": 134557,
+      "daily": 176,
+      "language": "C++",
+      "metadata": {
+        "full_name": "ggml-org/llama.cpp",
+        "description": "LLM inference in C/C++",
+        "language": "C++",
+        "stargazers_count": 134557,
+        "pushed_at": "2026-11-13T00:34:21Z",
+        "archived": false,
+        "html_url": "https://github.com/ggml-org/llama.cpp",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md",
+      "category": "C/C++ 模型推理",
+      "summary_zh": "以 C/C++ 实现语言与视觉语言模型推理，提供命令行交互和兼容 OpenAI 接口的服务，并支持多类硬件与量化模型。",
+      "editorial_reason_zh": "适合把本地模型接到现有应用中做小规模验证。可与 TensorFold 对照模型格式、硬件支持和服务接口，选型时保留相同输入与测试条件。"
+    }
+  ]
+}
