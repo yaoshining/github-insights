@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-14",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-14T08:57:41.959233+08:00",
+  "verified_at": "2026-11-14T08:59:25.935396+08:00",
+  "trending_returned_count": 12,
+  "selection_note": "从本次 Trending 返回的 12 个项目中，按代码审阅、智能体协作、网页调试、自托管与网络工具主题选取 10 个，保留原始位置；不是完整榜单或前十名。",
+  "items": [
+    {
+      "rank": 1,
+      "repo": "alibaba/open-code-review",
+      "stars": 50623,
+      "daily": 215,
+      "language": "Go",
+      "metadata": {
+        "full_name": "alibaba/open-code-review",
+        "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "language": "Go",
+        "stargazers_count": 50623,
+        "pushed_at": "2026-11-13T16:04:43Z",
+        "archived": false,
+        "html_url": "https://github.com/alibaba/open-code-review",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/alibaba/open-code-review/main/README.md",
+      "category": "AI 代码审阅",
+      "summary_zh": "读取 Git 差异，由可调用工具的模型结合完整文件和代码搜索结果生成行级审阅意见；也支持扫描整份文件。工程流程负责文件选择、规则匹配和评论定位。",
+      "editorial_reason_zh": "适合在一组已有人工结论的变更上比较审阅结果，核对问题位置、误报与遗漏。仓库公布了自己的基准测试，本期未复测其质量或成本指标。"
+    },
+    {
+      "rank": 2,
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "stars": 4853,
+      "daily": 1925,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "GoogleChrome/modern-web-guidance-src",
+        "description": "Keep your coding agent up to date with the latest web best practices",
+        "language": "TypeScript",
+        "stargazers_count": 4855,
+        "pushed_at": "2026-11-14T00:26:54Z",
+        "archived": false,
+        "html_url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/GoogleChrome/modern-web-guidance-src/main/README.md",
+      "category": "现代网页指引",
+      "summary_zh": "将浏览器 API、CSS、性能、无障碍与兼容性知识整理成编码助手可检索的指引。该源码仓库包含内容编写、校准与评估相关工具。",
+      "editorial_reason_zh": "实现弹出层、动画或表单时，可先检查平台已有能力及目标浏览器支持情况，再决定方案。它提供知识依据，实际页面仍需通过运行时检查。"
+    },
+    {
+      "rank": 3,
+      "repo": "openai/codex-security",
+      "stars": 13134,
+      "daily": 751,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "openai/codex-security",
+        "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+        "language": "TypeScript",
+        "stargazers_count": 13134,
+        "pushed_at": "2026-11-13T22:45:43Z",
+        "archived": false,
+        "html_url": "https://github.com/openai/codex-security",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/openai/codex-security/main/README.md",
+      "category": "代码安全检查",
+      "summary_zh": "提供命令行和 TypeScript SDK，可按仓库、目录或 Git 变更开展检查，验证候选问题、生成补丁并复核已有修复，报告保留证据和范围说明。",
+      "editorial_reason_zh": "可以从一次权限相关改动入手，逐条查看证据、验证状态与未覆盖路径。审阅报告和修复后的检查结果应分别保存，便于复核。"
+    },
+    {
+      "rank": 4,
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "stars": 71597,
+      "daily": 256,
+      "language": "Python",
+      "metadata": {
+        "full_name": "ZhuLinsen/daily_stock_analysis",
+        "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+        "language": "Python",
+        "stargazers_count": 71597,
+        "pushed_at": "2026-11-13T16:25:42Z",
+        "archived": false,
+        "html_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/ZhuLinsen/daily_stock_analysis/main/README.md",
+      "category": "数据汇总与报告",
+      "summary_zh": "聚合多市场行情、新闻和公告，由大模型生成分析报告，提供工作台、历史记录以及定时消息推送。官方说明区分各市场的数据支持范围。",
+      "editorial_reason_zh": "作为自动化案例，可研究采集、生成和推送怎样串联，以及上游限流或接口变化怎样影响结果。本期关注软件流程，不评价投资效果。"
+    },
+    {
+      "rank": 5,
+      "repo": "we-promise/sure",
+      "stars": 14744,
+      "daily": 925,
+      "language": "Ruby",
+      "metadata": {
+        "full_name": "we-promise/sure",
+        "description": "The personal finance app for everyone (by everyone)",
+        "language": "Ruby",
+        "stargazers_count": 14744,
+        "pushed_at": "2026-11-13T22:00:45Z",
+        "archived": false,
+        "html_url": "https://github.com/we-promise/sure",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/we-promise/sure/main/README.md",
+      "category": "自托管个人财务",
+      "summary_zh": "社区继续维护 Maybe Finance 的代码，提供可通过 Docker 自托管的个人财务应用，支持浏览器及多种客户端和 API 访问。",
+      "editorial_reason_zh": "适合观察社区延续维护和多客户端设计。自行部署时可先用演示数据检查记录、查询与恢复流程，再接入需要长期保存的数据。"
+    },
+    {
+      "rank": 6,
+      "repo": "backnotprop/plannotator",
+      "stars": 10458,
+      "daily": 108,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "backnotprop/plannotator",
+        "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
+        "language": "TypeScript",
+        "stargazers_count": 10458,
+        "pushed_at": "2026-11-14T00:55:10Z",
+        "archived": false,
+        "html_url": "https://github.com/backnotprop/plannotator",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/backnotprop/plannotator/main/README.md",
+      "category": "计划与代码批注",
+      "summary_zh": "在本地浏览器中展示智能体的计划、文档、HTML 产物和代码差异，用户可标注、评论并把反馈交回智能体；也支持审阅本地改动或远端 PR。",
+      "editorial_reason_zh": "当修改意见涉及某一段计划或具体界面位置时，原位批注能保留上下文。可先用一个小计划验证反馈是否准确传回，以及修改后如何复核。"
+    },
+    {
+      "rank": 7,
+      "repo": "louislam/uptime-kuma",
+      "stars": 93863,
+      "daily": 71,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "louislam/uptime-kuma",
+        "description": "A fancy self-hosted monitoring tool",
+        "language": "JavaScript",
+        "stargazers_count": 93863,
+        "pushed_at": "2026-11-14T00:04:41Z",
+        "archived": false,
+        "html_url": "https://github.com/louislam/uptime-kuma",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/louislam/uptime-kuma/master/README.md",
+      "category": "自托管可用性监控",
+      "summary_zh": "支持 HTTP、TCP、Ping、DNS、关键词与 JSON 查询等检查，提供状态页、证书信息和多种通知渠道，可通过 Docker 部署。",
+      "editorial_reason_zh": "例如日报网站返回成功响应时，还可用关键词检查最新日期是否已出现。检查条件应对应实际需求，可用性、内容正确和完整业务流程需要分别判断。"
+    },
+    {
+      "rank": 8,
+      "repo": "block/buzz",
+      "stars": 37299,
+      "daily": 97,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "block/buzz",
+        "description": "A hive mind communication platform",
+        "language": "Rust",
+        "stargazers_count": 37299,
+        "pushed_at": "2026-11-14T00:50:58Z",
+        "archived": false,
+        "html_url": "https://github.com/block/buzz",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/block/buzz/main/README.md",
+      "category": "人与智能体协作",
+      "summary_zh": "提供可自托管的协作空间，以 Nostr 中继保存签名事件，将消息、工作流步骤、审阅批准和 Git 事件放在同一记录体系中。当前仓库包含中继和移动端，桌面端位于另一个仓库。",
+      "editorial_reason_zh": "适合研究如何让代码变更、讨论和批准记录相互关联。评估时可先跟踪一个功能分支，确认成员身份、频道范围和事件记录是否满足团队需求。"
+    },
+    {
+      "rank": 10,
+      "repo": "tailscale/tailcat",
+      "stars": 9458,
+      "daily": 256,
+      "language": "Go",
+      "metadata": {
+        "full_name": "tailscale/tailcat",
+        "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+        "language": "Go",
+        "stargazers_count": 9458,
+        "pushed_at": "2026-11-05T15:10:23Z",
+        "archived": false,
+        "html_url": "https://github.com/tailscale/tailcat",
+        "license": {
+          "key": "bsd-3-clause",
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdx_id": "BSD-3-Clause",
+          "url": "https://api.github.com/licenses/bsd-3-clause",
+          "node_id": "MDc6TGljZW5zZTU="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/tailscale/tailcat/main/README.md",
+      "category": "点对点连接工具",
+      "summary_zh": "将 Tailscale 的数据传输组件组合为类似 netcat 的命令行和 Go 库。两端通过带外交换的地址建立 WireGuard 加密连接，尝试 NAT 穿透，必要时通过 DERP 中继。",
+      "editorial_reason_zh": "可用于实验跨网络传输文本或文件，而无需配置整套设备网络。应观察连接实际走直连还是中继；官方浏览器演示仍属实验功能，当前仅通过 DERP 转发。"
+    },
+    {
+      "rank": 12,
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "stars": 55453,
+      "daily": 67,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "ChromeDevTools/chrome-devtools-mcp",
+        "description": "Chrome DevTools for coding agents",
+        "language": "TypeScript",
+        "stargazers_count": 55454,
+        "pushed_at": "2026-11-13T17:28:37Z",
+        "archived": false,
+        "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/main/README.md",
+      "category": "浏览器调试接口",
+      "summary_zh": "通过 MCP 服务和命令行向编码助手提供 Chrome 页面控制、性能记录、网络请求、截图与控制台消息，帮助检查真实运行中的网页。",
+      "editorial_reason_zh": "修改页面后，可以把截图、网络错误与性能轨迹结合起来定位问题。官方支持 Chrome 和 Chrome for Testing，其他 Chromium 浏览器的行为不作保证。"
+    }
+  ]
+}
