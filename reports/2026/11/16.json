@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-16",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-16T08:56:03.176089+08:00",
+  "verified_at": "2026-11-16T08:58:16.662527+08:00",
+  "trending_returned_count": 12,
+  "selection_note": "从本次 Trending 返回的 12 个项目中，按设计与开发工作流、智能体交互、技能评估和机器学习基础工具主题选取 10 个，保留原始位置；不是完整榜单或前十名。",
+  "items": [
+    {
+      "rank": 1,
+      "repo": "dream-num/univer",
+      "stars": 25697,
+      "daily": 988,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "dream-num/univer",
+        "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+        "language": "TypeScript",
+        "stargazers_count": 25698,
+        "pushed_at": "2026-11-15T17:20:06Z",
+        "archived": false,
+        "html_url": "https://github.com/dream-num/univer",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "dev"
+      },
+      "readme_url": "https://raw.githubusercontent.com/dream-num/univer/dev/README.md",
+      "category": "表格与文档引擎",
+      "summary_zh": "提供可嵌入产品的 Sheets、Docs 编辑能力，以及公式、渲染、命令和应用接口。开源核心采用 Apache-2.0，应用可读写工作簿并保存 JSON 快照。",
+      "editorial_reason_zh": "可用一张含公式的报价表验证编辑、重算、撤销和恢复，而不仅查看最终截图。实时协作、Office 文件导入导出及部分 AI 扩展另行分发授权，需要按功能确认范围。"
+    },
+    {
+      "rank": 2,
+      "repo": "ag-ui-protocol/ag-ui",
+      "stars": 17865,
+      "daily": 355,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "ag-ui-protocol/ag-ui",
+        "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+        "language": "TypeScript",
+        "stargazers_count": 17865,
+        "pushed_at": "2026-11-15T02:26:33Z",
+        "archived": false,
+        "html_url": "https://github.com/ag-ui-protocol/ag-ui",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/main/README.md",
+      "category": "智能体交互协议",
+      "summary_zh": "定义智能体后端与用户界面之间的事件通信，涵盖流式消息、双向状态同步、结构化消息和前端工具，附带 HTTP 参考实现及框架集成。",
+      "editorial_reason_zh": "适合把“正在执行、等待输入、结果已更新”呈现在应用里。评估时可记录一次任务的事件序列，检查用户操作与后端状态能否保持一致。"
+    },
+    {
+      "rank": 3,
+      "repo": "google-labs-code/stitch-skills",
+      "stars": 9296,
+      "daily": 247,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "google-labs-code/stitch-skills",
+        "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "language": "TypeScript",
+        "stargazers_count": 9296,
+        "pushed_at": "2026-08-17T20:20:23Z",
+        "archived": false,
+        "html_url": "https://github.com/google-labs-code/stitch-skills",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/google-labs-code/stitch-skills/main/README.md",
+      "category": "设计与实现技能库",
+      "summary_zh": "面向 Google Stitch 的 Agent Skills 与插件集合，覆盖生成和修改设计、提取 DESIGN.md、导出静态 HTML，以及转换为 React 或 React Native 组件等工作流。",
+      "editorial_reason_zh": "适合研究设计系统如何随界面一起交给编码助手。相关技能需要已配置的 Stitch MCP，且部分技能相互依赖；技能库开源不代表外部设计服务可离线运行。"
+    },
+    {
+      "rank": 4,
+      "repo": "backnotprop/plannotator",
+      "stars": 11833,
+      "daily": 866,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "backnotprop/plannotator",
+        "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
+        "language": "TypeScript",
+        "stargazers_count": 11835,
+        "pushed_at": "2026-11-16T00:52:06Z",
+        "archived": false,
+        "html_url": "https://github.com/backnotprop/plannotator",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/backnotprop/plannotator/main/README.md",
+      "category": "产物与代码批注",
+      "summary_zh": "在本地浏览器里展示计划、文档、HTML 产物和代码差异，支持原位评论、建议修改及把反馈传回智能体，Inbox 用于集中呈现待审阅内容。",
+      "editorial_reason_zh": "用它审阅生成的页面时，可把意见落在具体区域或代码差异上，便于下一轮核对。值得检查反馈回传后助手是否修改了对应位置，以及未采纳的意见如何处理。"
+    },
+    {
+      "rank": 5,
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "stars": 56929,
+      "daily": 717,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "ChromeDevTools/chrome-devtools-mcp",
+        "description": "Chrome DevTools for coding agents",
+        "language": "TypeScript",
+        "stargazers_count": 56930,
+        "pushed_at": "2026-11-15T03:06:25Z",
+        "archived": false,
+        "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/main/README.md",
+      "category": "浏览器验证工具",
+      "summary_zh": "通过 MCP 和命令行向编码助手提供 Chrome 控制、截图、网络和控制台信息，以及性能轨迹采集，帮助检查真实运行的网页。",
+      "editorial_reason_zh": "设计转成页面后，可结合截图、请求状态和控制台错误判断是否完成了预期交互。官方支持 Chrome 与 Chrome for Testing，其他 Chromium 浏览器不保证兼容。"
+    },
+    {
+      "rank": 6,
+      "repo": "alibaba/open-code-review",
+      "stars": 52097,
+      "daily": 691,
+      "language": "Go",
+      "metadata": {
+        "full_name": "alibaba/open-code-review",
+        "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "language": "Go",
+        "stargazers_count": 52097,
+        "pushed_at": "2026-11-15T02:41:14Z",
+        "archived": false,
+        "html_url": "https://github.com/alibaba/open-code-review",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/alibaba/open-code-review/main/README.md",
+      "category": "AI 代码审阅",
+      "summary_zh": "把文件筛选、关联文件分组、规则匹配和评论定位交给工程流程，模型结合工具检索上下文，对 Git 变更生成行级意见。",
+      "editorial_reason_zh": "可以在固定的一组变更上比较审阅准确性、遗漏和耗时，观察规则与模型分别带来的影响。仓库提供自有基准，本期未复现其质量或成本结果。"
+    },
+    {
+      "rank": 7,
+      "repo": "Tencent/LoopForge",
+      "stars": 1485,
+      "daily": 423,
+      "language": "Go",
+      "metadata": {
+        "full_name": "Tencent/LoopForge",
+        "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+        "language": "Go",
+        "stargazers_count": 1485,
+        "pushed_at": "2026-11-15T11:05:37Z",
+        "archived": false,
+        "html_url": "https://github.com/Tencent/LoopForge",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/Tencent/LoopForge/main/README.md",
+      "category": "可重复交付流程",
+      "summary_zh": "自托管工作台将编码助手、脚本、人工审批和子流程组成 SOP，保存节点产物、日志与运行状态，支持重试和退回指定步骤；另有面向个人编码助手的 Local 工作流。",
+      "editorial_reason_zh": "适合将实现、审阅、脚本检查和人工验收安排为明确步骤，便于追查一次交付的依据。平台面向可信团队；Local 当前使用内置流程，平台 SOP 导出本地仍是计划能力。"
+    },
+    {
+      "rank": 8,
+      "repo": "ggml-org/ggml",
+      "stars": 15907,
+      "daily": 43,
+      "language": "C++",
+      "metadata": {
+        "full_name": "ggml-org/ggml",
+        "description": "Tensor library for machine learning",
+        "language": "C++",
+        "stargazers_count": 15907,
+        "pushed_at": "2026-11-13T08:34:20Z",
+        "archived": false,
+        "html_url": "https://github.com/ggml-org/ggml",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/ggml-org/ggml/master/README.md",
+      "category": "机器学习张量库",
+      "summary_zh": "以 C/C++ 实现机器学习张量运算，支持多种处理器架构、计算后端及低位整数和微缩放量化格式。仓库提供带注释的矩阵乘法最小示例。",
+      "editorial_reason_zh": "适合从一个小计算图理解模型底层如何组织运算、内存与后端，再观察量化和硬件对结果的影响。选择它时需区分张量库能力与上层完整模型服务的职责。"
+    },
+    {
+      "rank": 10,
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "stars": 7170,
+      "daily": 1219,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "GoogleChrome/modern-web-guidance-src",
+        "description": "Keep your coding agent up to date with the latest web best practices",
+        "language": "TypeScript",
+        "stargazers_count": 7170,
+        "pushed_at": "2026-11-15T12:09:36Z",
+        "archived": false,
+        "html_url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/GoogleChrome/modern-web-guidance-src/main/README.md",
+      "category": "现代网页实现指引",
+      "summary_zh": "将现代浏览器 API、CSS、无障碍、性能和兼容性知识整理为编码助手可检索的技能指引；源码仓库包含编写、校准与评估内容的工具。",
+      "editorial_reason_zh": "可作为设计转代码时的平台依据，例如先查原生弹出层或布局方案，再实施并验证。它的评估工具也提供了一个观察点：如何确认新增指引确实改变了生成代码。"
+    },
+    {
+      "rank": 12,
+      "repo": "NVIDIA/SkillEvaluator",
+      "stars": 1681,
+      "daily": 122,
+      "language": "Python",
+      "metadata": {
+        "full_name": "NVIDIA/SkillEvaluator",
+        "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+        "language": "Python",
+        "stargazers_count": 1681,
+        "pushed_at": "2026-11-16T00:53:35Z",
+        "archived": false,
+        "html_url": "https://github.com/NVIDIA/SkillEvaluator",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/NVIDIA/SkillEvaluator/main/README.md",
+      "category": "智能体技能评估",
+      "summary_zh": "提供分层检查：技能格式与质量验证、语义重复检测，以及比较启用和不启用技能时的实际智能体运行。支持命令行、CI 接入和评估报告输出。",
+      "editorial_reason_zh": "适合回答一份技能是否真正改善任务结果。无模型的质量检查只能证明静态部分；完整安全检查需要扫描器，实际效果评估还需要模型、受支持的智能体与沙箱，缺项应保留为不完整证据。"
+    }
+  ]
+}
