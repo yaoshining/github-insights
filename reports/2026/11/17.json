@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-17",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-17T09:01:28.710890+08:00",
+  "verified_at": "2026-11-17T09:06:56.723940+08:00",
+  "trending_returned_count": 14,
+  "selection_note": "从本次 Trending 返回的 14 个项目中，按智能体交互、开发工具、科研写作、视频处理和自托管主题选取 10 个，保留原始位置；不是完整榜单或前十名。",
+  "items": [
+    {
+      "rank": 1,
+      "repo": "ag-ui-protocol/ag-ui",
+      "stars": 18992,
+      "daily": 791,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "ag-ui-protocol/ag-ui",
+        "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+        "language": "TypeScript",
+        "stargazers_count": 18992,
+        "pushed_at": "2026-11-16T19:12:15Z",
+        "archived": false,
+        "html_url": "https://github.com/ag-ui-protocol/ag-ui",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/main/README.md",
+      "category": "智能体交互协议",
+      "summary_zh": "以双向事件流连接智能体和用户界面，表达流式文本、工具调用、共享状态及等待人工输入等过程。当前 README 已公布 1.0 稳定规范及 JSON Schema，并说明 TypeScript、Python 和 .NET SDK 从规范生成。",
+      "editorial_reason_zh": "适合把长任务的进度与待确认事项呈现在应用中。1.0 的规范化值得关注，接入时仍应验证事件顺序、状态同步和现有客户端的兼容性；本期未执行迁移测试。"
+    },
+    {
+      "rank": 2,
+      "repo": "backnotprop/plannotator",
+      "stars": 12567,
+      "daily": 696,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "backnotprop/plannotator",
+        "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
+        "language": "TypeScript",
+        "stargazers_count": 12567,
+        "pushed_at": "2026-11-17T00:39:43Z",
+        "archived": false,
+        "html_url": "https://github.com/backnotprop/plannotator",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/backnotprop/plannotator/main/README.md",
+      "category": "计划与产物审阅",
+      "summary_zh": "在浏览器中批注计划、文档、HTML 和代码差异，再将反馈传回编码助手。Inbox 汇集消息、问题和文件，Guided Review 将较大的代码变更组织成便于审阅的章节。",
+      "editorial_reason_zh": "当助手持续工作而人只能间歇查看时，集中处理问题和审阅材料很实用。可关注一次回复能否回到正确会话，以及修改后是否保留足够上下文供复核。"
+    },
+    {
+      "rank": 3,
+      "repo": "dream-num/univer",
+      "stars": 27783,
+      "daily": 1828,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "dream-num/univer",
+        "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+        "language": "TypeScript",
+        "stargazers_count": 27783,
+        "pushed_at": "2026-11-16T17:59:43Z",
+        "archived": false,
+        "html_url": "https://github.com/dream-num/univer",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "dev"
+      },
+      "readme_url": "https://raw.githubusercontent.com/dream-num/univer/dev/README.md",
+      "category": "可嵌入办公引擎",
+      "summary_zh": "为产品提供 Sheets、Docs 编辑能力，开源核心包含文档模型、插件、命令、公式、渲染和 Facade API，便于应用或智能体读写结构化办公内容。",
+      "editorial_reason_zh": "适合需要编辑表格、计算公式和保存文档状态的业务页面。Apache-2.0 核心与另行提供的协作、历史版本、文件转换及 AI 扩展应分别评估，不能将整套商业功能都视作开源核心。"
+    },
+    {
+      "rank": 5,
+      "repo": "getarcaneapp/arcane",
+      "stars": 8731,
+      "daily": 46,
+      "language": "Go",
+      "metadata": {
+        "full_name": "getarcaneapp/arcane",
+        "description": "Modern Docker Management, Designed for Everyone",
+        "language": "Go",
+        "stargazers_count": 8732,
+        "pushed_at": "2026-11-16T18:45:42Z",
+        "archived": false,
+        "html_url": "https://github.com/getarcaneapp/arcane",
+        "license": {
+          "key": "bsd-3-clause",
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdx_id": "BSD-3-Clause",
+          "url": "https://api.github.com/licenses/bsd-3-clause",
+          "node_id": "MDc6TGljZW5zZTU="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/getarcaneapp/arcane/main/README.md",
+      "category": "Docker 可视化管理",
+      "summary_zh": "通过网页管理容器、镜像、卷和网络，支持编辑与部署 Docker Compose 项目、查看日志和资源状态，并可通过代理连接远端 Docker 主机。",
+      "editorial_reason_zh": "适合把多项自托管服务集中到一个操作界面。仓库说明当前 main 对应 v3，旧版位于 release/2.x.x；采用时应对照部署版本阅读文档，再检查实际容器状态与日志。",
+      "official_url": "https://getarcane.app/"
+    },
+    {
+      "rank": 7,
+      "repo": "google-labs-code/stitch-skills",
+      "stars": 9738,
+      "daily": 529,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "google-labs-code/stitch-skills",
+        "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "language": "TypeScript",
+        "stargazers_count": 9738,
+        "pushed_at": "2026-08-17T20:20:23Z",
+        "archived": false,
+        "html_url": "https://github.com/google-labs-code/stitch-skills",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/google-labs-code/stitch-skills/main/README.md",
+      "category": "设计转实现技能",
+      "summary_zh": "围绕 Stitch MCP 提供 Agent Skills，覆盖生成或调整设计、提取 DESIGN.md、导出 HTML，以及转换为 React 和 React Native 组件等流程。",
+      "editorial_reason_zh": "可以研究如何让界面规范随设计一起传递给编码助手。相关技能需要配置 Stitch MCP，部分技能还有前置依赖；最终页面仍需检查布局、交互和可访问性。"
+    },
+    {
+      "rank": 9,
+      "repo": "NVIDIA/SkillEvaluator",
+      "stars": 2698,
+      "daily": 873,
+      "language": "Python",
+      "metadata": {
+        "full_name": "NVIDIA/SkillEvaluator",
+        "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+        "language": "Python",
+        "stargazers_count": 2699,
+        "pushed_at": "2026-11-17T01:01:37Z",
+        "archived": false,
+        "html_url": "https://github.com/NVIDIA/SkillEvaluator",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/NVIDIA/SkillEvaluator/main/README.md",
+      "category": "智能体技能评估",
+      "summary_zh": "将技能评估分为静态质量与扫描检查、语义重复检测，以及实际智能体运行评估，支持比较启用技能前后的任务表现并输出报告。",
+      "editorial_reason_zh": "适合在扩充技能库前检查重复内容与实际效果。静态通过不等于运行有效；完整扫描与实际评估分别依赖扫描器、模型服务、受支持的智能体和沙箱，缺失条件应保留为未完成。"
+    },
+    {
+      "rank": 10,
+      "repo": "alibaba/open-code-review",
+      "stars": 52933,
+      "daily": 951,
+      "language": "Go",
+      "metadata": {
+        "full_name": "alibaba/open-code-review",
+        "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "language": "Go",
+        "stargazers_count": 52934,
+        "pushed_at": "2026-11-16T12:12:40Z",
+        "archived": false,
+        "html_url": "https://github.com/alibaba/open-code-review",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/alibaba/open-code-review/main/README.md",
+      "category": "AI 代码审阅",
+      "summary_zh": "用确定性的工程流程处理文件筛选、关联分组、规则匹配与评论定位，再由模型结合工具获取上下文，对 Git 变更提出行级审阅意见。",
+      "editorial_reason_zh": "值得观察工程规则如何约束模型审阅的范围，并用已有缺陷和正常变更检查遗漏、误报及评论定位。仓库中的质量、速度和成本基准属于项目自述，本期未复现。"
+    },
+    {
+      "rank": 11,
+      "repo": "google-research/paper-orchestra",
+      "stars": 1522,
+      "daily": 313,
+      "language": "Python",
+      "metadata": {
+        "full_name": "google-research/paper-orchestra",
+        "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+        "language": "Python",
+        "stargazers_count": 1522,
+        "pushed_at": "2026-11-15T18:08:08Z",
+        "archived": false,
+        "html_url": "https://github.com/google-research/paper-orchestra",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/google-research/paper-orchestra/main/README.md",
+      "category": "科研写作流程",
+      "summary_zh": "将研究想法和实验日志交给多个专门智能体，依次进行提纲、文献整理、章节撰写、修改和绘图，按提供的会议模板输出 LaTeX 稿件。",
+      "editorial_reason_zh": "适合研究如何组织已有科研材料，但引用、实验结论和图表仍需研究者逐项核实。README 说明数据集尚未随仓库提供，运行需对应模型服务配置，且该项目并非 Google 官方支持的产品。"
+    },
+    {
+      "rank": 13,
+      "repo": "sveltejs/svelte",
+      "stars": 88994,
+      "daily": 115,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "sveltejs/svelte",
+        "description": "web development for the rest of us",
+        "language": "JavaScript",
+        "stargazers_count": 88994,
+        "pushed_at": "2026-11-16T14:08:15Z",
+        "archived": false,
+        "html_url": "https://github.com/sveltejs/svelte",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/sveltejs/svelte/main/README.md",
+      "category": "前端组件框架",
+      "summary_zh": "使用声明式组件描述界面，由编译器生成更新 DOM 的 JavaScript。项目采用 MIT 许可，可用于构建交互式网页和应用界面。",
+      "editorial_reason_zh": "与本期设计、智能体交互工具相邻，它提供前端实现的基础层。可从一个有表单和异步状态的小页面开始，比较组件表达、状态更新和构建后的行为，而非只依据星标判断选择。"
+    },
+    {
+      "rank": 14,
+      "repo": "kajisho5/ffmpeg-skill",
+      "stars": 6732,
+      "daily": 367,
+      "language": "Python",
+      "metadata": {
+        "full_name": "kajisho5/ffmpeg-skill",
+        "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+        "language": "Python",
+        "stargazers_count": 6733,
+        "pushed_at": "2026-11-16T01:08:43Z",
+        "archived": false,
+        "html_url": "https://github.com/kajisho5/ffmpeg-skill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/main/README.md",
+      "category": "本地视频处理工具",
+      "summary_zh": "通过 Python 封装 FFmpeg 与 ffprobe，为编码助手提供 42 个视频工具、机器可读接口及 MCP 服务，覆盖裁切、拼接、重构画幅、字幕、响度和平台导出。",
+      "editorial_reason_zh": "适合将明确的剪辑指令变成可检查的本地文件，导出后可核对时长、分辨率和音频。核心依赖 Python 与 FFmpeg；语音转写另需本地引擎和模型，工具也不会替使用者决定内容取舍。"
+    }
+  ]
+}
