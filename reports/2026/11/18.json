@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-18",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-18T08:56:54.673543+08:00",
+  "verified_at": "2026-11-18T08:59:02.696600+08:00",
+  "trending_returned_count": 15,
+  "selection_note": "从本次 Trending 返回的 15 个项目中，按安全研究、代码审阅、交付流程、应用开发和模型训练主题选取 10 个，保留原始位置；不是完整榜单或前十名。",
+  "items": [
+    {
+      "rank": 1,
+      "repo": "elementalsouls/Claude-BugHunter",
+      "stars": 9296,
+      "daily": 1005,
+      "language": "Python",
+      "metadata": {
+        "full_name": "elementalsouls/Claude-BugHunter",
+        "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+        "language": "Python",
+        "stargazers_count": 9297,
+        "pushed_at": "2026-11-17T13:33:22Z",
+        "archived": false,
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/elementalsouls/Claude-BugHunter/main/README.md",
+      "category": "安全研究与报告整理",
+      "summary_zh": "将公开披露的漏洞报告模式、验证方法、结果分级和证据整理组织为编码助手可读取的技能，并提供项目目录脚手架及工具集成，面向授权安全测试。",
+      "editorial_reason_zh": "值得关注其从疑似问题到可复核报告的整理方式，尤其是区分可复现证据与助手推测。可用自有测试环境中的已知问题检查报告质量；技能内容和示例不等于已经证实的漏洞。"
+    },
+    {
+      "rank": 3,
+      "repo": "alibaba/open-code-review",
+      "stars": 53726,
+      "daily": 763,
+      "language": "Go",
+      "metadata": {
+        "full_name": "alibaba/open-code-review",
+        "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "language": "Go",
+        "stargazers_count": 53726,
+        "pushed_at": "2026-11-17T12:46:22Z",
+        "archived": false,
+        "html_url": "https://github.com/alibaba/open-code-review",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/alibaba/open-code-review/main/README.md",
+      "category": "AI 代码审阅",
+      "summary_zh": "以文件筛选、规则解析和结构化报告组织 Git 变更审阅。当前 README 区分原生模式与委托模式：前者由 OCR 的审阅智能体执行，后者由当前编码助手按技能和 CLI 提供的流程进行分析。",
+      "editorial_reason_zh": "对已有编码助手订阅的团队，委托模式提供了不同的接入选择。它仍需要 OCR CLI 与 Git 2.41 或以上版本，也仍受宿主助手的认证、用量和费用约束；不能把它视为原生完整流程或免费模型接口。"
+    },
+    {
+      "rank": 4,
+      "repo": "Tencent/LoopForge",
+      "stars": 3140,
+      "daily": 591,
+      "language": "Go",
+      "metadata": {
+        "full_name": "Tencent/LoopForge",
+        "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+        "language": "Go",
+        "stargazers_count": 3142,
+        "pushed_at": "2026-11-17T17:57:53Z",
+        "archived": false,
+        "html_url": "https://github.com/Tencent/LoopForge",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/Tencent/LoopForge/main/README.md",
+      "category": "自托管交付工作台",
+      "summary_zh": "在自托管工作台中连接编码助手、Docker 工作空间、项目角色和代码仓库。既可通过 Main Bot 对话推进需求，也可把智能体、脚本和人工确认组合成可重复运行的 SOP，并保留节点产物和日志。",
+      "editorial_reason_zh": "适合把同一类开发任务的实现、审阅与验收固定为明确步骤。平台面向可信团队；轻量 Local 当前执行内置流程，平台 SOP 导出为独立本地流程仍属于计划能力，采用时需区分两者。"
+    },
+    {
+      "rank": 5,
+      "repo": "dream-num/univer",
+      "stars": 28900,
+      "daily": 1774,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "dream-num/univer",
+        "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+        "language": "TypeScript",
+        "stargazers_count": 28900,
+        "pushed_at": "2026-11-17T18:24:56Z",
+        "archived": false,
+        "html_url": "https://github.com/dream-num/univer",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "dev"
+      },
+      "readme_url": "https://raw.githubusercontent.com/dream-num/univer/dev/README.md",
+      "category": "表格与文档引擎",
+      "summary_zh": "提供可嵌入产品的 Sheets、Docs 编辑能力，以及公式、文档模型、命令、插件和 Facade API，让应用或智能体操作结构化办公内容。开源核心采用 Apache-2.0。",
+      "editorial_reason_zh": "适合将生成的表格继续交给用户编辑和复算。可以从一份有公式的业务表验证读写与状态保存；协作、版本历史、文件导入导出及部分 AI 扩展需另行确认分发和授权范围。"
+    },
+    {
+      "rank": 7,
+      "repo": "google-labs-code/stitch-skills",
+      "stars": 10105,
+      "daily": 350,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "google-labs-code/stitch-skills",
+        "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "language": "TypeScript",
+        "stargazers_count": 10105,
+        "pushed_at": "2026-08-17T20:20:23Z",
+        "archived": false,
+        "html_url": "https://github.com/google-labs-code/stitch-skills",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/google-labs-code/stitch-skills/main/README.md",
+      "category": "设计与前端技能库",
+      "summary_zh": "围绕 Stitch MCP 整理设计生成、设计修改、DESIGN.md 提取、HTML 导出和组件转换等技能，帮助编码助手把设计材料接入前端实现流程。",
+      "editorial_reason_zh": "适合研究如何传递设计约束，以及从设计稿到组件的步骤划分。使用前需要配置对应的 Stitch MCP，并检查技能间依赖；导出代码的交互和移动端布局仍需实际验证。"
+    },
+    {
+      "rank": 9,
+      "repo": "obra/superpowers",
+      "stars": 319332,
+      "daily": 1917,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "obra/superpowers",
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell",
+        "stargazers_count": 319332,
+        "pushed_at": "2026-11-03T23:24:58Z",
+        "archived": false,
+        "html_url": "https://github.com/obra/superpowers",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/obra/superpowers/main/README.md",
+      "category": "编码助手开发方法",
+      "summary_zh": "把需求澄清、设计讨论、实施计划、测试驱动开发、分任务执行和代码审阅整理成可组合的技能，为多个编码助手环境提供安装方式与工作流程。",
+      "editorial_reason_zh": "适合需要稳定开发步骤的项目，可从一个小需求观察设计、测试和审阅产物是否齐全。它提供的是方法与指引，执行效果仍取决于助手、上下文和项目约束，不能用安装成功替代交付验证。"
+    },
+    {
+      "rank": 10,
+      "repo": "ag-ui-protocol/ag-ui",
+      "stars": 19997,
+      "daily": 1445,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "ag-ui-protocol/ag-ui",
+        "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+        "language": "TypeScript",
+        "stargazers_count": 19999,
+        "pushed_at": "2026-11-17T21:27:09Z",
+        "archived": false,
+        "html_url": "https://github.com/ag-ui-protocol/ag-ui",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/main/README.md",
+      "category": "智能体交互协议",
+      "summary_zh": "以双向事件流连接智能体与应用界面，表达流式文本、工具调用、共享状态和人工介入。当前 1.0 规范以 JSON Schema 为基础，并用于生成多个语言的 SDK。",
+      "editorial_reason_zh": "当后台任务需要暂停等待人回复时，统一事件表达有助于前端呈现进度和恢复交互。可重点检查事件顺序与状态更新，而不是仅确认聊天文本能够流式显示。"
+    },
+    {
+      "rank": 12,
+      "repo": "sveltejs/svelte",
+      "stars": 89596,
+      "daily": 477,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "sveltejs/svelte",
+        "description": "web development for the rest of us",
+        "language": "JavaScript",
+        "stargazers_count": 89597,
+        "pushed_at": "2026-11-17T21:54:43Z",
+        "archived": false,
+        "html_url": "https://github.com/sveltejs/svelte",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/sveltejs/svelte/main/README.md",
+      "category": "前端组件框架",
+      "summary_zh": "通过编译器把声明式组件转换为更新 DOM 的 JavaScript，用于构建交互式网页与应用界面。仓库采用 MIT 许可，GitHub 标注的主要语言为 JavaScript。",
+      "editorial_reason_zh": "适合给本期的工作流和智能体服务构建用户界面。可用包含输入、异步加载和错误状态的小页面评估组件表达与维护成本，本期不对不同前端框架作性能排名。"
+    },
+    {
+      "rank": 14,
+      "repo": "jingyaogong/minimind",
+      "stars": 65967,
+      "daily": 192,
+      "language": "Python",
+      "metadata": {
+        "full_name": "jingyaogong/minimind",
+        "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+        "language": "Python",
+        "stargazers_count": 65967,
+        "pushed_at": "2026-10-27T06:57:09Z",
+        "archived": false,
+        "html_url": "https://github.com/jingyaogong/minimind",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/jingyaogong/minimind/master/README.md",
+      "category": "小语言模型训练教程",
+      "summary_zh": "用 PyTorch 展示小语言模型结构与训练过程，覆盖预训练、监督微调、LoRA、偏好优化、强化学习、工具使用和蒸馏，并提供数据、训练脚本和推理示例。当前主线包含 64M 参数的稠密模型。",
+      "editorial_reason_zh": "适合从可阅读的代码理解数据、损失函数和生成行为之间的关系。仓库宣传的训练时间与成本有具体 GPU、数据和训练阶段前提，本期未复现；各实验阶段的权重也不保证持续单独发布。"
+    },
+    {
+      "rank": 15,
+      "repo": "google-research/paper-orchestra",
+      "stars": 3001,
+      "daily": 1072,
+      "language": "Python",
+      "metadata": {
+        "full_name": "google-research/paper-orchestra",
+        "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+        "language": "Python",
+        "stargazers_count": 3001,
+        "pushed_at": "2026-11-15T18:08:08Z",
+        "archived": false,
+        "html_url": "https://github.com/google-research/paper-orchestra",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/google-research/paper-orchestra/main/README.md",
+      "category": "科研写作编排",
+      "summary_zh": "将研究想法、实验日志和目标 LaTeX 模板作为输入，通过多个专门智能体组织提纲、文献、章节、修改与绘图，输出稿件材料。",
+      "editorial_reason_zh": "可用于研究已有科研材料如何进入写作流程，最终引用、数据和论断仍需逐项核对。README 说明数据集未包含在仓库中，运行需要相关模型服务配置，项目也并非 Google 官方支持的产品。"
+    }
+  ]
+}
