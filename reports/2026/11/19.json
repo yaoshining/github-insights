@@ -1,0 +1,292 @@
+{
+  "date": "2026-11-19",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-19T08:56:11.519112+08:00",
+  "verified_at": "2026-11-19T08:58:16.139140+08:00",
+  "trending_returned_count": 19,
+  "selection_note": "从本次 Trending 返回的 19 个项目中，按智能体工具、开发环境、推理部署、自托管和前端基础库主题选取 10 个，保留原始位置；不是完整榜单或前十名。",
+  "items": [
+    {
+      "rank": 2,
+      "repo": "HKUDS/CLI-Anything",
+      "stars": 59741,
+      "daily": 389,
+      "language": "Python",
+      "metadata": {
+        "full_name": "HKUDS/CLI-Anything",
+        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "stargazers_count": 59741,
+        "pushed_at": "2026-09-22T02:01:29Z",
+        "archived": false,
+        "html_url": "https://github.com/HKUDS/CLI-Anything",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/README.md",
+      "category": "面向智能体的软件接口",
+      "summary_zh": "从软件源码分析入手，生成便于智能体调用的命令行接口，提供 JSON 输出、交互式命令行及测试流程。CLI-Hub 还用于发现、安装和管理已有的 CLI。",
+      "editorial_reason_zh": "适合将重复的软件操作交给助手执行，并保留结构化输入输出。生成效果依赖源码和模型能力，可能需要反复完善；包装 GIMP、Blender 等软件的 CLI 仍需要安装对应的真实程序。"
+    },
+    {
+      "rank": 4,
+      "repo": "getarcaneapp/arcane",
+      "stars": 9803,
+      "daily": 547,
+      "language": "Go",
+      "metadata": {
+        "full_name": "getarcaneapp/arcane",
+        "description": "Modern Docker Management, Designed for Everyone",
+        "language": "Go",
+        "stargazers_count": 9803,
+        "pushed_at": "2026-11-19T00:09:31Z",
+        "archived": false,
+        "html_url": "https://github.com/getarcaneapp/arcane",
+        "license": {
+          "key": "bsd-3-clause",
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdx_id": "BSD-3-Clause",
+          "url": "https://api.github.com/licenses/bsd-3-clause",
+          "node_id": "MDc6TGljZW5zZTU="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/getarcaneapp/arcane/main/README.md",
+      "category": "Docker 管理界面",
+      "summary_zh": "在浏览器中管理容器、镜像、卷、网络及 Compose 项目，查看状态、资源使用和日志，并通过代理连接其他 Docker 主机。当前 main 分支对应 v3。",
+      "editorial_reason_zh": "适合集中查看自托管服务的运行情况，减少在多台主机间切换。可以用一组测试服务核对 Compose 编辑、日志查看和远端主机管理；旧版 2.x 文档与当前版本需要区分。",
+      "official_url": "https://getarcane.app/"
+    },
+    {
+      "rank": 5,
+      "repo": "NVIDIA/SkillEvaluator",
+      "stars": 3723,
+      "daily": 312,
+      "language": "Python",
+      "metadata": {
+        "full_name": "NVIDIA/SkillEvaluator",
+        "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+        "language": "Python",
+        "stargazers_count": 3723,
+        "pushed_at": "2026-11-18T21:04:10Z",
+        "archived": false,
+        "html_url": "https://github.com/NVIDIA/SkillEvaluator",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/NVIDIA/SkillEvaluator/main/README.md",
+      "category": "智能体技能评估",
+      "summary_zh": "检查技能与插件的质量、安全、语义重复和实际任务影响，支持命令行及 CI 接入。评估可从静态质量检查开始，再比较启用与不启用技能的运行结果。",
+      "editorial_reason_zh": "适合在扩充技能库时保留可追溯的评估依据。当前 README 明确说明 quality-check 仅覆盖静态质量，发布证据仍标为 INCOMPLETE；完整检查还需要扫描器、数据集以及相应模型和运行环境。"
+    },
+    {
+      "rank": 6,
+      "repo": "nvm-sh/nvm",
+      "stars": 96147,
+      "daily": 237,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "nvm-sh/nvm",
+        "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+        "language": "Shell",
+        "stargazers_count": 96147,
+        "pushed_at": "2026-11-18T22:19:08Z",
+        "archived": false,
+        "html_url": "https://github.com/nvm-sh/nvm",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/nvm-sh/nvm/master/README.md",
+      "category": "Node.js 版本管理",
+      "summary_zh": "以 Shell 脚本管理多个 Node.js 版本，按用户安装、按 Shell 调用。项目可通过 .nvmrc 声明版本，供相关 nvm 命令读取，支持 Unix、macOS 和 Windows WSL 等环境。",
+      "editorial_reason_zh": "适合同时维护使用不同 Node.js 版本的项目。将版本要求写进仓库后，还应核对终端和 CI 实际调用的解释器，尤其要确认非交互 Shell 是否加载了 nvm。"
+    },
+    {
+      "rank": 7,
+      "repo": "astral-sh/uv",
+      "stars": 92218,
+      "daily": 258,
+      "language": "Rust",
+      "metadata": {
+        "full_name": "astral-sh/uv",
+        "description": "An extremely fast Python package and project manager, written in Rust.",
+        "language": "Rust",
+        "stargazers_count": 92218,
+        "pushed_at": "2026-11-19T00:24:53Z",
+        "archived": false,
+        "html_url": "https://github.com/astral-sh/uv",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/astral-sh/uv/main/README.md",
+      "category": "Python 环境与依赖管理",
+      "summary_zh": "使用 Rust 实现 Python 包和项目管理，支持锁文件、工作区、Python 版本管理、独立工具运行，以及带内联依赖声明的单文件脚本。",
+      "editorial_reason_zh": "适合让自动化脚本和 AI 工具拥有明确的依赖环境。可先验证锁文件能否在目标系统恢复项目，再检查工具运行是否与项目依赖隔离；仓库速度对比有特定测试条件，本期未复现。"
+    },
+    {
+      "rank": 8,
+      "repo": "google-research/paper-orchestra",
+      "stars": 4286,
+      "daily": 1524,
+      "language": "Python",
+      "metadata": {
+        "full_name": "google-research/paper-orchestra",
+        "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+        "language": "Python",
+        "stargazers_count": 4287,
+        "pushed_at": "2026-11-15T18:08:08Z",
+        "archived": false,
+        "html_url": "https://github.com/google-research/paper-orchestra",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/google-research/paper-orchestra/main/README.md",
+      "category": "科研写作流程",
+      "summary_zh": "将研究想法、实验日志和 LaTeX 模板交给多个专门智能体，组织提纲、文献整理、章节写作、修改和绘图，形成稿件材料。",
+      "editorial_reason_zh": "适合观察科研材料如何进入分阶段写作流程，最终引用与实验结论仍需研究者核实。项目数据集未随仓库提供，运行需要对应模型服务配置，且并非 Google 官方支持的产品。"
+    },
+    {
+      "rank": 9,
+      "repo": "google-labs-code/stitch-skills",
+      "stars": 10403,
+      "daily": 365,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "google-labs-code/stitch-skills",
+        "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "language": "TypeScript",
+        "stargazers_count": 10403,
+        "pushed_at": "2026-11-18T05:00:25Z",
+        "archived": false,
+        "html_url": "https://github.com/google-labs-code/stitch-skills",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/google-labs-code/stitch-skills/main/README.md",
+      "category": "设计转实现技能",
+      "summary_zh": "围绕 Stitch MCP 提供设计生成、修改、文档提取和代码转换等技能。当前技能目录还列出 site-md，用于从项目描述或网站需求整理供构建流程使用的 SITE.md。",
+      "editorial_reason_zh": "值得观察项目需求与视觉规范如何分别保存，再共同约束多页面实现。相关技能需要配置 Stitch MCP，并检查前置依赖；生成的页面仍需验证导航、交互和手机布局。"
+    },
+    {
+      "rank": 10,
+      "repo": "sveltejs/svelte",
+      "stars": 89615,
+      "daily": 692,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "sveltejs/svelte",
+        "description": "web development for the rest of us",
+        "language": "JavaScript",
+        "stargazers_count": 89616,
+        "pushed_at": "2026-11-18T23:17:50Z",
+        "archived": false,
+        "html_url": "https://github.com/sveltejs/svelte",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/sveltejs/svelte/main/README.md",
+      "category": "前端组件框架",
+      "summary_zh": "将声明式组件编译成更新 DOM 的 JavaScript，用于构建交互式网页与应用。项目采用 MIT 许可，GitHub 当前标注的主要语言是 JavaScript。",
+      "editorial_reason_zh": "适合为后台任务和模型服务构建状态清晰的前端。可用包含加载、取消、重试和错误提示的小页面评估组件表达方式，本期不据星标或宣传对框架性能排序。"
+    },
+    {
+      "rank": 11,
+      "repo": "jquery/jquery",
+      "stars": 60007,
+      "daily": 266,
+      "language": "JavaScript",
+      "metadata": {
+        "full_name": "jquery/jquery",
+        "description": "jQuery JavaScript Library",
+        "language": "JavaScript",
+        "stargazers_count": 60008,
+        "pushed_at": "2026-11-17T19:00:49Z",
+        "archived": false,
+        "html_url": "https://github.com/jquery/jquery",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/jquery/jquery/main/README.md",
+      "category": "网页交互基础库",
+      "summary_zh": "提供 DOM 查询与修改、事件处理、动画和 Ajax 等接口。当前 README 的支持表将 4.x 列为完整支持、3.x 列为仅关键更新，1.x 与 2.x 已不再支持。",
+      "editorial_reason_zh": "对维护存量网站的团队，版本支持范围和插件兼容性比榜单位置更有参考价值。升级前可先盘点依赖它的交互与插件，再用关键页面做回归检查；上榜不代表今天发布了新版本。",
+      "official_url": "https://jquery.com/"
+    },
+    {
+      "rank": 13,
+      "repo": "openvinotoolkit/openvino",
+      "stars": 11325,
+      "daily": 24,
+      "language": "C++",
+      "metadata": {
+        "full_name": "openvinotoolkit/openvino",
+        "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+        "language": "C++",
+        "stargazers_count": 11325,
+        "pushed_at": "2026-11-19T00:55:37Z",
+        "archived": false,
+        "html_url": "https://github.com/openvinotoolkit/openvino",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/README.md",
+      "category": "AI 推理优化与部署",
+      "summary_zh": "为深度学习模型提供转换、优化和推理部署能力，支持来自 PyTorch、TensorFlow、ONNX 等框架的模型，覆盖 x86/ARM CPU、Intel GPU 和 Intel NPU 等设备类别。",
+      "editorial_reason_zh": "适合评估已有模型在目标设备上的部署方式。需要分别核对具体模型、算子、设备和系统支持，并同时测量延迟、内存与输出质量；不能从工具包安装成功推断所有硬件均已加速。"
+    }
+  ]
+}
