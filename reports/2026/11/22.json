@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-22",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-22T08:59:24.770724+08:00",
+  "verified_at": "2026-11-22T09:01:13.593265+08:00",
+  "trending_returned_count": 16,
+  "selection_note": "从本次 Trending 返回的 16 个项目中，按缺陷检查、开发流程、模型训练与部署、基础设施及实用工具主题选取 10 个，保留原始位置；不是完整榜单或前十名。",
+  "items": [
+    {
+      "rank": 1,
+      "repo": "elementalsouls/Claude-BugHunter",
+      "stars": 16073,
+      "daily": 1803,
+      "language": "Python",
+      "metadata": {
+        "full_name": "elementalsouls/Claude-BugHunter",
+        "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+        "language": "Python",
+        "stargazers_count": 16074,
+        "pushed_at": "2026-11-21T04:24:41Z",
+        "archived": false,
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/elementalsouls/Claude-BugHunter/main/README.md",
+      "category": "授权安全测试",
+      "summary_zh": "面向 Claude Code 的安全研究技能集合，整理公开漏洞报告中的检测思路，并提供验证、证据整理和报告工作流，服务于授权测试与训练场景。",
+      "editorial_reason_zh": "适合研究如何把发现、验证和报告连接起来。阅读时重点看结论对应的证据与复现条件；技能数量和上榜热度本身不能证明检测准确率。"
+    },
+    {
+      "rank": 2,
+      "repo": "obra/superpowers",
+      "stars": 323731,
+      "daily": 883,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "obra/superpowers",
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell",
+        "stargazers_count": 323731,
+        "pushed_at": "2026-11-03T23:24:58Z",
+        "archived": false,
+        "html_url": "https://github.com/obra/superpowers",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/obra/superpowers/main/README.md",
+      "category": "智能体开发方法",
+      "summary_zh": "将需求讨论、实现计划、测试驱动开发、调试与代码审查组织为可组合技能，帮助编码智能体按明确流程推进开发。",
+      "editorial_reason_zh": "适合需要更清晰开发过程的团队。可以选择一个小改动，观察需求、测试和审阅记录是否完整，再决定哪些步骤值得保留。"
+    },
+    {
+      "rank": 4,
+      "repo": "jingyaogong/minimind",
+      "stars": 68151,
+      "daily": 488,
+      "language": "Python",
+      "metadata": {
+        "full_name": "jingyaogong/minimind",
+        "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+        "language": "Python",
+        "stargazers_count": 68151,
+        "pushed_at": "2026-11-21T09:14:27Z",
+        "archived": false,
+        "html_url": "https://github.com/jingyaogong/minimind",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/jingyaogong/minimind/master/README.md",
+      "category": "语言模型学习",
+      "summary_zh": "使用原生 PyTorch 展示轻量语言模型的结构与训练链路，涵盖预训练、监督微调、LoRA、偏好优化、工具调用和蒸馏等阶段。",
+      "editorial_reason_zh": "适合学习训练数据如何影响模型行为。按阶段保存数据配置与评测结果，比只复用最终权重更容易定位变化原因；训练耗时取决于具体硬件和配置。"
+    },
+    {
+      "rank": 6,
+      "repo": "firecrawl/firecrawl",
+      "stars": 206208,
+      "daily": 1006,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "firecrawl/firecrawl",
+        "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+        "language": "TypeScript",
+        "stargazers_count": 206209,
+        "pushed_at": "2026-11-21T20:10:00Z",
+        "archived": false,
+        "html_url": "https://github.com/firecrawl/firecrawl",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/firecrawl/firecrawl/main/README.md",
+      "category": "网页数据采集",
+      "summary_zh": "提供网页抓取、站点爬取与 Markdown 转换，通过 SDK 和 MCP 为 AI 应用准备材料；README 分别介绍本地工具、云服务与自托管服务端。",
+      "editorial_reason_zh": "采集结果决定后续总结能看到什么。适合用包含列表、表格和动态内容的样本检查正文完整性，同时确认所需功能依赖本地还是云端运行。"
+    },
+    {
+      "rank": 7,
+      "repo": "nginx/nginx",
+      "stars": 32735,
+      "daily": 189,
+      "language": "C",
+      "metadata": {
+        "full_name": "nginx/nginx",
+        "description": "The official NGINX Open Source repository.",
+        "language": "C",
+        "stargazers_count": 32735,
+        "pushed_at": "2026-11-18T16:40:14Z",
+        "archived": false,
+        "html_url": "https://github.com/nginx/nginx",
+        "license": {
+          "key": "bsd-2-clause",
+          "name": "BSD 2-Clause \"Simplified\" License",
+          "spdx_id": "BSD-2-Clause",
+          "url": "https://api.github.com/licenses/bsd-2-clause",
+          "node_id": "MDc6TGljZW5zZTQ="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/nginx/nginx/master/README.md",
+      "category": "应用网关与缓存",
+      "summary_zh": "NGINX 官方开源仓库，提供 Web 服务、反向代理、负载均衡和内容缓存，可作为应用和后端服务之间的入口。",
+      "editorial_reason_zh": "排查应用故障时值得保留网关这一层的观察。把请求日志、超时配置和后端响应放在一起，可以帮助区分入口问题与应用本身的问题。"
+    },
+    {
+      "rank": 8,
+      "repo": "openvinotoolkit/openvino",
+      "stars": 11933,
+      "daily": 200,
+      "language": "C++",
+      "metadata": {
+        "full_name": "openvinotoolkit/openvino",
+        "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+        "language": "C++",
+        "stargazers_count": 11933,
+        "pushed_at": "2026-11-21T21:15:50Z",
+        "archived": false,
+        "html_url": "https://github.com/openvinotoolkit/openvino",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/README.md",
+      "category": "模型推理部署",
+      "summary_zh": "用于转换、优化和部署深度学习推理，支持多种模型框架及 x86、ARM CPU、Intel GPU 和 NPU 等目标设备。",
+      "editorial_reason_zh": "适合已有模型、需要验证设备兼容性的开发者。先检查模型与算子支持，再比较同一输入的输出、延迟和内存，避免仅凭框架名称判断效果。"
+    },
+    {
+      "rank": 12,
+      "repo": "mjmirza/app-store-compliance",
+      "stars": 3401,
+      "daily": 720,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "mjmirza/app-store-compliance",
+        "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 111 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+        "language": "Shell",
+        "stargazers_count": 3401,
+        "pushed_at": "2026-11-22T00:48:43Z",
+        "archived": false,
+        "html_url": "https://github.com/mjmirza/app-store-compliance",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/mjmirza/app-store-compliance/main/README.md",
+      "category": "提交前检查资料",
+      "summary_zh": "面向 iOS 与 Android 的公开检查手册和提交前扫描工具，整理拒审原因、隐私相关检查及需要人工确认的事项，并提供编码智能体接入方式。当前仓库使用 OpenRoots Agent License 2.3。",
+      "editorial_reason_zh": "值得关注的是它对扫描能力边界的说明：检查通过并不等于获得商店批准。可把它作为查漏工具，具体要求仍需核对平台最新官方规则与应用实际行为。"
+    },
+    {
+      "rank": 13,
+      "repo": "Tracer-Cloud/opensre",
+      "stars": 13988,
+      "daily": 450,
+      "language": "Python",
+      "metadata": {
+        "full_name": "Tracer-Cloud/opensre",
+        "description": "The open-source agent for CI/CD reliability.",
+        "language": "Python",
+        "stargazers_count": 13988,
+        "pushed_at": "2026-11-22T00:59:10Z",
+        "archived": false,
+        "html_url": "https://github.com/Tracer-Cloud/opensre",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/Tracer-Cloud/opensre/main/README.md",
+      "category": "CI 与生产故障诊断",
+      "summary_zh": "命令行智能体可分析失败的 CI/CD 运行、提出供审阅的修复；当前 README 还介绍通过日志、指标、容器状态和部署历史调查生产故障。项目仍处 Public Alpha。",
+      "editorial_reason_zh": "这次说明扩展了排查范围，值得关注不同来源的证据如何汇合。自动提出原因之后，仍要通过原始失败场景和重新运行结果核实修复。"
+    },
+    {
+      "rank": 15,
+      "repo": "XiaoYouChR/Ghost-Downloader-3",
+      "stars": 14452,
+      "daily": 779,
+      "language": "Python",
+      "metadata": {
+        "full_name": "XiaoYouChR/Ghost-Downloader-3",
+        "description": "The only downloader you need. 下载器的集大成者。",
+        "language": "Python",
+        "stargazers_count": 14452,
+        "pushed_at": "2026-11-21T16:28:09Z",
+        "archived": false,
+        "html_url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/XiaoYouChR/Ghost-Downloader-3/main/README.md",
+      "category": "下载任务管理",
+      "summary_zh": "集中处理多种协议与媒体下载，支持浏览器扩展衔接、命令行任务操作和兼容 aria2 的 RPC 接口，覆盖桌面及 Android 平台。",
+      "editorial_reason_zh": "适合兼顾手动下载与批量任务的场景。可以用自己的常见来源检查任务探测、暂停和恢复，再判断协议支持是否符合实际需要。"
+    },
+    {
+      "rank": 16,
+      "repo": "zhouxiaoka/autoclip",
+      "stars": 12862,
+      "daily": 683,
+      "language": "Python",
+      "metadata": {
+        "full_name": "zhouxiaoka/autoclip",
+        "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+        "language": "Python",
+        "stargazers_count": 12863,
+        "pushed_at": "2026-11-22T00:04:18Z",
+        "archived": false,
+        "html_url": "https://github.com/zhouxiaoka/autoclip",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/zhouxiaoka/autoclip/main/README.md",
+      "category": "AI 视频制作",
+      "summary_zh": "把访谈、播客和课程等长视频剪为短片，并生成字幕、封面和发布文案。提供桌面、Docker、CLI 与 MCP 入口，剪辑渲染在本机进行，分析及转写模型可选。",
+      "editorial_reason_zh": "自动成片之后仍有具体内容需要检查：字幕是否准确、取景是否跟随说话人、片段是否保留原意。采用云端分析或转写时，相应材料会发送给所选服务。"
+    }
+  ]
+}
