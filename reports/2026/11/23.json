@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-23",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-23T23:39:53.196612+08:00",
+  "verified_at": "2026-11-23T23:43:09.181525+08:00",
+  "trending_returned_count": 16,
+  "selection_note": "从本次 Trending 返回的 16 个项目中，按智能体接口、模型训练与部署、设计协作、基础设施及实用工具主题选取 10 个，保留原始位置；不是完整榜单或前十名。",
+  "items": [
+    {
+      "rank": 3,
+      "repo": "HKUDS/CLI-Anything",
+      "stars": 63332,
+      "daily": 783,
+      "language": "Python",
+      "metadata": {
+        "full_name": "HKUDS/CLI-Anything",
+        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "stargazers_count": 63333,
+        "pushed_at": "2026-11-20T10:05:15Z",
+        "archived": false,
+        "html_url": "https://github.com/HKUDS/CLI-Anything",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/README.md",
+      "category": "软件智能体接口",
+      "summary_zh": "为已有软件构建可由智能体调用的命令行接口，以命令、参数和结构化输出组织操作，并通过 CLIHub 展示可用集成。",
+      "editorial_reason_zh": "值得关注软件能力怎样暴露给自动化流程。选择实际任务时，应检查接口调用是否最终触发真实软件处理，以及输出文件能否正常打开。"
+    },
+    {
+      "rank": 4,
+      "repo": "jingyaogong/minimind",
+      "stars": 69300,
+      "daily": 828,
+      "language": "Python",
+      "metadata": {
+        "full_name": "jingyaogong/minimind",
+        "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+        "language": "Python",
+        "stargazers_count": 69300,
+        "pushed_at": "2026-11-23T04:01:07Z",
+        "archived": false,
+        "html_url": "https://github.com/jingyaogong/minimind",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/jingyaogong/minimind/master/README.md",
+      "category": "轻量模型训练",
+      "summary_zh": "用原生 PyTorch 展示轻量语言模型的结构与训练链路，涵盖预训练、监督微调、LoRA、偏好优化和蒸馏等阶段。",
+      "editorial_reason_zh": "适合从代码理解训练过程。可沿着数据读取、损失计算到权重保存逐步学习，并用固定样本比较不同训练阶段的输出。"
+    },
+    {
+      "rank": 6,
+      "repo": "firecrawl/firecrawl",
+      "stars": 207585,
+      "daily": 920,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "firecrawl/firecrawl",
+        "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+        "language": "TypeScript",
+        "stargazers_count": 207586,
+        "pushed_at": "2026-11-23T14:59:30Z",
+        "archived": false,
+        "html_url": "https://github.com/firecrawl/firecrawl",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/firecrawl/firecrawl/main/README.md",
+      "category": "网页材料采集",
+      "summary_zh": "提供网页抓取、站点爬取和 Markdown 转换，并以 SDK、CLI 与 MCP 等方式接入应用；官方说明区分本地工具、云服务和自托管服务端。",
+      "editorial_reason_zh": "适合为检索与总结准备网页材料。建议先用动态页面、表格和分页内容核对提取质量，并确认所需功能属于哪种部署方式。"
+    },
+    {
+      "rank": 7,
+      "repo": "nginx/nginx",
+      "stars": 33002,
+      "daily": 174,
+      "language": "C",
+      "metadata": {
+        "full_name": "nginx/nginx",
+        "description": "The official NGINX Open Source repository.",
+        "language": "C",
+        "stargazers_count": 33002,
+        "pushed_at": "2026-11-23T15:12:01Z",
+        "archived": false,
+        "html_url": "https://github.com/nginx/nginx",
+        "license": {
+          "key": "bsd-2-clause",
+          "name": "BSD 2-Clause \"Simplified\" License",
+          "spdx_id": "BSD-2-Clause",
+          "url": "https://api.github.com/licenses/bsd-2-clause",
+          "node_id": "MDc6TGljZW5zZTQ="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/nginx/nginx/master/README.md",
+      "category": "Web 服务基础设施",
+      "summary_zh": "NGINX 官方开源仓库，提供 Web 服务、反向代理、负载均衡与内容缓存，为应用组织统一入口。",
+      "editorial_reason_zh": "成熟基础设施仍值得持续关注。调整代理或缓存策略时，可从一条真实请求追踪响应头、超时和上游日志，验证配置带来的具体行为。"
+    },
+    {
+      "rank": 8,
+      "repo": "openvinotoolkit/openvino",
+      "stars": 12225,
+      "daily": 183,
+      "language": "C++",
+      "metadata": {
+        "full_name": "openvinotoolkit/openvino",
+        "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+        "language": "C++",
+        "stargazers_count": 12225,
+        "pushed_at": "2026-11-23T15:29:35Z",
+        "archived": false,
+        "html_url": "https://github.com/openvinotoolkit/openvino",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/README.md",
+      "category": "模型推理部署",
+      "summary_zh": "用于转换、优化和部署深度学习推理，支持多种模型框架及 x86、ARM CPU、Intel GPU 和 NPU 等目标设备。",
+      "editorial_reason_zh": "适合把模型带到不同硬件上验证。模型、算子和设备支持需要分别确认，再在同一输入下比较输出、延迟与内存占用。"
+    },
+    {
+      "rank": 9,
+      "repo": "cathrynlavery/diagram-design",
+      "stars": 70769,
+      "daily": 624,
+      "language": "HTML",
+      "metadata": {
+        "full_name": "cathrynlavery/diagram-design",
+        "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "stargazers_count": 70769,
+        "pushed_at": "2026-11-23T11:00:38Z",
+        "archived": false,
+        "html_url": "https://github.com/cathrynlavery/diagram-design",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/README.md",
+      "category": "技术图示与表达",
+      "summary_zh": "以 HTML 和 SVG 生成可独立打开的图示，支持品牌配色、字体及明暗样式。当前 README 列出 52 类图示，并加入展示分支、合并与标签的 Git graph 示例。",
+      "editorial_reason_zh": "Git 分支图适合讲清版本演进和协作流程。可先确定节点与分支关系，再检查导出的图在分享尺寸下是否仍能读清标签。"
+    },
+    {
+      "rank": 11,
+      "repo": "google-labs-code/stitch-skills",
+      "stars": 12156,
+      "daily": 425,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "google-labs-code/stitch-skills",
+        "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "language": "TypeScript",
+        "stargazers_count": 12156,
+        "pushed_at": "2026-11-20T18:08:01Z",
+        "archived": false,
+        "html_url": "https://github.com/google-labs-code/stitch-skills",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/google-labs-code/stitch-skills/main/README.md",
+      "category": "设计到界面实现",
+      "summary_zh": "为智能体提供围绕 Stitch 的技能，涉及页面设计、设计系统以及 HTML、React 和 React Native 等界面工作流，使用时需要配置 Stitch MCP。",
+      "editorial_reason_zh": "适合探索设计稿如何转为具体界面。重点检查组件结构、响应式布局和交互状态，生成页面之后仍需在目标设备尺寸下验收。"
+    },
+    {
+      "rank": 13,
+      "repo": "Tracer-Cloud/opensre",
+      "stars": 14686,
+      "daily": 438,
+      "language": "Python",
+      "metadata": {
+        "full_name": "Tracer-Cloud/opensre",
+        "description": "The open-source agent for CI/CD reliability.",
+        "language": "Python",
+        "stargazers_count": 14686,
+        "pushed_at": "2026-11-23T15:32:33Z",
+        "archived": false,
+        "html_url": "https://github.com/Tracer-Cloud/opensre",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/Tracer-Cloud/opensre/main/README.md",
+      "category": "故障调查助手",
+      "summary_zh": "命令行智能体可分析失败的 CI/CD 运行并提出修复，也可结合日志、指标、容器状态与部署历史调查生产故障；目前处于 Public Alpha。",
+      "editorial_reason_zh": "适合观察多种运维证据如何组合。提出原因和修复后，应回到原始失败场景验证，不宜仅凭分析文字认定故障已解决。"
+    },
+    {
+      "rank": 14,
+      "repo": "toeverything/AFFiNE",
+      "stars": 77185,
+      "daily": 593,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "toeverything/AFFiNE",
+        "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+        "language": "TypeScript",
+        "stargazers_count": 77185,
+        "pushed_at": "2026-11-23T15:10:08Z",
+        "archived": false,
+        "html_url": "https://github.com/toeverything/AFFiNE",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "canary"
+      },
+      "readme_url": "https://raw.githubusercontent.com/toeverything/AFFiNE/canary/README.md",
+      "category": "文档与白板协作",
+      "summary_zh": "将文档、白板和结构化内容放入同一工作空间，采用本地优先方式组织数据，并提供同步与自托管选项。",
+      "editorial_reason_zh": "适合需要在文字笔记和自由画布之间切换的项目记录。可用同一份资料检查编辑、检索与同步体验，再评估部署方式。"
+    },
+    {
+      "rank": 15,
+      "repo": "XiaoYouChR/Ghost-Downloader-3",
+      "stars": 16031,
+      "daily": 1078,
+      "language": "Python",
+      "metadata": {
+        "full_name": "XiaoYouChR/Ghost-Downloader-3",
+        "description": "The only downloader you need. 下载器的集大成者。",
+        "language": "Python",
+        "stargazers_count": 16032,
+        "pushed_at": "2026-11-23T12:58:15Z",
+        "archived": false,
+        "html_url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/XiaoYouChR/Ghost-Downloader-3/main/README.md",
+      "category": "下载任务管理",
+      "summary_zh": "集中处理多种协议与媒体下载，支持浏览器扩展、命令行任务操作及兼容 aria2 的 RPC 接口，覆盖桌面和 Android 平台。",
+      "editorial_reason_zh": "本次快照今日新增为 1,078 星。值得结合实际下载来源检查任务探测、暂停恢复和批量操作，热度本身不代表所有来源都兼容。"
+    }
+  ]
+}
