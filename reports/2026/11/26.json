@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-26",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-26T09:00:13.865807+08:00",
+  "verified_at": "2026-11-26T09:01:57.081139+08:00",
+  "trending_returned_count": 16,
+  "selection_note": "从本次 Trending 返回的 16 个项目中，按开发流程与软件接口、模型训练与部署、资料研究与表达、基础设施及实用工具主题选取 10 个，保留原始位置；不是完整榜单或前十名。",
+  "items": [
+    {
+      "rank": 2,
+      "repo": "obra/superpowers",
+      "stars": 326620,
+      "daily": 903,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "obra/superpowers",
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell",
+        "stargazers_count": 326620,
+        "pushed_at": "2026-11-24T23:59:04Z",
+        "archived": false,
+        "html_url": "https://github.com/obra/superpowers",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/obra/superpowers/main/README.md",
+      "category": "智能体开发方法",
+      "summary_zh": "将需求讨论、计划、测试驱动开发、调试和审阅组织为可组合技能，帮助编码智能体按明确的软件开发流程工作。",
+      "editorial_reason_zh": "适合想让开发过程更容易复查的团队。可从一次小改动开始，检查需求、实现和测试是否相互对应，再决定哪些流程适合长期保留。"
+    },
+    {
+      "rank": 3,
+      "repo": "HKUDS/CLI-Anything",
+      "stars": 65678,
+      "daily": 1106,
+      "language": "Python",
+      "metadata": {
+        "full_name": "HKUDS/CLI-Anything",
+        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "stargazers_count": 65678,
+        "pushed_at": "2026-11-20T10:05:15Z",
+        "archived": false,
+        "html_url": "https://github.com/HKUDS/CLI-Anything",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/README.md",
+      "category": "软件命令行接口",
+      "summary_zh": "为已有软件构建智能体可调用的命令行接口，通过参数与结构化输出组织操作，并以 CLIHub 展示集成。",
+      "editorial_reason_zh": "本次快照今日新增 1,106 星。值得关注的是接口能否实际驱动软件完成任务，以及失败信息和生成文件是否便于后续步骤处理。"
+    },
+    {
+      "rank": 4,
+      "repo": "jingyaogong/minimind",
+      "stars": 70946,
+      "daily": 826,
+      "language": "Python",
+      "metadata": {
+        "full_name": "jingyaogong/minimind",
+        "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+        "language": "Python",
+        "stargazers_count": 70946,
+        "pushed_at": "2026-11-23T04:01:07Z",
+        "archived": false,
+        "html_url": "https://github.com/jingyaogong/minimind",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/jingyaogong/minimind/master/README.md",
+      "category": "语言模型训练学习",
+      "summary_zh": "用原生 PyTorch 展示轻量语言模型结构与训练过程，覆盖预训练、监督微调、LoRA、偏好优化及蒸馏等阶段。",
+      "editorial_reason_zh": "适合把模型学习落到代码和数据。先追踪一个样本怎样进入训练、产生损失和参与评测，再比较不同训练阶段的输出。"
+    },
+    {
+      "rank": 6,
+      "repo": "firecrawl/firecrawl",
+      "stars": 210046,
+      "daily": 1135,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "firecrawl/firecrawl",
+        "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+        "language": "TypeScript",
+        "stargazers_count": 210046,
+        "pushed_at": "2026-11-26T00:58:18Z",
+        "archived": false,
+        "html_url": "https://github.com/firecrawl/firecrawl",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/firecrawl/firecrawl/main/README.md",
+      "category": "网页材料采集",
+      "summary_zh": "提供网页抓取、站点爬取与 Markdown 转换，支持 SDK、CLI 和 MCP 接入；官方说明分别介绍本地工具、云服务与自托管服务端。",
+      "editorial_reason_zh": "本次总星标为 210,046，今日新增为 1,135。适合资料整理的采集环节，使用时可抽样核对正文、链接和表格，避免把提取遗漏传递给后续总结。"
+    },
+    {
+      "rank": 7,
+      "repo": "nginx/nginx",
+      "stars": 33371,
+      "daily": 176,
+      "language": "C",
+      "metadata": {
+        "full_name": "nginx/nginx",
+        "description": "The official NGINX Open Source repository.",
+        "language": "C",
+        "stargazers_count": 33371,
+        "pushed_at": "2026-11-25T18:50:45Z",
+        "archived": false,
+        "html_url": "https://github.com/nginx/nginx",
+        "license": {
+          "key": "bsd-2-clause",
+          "name": "BSD 2-Clause \"Simplified\" License",
+          "spdx_id": "BSD-2-Clause",
+          "url": "https://api.github.com/licenses/bsd-2-clause",
+          "node_id": "MDc6TGljZW5zZTQ="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/nginx/nginx/master/README.md",
+      "category": "Web 基础设施",
+      "summary_zh": "NGINX 官方开源仓库，提供 Web 服务、反向代理、负载均衡及内容缓存，连接访问入口与后端应用。",
+      "editorial_reason_zh": "适合在交付应用时一并观察的基础层。围绕真实请求检查缓存、上游响应和超时，有助于分清页面问题与服务入口问题。"
+    },
+    {
+      "rank": 8,
+      "repo": "openvinotoolkit/openvino",
+      "stars": 12652,
+      "daily": 191,
+      "language": "C++",
+      "metadata": {
+        "full_name": "openvinotoolkit/openvino",
+        "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+        "language": "C++",
+        "stargazers_count": 12652,
+        "pushed_at": "2026-11-26T00:41:47Z",
+        "archived": false,
+        "html_url": "https://github.com/openvinotoolkit/openvino",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/README.md",
+      "category": "模型优化与推理",
+      "summary_zh": "用于模型转换、优化和推理部署，支持多种框架以及 x86、ARM CPU、Intel GPU 和 NPU 等目标设备，具体支持取决于模型与硬件。",
+      "editorial_reason_zh": "适合已有模型、需要验证目标设备的开发者。可先确认算子支持和输出一致性，再测量延迟与内存，而不是仅凭设备名称预期收益。"
+    },
+    {
+      "rank": 9,
+      "repo": "cathrynlavery/diagram-design",
+      "stars": 73038,
+      "daily": 1141,
+      "language": "HTML",
+      "metadata": {
+        "full_name": "cathrynlavery/diagram-design",
+        "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "stargazers_count": 73038,
+        "pushed_at": "2026-11-25T04:53:00Z",
+        "archived": false,
+        "html_url": "https://github.com/cathrynlavery/diagram-design",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/README.md",
+      "category": "技术图示与文档表达",
+      "summary_zh": "以自包含 HTML 与 SVG 文件表达图示，提供 52 类图示及不同视觉样式；仓库还列出 SVG、PNG 和矢量 PDF 导出工具。",
+      "editorial_reason_zh": "本次快照今日新增 1,141 星。适合把研究结论转成架构图或流程图，重点检查关系是否准确、标签是否清楚，以及导出后是否保持可读。"
+    },
+    {
+      "rank": 10,
+      "repo": "mvanhorn/last30days-skill",
+      "stars": 75110,
+      "daily": 945,
+      "language": "Python",
+      "metadata": {
+        "full_name": "mvanhorn/last30days-skill",
+        "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "language": "Python",
+        "stargazers_count": 75110,
+        "pushed_at": "2026-11-25T17:59:27Z",
+        "archived": false,
+        "html_url": "https://github.com/mvanhorn/last30days-skill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/README.md",
+      "category": "近期信息研究",
+      "summary_zh": "整合 Reddit、X、YouTube、HN 与网页等来源的近期信息并生成摘要；当前 v4 README 还介绍公司主题的专利和招聘页面线索，部分来源需要配置凭据。",
+      "editorial_reason_zh": "适合发现讨论焦点和进一步研究的问题。引用前应回到原始来源核对时间与上下文，并区分公开事实、讨论热度和工具推测。"
+    },
+    {
+      "rank": 14,
+      "repo": "toeverything/AFFiNE",
+      "stars": 78494,
+      "daily": 574,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "toeverything/AFFiNE",
+        "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+        "language": "TypeScript",
+        "stargazers_count": 78494,
+        "pushed_at": "2026-11-26T00:56:44Z",
+        "archived": false,
+        "html_url": "https://github.com/toeverything/AFFiNE",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "canary"
+      },
+      "readme_url": "https://raw.githubusercontent.com/toeverything/AFFiNE/canary/README.md",
+      "category": "文档与白板协作",
+      "summary_zh": "把文档、自由白板和结构化内容放入同一工作空间，采用本地优先的数据方式，提供跨平台同步、协作和自托管选项。",
+      "editorial_reason_zh": "适合承接资料收集之后的笔记与规划。可用一份实际项目材料检查文字、画布、检索和同步是否顺畅，评估团队的日常使用体验。"
+    },
+    {
+      "rank": 15,
+      "repo": "XiaoYouChR/Ghost-Downloader-3",
+      "stars": 18245,
+      "daily": 951,
+      "language": "Python",
+      "metadata": {
+        "full_name": "XiaoYouChR/Ghost-Downloader-3",
+        "description": "The only downloader you need. 下载器的集大成者。",
+        "language": "Python",
+        "stargazers_count": 18245,
+        "pushed_at": "2026-11-25T13:11:40Z",
+        "archived": false,
+        "html_url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/XiaoYouChR/Ghost-Downloader-3/main/README.md",
+      "category": "下载任务管理",
+      "summary_zh": "集中管理多种协议与媒体下载，提供浏览器扩展衔接、命令行任务操作及兼容 aria2 的 RPC 接口，覆盖桌面和 Android 平台。",
+      "editorial_reason_zh": "适合需要兼顾手动与批量下载的场景。用常见来源检查任务探测、暂停恢复和文件结果，比仅看协议列表更能判断适用性。"
+    }
+  ]
+}
