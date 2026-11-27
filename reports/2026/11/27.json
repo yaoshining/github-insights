@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-27",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-27T08:58:10.630705+08:00",
+  "verified_at": "2026-11-27T08:59:59.366754+08:00",
+  "trending_returned_count": 16,
+  "selection_note": "从本次 Trending 返回的 16 个项目中，按智能体开发、模型训练与部署、界面构建、发布检查及视频工具主题选取 10 个，保留原始位置；不是完整榜单或前十名。",
+  "items": [
+    {
+      "rank": 2,
+      "repo": "obra/superpowers",
+      "stars": 327490,
+      "daily": 854,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "obra/superpowers",
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell",
+        "stargazers_count": 327491,
+        "pushed_at": "2026-11-26T11:33:33Z",
+        "archived": false,
+        "html_url": "https://github.com/obra/superpowers",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/obra/superpowers/main/README.md",
+      "category": "智能体开发流程",
+      "summary_zh": "将需求讨论、实现计划、测试驱动开发、调试和代码审阅组织为技能，让编码智能体按可检查的步骤推进软件任务。",
+      "editorial_reason_zh": "适合把一次需求从说明推进到实现的团队。可重点观察计划中的验收条件是否真正进入测试和审阅，避免只得到完成声明。"
+    },
+    {
+      "rank": 3,
+      "repo": "HKUDS/CLI-Anything",
+      "stars": 66372,
+      "daily": 746,
+      "language": "Python",
+      "metadata": {
+        "full_name": "HKUDS/CLI-Anything",
+        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "stargazers_count": 66372,
+        "pushed_at": "2026-11-20T10:05:15Z",
+        "archived": false,
+        "html_url": "https://github.com/HKUDS/CLI-Anything",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/README.md",
+      "category": "软件命令行接口",
+      "summary_zh": "为已有软件构建智能体可调用的 CLI，通过命令参数与结构化输出组织操作，并提供 CLIHub 供浏览和安装集成。",
+      "editorial_reason_zh": "接口设计决定自动化能否继续衔接。值得用小任务检查退出状态、错误信息和生成文件，确认命令成功与软件实际结果相符。"
+    },
+    {
+      "rank": 4,
+      "repo": "jingyaogong/minimind",
+      "stars": 71641,
+      "daily": 702,
+      "language": "Python",
+      "metadata": {
+        "full_name": "jingyaogong/minimind",
+        "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+        "language": "Python",
+        "stargazers_count": 71643,
+        "pushed_at": "2026-11-26T08:55:11Z",
+        "archived": false,
+        "html_url": "https://github.com/jingyaogong/minimind",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/jingyaogong/minimind/master/README.md",
+      "category": "语言模型训练",
+      "summary_zh": "以原生 PyTorch 展示轻量语言模型及训练链路，覆盖预训练、监督微调、LoRA、偏好优化、工具调用与蒸馏等内容。",
+      "editorial_reason_zh": "适合学习模型训练各阶段的输入与输出。先使用小数据复现一个阶段，再检查数据格式、损失和生成结果，有助于理解训练代码。"
+    },
+    {
+      "rank": 6,
+      "repo": "firecrawl/firecrawl",
+      "stars": 210944,
+      "daily": 1046,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "firecrawl/firecrawl",
+        "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+        "language": "TypeScript",
+        "stargazers_count": 210944,
+        "pushed_at": "2026-11-27T00:15:09Z",
+        "archived": false,
+        "html_url": "https://github.com/firecrawl/firecrawl",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/firecrawl/firecrawl/main/README.md",
+      "category": "网页采集与数据准备",
+      "summary_zh": "提供网页抓取、爬取、站点映射和 Markdown 输出，并支持 SDK、CLI 与 MCP。README 区分本地处理和云端能力，也说明本地抓取失败时的默认云端回退。",
+      "editorial_reason_zh": "本次快照今日新增 1,046 星。对需要网页材料的应用，可关注输出是否保留正文和来源，并检查所选运行模式的实际数据路径。"
+    },
+    {
+      "rank": 7,
+      "repo": "nginx/nginx",
+      "stars": 33523,
+      "daily": 150,
+      "language": "C",
+      "metadata": {
+        "full_name": "nginx/nginx",
+        "description": "The official NGINX Open Source repository.",
+        "language": "C",
+        "stargazers_count": 33523,
+        "pushed_at": "2026-11-26T16:43:26Z",
+        "archived": false,
+        "html_url": "https://github.com/nginx/nginx",
+        "license": {
+          "key": "bsd-2-clause",
+          "name": "BSD 2-Clause \"Simplified\" License",
+          "spdx_id": "BSD-2-Clause",
+          "url": "https://api.github.com/licenses/bsd-2-clause",
+          "node_id": "MDc6TGljZW5zZTQ="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/nginx/nginx/master/README.md",
+      "category": "Web 服务基础设施",
+      "summary_zh": "NGINX 官方开源仓库，提供 Web 服务、反向代理、负载均衡和内容缓存，连接用户请求与后端应用。",
+      "editorial_reason_zh": "适合与应用发布一起审视。用真实请求检查上游响应、缓存和超时，比单独确认服务进程存在更能说明访问链路是否正常。"
+    },
+    {
+      "rank": 8,
+      "repo": "openvinotoolkit/openvino",
+      "stars": 12821,
+      "daily": 176,
+      "language": "C++",
+      "metadata": {
+        "full_name": "openvinotoolkit/openvino",
+        "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+        "language": "C++",
+        "stargazers_count": 12821,
+        "pushed_at": "2026-11-27T00:22:55Z",
+        "archived": false,
+        "html_url": "https://github.com/openvinotoolkit/openvino",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/README.md",
+      "category": "模型优化与部署",
+      "summary_zh": "面向模型转换、优化和推理部署，支持多种框架及 CPU、Intel GPU、NPU 等设备；具体支持范围取决于模型、算子和硬件。",
+      "editorial_reason_zh": "适合将训练产物部署到实际设备。可先核对输出一致性与算子支持，再测量目标机器上的延迟和内存，形成可复查的部署依据。"
+    },
+    {
+      "rank": 11,
+      "repo": "google-labs-code/stitch-skills",
+      "stars": 13293,
+      "daily": 309,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "google-labs-code/stitch-skills",
+        "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "language": "TypeScript",
+        "stargazers_count": 13293,
+        "pushed_at": "2026-11-24T21:51:04Z",
+        "archived": false,
+        "html_url": "https://github.com/google-labs-code/stitch-skills",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/google-labs-code/stitch-skills/main/README.md",
+      "category": "设计与界面实现",
+      "summary_zh": "围绕 Stitch MCP 提供设计生成、设计系统管理、静态 HTML 提取，以及 React、React Native 等界面构建技能。使用前需配置对应 MCP 服务。",
+      "editorial_reason_zh": "适合串联设计稿与组件实现。除页面外观外，也可检查设计变量、交互状态和平台差异，明确生成结果还需要哪些运行验证。"
+    },
+    {
+      "rank": 12,
+      "repo": "mjmirza/app-store-compliance",
+      "stars": 7035,
+      "daily": 562,
+      "language": "Shell",
+      "metadata": {
+        "full_name": "mjmirza/app-store-compliance",
+        "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+        "language": "Shell",
+        "stargazers_count": 7035,
+        "pushed_at": "2026-11-26T23:21:53Z",
+        "archived": false,
+        "html_url": "https://github.com/mjmirza/app-store-compliance",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/mjmirza/app-store-compliance/main/README.md",
+      "category": "应用提交前检查",
+      "summary_zh": "提供 App Store 与 Google Play 提交前参考清单和代码扫描工具，整理拒审模式、隐私声明等检查项，并说明扫描能够覆盖的范围。",
+      "editorial_reason_zh": "适合把提交前工作列成可执行检查。项目明确指出扫描通过不保证审核通过，开发者账户、商店资料和实际运行行为仍需另外核验；使用时也应查看项目许可。"
+    },
+    {
+      "rank": 13,
+      "repo": "Tracer-Cloud/opensre",
+      "stars": 15828,
+      "daily": 327,
+      "language": "Python",
+      "metadata": {
+        "full_name": "Tracer-Cloud/opensre",
+        "description": "The open-source agent for CI/CD reliability.",
+        "language": "Python",
+        "stargazers_count": 15828,
+        "pushed_at": "2026-11-27T00:57:58Z",
+        "archived": false,
+        "html_url": "https://github.com/Tracer-Cloud/opensre",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/Tracer-Cloud/opensre/main/README.md",
+      "category": "CI 故障排查",
+      "summary_zh": "面向 CI/CD 可靠性的命令行智能体，可读取失败运行、追踪原因并提出修复供审阅，支持自托管及接入自己的模型；当前标注为 Public Alpha。",
+      "editorial_reason_zh": "适合探索把失败日志变成可审查改动的流程。修复建议之后仍应重跑相关检查，并区分根因推断、代码变更和验证成功。"
+    },
+    {
+      "rank": 16,
+      "repo": "zhouxiaoka/autoclip",
+      "stars": 16935,
+      "daily": 774,
+      "language": "Python",
+      "metadata": {
+        "full_name": "zhouxiaoka/autoclip",
+        "description": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
+        "language": "Python",
+        "stargazers_count": 16935,
+        "pushed_at": "2026-11-27T00:10:20Z",
+        "archived": false,
+        "html_url": "https://github.com/zhouxiaoka/autoclip",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/zhouxiaoka/autoclip/main/README.md",
+      "category": "视频剪辑与 MCP",
+      "summary_zh": "将长视频、链接或直播回放整理为短片，提供字幕、封面和标题等处理。支持桌面、CLI、MCP 与 Docker/Web 入口，当前 README 补充了多语言 MCP 接入文档链接。",
+      "editorial_reason_zh": "适合尝试从智能体调用剪辑任务，再人工检查成片。重点核对片段上下文、字幕和画面裁切；本地剪辑与所选模型服务的调用条件需要分别确认。"
+    }
+  ]
+}
