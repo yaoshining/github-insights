@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-28",
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_captured_at": "2026-11-28T08:56:11.330934+08:00",
+  "verified_at": "2026-11-28T08:57:50.205967+08:00",
+  "trending_returned_count": 16,
+  "selection_note": "从本次 Trending 返回的 16 个项目中，按安全测试、软件接口、模型训练与部署、资料研究与表达及实用工具主题选取 10 个，保留原始位置；不是完整榜单或前十名。",
+  "items": [
+    {
+      "rank": 1,
+      "repo": "elementalsouls/Claude-BugHunter",
+      "stars": 26099,
+      "daily": 1608,
+      "language": "Python",
+      "metadata": {
+        "full_name": "elementalsouls/Claude-BugHunter",
+        "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+        "language": "Python",
+        "stargazers_count": 26099,
+        "pushed_at": "2026-11-27T04:27:28Z",
+        "archived": false,
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/elementalsouls/Claude-BugHunter/main/README.md",
+      "category": "安全测试与报告",
+      "summary_zh": "面向授权安全测试的 Claude 技能包，组织测试范围、发现验证、证据整理与报告流程。当前 README 列出 85 个技能和 16 个斜杠命令，并介绍插件与独立 CLI 两种使用入口。",
+      "editorial_reason_zh": "本次快照今日新增 1,608 星。值得关注其测试范围与证据管理设计，适合在自有应用或明确授权环境中辅助整理可复查的安全报告。"
+    },
+    {
+      "rank": 3,
+      "repo": "HKUDS/CLI-Anything",
+      "stars": 67006,
+      "daily": 666,
+      "language": "Python",
+      "metadata": {
+        "full_name": "HKUDS/CLI-Anything",
+        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "language": "Python",
+        "stargazers_count": 67007,
+        "pushed_at": "2026-11-20T10:05:15Z",
+        "archived": false,
+        "html_url": "https://github.com/HKUDS/CLI-Anything",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/README.md",
+      "category": "软件自动化接口",
+      "summary_zh": "为已有软件生成智能体可调用的命令行接口，以参数和结构化输出承接软件操作，并通过 CLIHub 提供集成发现与安装入口。",
+      "editorial_reason_zh": "适合希望将桌面软件操作纳入自动化的开发者。可先选一个有明确输出文件的小任务，验证参数、执行结果与错误信息能否被后续步骤正确使用。"
+    },
+    {
+      "rank": 4,
+      "repo": "jingyaogong/minimind",
+      "stars": 72210,
+      "daily": 660,
+      "language": "Python",
+      "metadata": {
+        "full_name": "jingyaogong/minimind",
+        "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+        "language": "Python",
+        "stargazers_count": 72210,
+        "pushed_at": "2026-11-26T08:55:11Z",
+        "archived": false,
+        "html_url": "https://github.com/jingyaogong/minimind",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/jingyaogong/minimind/master/README.md",
+      "category": "语言模型训练学习",
+      "summary_zh": "用原生 PyTorch 展示轻量语言模型结构及训练链路，覆盖预训练、监督微调、LoRA、偏好优化、工具调用与蒸馏等阶段。",
+      "editorial_reason_zh": "适合对照代码学习模型如何从数据得到能力。可从小规模训练与固定评测样本开始，观察数据、权重和输出之间的关系。"
+    },
+    {
+      "rank": 6,
+      "repo": "firecrawl/firecrawl",
+      "stars": 211686,
+      "daily": 822,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "firecrawl/firecrawl",
+        "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+        "language": "TypeScript",
+        "stargazers_count": 211686,
+        "pushed_at": "2026-11-27T21:29:58Z",
+        "archived": false,
+        "html_url": "https://github.com/firecrawl/firecrawl",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/firecrawl/firecrawl/main/README.md",
+      "category": "网页采集",
+      "summary_zh": "提供网页抓取、站点爬取、映射及 Markdown 输出，支持 SDK、CLI 与 MCP 接入；文档分别说明本地执行、云端功能和默认抓取回退行为。",
+      "editorial_reason_zh": "适合为检索或研究应用准备网页材料。提取结果应保留来源，并抽查正文与表格；选择本地模式时，也需确认云端回退是否符合预期。"
+    },
+    {
+      "rank": 7,
+      "repo": "nginx/nginx",
+      "stars": 33662,
+      "daily": 146,
+      "language": "C",
+      "metadata": {
+        "full_name": "nginx/nginx",
+        "description": "The official NGINX Open Source repository.",
+        "language": "C",
+        "stargazers_count": 33662,
+        "pushed_at": "2026-11-27T15:22:15Z",
+        "archived": false,
+        "html_url": "https://github.com/nginx/nginx",
+        "license": {
+          "key": "bsd-2-clause",
+          "name": "BSD 2-Clause \"Simplified\" License",
+          "spdx_id": "BSD-2-Clause",
+          "url": "https://api.github.com/licenses/bsd-2-clause",
+          "node_id": "MDc6TGljZW5zZTQ="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/nginx/nginx/master/README.md",
+      "category": "Web 服务基础设施",
+      "summary_zh": "NGINX 官方开源仓库，提供 Web 服务、反向代理、负载均衡和内容缓存，是网站与后端应用常见的请求入口。",
+      "editorial_reason_zh": "适合关注应用交付中的基础层。通过真实访问检查状态码、上游响应和缓存行为，可以把入口配置问题与应用本身的问题区分开。"
+    },
+    {
+      "rank": 8,
+      "repo": "openvinotoolkit/openvino",
+      "stars": 12953,
+      "daily": 151,
+      "language": "C++",
+      "metadata": {
+        "full_name": "openvinotoolkit/openvino",
+        "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+        "language": "C++",
+        "stargazers_count": 12953,
+        "pushed_at": "2026-11-28T00:54:42Z",
+        "archived": false,
+        "html_url": "https://github.com/openvinotoolkit/openvino",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "default_branch": "master"
+      },
+      "readme_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/README.md",
+      "category": "模型优化与推理",
+      "summary_zh": "面向模型转换、优化和推理部署，支持多种模型框架以及 x86、ARM CPU、Intel GPU 和 NPU 等设备，支持范围随模型和硬件而异。",
+      "editorial_reason_zh": "适合将模型放到目标设备上评估。先验证算子支持和输出一致性，再比较延迟、吞吐和内存，能得到比通用性能宣传更有用的结论。"
+    },
+    {
+      "rank": 9,
+      "repo": "cathrynlavery/diagram-design",
+      "stars": 74463,
+      "daily": 725,
+      "language": "HTML",
+      "metadata": {
+        "full_name": "cathrynlavery/diagram-design",
+        "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "language": "HTML",
+        "stargazers_count": 74463,
+        "pushed_at": "2026-11-26T19:48:58Z",
+        "archived": false,
+        "html_url": "https://github.com/cathrynlavery/diagram-design",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/README.md",
+      "category": "图示表达与导出",
+      "summary_zh": "面向编码智能体的图示设计技能，列出 52 类图示，使用独立 HTML 与 SVG 表达关系，并提供 SVG、PNG 和矢量 PDF 等导出方式。",
+      "editorial_reason_zh": "适合把架构、流程和数据关系整理为可编辑图稿。交付前应核对图中关系、中文标注和导出文件，确保视觉简化没有改变原意。"
+    },
+    {
+      "rank": 10,
+      "repo": "mvanhorn/last30days-skill",
+      "stars": 76373,
+      "daily": 675,
+      "language": "Python",
+      "metadata": {
+        "full_name": "mvanhorn/last30days-skill",
+        "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "language": "Python",
+        "stargazers_count": 76373,
+        "pushed_at": "2026-11-27T06:30:50Z",
+        "archived": false,
+        "html_url": "https://github.com/mvanhorn/last30days-skill",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/README.md",
+      "category": "近期信息研究",
+      "summary_zh": "跨 Reddit、X、YouTube、Hacker News 与网页等来源研究近期话题并整理摘要。最新 README 澄清：默认 auto 模式会从可用凭据选择推理服务，可能使用为其他工具设置的环境密钥。",
+      "editorial_reason_zh": "本次总星标 76,373，今日新增 675。文档说明选定推理服务后会发送研究主题与候选片段用于相关性评分；没有可用推理服务时才在本地评分。适合在使用前先确认研究数据的实际处理位置。"
+    },
+    {
+      "rank": 14,
+      "repo": "toeverything/AFFiNE",
+      "stars": 79453,
+      "daily": 474,
+      "language": "TypeScript",
+      "metadata": {
+        "full_name": "toeverything/AFFiNE",
+        "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+        "language": "TypeScript",
+        "stargazers_count": 79453,
+        "pushed_at": "2026-11-28T00:31:46Z",
+        "archived": false,
+        "html_url": "https://github.com/toeverything/AFFiNE",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "default_branch": "canary"
+      },
+      "readme_url": "https://raw.githubusercontent.com/toeverything/AFFiNE/canary/README.md",
+      "category": "文档与白板工作区",
+      "summary_zh": "采用本地优先思路，将文档、白板与结构化内容放入同一工作区，并提供同步和自托管相关方案，用于知识整理与协作。",
+      "editorial_reason_zh": "适合把研究笔记与可视化梳理放在一起。可以用一组真实材料试验文档和白板之间的转换，再检查所需同步、导出功能及对应使用条件。"
+    },
+    {
+      "rank": 15,
+      "repo": "XiaoYouChR/Ghost-Downloader-3",
+      "stars": 19851,
+      "daily": 836,
+      "language": "Python",
+      "metadata": {
+        "full_name": "XiaoYouChR/Ghost-Downloader-3",
+        "description": "The only downloader you need. 下载器的集大成者。",
+        "language": "Python",
+        "stargazers_count": 19851,
+        "pushed_at": "2026-11-26T14:05:12Z",
+        "archived": false,
+        "html_url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "default_branch": "main"
+      },
+      "readme_url": "https://raw.githubusercontent.com/XiaoYouChR/Ghost-Downloader-3/main/README.md",
+      "category": "下载管理工具",
+      "summary_zh": "提供多连接下载、浏览器扩展接入、命令行和 aria2 RPC 等能力，并介绍桌面与 Android 使用方式，用于集中管理下载任务。",
+      "editorial_reason_zh": "本次快照今日新增 836 星。适合用常见文件测试任务恢复和浏览器接入，并检查下载完成后的文件是否完整；README 的赞助内容不作为功能或性能证据。"
+    }
+  ]
+}
